@@ -233,9 +233,9 @@ art/
 
 The `file` field is the base filename on the CDN (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Variants are stored in subdirectories:
 
-- Original: `https://francescoluchino.b-cdn.net/originals/{uuid}.jpg`
-- Thumbnail: `https://francescoluchino.b-cdn.net/thumbs/{uuid}.webp`
-- Placeholder: `https://francescoluchino.b-cdn.net/placeholders/{uuid}.webp`
+- Original: `https://francescoluchino-art.b-cdn.net/originals/{uuid}.jpg`
+- Thumbnail: `https://francescoluchino-art.b-cdn.net/thumbs/{uuid}.webp`
+- Placeholder: `https://francescoluchino-art.b-cdn.net/placeholders/{uuid}.webp`
 
 ---
 
@@ -291,7 +291,7 @@ Example:
 | 3  | **Periods**                | 1970s, 1980s, 1990s, 2000s, 2010s.                                                     |
 | 4  | **CDN file names**         | UUID v4 as filename: `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`.                          |
 | 5  | **"L'artista" content**    | Will be written later. Placeholder page for now.                                        |
-| 6  | **BunnyCDN account**       | Active. Storage zone `francescoluchino`, Frankfurt (DE) endpoint.                      |
+| 6  | **BunnyCDN account**       | Active. Storage zone `francescoluchino-art`, Frankfurt (DE) endpoint.                      |
 
 ---
 

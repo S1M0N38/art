@@ -10,7 +10,7 @@ Artwork-first, immersive experience with proportional sizing that reflects real 
 - **PhotoSwipe v5** — lightbox (pinch-to-zoom, swipe navigation)
 - **Vanilla CSS** — custom properties, dark theme, no frameworks
 - **Vanilla JS** — client-side filtering, Intersection Observer lazy loading
-- **BunnyCDN** — image storage + pre-generated WebP variants (`https://francescoluchino.b-cdn.net/`)
+- **BunnyCDN** — image storage + pre-generated WebP variants (`https://francescoluchino-art.b-cdn.net/`)
 - **GitHub Pages** — hosting via GitHub Actions
 
 ## Project Structure
