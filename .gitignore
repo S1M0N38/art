@@ -71,4 +71,5 @@ spec/example-images
 # Generated metadata (LLM output)
 scripts/generate/titles.json
 scripts/generate/tags.json
+scripts/generate/dimensions.json
 
