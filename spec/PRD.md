@@ -194,13 +194,12 @@ art/
 │   └── paintings.yaml              # Metadata for all works
 ├── public/
 │   └── favicon.svg
-├── images/                          # Local images for development/testing
-│   ├── raw/                         # Raw original images before processing
-│   └── processed/                   # Processed images ready for CDN upload
-├── scripts/                         # Build and deployment scripts
-│   ├── upload/                      # CDN upload utilities
-│   ├── migration/                   # Batch data migration scripts
-│   └── utils/                       # General utility scripts
+├── images/                          # Local images (gitignored)
+│   ├── raw/                         # Raw originals before processing
+│   └── processed/                   # Cropped images ready for CDN upload
+├── scripts/
+│   └── utils/
+│       └── preprocess.py            # Auto-crop white borders (uv run)
 ├── spec/                            # Project specifications
 │   ├── PRD.md                       # Product requirements document
 │   └── example-images/              # Example images for documentation
@@ -214,20 +213,19 @@ art/
 ### 6.4 Data Schema (`paintings.yaml`)
 
 ```yaml
-- id: "001"
-  file: "001.jpg"                    # Filename on BunnyCDN (sequential ID)
+- id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+  file: "a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg"  # UUID filename on BunnyCDN
   title: "Tramonto su Fossano"
-  width_cm: 120                      # Real painting width
-  height_cm: 80                      # Real painting height
+  width_cm: 120                      # Real painting width in cm
+  height_cm: 80                      # Real painting height in cm
   year: 1995
   tags:
     - paesaggio
-  description: ""                    # Optional, for future use
 ```
 
-**File naming convention**: Simple sequential ID (`001.jpg`, `002.jpg`, etc.). The title lives only in YAML metadata.
+**File naming convention**: Each painting uses a UUID v4 as both its `id` and CDN filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
 
-The `file` field corresponds to the path on the CDN base URL (e.g., `https://luchino.b-cdn.net/001.jpg`). Size variants are generated on-the-fly:
+The `file` field corresponds to the path on the CDN base URL (e.g., `https://luchino.b-cdn.net/a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Size variants are generated on-the-fly:
 
 - Placeholder: `?width=20&quality=10`
 - Thumbnail: `?width=800&quality=80`
@@ -285,9 +283,9 @@ Example:
 | 1  | **Filter logic**           | OR within the same group, AND across different groups.                                  |
 | 2  | **Filter categories**      | Paesaggio, Città, Interni, Astratto, Ritratto, Natura morta.                            |
 | 3  | **Periods**                | 1970s, 1980s, 1990s, 2000s, 2010s.                                                     |
-| 4  | **CDN file names**         | Simple sequential ID: `001.jpg`, `002.jpg`, etc.                                        |
+| 4  | **CDN file names**         | UUID v4 as filename: `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`.                          |
 | 5  | **"L'artista" content**    | Will be written later. Placeholder page for now.                                        |
-| 6  | **BunnyCDN account**       | Already active. Just need to configure a new storage zone.                              |
+| 6  | **BunnyCDN account**       | Active. Storage zone `francescoluchino`, Frankfurt (DE) endpoint.                      |
 
 ---
 
