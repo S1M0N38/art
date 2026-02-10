@@ -9,17 +9,20 @@
 # ///
 
 """
-Upload painting images to BunnyCDN Storage Zone.
+Upload optimized painting images to BunnyCDN Storage Zone.
+
+Uploads pre-generated image variants from images/optimized/ to the CDN,
+preserving the directory structure (originals/, thumbs/, placeholders/).
 
 Reads credentials from environment variables or a .env file in the project root.
 Required env vars: BUNNY_STORAGE_ZONE, BUNNY_STORAGE_PASSWORD, BUNNY_STORAGE_ENDPOINT.
 
 Usage:
-    uv run scripts/utils/upload_cdn.py                                  # upload all from images/processed/
-    uv run scripts/utils/upload_cdn.py images/processed/abc123.jpg      # upload a single file
-    uv run scripts/utils/upload_cdn.py --list                           # list remote files
-    uv run scripts/utils/upload_cdn.py --skip-existing                  # skip files already on CDN
-    uv run scripts/utils/upload_cdn.py --dry-run                        # show what would be uploaded
+    uv run scripts/utils/upload_cdn.py                          # upload all variants
+    uv run scripts/utils/upload_cdn.py --variant thumbs         # upload only thumbnails
+    uv run scripts/utils/upload_cdn.py --list                   # list all remote files
+    uv run scripts/utils/upload_cdn.py --skip-existing          # skip already uploaded
+    uv run scripts/utils/upload_cdn.py --dry-run                # preview what would upload
 """
 
 import argparse
@@ -31,7 +34,8 @@ from pathlib import Path
 import httpx
 from dotenv import load_dotenv
 
-PROCESSED_DIR = Path("images/processed")
+OPTIMIZED_DIR = Path("images/optimized")
+VARIANT_DIRS = ["originals", "thumbs", "placeholders"]
 ENV_FILE = Path(".env")
 
 
@@ -59,9 +63,10 @@ def sha256_checksum(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest().upper()
 
 
-def list_remote_files(config: dict[str, str]) -> list[dict]:
-    """List all files in the storage zone root."""
-    url = f"{config['endpoint']}/{config['zone']}/"
+def list_remote_files(config: dict[str, str], subdir: str = "") -> list[dict]:
+    """List files in the storage zone, optionally within a subdirectory."""
+    path = f"{config['zone']}/{subdir}/" if subdir else f"{config['zone']}/"
+    url = f"{config['endpoint']}/{path}"
     headers = {"AccessKey": config["password"]}
     resp = httpx.get(url, headers=headers, timeout=30)
     resp.raise_for_status()
@@ -72,18 +77,20 @@ def upload_file(
     src: Path,
     config: dict[str, str],
     *,
+    remote_dir: str = "",
     dry_run: bool = False,
 ) -> bool:
     """Upload a single file to BunnyCDN. Returns True on success."""
     data = src.read_bytes()
     checksum = sha256_checksum(data)
     content_type = mimetypes.guess_type(src.name)[0] or "application/octet-stream"
-    remote_name = src.name
-    url = f"{config['endpoint']}/{config['zone']}/{remote_name}"
+    remote_path = f"{remote_dir}/{src.name}" if remote_dir else src.name
+    url = f"{config['endpoint']}/{config['zone']}/{remote_path}"
+    label = f"[{remote_dir}] {src.name}" if remote_dir else src.name
 
     if dry_run:
         size_kb = len(data) / 1024
-        print(f"  {src.name}: would upload ({size_kb:.0f} KB)")
+        print(f"  {label}: would upload ({size_kb:.0f} KB)")
         return True
 
     headers = {
@@ -96,21 +103,27 @@ def upload_file(
 
     if resp.status_code == 201:
         size_kb = len(data) / 1024
-        print(f"  {src.name}: uploaded ({size_kb:.0f} KB)")
+        print(f"  {label}: uploaded ({size_kb:.0f} KB)")
         return True
     else:
-        print(f"  {src.name}: FAILED (HTTP {resp.status_code})")
+        print(f"  {label}: FAILED (HTTP {resp.status_code})")
         return False
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Upload painting images to BunnyCDN Storage Zone"
+        description="Upload optimized painting images to BunnyCDN Storage Zone"
     )
     parser.add_argument(
         "files",
         nargs="*",
-        help="Specific files to upload (default: all in images/processed/)",
+        help="Specific files to upload (default: all in images/optimized/)",
+    )
+    parser.add_argument(
+        "--variant",
+        choices=["all", "originals", "thumbs", "placeholders"],
+        default="all",
+        help="Which variant(s) to upload (default: all)",
     )
     parser.add_argument(
         "--list",
@@ -132,64 +145,96 @@ def main() -> None:
 
     config = get_config()
 
+    # Determine which variant dirs to operate on
+    variants = VARIANT_DIRS if args.variant == "all" else [args.variant]
+
     # -- List mode --
     if args.list_files:
         print(f"Files in storage zone '{config['zone']}':")
-        remote = list_remote_files(config)
-        files = [f for f in remote if not f.get("IsDirectory")]
-        if not files:
+        total = 0
+        for variant in VARIANT_DIRS:
+            remote = list_remote_files(config, subdir=variant)
+            files = [f for f in remote if not f.get("IsDirectory")]
+            for f in sorted(files, key=lambda x: x["ObjectName"]):
+                size_kb = f["Length"] / 1024
+                display = f"{variant}/{f['ObjectName']}"
+                print(f"  {display:<50} {size_kb:>8.0f} KB")
+            total += len(files)
+        if not total:
             print("  (empty)")
-        for f in sorted(files, key=lambda x: x["ObjectName"]):
-            size_kb = f["Length"] / 1024
-            print(f"  {f['ObjectName']:<50} {size_kb:>8.0f} KB")
-        print(f"\nTotal: {len(files)} file(s)")
+        print(f"\nTotal: {total} file(s)")
         return
 
-    # -- Upload mode --
-    if args.files:
-        files = [Path(f) for f in args.files]
-    else:
-        files = (
-            sorted(PROCESSED_DIR.glob("*.jpg"))
-            + sorted(PROCESSED_DIR.glob("*.jpeg"))
-            + sorted(PROCESSED_DIR.glob("*.png"))
-        )
+    # -- Upload mode: collect files --
+    # Each entry is (local_path, remote_dir)
+    upload_list: list[tuple[Path, str]] = []
 
-    if not files:
-        print(f"No images found in {PROCESSED_DIR}/")
+    if args.files:
+        # Positional files: infer remote_dir from parent dir name
+        for f in args.files:
+            p = Path(f)
+            parent = p.parent.name
+            remote_dir = parent if parent in VARIANT_DIRS else ""
+            upload_list.append((p, remote_dir))
+    else:
+        # Auto-collect from optimized variant dirs
+        for variant in variants:
+            variant_path = OPTIMIZED_DIR / variant
+            if not variant_path.is_dir():
+                continue
+            found = sorted(variant_path.glob("*.jpg")) + sorted(
+                variant_path.glob("*.webp")
+            )
+            upload_list.extend((f, variant) for f in found)
+
+    if not upload_list:
+        print(f"No images found in {OPTIMIZED_DIR}/")
         sys.exit(1)
 
-    # Fetch remote listing if skip-existing
-    remote_names: set[str] = set()
+    # Fetch remote listing per variant if skip-existing
+    remote_by_dir: dict[str, set[str]] = {}
     if args.skip_existing:
         print("Checking existing files on CDN...")
-        remote = list_remote_files(config)
-        remote_names = {f["ObjectName"] for f in remote if not f.get("IsDirectory")}
-        print(f"  {len(remote_names)} file(s) already on CDN")
+        dirs_to_check = {remote_dir for _, remote_dir in upload_list}
+        for d in sorted(dirs_to_check):
+            remote = list_remote_files(config, subdir=d)
+            names = {f["ObjectName"] for f in remote if not f.get("IsDirectory")}
+            remote_by_dir[d] = names
+            print(f"  [{d or 'root'}] {len(names)} file(s) already on CDN")
 
     # Filter out existing
     if args.skip_existing:
-        to_upload = [f for f in files if f.name not in remote_names]
-        skipped = len(files) - len(to_upload)
+        before = len(upload_list)
+        upload_list = [
+            (p, d)
+            for p, d in upload_list
+            if p.name not in remote_by_dir.get(d, set())
+        ]
+        skipped = before - len(upload_list)
         if skipped:
             print(f"  Skipping {skipped} already-uploaded file(s)")
-        files = to_upload
 
-    if not files:
+    if not upload_list:
         print("Nothing to upload — all files already on CDN.")
         return
 
+    # Count variants represented
+    variant_count = len({d for _, d in upload_list if d})
     label = "Would upload" if args.dry_run else "Uploading"
-    print(f"{label} {len(files)} file(s)...")
+    if variant_count > 1:
+        print(f"{label} {len(upload_list)} file(s) across {variant_count} variant(s)...")
+    else:
+        print(f"{label} {len(upload_list)} file(s)...")
 
     success = 0
     failed = 0
-    for f in files:
+    for f, remote_dir in upload_list:
         if not f.exists():
-            print(f"  {f}: not found, skipping")
+            tag = f"[{remote_dir}] " if remote_dir else ""
+            print(f"  {tag}{f}: not found, skipping")
             failed += 1
             continue
-        if upload_file(f, config, dry_run=args.dry_run):
+        if upload_file(f, config, remote_dir=remote_dir, dry_run=args.dry_run):
             success += 1
         else:
             failed += 1
