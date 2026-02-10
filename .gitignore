@@ -67,3 +67,8 @@ __pycache__/
 
 images/
 spec/example-images
+
+# Generated metadata (LLM output)
+scripts/titles.json
+scripts/tags.json
+
