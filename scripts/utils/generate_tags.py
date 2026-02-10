@@ -4,16 +4,18 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #   "httpx",
+#   "pillow",
 #   "python-dotenv",
 #   "tqdm",
 # ]
 # ///
 """
-Generate tags for paintings using a vision LLM.
+Generate tags for paintings using a vision LLM with structured outputs.
 
 Sends each thumbnail to an OpenAI-compatible vision endpoint and asks for 2–4
 tags from a predefined set (paesaggio, città, interni, astratto, ritratto,
-natura morta). Results are saved to scripts/tags.json.
+natura morta, notturno, fiori). Uses JSON schema structured outputs to guarantee
+well-formed responses. Results are saved to scripts/tags.json.
 
 Reads API settings from environment variables or a .env file in the project root.
 Required env vars: VLM_BASE_API, VLM_MODEL.
@@ -25,6 +27,7 @@ Usage:
 """
 
 import argparse
+import asyncio
 import base64
 import json
 import os
@@ -33,7 +36,7 @@ from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
-from tqdm import tqdm
+from tqdm.asyncio import tqdm
 
 THUMBS_DIR = Path("images/optimized/thumbs")
 OUTPUT_FILE = Path("scripts/tags.json")
@@ -46,14 +49,38 @@ VALID_TAGS = [
     "astratto",
     "ritratto",
     "natura morta",
+    "notturno",
+    "fiori",
 ]
+
+TAGS_SCHEMA = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "painting_tags",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "properties": {
+                "tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": VALID_TAGS,
+                    },
+                }
+            },
+            "required": ["tags"],
+            "additionalProperties": False,
+        },
+    },
+}
 
 SYSTEM_PROMPT = (
     "Sei un esperto d'arte italiana. "
     "Osserva attentamente questo dipinto a olio e assegna da 2 a 4 etichette "
     "scelte ESCLUSIVAMENTE da questo elenco:\n"
-    "paesaggio, città, interni, astratto, ritratto, natura morta\n\n"
-    "Rispondi SOLO con le etichette separate da virgola, senza spiegazioni."
+    "paesaggio, città, interni, astratto, ritratto, natura morta, notturno, fiori\n\n"
+    "Rispondi con un oggetto JSON contenente una chiave \"tags\" con la lista delle etichette scelte."
 )
 
 
@@ -66,32 +93,35 @@ def get_config() -> dict[str, str]:
     model = os.environ.get("VLM_MODEL", "")
 
     if not base_url or not model:
-        print("Error: VLM_BASE_API and VLM_MODEL must be set.")
-        print("Create a .env file from .env.example or export them in your shell.")
-        sys.exit(1)
+        sys.exit(
+            "Error: VLM_BASE_API and VLM_MODEL must be set.\n"
+            "Create a .env file from .env.example or export them in your shell."
+        )
 
     return {"base_url": base_url.rstrip("/"), "model": model}
 
 
 def encode_image(path: Path) -> str:
-    """Base64-encode an image file."""
-    data = path.read_bytes()
-    return base64.b64encode(data).decode()
+    """Load an image, convert to JPEG, and return as base64 string."""
+    from io import BytesIO
+    from PIL import Image
+
+    buf = BytesIO()
+    Image.open(path).convert("RGB").save(buf, format="JPEG", quality=85)
+    return base64.b64encode(buf.getvalue()).decode()
 
 
-def parse_tags(raw: str) -> list[str]:
-    """Parse comma-separated LLM response into validated tag list."""
-    tags = [t.strip().lower() for t in raw.split(",")]
-    return [t for t in tags if t in VALID_TAGS]
+MAX_CONCURRENT = 4
 
 
-def generate_tags(client: httpx.Client, config: dict, image_b64: str) -> list[str]:
+async def generate_tags(
+    client: httpx.AsyncClient, config: dict, image_b64: str,
+) -> list[str]:
     """Call the vision LLM to generate tags for a painting."""
-    resp = client.post(
+    resp = await client.post(
         f"{config['base_url']}/chat/completions",
         json={
             "model": config["model"],
-            "max_tokens": 64,
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {
@@ -100,21 +130,46 @@ def generate_tags(client: httpx.Client, config: dict, image_b64: str) -> list[st
                         {
                             "type": "image_url",
                             "image_url": {
-                                "url": f"data:image/webp;base64,{image_b64}",
+                                "url": f"data:image/jpeg;base64,{image_b64}",
                             },
                         },
                     ],
                 },
             ],
+            "response_format": TAGS_SCHEMA,
         },
         timeout=120.0,
     )
     resp.raise_for_status()
-    raw = resp.json()["choices"][0]["message"]["content"].strip()
-    return parse_tags(raw)
+    content = resp.json()["choices"][0]["message"]["content"]
+    data = json.loads(content)
+    # Validate tags even though the schema constrains them
+    return [t for t in data["tags"] if t in VALID_TAGS]
 
 
-def main():
+async def process_thumb(
+    thumb: Path,
+    client: httpx.AsyncClient,
+    config: dict,
+    semaphore: asyncio.Semaphore,
+    results: dict[str, list[str]],
+    pbar: tqdm,
+) -> None:
+    """Encode one thumbnail, call the LLM (rate-limited), and store results."""
+    painting_id = thumb.stem
+    async with semaphore:
+        try:
+            image_b64 = encode_image(thumb)
+            tags = await generate_tags(client, config, image_b64)
+            results[painting_id] = tags
+            pbar.set_postfix_str(f"{painting_id}: {', '.join(tags)}")
+        except Exception as e:
+            pbar.set_postfix_str(f"{painting_id}: ERROR - {e}")
+        finally:
+            pbar.update(1)
+
+
+async def async_main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate tags for paintings via vision LLM",
     )
@@ -132,8 +187,7 @@ def main():
         thumbs = sorted(THUMBS_DIR.glob("*.webp"))
 
     if not thumbs:
-        print("No thumbnail images found.")
-        sys.exit(1)
+        sys.exit("No thumbnail images found.")
 
     # Load existing results
     results: dict[str, list[str]] = {}
@@ -143,25 +197,21 @@ def main():
     if args.skip_existing:
         thumbs = [t for t in thumbs if t.stem not in results]
 
-    print(f"Generating tags for {len(thumbs)} painting(s)...")
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT)
 
-    with httpx.Client() as client:
-        for thumb in tqdm(thumbs, desc="Tags"):
-            painting_id = thumb.stem
-            try:
-                image_b64 = encode_image(thumb)
-                tags = generate_tags(client, config, image_b64)
-                results[painting_id] = tags
-                tqdm.write(f"  {painting_id}: {', '.join(tags)}")
-            except Exception as e:
-                tqdm.write(f"  {painting_id}: ERROR - {e}")
+    async with httpx.AsyncClient() as client:
+        with tqdm(total=len(thumbs), desc="Tags") as pbar:
+            tasks = [
+                process_thumb(thumb, client, config, semaphore, results, pbar)
+                for thumb in thumbs
+            ]
+            await asyncio.gather(*tasks)
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(
         json.dumps(results, indent=2, ensure_ascii=False) + "\n",
     )
-    print(f"Done. {len(results)} paintings tagged in {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(async_main())
