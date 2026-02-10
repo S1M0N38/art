@@ -66,6 +66,11 @@ CDN image variants (pre-generated, directory-based):
 - Thumbnail: `thumbs/{uuid}.webp` (masonry grid, 800px)
 - Placeholder: `placeholders/{uuid}.webp` (blur-up, 20px)
 
+Example for UUID `00cb4951-6117-4c35-8d61-691ac4930414`:
+- `https://francescoluchino-art.b-cdn.net/originals/00cb4951-6117-4c35-8d61-691ac4930414.jpg` (773 KB)
+- `https://francescoluchino-art.b-cdn.net/thumbs/00cb4951-6117-4c35-8d61-691ac4930414.webp` (72 KB)
+- `https://francescoluchino-art.b-cdn.net/placeholders/00cb4951-6117-4c35-8d61-691ac4930414.webp` (<1 KB)
+
 ## Key Design Decisions
 
 - **Proportional sizing**: card size ∝ `sqrt(normalized_area)` of real painting dimensions. Largest painting = max card size; others scale relative to it.

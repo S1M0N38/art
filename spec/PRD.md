@@ -231,11 +231,21 @@ art/
 
 **File naming convention**: Each painting uses a UUID v4 as both its `id` and CDN filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
 
-The `file` field is the base filename on the CDN (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Variants are stored in subdirectories:
+The `file` field is the base filename on the CDN (e.g., `00cb4951-6117-4c35-8d61-691ac4930414.jpg`). Variants are stored in subdirectories:
 
 - Original: `https://francescoluchino-art.b-cdn.net/originals/{uuid}.jpg`
 - Thumbnail: `https://francescoluchino-art.b-cdn.net/thumbs/{uuid}.webp`
 - Placeholder: `https://francescoluchino-art.b-cdn.net/placeholders/{uuid}.webp`
+
+Example (real, live on CDN):
+
+| Variant | URL | Size |
+|---------|-----|------|
+| Original | `https://francescoluchino-art.b-cdn.net/originals/00cb4951-6117-4c35-8d61-691ac4930414.jpg` | 773 KB |
+| Thumbnail | `https://francescoluchino-art.b-cdn.net/thumbs/00cb4951-6117-4c35-8d61-691ac4930414.webp` | 72 KB |
+| Placeholder | `https://francescoluchino-art.b-cdn.net/placeholders/00cb4951-6117-4c35-8d61-691ac4930414.webp` | <1 KB |
+
+Total on CDN: 2,034 files (678 paintings × 3 variants).
 
 ---
 
