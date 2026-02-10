@@ -8,7 +8,20 @@
 #   "tqdm",
 # ]
 # ///
-"""Generate Italian titles for paintings using a vision LLM."""
+"""
+Generate Italian titles for paintings using a vision LLM.
+
+Sends each thumbnail to an OpenAI-compatible vision endpoint and asks for a
+short, evocative title in Italian. Results are saved to scripts/titles.json.
+
+Reads API settings from environment variables or a .env file in the project root.
+Required env vars: VLM_BASE_API, VLM_MODEL.
+
+Usage:
+    uv run scripts/utils/generate_titles.py                                        # all thumbs
+    uv run scripts/utils/generate_titles.py images/optimized/thumbs/00cb4951.webp  # single file
+    uv run scripts/utils/generate_titles.py --skip-existing                        # resume interrupted run
+"""
 
 import argparse
 import base64

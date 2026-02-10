@@ -8,7 +8,21 @@
 #   "tqdm",
 # ]
 # ///
-"""Generate tags for paintings using a vision LLM."""
+"""
+Generate tags for paintings using a vision LLM.
+
+Sends each thumbnail to an OpenAI-compatible vision endpoint and asks for 2–4
+tags from a predefined set (paesaggio, città, interni, astratto, ritratto,
+natura morta). Results are saved to scripts/tags.json.
+
+Reads API settings from environment variables or a .env file in the project root.
+Required env vars: VLM_BASE_API, VLM_MODEL.
+
+Usage:
+    uv run scripts/utils/generate_tags.py                                        # all thumbs
+    uv run scripts/utils/generate_tags.py images/optimized/thumbs/00cb4951.webp  # single file
+    uv run scripts/utils/generate_tags.py --skip-existing                        # resume interrupted run
+"""
 
 import argparse
 import base64
