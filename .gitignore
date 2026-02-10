@@ -69,6 +69,6 @@ images/
 spec/example-images
 
 # Generated metadata (LLM output)
-scripts/titles.json
-scripts/tags.json
+scripts/generate/titles.json
+scripts/generate/tags.json
 

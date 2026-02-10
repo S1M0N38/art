@@ -10,18 +10,20 @@
 # ]
 # ///
 """
-Generate Italian titles for paintings using a vision LLM.
+Generate tags for paintings using a vision LLM with structured outputs.
 
-Sends each thumbnail to an OpenAI-compatible vision endpoint and asks for a
-short, evocative title in Italian. Results are saved to scripts/titles.json.
+Sends each thumbnail to an OpenAI-compatible vision endpoint and asks for 2–4
+tags from a predefined set (paesaggio, città, interni, astratto, ritratto,
+natura morta, notturno, fiori). Uses JSON schema structured outputs to guarantee
+well-formed responses. Results are saved to scripts/generate/tags.json.
 
 Reads API settings from environment variables or a .env file in the project root.
 Required env vars: VLM_BASE_API, VLM_MODEL.
 
 Usage:
-    uv run scripts/utils/generate_titles.py                                        # all thumbs
-    uv run scripts/utils/generate_titles.py images/optimized/thumbs/00cb4951.webp  # single file
-    uv run scripts/utils/generate_titles.py --skip-existing                        # resume interrupted run
+    uv run scripts/generate/tags.py                                        # all thumbs
+    uv run scripts/generate/tags.py images/optimized/thumbs/00cb4951.webp  # single file
+    uv run scripts/generate/tags.py --skip-existing                        # resume interrupted run
 """
 
 import argparse
@@ -37,35 +39,49 @@ from dotenv import load_dotenv
 from tqdm.asyncio import tqdm
 
 THUMBS_DIR = Path("images/optimized/thumbs")
-OUTPUT_FILE = Path("scripts/titles.json")
+OUTPUT_FILE = Path("scripts/generate/tags.json")
 ENV_FILE = Path(".env")
 
-SYSTEM_PROMPT = (
-    "Sei un critico d'arte e curatore museale italiano. "
-    "Osserva attentamente il dipinto a olio e assegnagli un titolo breve "
-    "ed evocativo in lingua italiana, come apparrebbe sulla targhetta di "
-    "una galleria. Il titolo deve catturare l'essenza del soggetto o "
-    "dell'atmosfera dell'opera."
-)
+VALID_TAGS = [
+    "paesaggio",
+    "città",
+    "interni",
+    "astratto",
+    "ritratto",
+    "natura morta",
+    "notturno",
+    "fiori",
+]
 
-RESPONSE_SCHEMA = {
+TAGS_SCHEMA = {
     "type": "json_schema",
     "json_schema": {
-        "name": "painting_title",
+        "name": "painting_tags",
         "strict": True,
         "schema": {
             "type": "object",
             "properties": {
-                "titolo": {
-                    "type": "string",
-                    "description": "Titolo breve ed evocativo del dipinto in italiano",
-                },
+                "tags": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": VALID_TAGS,
+                    },
+                }
             },
-            "required": ["titolo"],
+            "required": ["tags"],
             "additionalProperties": False,
         },
     },
 }
+
+SYSTEM_PROMPT = (
+    "Sei un esperto d'arte italiana. "
+    "Osserva attentamente questo dipinto a olio e assegna da 2 a 4 etichette "
+    "scelte ESCLUSIVAMENTE da questo elenco:\n"
+    "paesaggio, città, interni, astratto, ritratto, natura morta, notturno, fiori\n\n"
+    "Rispondi con un oggetto JSON contenente una chiave \"tags\" con la lista delle etichette scelte."
+)
 
 
 def get_config() -> dict[str, str]:
@@ -77,8 +93,10 @@ def get_config() -> dict[str, str]:
     model = os.environ.get("VLM_MODEL", "")
 
     if not base_url or not model:
-        sys.exit("Error: VLM_BASE_API and VLM_MODEL must be set. "
-                 "Create a .env file from .env.example or export them.")
+        sys.exit(
+            "Error: VLM_BASE_API and VLM_MODEL must be set.\n"
+            "Create a .env file from .env.example or export them in your shell."
+        )
 
     return {"base_url": base_url.rstrip("/"), "model": model}
 
@@ -96,21 +114,14 @@ def encode_image(path: Path) -> str:
 MAX_CONCURRENT = 4
 
 
-async def generate_title(
-    client: httpx.AsyncClient,
-    config: dict,
-    image_b64: str,
-) -> str:
-    """Call the vision LLM to generate a title for a painting.
-
-    Uses structured outputs (json_schema response_format) so the model
-    returns ``{"titolo": "..."}`` deterministically.
-    """
+async def generate_tags(
+    client: httpx.AsyncClient, config: dict, image_b64: str,
+) -> list[str]:
+    """Call the vision LLM to generate tags for a painting."""
     resp = await client.post(
         f"{config['base_url']}/chat/completions",
         json={
             "model": config["model"],
-            "response_format": RESPONSE_SCHEMA,
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {
@@ -125,12 +136,15 @@ async def generate_title(
                     ],
                 },
             ],
+            "response_format": TAGS_SCHEMA,
         },
         timeout=120.0,
     )
     resp.raise_for_status()
     content = resp.json()["choices"][0]["message"]["content"]
-    return json.loads(content)["titolo"].strip("*_`#")
+    data = json.loads(content)
+    # Validate tags even though the schema constrains them
+    return [t for t in data["tags"] if t in VALID_TAGS]
 
 
 async def process_thumb(
@@ -138,26 +152,26 @@ async def process_thumb(
     client: httpx.AsyncClient,
     config: dict,
     semaphore: asyncio.Semaphore,
-    results: dict[str, str],
+    results: dict[str, list[str]],
     progress: tqdm,
 ) -> None:
-    """Encode one thumbnail, call the LLM, and store the result."""
+    """Encode one thumbnail, call the LLM (rate-limited), and store results."""
     painting_id = thumb.stem
     async with semaphore:
         try:
             image_b64 = encode_image(thumb)
-            title = await generate_title(client, config, image_b64)
-            results[painting_id] = title
-            progress.write(f"  {painting_id}: {title}")
+            tags = await generate_tags(client, config, image_b64)
+            results[painting_id] = tags
+            progress.write(f"  {painting_id}: {', '.join(tags)}")
         except Exception as e:
             progress.write(f"  {painting_id}: ERROR - {e}")
         finally:
             progress.update()
 
 
-async def main() -> None:
+async def async_main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate titles for paintings via vision LLM",
+        description="Generate tags for paintings via vision LLM",
     )
     parser.add_argument("files", nargs="*", help="Specific thumb files (default: all)")
     parser.add_argument(
@@ -173,10 +187,10 @@ async def main() -> None:
         thumbs = sorted(THUMBS_DIR.glob("*.webp"))
 
     if not thumbs:
-        sys.exit(1)
+        sys.exit("No thumbnail images found.")
 
     # Load existing results
-    results: dict[str, str] = {}
+    results: dict[str, list[str]] = {}
     if OUTPUT_FILE.exists():
         results = json.loads(OUTPUT_FILE.read_text())
 
@@ -186,10 +200,10 @@ async def main() -> None:
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
 
     async with httpx.AsyncClient() as client:
-        with tqdm(total=len(thumbs), desc="Titles") as progress:
+        with tqdm(total=len(thumbs), desc="Tags") as progress:
             tasks = [
-                process_thumb(t, client, config, semaphore, results, progress)
-                for t in thumbs
+                process_thumb(thumb, client, config, semaphore, results, progress)
+                for thumb in thumbs
             ]
             await asyncio.gather(*tasks)
 
@@ -200,4 +214,4 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(async_main())
