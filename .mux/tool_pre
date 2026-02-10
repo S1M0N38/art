@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# .mux/tool_pre — block image file writes (images belong on BunnyCDN)
+[[ "$MUX_TOOL" == file_edit_* ]] || exit 0
+
+file="${MUX_TOOL_INPUT_FILE_PATH:-}"
+if [[ "$file" =~ \.(jpg|jpeg|png|webp|avif|gif|svg)$ ]]; then
+  echo "BLOCK: Do not write image files — images belong on BunnyCDN, not in the repo." >&2
+  exit 1
+fi
+
+exit 0
