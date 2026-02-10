@@ -110,7 +110,7 @@ uv run scripts/utils/upload_cdn.py --dry-run          # Preview what would uploa
 - LCP < 2.5s, CLS < 0.1
 - Lazy loading with Intersection Observer
 - No layout libraries — CSS columns only
-- Use the **lighthouse-auditor** subagent (`.claude/agents/lighthouse-auditor.md`) to audit performance against these targets
+- Use the **lighthouse-auditor** subagent to audit performance against these targets
 
 ## Commit Conventions
 
