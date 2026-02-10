@@ -1,0 +1,24 @@
+---
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Gallery from '../components/Gallery.astro';
+import Lightbox from '../components/Lightbox.astro';
+
+// Load paintings data at build time
+const yamlContent = readFileSync('src/content/paintings.yaml', 'utf-8');
+const paintings = parse(yamlContent) as Array<{
+  id: string;
+  title: string;
+  width_cm: number;
+  height_cm: number;
+  tags: string[];
+}>;
+---
+
+<Base title="Francesco Luchino — Opere">
+  <Header paintingCount={paintings.length} />
+  <Gallery paintings={paintings} />
+  <Lightbox />
+</Base>

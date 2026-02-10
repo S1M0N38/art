@@ -1,0 +1,40 @@
+---
+interface Props {
+  title?: string;
+}
+
+const { title = 'Francesco Luchino — Opere' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Opere di Francesco Luchino — pittore italiano. Oltre 600 dipinti ad olio." />
+    <meta name="theme-color" content="#080808" />
+
+    <title>{title}</title>
+
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+
+    {/* Google Fonts — Cormorant Garamond (display) + DM Sans (body) */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    {/* Preconnect to CDN for faster image loads */}
+    <link rel="preconnect" href="https://francescoluchino-art.b-cdn.net" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

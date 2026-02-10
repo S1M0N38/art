@@ -1,0 +1,47 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  width_cm: number;
+  height_cm: number;
+  tags: string[];
+  scale: number;
+}
+
+const { id, title, width_cm, height_cm, tags, scale } = Astro.props;
+
+const cdnBase = 'https://francescoluchino-art.b-cdn.net';
+const thumbUrl = `${cdnBase}/thumbs/${id}.webp`;
+const placeholderUrl = `${cdnBase}/placeholders/${id}.webp`;
+const originalUrl = `${cdnBase}/originals/${id}.jpg`;
+const aspect = width_cm / height_cm;
+---
+
+<div
+  class="painting-card"
+  data-id={id}
+  data-title={title}
+  data-width={width_cm}
+  data-height={height_cm}
+  data-tags={tags.join(',')}
+  data-thumb={thumbUrl}
+  data-full={originalUrl}
+  style={`--aspect: ${aspect.toFixed(4)}; --scale: ${scale.toFixed(3)};`}
+>
+  <div class="painting-card__wrap">
+    <img
+      src={placeholderUrl}
+      data-src={thumbUrl}
+      alt={title}
+      width={width_cm}
+      height={height_cm}
+      class="painting-card__img painting-card__img--placeholder"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="painting-card__overlay">
+    <div class="painting-card__title">{title}</div>
+    <div class="painting-card__dims">{width_cm} × {height_cm} cm</div>
+  </div>
+</div>

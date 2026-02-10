@@ -1,0 +1,16 @@
+---
+interface Props {
+  paintingCount: number;
+}
+
+const { paintingCount } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<header class="site-header">
+  <a href={base} class="site-header__title">Francesco Luchino</a>
+  <nav class="site-header__nav">
+    <span class="site-header__count">{paintingCount} opere</span>
+    <span class="site-header__link" aria-disabled="true">L'artista</span>
+  </nav>
+</header>

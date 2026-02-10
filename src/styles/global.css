@@ -1,0 +1,315 @@
+/* ============================================================
+   Francesco Luchino — Art Portfolio
+   Dark-room gallery aesthetic: paintings glow on black.
+   ============================================================ */
+
+/* --- Reset --- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Custom Properties --- */
+:root {
+  --color-bg: #080808;
+  --color-surface: #121212;
+  --color-text: #e2e0dc;
+  --color-text-muted: #706f6b;
+  --color-accent: #c9a84c;
+
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
+
+  --masonry-gap: 5px;
+  --header-height: 56px;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* --- Base --- */
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* --- Typography --- */
+.display {
+  font-family: var(--font-display);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* --- Header --- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(16px, 3vw, 32px);
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 8, 8, 0.92) 0%,
+    rgba(8, 8, 8, 0.6) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+.site-header > * {
+  pointer-events: auto;
+}
+
+.site-header__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+  transition: opacity 0.3s var(--ease-out);
+}
+
+.site-header__title:hover {
+  opacity: 0.7;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-header__link {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  transition: color 0.3s var(--ease-out);
+}
+
+.site-header__link:hover {
+  color: var(--color-text);
+}
+
+.site-header__count {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+  letter-spacing: 0.03em;
+}
+
+/* --- Gallery (masonry) --- */
+.gallery {
+  padding: calc(var(--header-height) + var(--masonry-gap)) var(--masonry-gap) var(--masonry-gap);
+  columns: 4;
+  column-gap: var(--masonry-gap);
+}
+
+@media (max-width: 1400px) { .gallery { columns: 3; } }
+@media (max-width: 900px)  { .gallery { columns: 2; } }
+@media (max-width: 480px)  { .gallery { columns: 2; } }
+
+/* --- Painting Card --- */
+.painting-card {
+  break-inside: avoid;
+  margin-bottom: var(--masonry-gap);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: var(--color-surface);
+  line-height: 0;
+}
+
+/* Aspect ratio box via padding-top (set inline via --aspect) */
+.painting-card__wrap {
+  position: relative;
+  width: 100%;
+  padding-top: calc(100% / var(--aspect));
+  overflow: hidden;
+}
+
+.painting-card__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+  will-change: filter, transform;
+}
+
+/* Blur-up placeholder state */
+.painting-card__img--placeholder {
+  filter: blur(20px);
+  transform: scale(1.1);
+}
+
+/* Loaded state */
+.painting-card__img--loaded {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+/* Hover title overlay */
+.painting-card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px 12px 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.35s var(--ease-out);
+  pointer-events: none;
+  line-height: 1.4;
+}
+
+.painting-card:hover .painting-card__overlay {
+  opacity: 1;
+}
+
+.painting-card__title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-text);
+}
+
+.painting-card__dims {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* --- Proportional scaling ---
+   --scale is set inline per card (0.4–1.0).
+   In a CSS columns layout each column has fixed width.
+   Smaller paintings get dark padding around them (gallery-wall effect)
+   so they appear visually smaller while filling the column.
+   scale=1.0 → 0 padding; scale=0.4 → ~8.4% padding each side */
+.painting-card {
+  --pad: calc((1 - var(--scale, 1)) * 14%);
+  padding: var(--pad);
+}
+
+/* --- Lightbox (PhotoSwipe overrides) --- */
+
+/* Caption bar at bottom */
+.pswp__custom-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px clamp(16px, 4vw, 40px) 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.pswp__custom-caption > * {
+  pointer-events: auto;
+}
+
+.pswp__caption-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  margin-bottom: 6px;
+}
+
+.pswp__caption-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.pswp__caption-dims {
+  letter-spacing: 0.03em;
+}
+
+.pswp__caption-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--color-text-muted);
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* --- Selection --- */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
