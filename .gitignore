@@ -72,4 +72,5 @@ spec/example-images
 scripts/generate/titles.json
 scripts/generate/tags.json
 scripts/generate/dimensions.json
+scripts/generate/paintings.yaml
 
