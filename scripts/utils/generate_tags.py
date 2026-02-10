@@ -153,7 +153,7 @@ async def process_thumb(
     config: dict,
     semaphore: asyncio.Semaphore,
     results: dict[str, list[str]],
-    pbar: tqdm,
+    progress: tqdm,
 ) -> None:
     """Encode one thumbnail, call the LLM (rate-limited), and store results."""
     painting_id = thumb.stem
@@ -162,11 +162,11 @@ async def process_thumb(
             image_b64 = encode_image(thumb)
             tags = await generate_tags(client, config, image_b64)
             results[painting_id] = tags
-            pbar.set_postfix_str(f"{painting_id}: {', '.join(tags)}")
+            progress.write(f"  {painting_id}: {', '.join(tags)}")
         except Exception as e:
-            pbar.set_postfix_str(f"{painting_id}: ERROR - {e}")
+            progress.write(f"  {painting_id}: ERROR - {e}")
         finally:
-            pbar.update(1)
+            progress.update()
 
 
 async def async_main() -> None:
@@ -200,9 +200,9 @@ async def async_main() -> None:
     semaphore = asyncio.Semaphore(MAX_CONCURRENT)
 
     async with httpx.AsyncClient() as client:
-        with tqdm(total=len(thumbs), desc="Tags") as pbar:
+        with tqdm(total=len(thumbs), desc="Tags") as progress:
             tasks = [
-                process_thumb(thumb, client, config, semaphore, results, pbar)
+                process_thumb(thumb, client, config, semaphore, results, progress)
                 for thumb in thumbs
             ]
             await asyncio.gather(*tasks)
