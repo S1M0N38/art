@@ -10,7 +10,7 @@ Artwork-first, immersive experience with proportional sizing that reflects real 
 - **PhotoSwipe v5** — lightbox (pinch-to-zoom, swipe navigation)
 - **Vanilla CSS** — custom properties, dark theme, no frameworks
 - **Vanilla JS** — client-side filtering, Intersection Observer lazy loading
-- **BunnyCDN** — image storage + on-the-fly resize/WebP/AVIF (`https://francescoluchino.b-cdn.net/`)
+- **BunnyCDN** — image storage + pre-generated WebP variants (`https://francescoluchino.b-cdn.net/`)
 - **GitHub Pages** — hosting via GitHub Actions
 
 ## Project Structure
@@ -35,9 +35,14 @@ art/
 │   └── styles/global.css            # Dark theme, variables, typography
 ├── src/content/paintings.yaml       # All painting metadata
 ├── images/raw/                      # Raw originals (gitignored)
-├── images/processed/                # Cropped images ready for CDN (gitignored)
+├── images/processed/                # Cropped images ready for optimization (gitignored)
+├── images/optimized/                # CDN-ready variants (gitignored)
+│   ├── originals/                   # Full-res JPGs
+│   ├── thumbs/                      # 800px WebP thumbnails
+│   └── placeholders/                # 20px WebP placeholders
 ├── scripts/utils/preprocess.py      # Auto-crop white borders (uv run)
-├── scripts/utils/upload_cdn.py       # Upload images to BunnyCDN (uv run)
+├── scripts/utils/optimize.py        # Generate image variants (uv run)
+├── scripts/utils/upload_cdn.py      # Upload images to BunnyCDN (uv run)
 └── spec/PRD.md                      # Full product requirements
 ```
 
@@ -56,10 +61,10 @@ art/
 
 **ID convention**: each painting uses a UUID v4 as its `id` and CDN filename.
 
-CDN image variants (on-the-fly via URL params):
-- Placeholder: `?width=20&quality=10` (blur-up)
-- Thumbnail: `?width=800&quality=80` (masonry grid)
-- Full: no params (lightbox + download)
+CDN image variants (pre-generated, directory-based):
+- Original: `originals/{uuid}.jpg` (lightbox + download)
+- Thumbnail: `thumbs/{uuid}.webp` (masonry grid, 800px)
+- Placeholder: `placeholders/{uuid}.webp` (blur-up, 20px)
 
 ## Key Design Decisions
 
@@ -83,11 +88,17 @@ npm run preview          # Preview production build
 uv run scripts/utils/preprocess.py                    # Crop all images in images/raw/
 uv run scripts/utils/preprocess.py path/to/image.jpg  # Crop single image
 
+# Image optimization
+uv run scripts/utils/optimize.py                      # Generate all variants
+uv run scripts/utils/optimize.py path/to/image.jpg    # Optimize single image
+uv run scripts/utils/optimize.py --skip-existing      # Skip already optimized
+
 # CDN upload
-uv run scripts/utils/upload_cdn.py                                     # Upload all processed images
-uv run scripts/utils/upload_cdn.py images/processed/abc.jpg            # Upload single image
-uv run scripts/utils/upload_cdn.py --list                              # List remote files
-uv run scripts/utils/upload_cdn.py --skip-existing                     # Skip already-uploaded
+uv run scripts/utils/upload_cdn.py                    # Upload all variants
+uv run scripts/utils/upload_cdn.py --variant thumbs   # Upload only thumbnails
+uv run scripts/utils/upload_cdn.py --list             # List remote files
+uv run scripts/utils/upload_cdn.py --skip-existing    # Skip already-uploaded
+uv run scripts/utils/upload_cdn.py --dry-run          # Preview what would upload
 ```
 
 ## Performance Targets

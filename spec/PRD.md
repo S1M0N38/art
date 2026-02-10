@@ -110,12 +110,12 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 #### 5.5 Image Infrastructure
 
 - Original high-resolution images are stored on an **external CDN** (BunnyCDN — account already active).
-- The CDN provides on-the-fly resizing via URL parameters (e.g., `?width=800&quality=80`).
+- Image variants are **pre-generated locally** and uploaded in a directory structure to the CDN.
 - The Git repository contains **only** code and YAML metadata — no images.
-- Three variants of each image, generated on-the-fly by the CDN:
-  - **Placeholder**: ~20px width, minimum quality (for blur-up).
-  - **Thumbnail**: ~800px width, quality 80, WebP (for the masonry grid).
-  - **Full**: original size (for lightbox and download).
+- Three variants of each image, generated locally by `scripts/utils/optimize.py`:
+  - **Original**: `originals/{uuid}.jpg` — full-resolution (for lightbox and download).
+  - **Thumbnail**: `thumbs/{uuid}.webp` — 800px width, quality 80, WebP (for the masonry grid).
+  - **Placeholder**: `placeholders/{uuid}.webp` — 20px width, quality 10, WebP (for blur-up).
 
 #### 5.6 Static Deployment
 
@@ -148,7 +148,7 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 | **Site generator**  | **Astro**                | Hugo, 11ty, Next.js (static export)    | Astro has an "islands" architecture: zero JS by default, adds interactivity only where needed. Great for content-driven static sites. Native support for data collections. Hugo is fastest but Go templating is less ergonomic; 11ty is solid but Astro's ecosystem is more modern. |
 | **Masonry layout**  | **CSS columns + JS**     | Masonry.js, Isotope.js, CSS Grid       | CSS `columns` provides native masonry with zero dependencies. A small JS script handles proportional sizing and reflow on filtering. Isotope.js is robust but heavy (~30KB) for a site aiming for lightness. |
 | **Lightbox**        | **PhotoSwipe v5**        | GLightbox, Fancybox, custom            | PhotoSwipe is the standard for photography/art sites: zero dependencies, native pinch-to-zoom, flexible API for custom metadata panels, smooth thumbnail-to-full transitions. ~15KB gzipped. |
-| **Image CDN**       | **BunnyCDN**             | Cloudflare R2 + Images, imgix, Sirv    | BunnyCDN: storage ~$0.01/GB/month, bandwidth ~$0.01/GB, Bunny Optimizer for on-the-fly resize and WebP/AVIF conversion. Simple setup. Estimated cost for 500 images (~1GB storage + moderate traffic): < $2/month. |
+| **Image CDN**       | **BunnyCDN**             | Cloudflare R2 + Images, imgix, Sirv    | BunnyCDN: storage ~$0.01/GB/month, bandwidth ~$0.01/GB. Pre-generated WebP variants uploaded in directory structure. Simple setup. Estimated cost for 500 images (~1GB storage + moderate traffic): < $2/month. |
 | **Styling**         | **Vanilla CSS (custom)** | Tailwind CSS, Sass                     | For a minimalist site with few components, custom CSS with variables is sufficient and adds no build steps. If complexity grows, Tailwind remains an option. |
 | **Deployment**      | **GitHub Pages**         | Netlify, Vercel, Cloudflare Pages      | Free, already integrated with GitHub. GitHub Actions for automatic Astro build on push. |
 
@@ -163,7 +163,7 @@ Astro (static site generator)
 ├── Blur-up: Intersection Observer + CSS filter:blur
 ├── Styling: Custom CSS with variables (dark theme)
 │
-├── Images: BunnyCDN (storage + on-the-fly optimization)
+├── Images: BunnyCDN (storage + pre-generated WebP variants)
 ├── Hosting: GitHub Pages
 └── CI/CD: GitHub Actions
 ```
@@ -196,11 +196,16 @@ art/
 │   └── favicon.svg
 ├── images/                          # Local images (gitignored)
 │   ├── raw/                         # Raw originals before processing
-│   └── processed/                   # Cropped images ready for CDN upload
+│   ├── processed/                   # Cropped images ready for optimization
+│   └── optimized/                   # CDN-ready variants
+│       ├── originals/               # Full-res JPGs
+│       ├── thumbs/                  # 800px WebP thumbnails
+│       └── placeholders/            # 20px WebP placeholders
 ├── scripts/
 │   └── utils/
 │       ├── preprocess.py            # Auto-crop white borders (uv run)
-│       └── upload_cdn.py             # Upload images to BunnyCDN (uv run)
+│       ├── optimize.py              # Generate image variants (uv run)
+│       └── upload_cdn.py            # Upload images to BunnyCDN (uv run)
 ├── spec/                            # Project specifications
 │   ├── PRD.md                       # Product requirements document
 │   └── example-images/              # Example images for documentation
@@ -226,11 +231,11 @@ art/
 
 **File naming convention**: Each painting uses a UUID v4 as both its `id` and CDN filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
 
-The `file` field corresponds to the path on the CDN base URL (e.g., `https://francescoluchino.b-cdn.net/a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Size variants are generated on-the-fly:
+The `file` field is the base filename on the CDN (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Variants are stored in subdirectories:
 
-- Placeholder: `?width=20&quality=10`
-- Thumbnail: `?width=800&quality=80`
-- Full: direct URL without parameters
+- Original: `https://francescoluchino.b-cdn.net/originals/{uuid}.jpg`
+- Thumbnail: `https://francescoluchino.b-cdn.net/thumbs/{uuid}.webp`
+- Placeholder: `https://francescoluchino.b-cdn.net/placeholders/{uuid}.webp`
 
 ---
 
