@@ -50,11 +50,9 @@ art/
 
 ```yaml
 - id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
-  file: "a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg"  # UUID filename on BunnyCDN
   title: "Tramonto su Fossano"
   width_cm: 120             # Real painting width in cm
   height_cm: 80             # Real painting height in cm
-  year: 1995
   tags:
     - paesaggio
 ```
@@ -77,7 +75,7 @@ Example for UUID `00cb4951-6117-4c35-8d61-691ac4930414`:
 - **Dark theme**: black/charcoal background so artwork commands attention.
 - **Zero gaps masonry**: tightly packed, no whitespace between cards.
 - **Progressive blur-up**: 20px placeholder with CSS blur → full image on load.
-- **Filter logic**: OR within same group, AND across groups. Categories: Paesaggio, Città, Interni, Astratto, Ritratto, Natura morta. Periods: Anni '70–'10.
+- **Filter logic**: OR — selecting multiple categories shows works matching any of them. Categories: Paesaggio, Città, Interni, Astratto, Ritratto, Natura morta.
 - **Italian language**: all UI labels in Italian. No i18n for now.
 - **No database**: all data in YAML, site is fully static.
 

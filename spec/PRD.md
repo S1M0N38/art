@@ -35,7 +35,7 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 | CMS / upload UI                 | The maintainer is comfortable with YAML + git.               |
 | Database                        | Static site. Data lives in YAML files in the repository.     |
 | Multilingual (IT/EN)            | Initial release is Italian only. English may come later.     |
-| Full-text search                | Tag/period filtering is sufficient for navigation.           |
+| Full-text search                | Tag filtering is sufficient for navigation.                  |
 | Authentication / private areas  | All content is entirely public.                              |
 
 ---
@@ -47,9 +47,9 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 - **As a** visitor, **I want to** vertically scroll through a grid of artworks **so that** I can explore the entire collection naturally.
 - **As a** visitor, **I want to** perceive the real proportions of the artworks in the grid **so that** I can appreciate the relative scale between paintings.
 - **As a** visitor, **I want to** click on a work to see it in high definition **so that** I can observe its details.
-- **As a** visitor, **I want to** see the title, dimensions, year, and tags in the detail view **so that** I have context about the work.
+- **As a** visitor, **I want to** see the title, dimensions, and tags in the detail view **so that** I have context about the work.
 - **As a** visitor, **I want to** download the full-resolution image **so that** I can save or print it.
-- **As a** visitor, **I want to** filter works by category and period **so that** I can find the paintings I'm interested in.
+- **As a** visitor, **I want to** filter works by category **so that** I can find the paintings I'm interested in.
 - **As a** visitor, **I want to** learn about the artist **so that** I understand the context of his work.
 
 ### Maintainer (Simo)
@@ -79,7 +79,7 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 
 - Click/tap on a work opens a full-screen lightbox view.
 - Displays the image in high quality (served by the CDN with screen-optimized dimensions).
-- **Visible metadata**: title, physical dimensions, year, tags.
+- **Visible metadata**: title, physical dimensions, tags.
 - **Download button**: downloads the original full-resolution file from the CDN.
 - **Close**: returns to the exact scroll position in the gallery.
 - **Pinch-to-zoom** on mobile.
@@ -88,12 +88,11 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
 #### 5.3 Filters
 
 - Fixed button in the bottom-left corner (floating action button).
-- On click, opens a panel with selectable chips organized in two groups:
+- On click, opens a panel with selectable chips:
   - **Categories**: "Tutti" (All), "Paesaggio" (Landscape), "Città" (City), "Interni" (Interior), "Astratto" (Abstract), "Ritratto" (Portrait), "Natura morta" (Still life).
-  - **Periods**: "Anni '70" (1970s), "Anni '80" (1980s), "Anni '90" (1990s), "Anni 2000" (2000s), "Anni 2010" (2010s).
-- **Filter logic**: OR within the same group, AND across different groups.
-  - Example: selecting "Paesaggio" + "Astratto" + "Anni '90" shows all landscapes and abstracts that are from the 1990s.
-- Multi-selection within each group.
+- **Filter logic**: OR — selecting multiple categories shows works matching any of them.
+  - Example: selecting "Paesaggio" + "Astratto" shows all landscapes and abstracts.
+- Multi-selection supported.
 - "Tutti" (All) is selected by default and deselects all other filters.
 - Filtering happens client-side with smooth transitions (animated layout reflow).
 
@@ -220,18 +219,16 @@ art/
 
 ```yaml
 - id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
-  file: "a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg"  # UUID filename on BunnyCDN
   title: "Tramonto su Fossano"
   width_cm: 120                      # Real painting width in cm
   height_cm: 80                      # Real painting height in cm
-  year: 1995
   tags:
     - paesaggio
 ```
 
-**File naming convention**: Each painting uses a UUID v4 as both its `id` and CDN filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
+**ID convention**: Each painting uses a UUID v4 as its `id`. The CDN filename is derived from the `id` (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
 
-The `file` field is the base filename on the CDN (e.g., `00cb4951-6117-4c35-8d61-691ac4930414.jpg`). Variants are stored in subdirectories:
+Variants are stored in subdirectories on the CDN:
 
 - Original: `https://francescoluchino-art.b-cdn.net/originals/{uuid}.jpg`
 - Thumbnail: `https://francescoluchino-art.b-cdn.net/thumbs/{uuid}.webp`
@@ -296,12 +293,11 @@ Example:
 
 | #  | Question                   | Answer                                                                                  |
 | -- | -------------------------- | --------------------------------------------------------------------------------------- |
-| 1  | **Filter logic**           | OR within the same group, AND across different groups.                                  |
+| 1  | **Filter logic**           | OR — selecting multiple categories shows works matching any of them.                    |
 | 2  | **Filter categories**      | Paesaggio, Città, Interni, Astratto, Ritratto, Natura morta.                            |
-| 3  | **Periods**                | 1970s, 1980s, 1990s, 2000s, 2010s.                                                     |
-| 4  | **CDN file names**         | UUID v4 as filename: `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`.                          |
-| 5  | **"L'artista" content**    | Will be written later. Placeholder page for now.                                        |
-| 6  | **BunnyCDN account**       | Active. Storage zone `francescoluchino-art`, Frankfurt (DE) endpoint.                      |
+| 3  | **CDN file names**         | UUID v4 as filename: `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`.                          |
+| 4  | **"L'artista" content**    | Will be written later. Placeholder page for now.                                        |
+| 5  | **BunnyCDN account**       | Active. Storage zone `francescoluchino-art`, Frankfurt (DE) endpoint.                      |
 
 ---
 
@@ -317,7 +313,7 @@ Example:
 - Data population: at least 50 works to validate layout and performance
 
 ### Phase 2 — Completion
-- Filters by category and period
+- Filters by category
 - "L'artista" (About) page
 - Lightbox navigation (prev/next)
 - Shareable URLs for individual works
