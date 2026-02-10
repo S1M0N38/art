@@ -71,7 +71,7 @@ Francesco Luchino is an Italian painter with a body of over 500 works (oil on ca
   - A normalized scale factor is calculated: the largest painting defines the maximum card size; others scale accordingly.
   - The image aspect ratio always matches the real painting's aspect ratio.
 - **Lazy loading** with Intersection Observer — images load only as they enter the viewport.
-- **Progressive blur-up**: ultra-low-resolution placeholder (20px, blurred via CSS) → web-quality image on load. The placeholder is served by the CDN (same image, `?width=20&quality=10`).
+- **Progressive blur-up**: ultra-low-resolution placeholder (20px, blurred via CSS) → web-quality image on load. The placeholder is a pre-generated WebP served from the CDN (`placeholders/{uuid}.webp`).
 - **Zero gaps** — Tightly packed masonry, no whitespace between cards.
 - On mobile: 1–2 column layout. On desktop: 3–5 adaptive columns.
 
