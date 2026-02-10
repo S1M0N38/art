@@ -199,7 +199,8 @@ art/
 │   └── processed/                   # Cropped images ready for CDN upload
 ├── scripts/
 │   └── utils/
-│       └── preprocess.py            # Auto-crop white borders (uv run)
+│       ├── preprocess.py            # Auto-crop white borders (uv run)
+│       └── upload_cdn.py             # Upload images to BunnyCDN (uv run)
 ├── spec/                            # Project specifications
 │   ├── PRD.md                       # Product requirements document
 │   └── example-images/              # Example images for documentation
@@ -225,7 +226,7 @@ art/
 
 **File naming convention**: Each painting uses a UUID v4 as both its `id` and CDN filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). The title lives only in YAML metadata.
 
-The `file` field corresponds to the path on the CDN base URL (e.g., `https://luchino.b-cdn.net/a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Size variants are generated on-the-fly:
+The `file` field corresponds to the path on the CDN base URL (e.g., `https://francescoluchino.b-cdn.net/a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`). Size variants are generated on-the-fly:
 
 - Placeholder: `?width=20&quality=10`
 - Thumbnail: `?width=800&quality=80`

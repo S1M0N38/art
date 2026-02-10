@@ -10,7 +10,7 @@ Artwork-first, immersive experience with proportional sizing that reflects real 
 - **PhotoSwipe v5** — lightbox (pinch-to-zoom, swipe navigation)
 - **Vanilla CSS** — custom properties, dark theme, no frameworks
 - **Vanilla JS** — client-side filtering, Intersection Observer lazy loading
-- **BunnyCDN** — image storage + on-the-fly resize/WebP/AVIF (`https://luchino.b-cdn.net/`)
+- **BunnyCDN** — image storage + on-the-fly resize/WebP/AVIF (`https://francescoluchino.b-cdn.net/`)
 - **GitHub Pages** — hosting via GitHub Actions
 
 ## Project Structure
@@ -37,6 +37,7 @@ art/
 ├── images/raw/                      # Raw originals (gitignored)
 ├── images/processed/                # Cropped images ready for CDN (gitignored)
 ├── scripts/utils/preprocess.py      # Auto-crop white borders (uv run)
+├── scripts/utils/upload_cdn.py       # Upload images to BunnyCDN (uv run)
 └── spec/PRD.md                      # Full product requirements
 ```
 
@@ -81,6 +82,12 @@ npm run preview          # Preview production build
 # Image preprocessing
 uv run scripts/utils/preprocess.py                    # Crop all images in images/raw/
 uv run scripts/utils/preprocess.py path/to/image.jpg  # Crop single image
+
+# CDN upload
+uv run scripts/utils/upload_cdn.py                                     # Upload all processed images
+uv run scripts/utils/upload_cdn.py images/processed/abc.jpg            # Upload single image
+uv run scripts/utils/upload_cdn.py --list                              # List remote files
+uv run scripts/utils/upload_cdn.py --skip-existing                     # Skip already-uploaded
 ```
 
 ## Performance Targets
