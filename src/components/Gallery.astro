@@ -3,6 +3,7 @@ import PaintingCard from './PaintingCard.astro';
 
 interface Painting {
   id: string;
+  sort_id: number;
   title: string;
   width_cm: number;
   height_cm: number;
@@ -22,29 +23,14 @@ const areas = paintings.map((p) => p.width_cm * p.height_cm);
 const maxArea = Math.max(...areas);
 const scales = areas.map((a) => 0.4 + 0.6 * Math.sqrt(a / maxArea));
 
-// Shuffle paintings for visual variety (deterministic seed from count)
-// Using a simple Fisher-Yates with a seeded PRNG so builds are stable
-function seededShuffle<T>(arr: T[], seed: number): T[] {
-  const result = [...arr];
-  let s = seed;
-  const rand = () => {
-    s = (s * 1664525 + 1013904223) & 0xffffffff;
-    return (s >>> 0) / 0xffffffff;
-  };
-  for (let i = result.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
-
-// Pair paintings with their pre-computed scales, then shuffle
-const paired = paintings.map((p, i) => ({ painting: p, scale: scales[i] }));
-const shuffled = seededShuffle(paired, paintings.length);
+// Pair paintings with their pre-computed scales, then sort by curated sort_id
+const sorted = paintings
+  .map((p, i) => ({ painting: p, scale: scales[i] }))
+  .sort((a, b) => a.painting.sort_id - b.painting.sort_id);
 ---
 
 <div class="gallery" id="gallery">
-  {shuffled.map(({ painting, scale }) => (
+  {sorted.map(({ painting, scale }) => (
     <PaintingCard
       id={painting.id}
       title={painting.title}

@@ -10,6 +10,7 @@ import Lightbox from '../components/Lightbox.astro';
 const yamlContent = readFileSync('src/content/paintings.yaml', 'utf-8');
 const paintings = parse(yamlContent) as Array<{
   id: string;
+  sort_id: number;
   title: string;
   width_cm: number;
   height_cm: number;

@@ -1,4 +1,5 @@
 - id: 00cb4951-6117-4c35-8d61-691ac4930414
+  sort_id: 291
   title: L'Ultimo Sorso al Sole
   width_cm: 80
   height_cm: 45
@@ -6,6 +7,7 @@
   - paesaggio
   - città
 - id: 011b078a-538f-447d-8cda-87a38fa37ce5
+  sort_id: 96
   title: L'ombra dei segni luminosi
   width_cm: 60
   height_cm: 40
@@ -13,6 +15,7 @@
   - città
   - notturno
 - id: 015a44f1-519b-48ab-8e7b-965e6671068e
+  sort_id: 245
   title: L'Occhio della Terra
   width_cm: 40
   height_cm: 50
@@ -20,6 +23,7 @@
   - ritratto
   - astratto
 - id: 0184333f-10d3-4b20-be46-9fe98ff111f1
+  sort_id: 79
   title: L'Ultimo Passo della Luna
   width_cm: 60
   height_cm: 40
@@ -27,6 +31,7 @@
   - città
   - notturno
 - id: 01c453f6-e1c9-4e16-a33e-2691aa869437
+  sort_id: 285
   title: Murmure di *Mürsten* – Rifugio in un angolo di luce
   width_cm: 40
   height_cm: 55
@@ -34,6 +39,7 @@
   - paesaggio
   - città
 - id: 020660e2-42b4-46b3-9fb4-eba147ae145c
+  sort_id: 329
   title: Risveglio di un Abisso
   width_cm: 40
   height_cm: 30
@@ -41,6 +47,7 @@
   - astratto
   - notturno
 - id: 03421454-ed47-4717-b42d-8e3d75955759
+  sort_id: 17
   title: L'Arrivo del Silenzio
   width_cm: 30
   height_cm: 20
@@ -48,6 +55,7 @@
   - paesaggio
   - città
 - id: 03b12dbb-cf8a-4782-ad7f-f7fca7f33fce
+  sort_id: 380
   title: Luna tra petali di fuoco
   width_cm: 50
   height_cm: 40
@@ -55,6 +63,7 @@
   - notturno
   - astratto
 - id: 03c96c70-42d3-4de3-9890-abb405f8beba
+  sort_id: 317
   title: L'Ultimo Sorriso del Sole
   width_cm: 50
   height_cm: 35
@@ -62,6 +71,7 @@
   - paesaggio
   - notturno
 - id: 04af36a1-b5b9-4440-b24a-8ad98f2d3641
+  sort_id: 574
   title: L’Atleta della Luce Blu
   width_cm: 60
   height_cm: 40
@@ -69,6 +79,7 @@
   - paesaggio
   - fiori
 - id: 04d47d30-5914-4f84-b903-6d5fdb29010d
+  sort_id: 195
   title: L'Occhio della Città
   width_cm: 50
   height_cm: 30
@@ -76,6 +87,7 @@
   - paesaggio
   - città
 - id: 04e82333-0ab9-46b3-97eb-d1433b0e510e
+  sort_id: 487
   title: Ondata di vetro e luce
   width_cm: 50
   height_cm: 40
@@ -83,6 +95,7 @@
   - natura morta
   - astratto
 - id: 05e02bcc-96af-433b-ad8f-ccbca11c5f02
+  sort_id: 409
   title: L’alba sul Silenzio delle Case
   width_cm: 80
   height_cm: 45
@@ -90,6 +103,7 @@
   - paesaggio
   - notturno
 - id: 06211e41-624e-436f-89bc-e19c2dcc70aa
+  sort_id: 136
   title: Ombra di Panico
   width_cm: 80
   height_cm: 60
@@ -97,6 +111,7 @@
   - paesaggio
   - città
 - id: 067c1e52-daf5-4042-a659-428a0ad72842
+  sort_id: 418
   title: L'Ultimo Sorso sul Tavolino
   width_cm: 80
   height_cm: 60
@@ -104,6 +119,7 @@
   - paesaggio
   - interni
 - id: 06dce764-b9fc-48ec-b406-71589bb57806
+  sort_id: 277
   title: Dialoghi al Caffè
   width_cm: 50
   height_cm: 35
@@ -111,6 +127,7 @@
   - interni
   - ritratto
 - id: 076a0dcc-3c3f-47c3-9355-5906aa526e76
+  sort_id: 304
   title: L'Ultimo Sogno del Caffè Blu
   width_cm: 80
   height_cm: 60
@@ -118,6 +135,7 @@
   - interni
   - notturno
 - id: 076b2fa3-81a0-4a0c-b235-dfebbbb9804a
+  sort_id: 283
   title: L'Ultimo Sorso al Caffè Perfetto
   width_cm: 60
   height_cm: 40
@@ -125,6 +143,7 @@
   - paesaggio
   - città
 - id: 0785970f-4812-484b-ad7d-5c8579f19954
+  sort_id: 624
   title: L'alba su un borgo d'oro e sangue
   width_cm: 50
   height_cm: 35
@@ -132,6 +151,7 @@
   - paesaggio
   - città
 - id: 08235182-a275-466a-85a6-966fbbe98338
+  sort_id: 508
   title: Rifiorire tra vetri e luce
   width_cm: 60
   height_cm: 50
@@ -139,6 +159,7 @@
   - natura morta
   - fiori
 - id: 082ccd31-9cff-4cef-9d99-916093ef4b1b
+  sort_id: 562
   title: Rifiorire su un tetto d'autunno
   width_cm: 50
   height_cm: 40
@@ -146,6 +167,7 @@
   - paesaggio
   - fiori
 - id: 086361e7-f34e-4fe7-b93b-e6f7e36ccea6
+  sort_id: 636
   title: L’Ultimo Tramonto su un Borgo d’Ombra
   width_cm: 40
   height_cm: 50
@@ -153,6 +175,7 @@
   - paesaggio
   - città
 - id: 088612ac-fd7f-4d80-80ae-89c5b8f58fe8
+  sort_id: 654
   title: L’Ombra dei Pastori
   width_cm: 30
   height_cm: 20
@@ -160,6 +183,7 @@
   - paesaggio
   - città
 - id: 08957f6f-61d3-4f7d-bd1f-11fa3c1ee054
+  sort_id: 623
   title: L’alba su un borgo d’oro e sangue
   width_cm: 50
   height_cm: 35
@@ -167,6 +191,7 @@
   - paesaggio
   - città
 - id: 08d8209a-35ac-4a89-a649-b945cc76b969
+  sort_id: 58
   title: L'ombra dei cartelloni luminosi
   width_cm: 30
   height_cm: 20
@@ -174,6 +199,7 @@
   - città
   - notturno
 - id: 08f2ac1b-4760-41df-b946-e154c8848b5b
+  sort_id: 646
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 30
@@ -181,6 +207,7 @@
   - natura morta
   - fiori
 - id: 092c3c43-2694-4dd2-927f-fe362007ef20
+  sort_id: 446
   title: L'Ultimo Sorso
   width_cm: 50
   height_cm: 35
@@ -188,6 +215,7 @@
   - paesaggio
   - interni
 - id: 09a8cda9-8853-45c0-8a38-f4d4a7c2bfcb
+  sort_id: 202
   title: Onda di Pendio
   width_cm: 50
   height_cm: 40
@@ -195,6 +223,7 @@
   - astratto
   - notturno
 - id: 0a89001e-53f5-488c-bdf7-1d4cc9b8b272
+  sort_id: 181
   title: L'alba dei segni
   width_cm: 30
   height_cm: 20
@@ -202,6 +231,7 @@
   - paesaggio
   - città
 - id: 0cc18df3-30ee-4e71-9202-a6e4804bd49a
+  sort_id: 550
   title: L'Uomo e il Sole Rosso
   width_cm: 40
   height_cm: 50
@@ -209,6 +239,7 @@
   - paesaggio
   - notturno
 - id: 0d7b7056-d331-498c-a2f2-db26a44c07ca
+  sort_id: 582
   title: Ritratto di un mondo da guardare
   width_cm: 40
   height_cm: 50
@@ -216,6 +247,7 @@
   - paesaggio
   - città
 - id: 0d81c660-9e1a-47b1-bda5-724412564cd1
+  sort_id: 579
   title: L’Avvoltoio sul Cingolo d’Oro
   width_cm: 40
   height_cm: 50
@@ -223,6 +255,7 @@
   - paesaggio
   - città
 - id: 0e093fc7-bd93-4275-8769-05017bef44cd
+  sort_id: 193
   title: L'Ultimo Raggio d'Oro
   width_cm: 50
   height_cm: 35
@@ -230,6 +263,7 @@
   - paesaggio
   - notturno
 - id: 0e32e9d9-dbd8-4dfb-84d9-6abb74a5dc36
+  sort_id: 670
   title: L'ombra del sole giallo
   width_cm: 50
   height_cm: 35
@@ -237,6 +271,7 @@
   - paesaggio
   - notturno
 - id: 0e75bcee-39c4-4c2d-a0e9-8490a6584518
+  sort_id: 61
   title: L’Ombra dei Passaggi
   width_cm: 60
   height_cm: 50
@@ -244,6 +279,7 @@
   - città
   - notturno
 - id: 0eb216b0-a55b-44fc-8fd7-92d260afcecb
+  sort_id: 643
   title: L'alba sul lago d'ombra
   width_cm: 50
   height_cm: 30
@@ -251,6 +287,7 @@
   - paesaggio
   - notturno
 - id: 0ecc96fe-5a60-4169-9042-6498d985eeaf
+  sort_id: 416
   title: L'Ultimo Silenzio al Vetro
   width_cm: 30
   height_cm: 20
@@ -258,6 +295,7 @@
   - interni
   - notturno
 - id: 0f8f96e5-3507-4ed4-903c-c896ec512cc5
+  sort_id: 378
   title: Luna sul Lago Notturno
   width_cm: 50
   height_cm: 40
@@ -265,6 +303,7 @@
   - paesaggio
   - notturno
 - id: 0fec0853-af06-406d-b52b-be3384be3032
+  sort_id: 537
   title: L'ombra del balcone dorato
   width_cm: 60
   height_cm: 40
@@ -272,6 +311,7 @@
   - paesaggio
   - città
 - id: 10ebd18c-f846-4b22-8555-acaeb8069576
+  sort_id: 394
   title: Circoli d’ombra e luce
   width_cm: 50
   height_cm: 60
@@ -279,6 +319,7 @@
   - paesaggio
   - fiori
 - id: 1128216e-9378-41f2-a2bb-c97a55a5b23d
+  sort_id: 432
   title: L’Ombra dei Colori Sospesi
   width_cm: 50
   height_cm: 35
@@ -286,6 +327,7 @@
   - astratto
   - interni
 - id: 120ed006-ac24-4c65-8f38-f1c3a9354095
+  sort_id: 573
   title: L'ombra dei fiori e la voce del paesaggio
   width_cm: 80
   height_cm: 45
@@ -293,6 +335,7 @@
   - paesaggio
   - città
 - id: 12d05153-b0c0-44f3-b95d-faf7c79fa18e
+  sort_id: 437
   title: L'Ultimo Sorso del Silenzio
   width_cm: 40
   height_cm: 50
@@ -300,6 +343,7 @@
   - paesaggio
   - città
 - id: 13429b29-53d5-4be3-b13c-e9101f80219b
+  sort_id: 26
   title: Rifugio Porti Cluni
   width_cm: 60
   height_cm: 40
@@ -307,6 +351,7 @@
   - interni
   - notturno
 - id: 1357555b-94d0-423f-9a4c-b094fc49f906
+  sort_id: 215
   title: Rivoli di Vita Blu
   width_cm: 60
   height_cm: 40
@@ -314,6 +359,7 @@
   - ritratto
   - astratto
 - id: 13c91c3a-4eff-47c7-a552-6b7228c87155
+  sort_id: 460
   title: L'Ultimo Sorso di Azzurro
   width_cm: 70
   height_cm: 40
@@ -321,6 +367,7 @@
   - interni
   - astratto
 - id: 13da3774-6547-45fa-aaaa-cb0865c42e4a
+  sort_id: 156
   title: L'ombra della città al crepuscolo
   width_cm: 60
   height_cm: 40
@@ -328,6 +375,7 @@
   - città
   - notturno
 - id: 13e501f8-1ed2-479a-863d-3225ba475970
+  sort_id: 212
   title: Ritratto di Luce e Ombra
   width_cm: 50
   height_cm: 40
@@ -335,6 +383,7 @@
   - città
   - notturno
 - id: 141cbd84-eb2a-494e-89b4-911bf3988a02
+  sort_id: 666
   title: L’Ombra del Sole
   width_cm: 60
   height_cm: 50
@@ -342,6 +391,7 @@
   - paesaggio
   - notturno
 - id: 142669de-7a6d-43bd-8dfc-646711af7b32
+  sort_id: 41
   title: L’Ombra dei Segni
   width_cm: 50
   height_cm: 40
@@ -349,6 +399,7 @@
   - città
   - interni
 - id: 14275cd6-90e9-4df8-818b-e802d22734ff
+  sort_id: 74
   title: L'Ultimo Viaggio al Cinema
   width_cm: 50
   height_cm: 35
@@ -356,6 +407,7 @@
   - città
   - notturno
 - id: 14871472-f844-42a5-94ba-86631bae7942
+  sort_id: 414
   title: Fiori nel Silenzio
   width_cm: 50
   height_cm: 35
@@ -363,6 +415,7 @@
   - paesaggio
   - ritratto
 - id: 160dd7a5-4c10-4018-8001-3b795c408042
+  sort_id: 447
   title: L'Ultimo Colloquio al Buio
   width_cm: 50
   height_cm: 35
@@ -370,6 +423,7 @@
   - interni
   - notturno
 - id: 16d6ad93-bfed-4890-a937-8e32399e702a
+  sort_id: 521
   title: L’Ultimo Raggio di Luce su Fiori e Silenzio
   width_cm: 30
   height_cm: 20
@@ -377,6 +431,7 @@
   - paesaggio
   - fiori
 - id: 16e22def-e998-49fa-8b9b-d1ecb2c32e14
+  sort_id: 411
   title: L'ombra del tramonto e il segreto del PLD
   width_cm: 50
   height_cm: 30
@@ -384,6 +439,7 @@
   - paesaggio
   - notturno
 - id: 17195db6-7544-422a-a71c-cd72f730b603
+  sort_id: 532
   title: L'alba del serpente urbano
   width_cm: 50
   height_cm: 35
@@ -391,6 +447,7 @@
   - paesaggio
   - città
 - id: 178fafe5-47fc-458c-a712-5e5f3243fdd8
+  sort_id: 545
   title: L'Uomo del Punto Blu
   width_cm: 40
   height_cm: 50
@@ -398,6 +455,7 @@
   - paesaggio
   - città
 - id: 17993306-0c77-4dcb-a53c-5f3f625f6691
+  sort_id: 424
   title: L’Atelier dei Fiori e del Silenzio
   width_cm: 50
   height_cm: 30
@@ -405,6 +463,7 @@
   - paesaggio
   - fiori
 - id: 17e5b396-292f-4a8d-9eb2-b0615565a565
+  sort_id: 281
   title: 'Occhi sul divano: umori di un salotto interrotto'
   width_cm: 50
   height_cm: 30
@@ -412,6 +471,7 @@
   - interni
   - notturno
 - id: 1873c5e4-e256-4dd5-9b65-080e3206eb1b
+  sort_id: 22
   title: L'Ultimo Tramonto del Silenzio
   width_cm: 50
   height_cm: 35
@@ -419,6 +479,7 @@
   - paesaggio
   - città
 - id: 18b18b92-3e8f-4bca-b6a8-d918286cec73
+  sort_id: 395
   title: Frutti d’ombra e luce sospesa
   width_cm: 60
   height_cm: 40
@@ -426,6 +487,7 @@
   - astratto
   - natura morta
 - id: 19266cd9-33ad-4afa-8c55-cbbdbe6b49f5
+  sort_id: 128
   title: 'Grigio: Riflessi di un Mondo Inquieto'
   width_cm: 60
   height_cm: 40
@@ -433,6 +495,7 @@
   - astratto
   - notturno
 - id: 192c8fb8-778b-48fd-8d8a-b5a6b9f8c92a
+  sort_id: 403
   title: L'Ultimo Raggio di Luna
   width_cm: 40
   height_cm: 50
@@ -440,6 +503,7 @@
   - notturno
   - città
 - id: 194f1d01-9e00-4472-bc07-f91b552d00e1
+  sort_id: 185
   title: L’Ombra dei Luoghi Inquieti
   width_cm: 50
   height_cm: 40
@@ -447,6 +511,7 @@
   - città
   - notturno
 - id: 19fea230-e53d-496c-80cb-72ea82574aa5
+  sort_id: 480
   title: Circoli d’oro e cielo azzurro
   width_cm: 40
   height_cm: 50
@@ -454,6 +519,7 @@
   - astratto
   - natura morta
 - id: 1adb2b14-e5fc-4130-81b9-d6bec36bb14f
+  sort_id: 589
   title: Ondata di Riflessi
   width_cm: 70
   height_cm: 40
@@ -461,6 +527,7 @@
   - paesaggio
   - notturno
 - id: 1b631451-8163-4b0b-a359-916cba0749bd
+  sort_id: 567
   title: Fiori sul vetro della città
   width_cm: 35
   height_cm: 25
@@ -468,6 +535,7 @@
   - paesaggio
   - fiori
 - id: 1b867629-21c2-497f-84ee-573787918a05
+  sort_id: 647
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 30
@@ -475,6 +543,7 @@
   - paesaggio
   - fiori
 - id: 1c1607d9-3bd1-4243-a275-854f9136a827
+  sort_id: 72
   title: L'Ultimo Tram per il Cuore
   width_cm: 50
   height_cm: 40
@@ -482,6 +551,7 @@
   - città
   - notturno
 - id: 1ca26da7-990e-4d5d-b683-a66291c3f990
+  sort_id: 109
   title: L'Ultimo Silenzio della Porta Blu
   width_cm: 40
   height_cm: 30
@@ -489,6 +559,7 @@
   - paesaggio
   - città
 - id: 1d70a8e2-8365-47d9-be8b-5600ca236d1a
+  sort_id: 276
   title: L'Atto del Silenzio
   width_cm: 50
   height_cm: 35
@@ -496,6 +567,7 @@
   - interni
   - notturno
 - id: 1d71b6ec-d924-4f47-8057-f7a20cf514f8
+  sort_id: 385
   title: L'aquila del silenzio industriale
   width_cm: 50
   height_cm: 40
@@ -503,6 +575,7 @@
   - paesaggio
   - notturno
 - id: 1de43080-c53a-45af-ac05-d91f5d7b6bd9
+  sort_id: 533
   title: L'alba dei petali urbani
   width_cm: 60
   height_cm: 80
@@ -510,6 +583,7 @@
   - paesaggio
   - notturno
 - id: 1ebd0037-6337-4a1a-91c0-f19d036b7365
+  sort_id: 301
   title: L'Occhio della Sfera
   width_cm: 50
   height_cm: 35
@@ -517,6 +591,7 @@
   - interni
   - paesaggio
 - id: 1ee7991a-e359-4089-8a86-e031726153cd
+  sort_id: 196
   title: L’Ombra degli Archi
   width_cm: 50
   height_cm: 35
@@ -524,6 +599,7 @@
   - astratto
   - interni
 - id: 1f1eeaba-3101-43b9-b373-cf7676e4f9fa
+  sort_id: 119
   title: Riflessi di un Mondo Inquieto
   width_cm: 40
   height_cm: 50
@@ -531,6 +607,7 @@
   - interni
   - astratto
 - id: 1fd760e2-31cf-40b4-9f56-b2805ef962f4
+  sort_id: 121
   title: Ritratti di Lettere
   width_cm: 80
   height_cm: 60
@@ -538,6 +615,7 @@
   - astratto
   - città
 - id: 20357d39-a396-4c51-89ba-6844ed8af70a
+  sort_id: 70
   title: L’Ombra dei Luoghi che Non Siamo
   width_cm: 50
   height_cm: 35
@@ -545,6 +623,7 @@
   - città
   - notturno
 - id: 229f0f3f-c0d6-44d9-ba60-20048ba4d75d
+  sort_id: 146
   title: L'ombra del segno
   width_cm: 50
   height_cm: 30
@@ -552,6 +631,7 @@
   - paesaggio
   - città
 - id: 22c4c41b-caf4-47ea-a8cf-3646a3d47741
+  sort_id: 7
   title: L’Ultimo Viaggio al Crepuscolo
   width_cm: 50
   height_cm: 30
@@ -559,6 +639,7 @@
   - paesaggio
   - città
 - id: 2321d1a2-3e54-43dc-bbbc-5c479d0db703
+  sort_id: 453
   title: L'Ultimo Sorso di Sole
   width_cm: 50
   height_cm: 40
@@ -566,6 +647,7 @@
   - paesaggio
   - città
 - id: 23d0ab01-6f12-49b5-b8f2-6f3933fbcfc2
+  sort_id: 400
   title: L'Ultimo Riflesso del Cielo
   width_cm: 50
   height_cm: 35
@@ -573,6 +655,7 @@
   - paesaggio
   - notturno
 - id: 2426eecb-bfc7-47ad-8787-20b74cbbac14
+  sort_id: 525
   title: Occhi di Petunia
   width_cm: 60
   height_cm: 50
@@ -580,6 +663,7 @@
   - natura morta
   - fiori
 - id: 2462c458-65c2-4f9e-ad2a-ed84ebd8b402
+  sort_id: 310
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -587,6 +671,7 @@
   - interni
   - città
 - id: 24c423e9-ae4a-4de7-a612-96b302fe9fbb
+  sort_id: 239
   title: L'Occhio della Memoria
   width_cm: 40
   height_cm: 50
@@ -594,6 +679,7 @@
   - ritratto
   - notturno
 - id: 24cbf61a-c3e3-46b1-a803-25f0240aa165
+  sort_id: 186
   title: L’Ombra dei Luoghi Inquieti
   width_cm: 50
   height_cm: 35
@@ -601,6 +687,7 @@
   - città
   - notturno
 - id: 26838976-6e67-4517-866c-155391dcb35f
+  sort_id: 575
   title: L'Ultimo Sorriso di un Estate Blu
   width_cm: 60
   height_cm: 50
@@ -608,6 +695,7 @@
   - paesaggio
   - fiori
 - id: 26d4359a-da9b-4827-9b75-89a612cea8ce
+  sort_id: 515
   title: Ritratto di Luce e Fiamma
   width_cm: 70
   height_cm: 40
@@ -615,6 +703,7 @@
   - natura morta
   - fiori
 - id: 26f47743-b3bc-4e59-8338-f67d8ce29488
+  sort_id: 355
   title: L'Ultimo Sorso della Luna
   width_cm: 50
   height_cm: 40
@@ -622,6 +711,7 @@
   - notturno
   - interni
 - id: 27535c16-d520-4b3a-b853-b52c7378b5fc
+  sort_id: 366
   title: L'Ultimo Riflesso del Sereno
   width_cm: 50
   height_cm: 30
@@ -629,6 +719,7 @@
   - paesaggio
   - notturno
 - id: 27586c46-030e-4519-87aa-57f682c21409
+  sort_id: 203
   title: Ondata di Pendio
   width_cm: 50
   height_cm: 40
@@ -636,6 +727,7 @@
   - astratto
   - notturno
 - id: 281e8592-707c-4c00-94ef-e018f5438f03
+  sort_id: 106
   title: Occhi tra vetri e ombre
   width_cm: 50
   height_cm: 30
@@ -643,6 +735,7 @@
   - città
   - notturno
 - id: 28547114-6445-4a0a-9753-0a3193a6b7fc
+  sort_id: 551
   title: L'Uomo e il Sole che Sceglie
   width_cm: 40
   height_cm: 50
@@ -650,6 +743,7 @@
   - paesaggio
   - notturno
 - id: 2892a2c5-4773-481a-a0e7-34320a9d42a9
+  sort_id: 634
   title: L’Ultimo Tramonto di Pietra
   width_cm: 50
   height_cm: 30
@@ -657,6 +751,7 @@
   - paesaggio
   - città
 - id: 2a7b6077-bb9f-4924-b86a-9dad5019b976
+  sort_id: 407
   title: L'alba del Silenzio
   width_cm: 60
   height_cm: 40
@@ -664,6 +759,7 @@
   - paesaggio
   - notturno
 - id: 2bde8a88-9abc-44c5-82e9-856a1de35c56
+  sort_id: 142
   title: L'ombra dei segni rossi
   width_cm: 70
   height_cm: 40
@@ -671,6 +767,7 @@
   - paesaggio
   - città
 - id: 2c13328c-7cef-4eed-a48d-513c03f9832a
+  sort_id: 93
   title: L'Ora dei Cinque
   width_cm: 50
   height_cm: 30
@@ -678,6 +775,7 @@
   - città
   - notturno
 - id: 2c3dc3c7-605a-4fc6-bb55-5d9d9ae29cc6
+  sort_id: 104
   title: L'Ultimo Riflesso della Luce
   width_cm: 60
   height_cm: 50
@@ -685,6 +783,7 @@
   - paesaggio
   - città
 - id: 2c5d37a7-6519-4777-b45d-1a9da4a31743
+  sort_id: 520
   title: Risveglio d'Oro
   width_cm: 50
   height_cm: 40
@@ -692,6 +791,7 @@
   - fiori
   - interni
 - id: 2c75808b-e542-40e1-a1bd-71bd42b4fc6d
+  sort_id: 408
   title: L’Ultimo Tramonto di Neve
   width_cm: 50
   height_cm: 30
@@ -699,6 +799,7 @@
   - paesaggio
   - notturno
 - id: 2c805a7f-9a9d-4491-a231-fb0f16639e61
+  sort_id: 180
   title: L'ombra del domani
   width_cm: 50
   height_cm: 40
@@ -706,6 +807,7 @@
   - paesaggio
   - città
 - id: 2dd7e187-14e1-4648-a843-fcb9318af7e0
+  sort_id: 189
   title: L'ombra dei muri silenti
   width_cm: 60
   height_cm: 40
@@ -713,6 +815,7 @@
   - paesaggio
   - città
 - id: 2e265a3f-cf25-4a10-9dfe-5ba0d5d5b6d3
+  sort_id: 544
   title: Riflessi di un cielo bruciato
   width_cm: 40
   height_cm: 50
@@ -720,6 +823,7 @@
   - astratto
   - notturno
 - id: 2e5425bf-22dd-4aa2-b3cf-ce0baa46885e
+  sort_id: 496
   title: L’Ombra dei Colori Vivaci
   width_cm: 60
   height_cm: 40
@@ -727,6 +831,7 @@
   - paesaggio
   - natura morta
 - id: 2fe4bd55-9cce-42bc-baec-15329ba1bd3e
+  sort_id: 591
   title: L'Uomo e la Città che Aspetta
   width_cm: 40
   height_cm: 30
@@ -734,6 +839,7 @@
   - paesaggio
   - città
 - id: 306a07c3-8065-42c4-bdbc-d4e6dbc64c17
+  sort_id: 429
   title: L'Ultimo Sorso di Sole
   width_cm: 60
   height_cm: 50
@@ -741,6 +847,7 @@
   - paesaggio
   - ritratto
 - id: 311241d5-a533-4af2-afcf-4b7e998667d9
+  sort_id: 455
   title: Sogno di Sottoferra
   width_cm: 80
   height_cm: 60
@@ -748,6 +855,7 @@
   - città
   - notturno
 - id: 32344fd9-5682-4b83-b48f-4c8704f2b4b0
+  sort_id: 474
   title: L’ombra del fiore sul vetro caldo
   width_cm: 50
   height_cm: 40
@@ -755,6 +863,7 @@
   - natura morta
   - fiori
 - id: 324a5847-475c-47d9-bf65-57c38c08bdd4
+  sort_id: 481
   title: L’Ombra del Caffè e il Sole che Scompare
   width_cm: 30
   height_cm: 20
@@ -762,6 +871,7 @@
   - interni
   - natura morta
 - id: 32a29a76-5478-4254-bb7c-c38946a4819f
+  sort_id: 584
   title: L'ultimo tramonto sullo specchio del mondo
   width_cm: 70
   height_cm: 40
@@ -769,6 +879,7 @@
   - paesaggio
   - città
 - id: 32e6a437-51bb-4553-9375-f87cb6c77635
+  sort_id: 452
   title: L'Ultimo Fiore sul Cucchiaio Blu
   width_cm: 50
   height_cm: 35
@@ -776,6 +887,7 @@
   - paesaggio
   - interni
 - id: 3311f086-b089-4cfe-8b1f-42daa971fc9b
+  sort_id: 94
   title: L'ombra dei segni luminosi
   width_cm: 50
   height_cm: 30
@@ -783,6 +895,7 @@
   - interni
   - notturno
 - id: 3325997c-ac9a-448e-a653-f0b121d14648
+  sort_id: 513
   title: L'Ultimo Riflesso del Sole
   width_cm: 30
   height_cm: 20
@@ -790,6 +903,7 @@
   - paesaggio
   - fiori
 - id: 33fda469-a4f5-4beb-ba9d-5fb224465e7e
+  sort_id: 373
   title: L’Ombra del Silenzio
   width_cm: 70
   height_cm: 50
@@ -797,6 +911,7 @@
   - notturno
   - astratto
 - id: 34526b35-afc4-4bc9-915d-f6a7d833c66c
+  sort_id: 118
   title: Riflessi di Cronotopo
   width_cm: 50
   height_cm: 35
@@ -804,6 +919,7 @@
   - città
   - notturno
 - id: 34e06efd-3760-46a6-8f02-da9d206eeb1b
+  sort_id: 273
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 35
@@ -811,6 +927,7 @@
   - interni
   - notturno
 - id: 35b08de0-d81e-490a-9cc8-3f652660e328
+  sort_id: 12
   title: L'Ultimo Viaggio al Crepuscolo
   width_cm: 70
   height_cm: 40
@@ -818,6 +935,7 @@
   - paesaggio
   - città
 - id: 360aebbc-50ee-4a5f-b348-0889965703a9
+  sort_id: 331
   title: Frutti d'inverno sul tetto blu
   width_cm: 60
   height_cm: 40
@@ -825,6 +943,7 @@
   - natura morta
   - fiori
 - id: 36512a42-680c-45a4-a280-e721da5bd2a8
+  sort_id: 543
   title: L'Occhio del Collettivo
   width_cm: 50
   height_cm: 60
@@ -832,6 +951,7 @@
   - paesaggio
   - città
 - id: 3692f6c4-4d9b-4131-8e40-ff2ef5990ce4
+  sort_id: 347
   title: Luce sul Silenzio
   width_cm: 30
   height_cm: 20
@@ -839,6 +959,7 @@
   - paesaggio
   - notturno
 - id: 36a5aae9-e079-462b-8991-7a4118dd2d47
+  sort_id: 381
   title: Luce del Sogno e Serpente d'Oro
   width_cm: 50
   height_cm: 30
@@ -846,6 +967,7 @@
   - notturno
   - paesaggio
 - id: 370e580b-afff-44e9-afeb-2fc4b2814898
+  sort_id: 583
   title: Ritratto dal balcone
   width_cm: 40
   height_cm: 50
@@ -853,6 +975,7 @@
   - paesaggio
   - città
 - id: 373e920d-3753-4f99-9d0b-7745e3f25522
+  sort_id: 324
   title: Soglie di Luce
   width_cm: 50
   height_cm: 35
@@ -860,6 +983,7 @@
   - astratto
   - notturno
 - id: 3765dc1d-5119-462c-bda4-2b0ceafa1407
+  sort_id: 504
   title: Riflessi d’Ombra
   width_cm: 60
   height_cm: 40
@@ -867,6 +991,7 @@
   - paesaggio
   - natura morta
 - id: 376d3940-ee2b-4f48-8d0e-dcf92b6d4378
+  sort_id: 369
   title: Sfere d'Oro e Blu del Silenzio
   width_cm: 60
   height_cm: 80
@@ -874,6 +999,7 @@
   - astratto
   - notturno
 - id: 37ad85b0-610c-46e8-a949-0f0d887597d2
+  sort_id: 132
   title: L'ombra del Poste
   width_cm: 40
   height_cm: 30
@@ -881,6 +1007,7 @@
   - città
   - notturno
 - id: 37b83a95-1102-4481-b21b-20f45f7e5106
+  sort_id: 135
   title: L'Ultimo Sogno al Supermercato
   width_cm: 40
   height_cm: 30
@@ -888,6 +1015,7 @@
   - città
   - notturno
 - id: 37d9dc22-3899-49eb-bfec-b86fe74aec95
+  sort_id: 262
   title: L'Ultimo Silenzio della Città
   width_cm: 50
   height_cm: 35
@@ -895,6 +1023,7 @@
   - città
   - notturno
 - id: 37eb1947-a66b-4778-b697-cb8985fe245d
+  sort_id: 78
   title: L'ombra dei luccichii
   width_cm: 50
   height_cm: 40
@@ -902,6 +1031,7 @@
   - città
   - notturno
 - id: 3813aeb4-e892-4429-b6d0-b7a5994cd25c
+  sort_id: 260
   title: L'Ultimo Riflesso
   width_cm: 60
   height_cm: 40
@@ -909,6 +1039,7 @@
   - ritratto
   - notturno
 - id: 388680f9-a706-401e-953e-3329589f9d54
+  sort_id: 421
   title: L'Ultimo Sorso di Verità
   width_cm: 50
   height_cm: 35
@@ -916,6 +1047,7 @@
   - paesaggio
   - ritratto
 - id: 3960d44e-c02d-4313-8216-6ea6505a4b80
+  sort_id: 244
   title: L’Abisso dei Tentacoli
   width_cm: 30
   height_cm: 20
@@ -923,6 +1055,7 @@
   - paesaggio
   - notturno
 - id: 3a54c3c9-cc71-4bec-bde9-47d47e358cc6
+  sort_id: 655
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 30
@@ -930,6 +1063,7 @@
   - paesaggio
   - fiori
 - id: 3aadbcab-37ed-4d17-a878-f0d6383079d1
+  sort_id: 206
   title: Occhi nella nebbia del tempo
   width_cm: 50
   height_cm: 35
@@ -937,6 +1071,7 @@
   - città
   - notturno
 - id: 3bf53fac-d156-410f-88af-a0a0628bbe00
+  sort_id: 161
   title: L'Uomo che guarda il Passato
   width_cm: 70
   height_cm: 40
@@ -944,6 +1079,7 @@
   - paesaggio
   - città
 - id: 3c0324f5-f38f-4b91-abed-90c51cfc5748
+  sort_id: 145
   title: Ombra di un Passaggio
   width_cm: 50
   height_cm: 35
@@ -951,6 +1087,7 @@
   - paesaggio
   - città
 - id: 3c62c1fc-4122-4eaf-b1c6-6b4879905d46
+  sort_id: 656
   title: L'ultimo tramonto d'autunno
   width_cm: 50
   height_cm: 40
@@ -958,6 +1095,7 @@
   - paesaggio
   - notturno
 - id: 3c98c613-b4aa-40d1-98c3-60d2cc680ea4
+  sort_id: 55
   title: L’Ombra dei Luoghi che Non Soffrono
   width_cm: 50
   height_cm: 30
@@ -965,6 +1103,7 @@
   - paesaggio
   - città
 - id: 3cb81ae3-0212-424c-a5af-fdb8f9e9e939
+  sort_id: 150
   title: Fiori tra il rumore della città
   width_cm: 30
   height_cm: 20
@@ -972,6 +1111,7 @@
   - paesaggio
   - città
 - id: 3d5d65e4-e047-4648-88eb-3f5b4dfa597c
+  sort_id: 561
   title: Fiori al Limite della Vita
   width_cm: 50
   height_cm: 30
@@ -979,6 +1119,7 @@
   - natura morta
   - fiori
 - id: 3dbf353e-00f2-40d4-a1b6-4ca11f61e9db
+  sort_id: 580
   title: L'Uomo e le Spirali del Tempo
   width_cm: 40
   height_cm: 30
@@ -986,6 +1127,7 @@
   - paesaggio
   - notturno
 - id: 3e51fa97-266f-4b18-ab70-f3b518c98a03
+  sort_id: 527
   title: Occhio di Rosa
   width_cm: 50
   height_cm: 60
@@ -993,6 +1135,7 @@
   - fiori
   - ritratto
 - id: 3e6eb6c4-cecd-4cfc-b5c9-3b7dc545060f
+  sort_id: 464
   title: L’Ombra dei Frutti
   width_cm: 50
   height_cm: 35
@@ -1000,6 +1143,7 @@
   - natura morta
   - paesaggio
 - id: 3e82715e-105f-40d0-a302-590b943d319d
+  sort_id: 659
   title: L’Ombra dei Silenziosi
   width_cm: 30
   height_cm: 40
@@ -1007,6 +1151,7 @@
   - paesaggio
   - città
 - id: 3ef8e94f-8a18-4938-80cf-4f1b4231585d
+  sort_id: 8
   title: L'attesa del treno
   width_cm: 60
   height_cm: 40
@@ -1014,6 +1159,7 @@
   - paesaggio
   - notturno
 - id: 3f0785a5-13b8-4bc9-b6a8-8e680bdb31c7
+  sort_id: 644
   title: L’alba sul lago d’ombra
   width_cm: 50
   height_cm: 30
@@ -1021,6 +1167,7 @@
   - paesaggio
   - notturno
 - id: 3fb61ff0-d019-4451-aff7-3f9187b24a58
+  sort_id: 50
   title: 'Plein Lumière: L’ombra della città al crepuscolo'
   width_cm: 80
   height_cm: 60
@@ -1028,6 +1175,7 @@
   - città
   - notturno
 - id: 3fedd1ca-f363-43d0-8c13-e23a96fb8ae7
+  sort_id: 14
   title: L'Appuntamento al Passato
   width_cm: 60
   height_cm: 40
@@ -1035,6 +1183,7 @@
   - paesaggio
   - città
 - id: 40a591d3-5b99-4c2f-be04-984f2fe52fb2
+  sort_id: 230
   title: Soglio del Silenzio
   width_cm: 20
   height_cm: 30
@@ -1042,6 +1191,7 @@
   - ritratto
   - astratto
 - id: 40ee99bb-80eb-49c2-8a70-e87b35f65c42
+  sort_id: 315
   title: Cicli d’ombra e luce
   width_cm: 50
   height_cm: 35
@@ -1049,6 +1199,7 @@
   - astratto
   - città
 - id: 41704633-aa89-429d-82f1-d42a72c5a7b9
+  sort_id: 673
   title: Risveglio del Cuore di Cielo
   width_cm: 50
   height_cm: 35
@@ -1056,6 +1207,7 @@
   - paesaggio
   - notturno
 - id: 41901393-c9d9-4036-8b75-71b564e30373
+  sort_id: 278
   title: Cartomancie al sole
   width_cm: 60
   height_cm: 40
@@ -1063,6 +1215,7 @@
   - interni
   - città
 - id: 42409c2a-2ac0-4a13-95d9-00cb56cdac31
+  sort_id: 438
   title: Ombra e Luce in Transit
   width_cm: 60
   height_cm: 50
@@ -1070,6 +1223,7 @@
   - astratto
   - interni
 - id: 427e86a3-5e5b-4bf1-b77c-3c32384ee70f
+  sort_id: 256
   title: L'Ultimo Riflesso della Luna
   width_cm: 40
   height_cm: 50
@@ -1077,6 +1231,7 @@
   - notturno
   - interni
 - id: 43318959-46a1-4e54-86e7-cc347a4195d0
+  sort_id: 229
   title: Riflesso di città
   width_cm: 40
   height_cm: 50
@@ -1084,6 +1239,7 @@
   - ritratto
   - città
 - id: 43ddac78-b673-4e21-a71f-3cb33e8151cd
+  sort_id: 34
   title: L’Ombra del Corso
   width_cm: 40
   height_cm: 50
@@ -1091,6 +1247,7 @@
   - città
   - notturno
 - id: 44fe665f-e4b1-4b3f-bc85-bbbc48d873e5
+  sort_id: 342
   title: Luce tra ombre e vetri
   width_cm: 40
   height_cm: 50
@@ -1098,6 +1255,7 @@
   - paesaggio
   - notturno
 - id: 4523dd26-4f6b-49a1-945a-d6a27afcc567
+  sort_id: 386
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 35
@@ -1105,6 +1263,7 @@
   - astratto
   - interni
 - id: 4553d749-3eeb-4b7c-bc44-3eec2fc1c198
+  sort_id: 379
   title: Luce tra le ombre di vetro
   width_cm: 50
   height_cm: 60
@@ -1112,6 +1271,7 @@
   - notturno
   - interni
 - id: 457a663a-3f79-4035-aead-19698f4ea0a0
+  sort_id: 577
   title: L'Ultimo Colleggio d'Inverno
   width_cm: 60
   height_cm: 50
@@ -1119,6 +1279,7 @@
   - paesaggio
   - fiori
 - id: 45e537eb-3525-4b88-bf07-0fd02b864af9
+  sort_id: 528
   title: Fiori nel Silenzio della Luce
   width_cm: 60
   height_cm: 40
@@ -1126,6 +1287,7 @@
   - paesaggio
   - fiori
 - id: 45f05347-0c70-4475-8030-6af8c787b634
+  sort_id: 235
   title: L'Ultimo Sorso
   width_cm: 40
   height_cm: 50
@@ -1133,6 +1295,7 @@
   - ritratto
   - notturno
 - id: 45f75e4b-0e55-449c-b1a5-08b8d04c35a7
+  sort_id: 183
   title: L’Ombra dei Luoghi Inquieti
   width_cm: 50
   height_cm: 40
@@ -1140,6 +1303,7 @@
   - città
   - notturno
 - id: 463170d7-d09a-40f3-90e9-c9a5af32514a
+  sort_id: 4
   title: L'ombra del tramonto urbano
   width_cm: 70
   height_cm: 40
@@ -1147,6 +1311,7 @@
   - città
   - notturno
 - id: 466a2490-e1f9-4e86-bca8-f58742079518
+  sort_id: 578
   title: Albatros sul Silenzio Urbano
   width_cm: 40
   height_cm: 50
@@ -1154,6 +1319,7 @@
   - paesaggio
   - città
 - id: 46aa6368-f144-4f7e-af7b-e331ca775a21
+  sort_id: 25
   title: Notte a due passi da casa
   width_cm: 80
   height_cm: 45
@@ -1161,6 +1327,7 @@
   - città
   - notturno
 - id: 46e9eba8-36e0-4527-91d8-c6f6178ade9e
+  sort_id: 284
   title: Murmurii del Caffè Gostino
   width_cm: 40
   height_cm: 55
@@ -1168,6 +1335,7 @@
   - paesaggio
   - città
 - id: 47775df6-7255-4218-a312-e93a4b5d831f
+  sort_id: 248
   title: Maternità d'Aurora
   width_cm: 40
   height_cm: 50
@@ -1175,6 +1343,7 @@
   - ritratto
   - notturno
 - id: 47bece35-029e-489b-b3f4-12b38247fb95
+  sort_id: 648
   title: L'Uovo del Crepuscolo
   width_cm: 70
   height_cm: 50
@@ -1182,6 +1351,7 @@
   - paesaggio
   - fiori
 - id: 47c75bf8-40e5-43f6-acf5-00df2b791c76
+  sort_id: 120
   title: Riflessi di Cronologia
   width_cm: 50
   height_cm: 35
@@ -1189,6 +1359,7 @@
   - città
   - notturno
 - id: 47f466ba-194e-4ce1-8739-bbfbd29fc0e4
+  sort_id: 603
   title: L'Ultimo Viaggio d'Oro
   width_cm: 50
   height_cm: 30
@@ -1196,6 +1367,7 @@
   - paesaggio
   - notturno
 - id: 48878c90-9b6a-4f8f-b90f-8af4b5a1170d
+  sort_id: 335
   title: L’Ombra dei Canti del Silenzio
   width_cm: 60
   height_cm: 40
@@ -1203,6 +1375,7 @@
   - paesaggio
   - città
 - id: 48934637-baca-4afd-96c2-f81f6fb3d599
+  sort_id: 539
   title: L'Ultimo Silenzio del Focolare
   width_cm: 50
   height_cm: 40
@@ -1210,6 +1383,7 @@
   - paesaggio
   - notturno
 - id: 48ebe527-6c28-4eba-b64b-ceab990c8967
+  sort_id: 629
   title: L'alba su un borgo di sogni
   width_cm: 30
   height_cm: 20
@@ -1217,6 +1391,7 @@
   - paesaggio
   - fiori
 - id: 49db8d80-22af-42e9-b176-e5d8632ead1f
+  sort_id: 423
   title: L'Ultimo Raggio di Sole sul Divano
   width_cm: 50
   height_cm: 40
@@ -1224,6 +1399,7 @@
   - interni
   - notturno
 - id: 4a7d0208-9355-41fa-9ffc-41b1ac389c84
+  sort_id: 251
   title: Occhio al Passato
   width_cm: 40
   height_cm: 50
@@ -1231,6 +1407,7 @@
   - paesaggio
   - città
 - id: 4a9db7c0-1ff1-4df0-8f06-92d012f9aa76
+  sort_id: 365
   title: Circoli d’Ombra e Luce
   width_cm: 50
   height_cm: 35
@@ -1238,6 +1415,7 @@
   - astratto
   - paesaggio
 - id: 4aa64741-c431-4b33-adec-1c5f9e375d42
+  sort_id: 110
   title: Caffè al Crepuscolo
   width_cm: 50
   height_cm: 35
@@ -1245,6 +1423,7 @@
   - città
   - notturno
 - id: 4aa679ee-0ef1-478d-afab-1e698e91dde3
+  sort_id: 512
   title: L’Ombra del Fiore
   width_cm: 35
   height_cm: 50
@@ -1252,6 +1431,7 @@
   - paesaggio
   - fiori
 - id: 4add218a-aaa4-4099-87e8-edfb0015a5a8
+  sort_id: 20
   title: L'Attesa del Silenzio
   width_cm: 60
   height_cm: 40
@@ -1259,6 +1439,7 @@
   - paesaggio
   - notturno
 - id: 4afa1ff4-a8d2-4ef4-9001-541c897c43ff
+  sort_id: 570
   title: L'Ultimo Sorso di Sole
   width_cm: 50
   height_cm: 30
@@ -1266,6 +1447,7 @@
   - paesaggio
   - fiori
 - id: 4b2cc7bd-e454-487c-94e6-d7fbf54cd54c
+  sort_id: 45
   title: L’Ombra dei Luoghi che Parlano
   width_cm: 50
   height_cm: 30
@@ -1273,6 +1455,7 @@
   - paesaggio
   - città
 - id: 4b726935-e4ca-4271-8578-d5608b89ce6b
+  sort_id: 165
   title: L’Ombra del Tramonto
   width_cm: 50
   height_cm: 30
@@ -1280,6 +1463,7 @@
   - città
   - notturno
 - id: 4b8d870f-2416-4fc3-af79-9a21448afe8c
+  sort_id: 290
   title: Due ombre sul terrazzo d'autunno
   width_cm: 50
   height_cm: 30
@@ -1287,6 +1471,7 @@
   - paesaggio
   - città
 - id: 4b91423a-8ba6-49eb-a41c-f70fcd7b4c12
+  sort_id: 313
   title: L'Ultimo Sorso di Caffè
   width_cm: 50
   height_cm: 30
@@ -1294,6 +1479,7 @@
   - interni
   - notturno
 - id: 4c91a142-7eb5-43ba-9293-26a525120bc7
+  sort_id: 44
   title: L'Uomo e la Luce Blu
   width_cm: 40
   height_cm: 50
@@ -1301,6 +1487,7 @@
   - città
   - notturno
 - id: 4cdcbe5f-733c-4592-a75b-e4f455cee284
+  sort_id: 323
   title: Spirale di Luce e Ombra
   width_cm: 50
   height_cm: 35
@@ -1308,6 +1495,7 @@
   - astratto
   - natura morta
 - id: 4ce4cfb6-2970-45a4-9135-b3a03234d4a8
+  sort_id: 31
   title: L’Ombra dei Segni
   width_cm: 50
   height_cm: 40
@@ -1315,6 +1503,7 @@
   - paesaggio
   - città
 - id: 4cf667a7-9d79-45d3-93da-a51382e5fdc6
+  sort_id: 224
   title: Ombre e Colori del Silenzio
   width_cm: 60
   height_cm: 40
@@ -1322,6 +1511,7 @@
   - astratto
   - ritratto
 - id: 4d3b22fd-8b54-4bc3-adfa-ca0843d86f4a
+  sort_id: 105
   title: Nove porte al tramonto
   width_cm: 60
   height_cm: 40
@@ -1329,6 +1519,7 @@
   - paesaggio
   - città
 - id: 4d43bc40-25f8-47b7-ad15-d24ac1f46b87
+  sort_id: 129
   title: L'ombra dei passaggi perduti
   width_cm: 60
   height_cm: 80
@@ -1336,6 +1527,7 @@
   - città
   - notturno
 - id: 4d5ce367-e348-40ee-8321-107a1006de63
+  sort_id: 288
   title: Caffè tra ombre e luce
   width_cm: 70
   height_cm: 40
@@ -1343,6 +1535,7 @@
   - paesaggio
   - città
 - id: 4d74e99c-9094-4d56-996f-f889c3f20b4f
+  sort_id: 92
   title: L’Ombra dei Segni
   width_cm: 50
   height_cm: 35
@@ -1350,6 +1543,7 @@
   - paesaggio
   - città
 - id: 4dac0066-0806-487f-9104-4661fc19fd0d
+  sort_id: 516
   title: Risveglio Primaverile – Luce e Tradizione
   width_cm: 70
   height_cm: 40
@@ -1357,6 +1551,7 @@
   - natura morta
   - fiori
 - id: 4e006625-4bc6-46fa-870c-612335aa0c02
+  sort_id: 191
   title: L’Ombra dei Luoghi Inquieti
   width_cm: 30
   height_cm: 20
@@ -1364,6 +1559,7 @@
   - paesaggio
   - notturno
 - id: 4e808df1-fd9b-4033-b170-794b1928d024
+  sort_id: 88
   title: Ombra e Luce di Tori Bar
   width_cm: 40
   height_cm: 30
@@ -1371,6 +1567,7 @@
   - città
   - notturno
 - id: 4ecbad2a-cf07-41b5-a1a4-df49ae43051d
+  sort_id: 363
   title: L’Ombra del Silenzio
   width_cm: 40
   height_cm: 55
@@ -1378,6 +1575,7 @@
   - astratto
   - notturno
 - id: 4ef43ff9-6cb0-48ce-8d6f-dc214e22e346
+  sort_id: 147
   title: L’Ombra del Fiore
   width_cm: 50
   height_cm: 30
@@ -1385,6 +1583,7 @@
   - paesaggio
   - città
 - id: 4efb766d-fabe-41f4-9494-02a0cc9e4e29
+  sort_id: 233
   title: Mascara di Tenebre
   width_cm: 40
   height_cm: 50
@@ -1392,6 +1591,7 @@
   - ritratto
   - notturno
 - id: 4f6dfcf4-dea1-45ac-a9ea-51e1be622470
+  sort_id: 144
   title: L'ombra di un sogno in via P.
   width_cm: 50
   height_cm: 35
@@ -1399,6 +1599,7 @@
   - paesaggio
   - fiori
 - id: 500934e2-f0a8-4684-aa71-36d9b449f00d
+  sort_id: 627
   title: L’Ombra dei Colori del Mare
   width_cm: 50
   height_cm: 30
@@ -1406,6 +1607,7 @@
   - paesaggio
   - città
 - id: 5012b5e9-3fde-44ad-bd9a-3d5d8803c912
+  sort_id: 576
   title: L'ombra di un cappello azzurro
   width_cm: 60
   height_cm: 50
@@ -1413,6 +1615,7 @@
   - paesaggio
   - fiori
 - id: 501384ca-9808-44e2-b17a-96317c72c454
+  sort_id: 280
   title: L'Ultimo Cenacolo Blu
   width_cm: 40
   height_cm: 50
@@ -1420,6 +1623,7 @@
   - interni
   - ritratto
 - id: 5089a090-4617-42da-92d6-9cc1341542fa
+  sort_id: 397
   title: Luce tra vetri e sogni
   width_cm: 50
   height_cm: 40
@@ -1427,6 +1631,7 @@
   - paesaggio
   - notturno
 - id: 513af41f-be90-4e58-9fd6-aa033e1ffcc7
+  sort_id: 337
   title: Riflessi di Luce Scomposta
   width_cm: 40
   height_cm: 50
@@ -1434,6 +1639,7 @@
   - astratto
   - notturno
 - id: 51e36f73-be8b-4dce-89eb-63e03f7c7fc2
+  sort_id: 182
   title: L'alba dei segni
   width_cm: 30
   height_cm: 20
@@ -1441,6 +1647,7 @@
   - paesaggio
   - città
 - id: 525f1bf8-2a65-4443-8c3c-3202e6b65cbd
+  sort_id: 222
   title: Occhi tra Colori
   width_cm: 60
   height_cm: 40
@@ -1448,6 +1655,7 @@
   - astratto
   - ritratto
 - id: 53816b64-4e82-4250-a824-98827b782b47
+  sort_id: 19
   title: L'Ultimo Tramonto sul Silenzio
   width_cm: 50
   height_cm: 35
@@ -1455,6 +1663,7 @@
   - paesaggio
   - città
 - id: 5424b515-1add-4e84-a839-aa7e90a12a74
+  sort_id: 257
   title: L'Ultimo Riflesso d'Oro
   width_cm: 40
   height_cm: 50
@@ -1462,6 +1671,7 @@
   - interni
   - notturno
 - id: 5470419b-d1a6-4719-b864-6216d932799b
+  sort_id: 392
   title: L'Ultimo Riflesso del Fico
   width_cm: 50
   height_cm: 40
@@ -1469,6 +1679,7 @@
   - astratto
   - notturno
 - id: 5473dc63-62c4-440b-8baa-61fe3f71a8c3
+  sort_id: 637
   title: L’Ombra dei Campi Dorati
   width_cm: 40
   height_cm: 50
@@ -1476,6 +1687,7 @@
   - paesaggio
   - città
 - id: 5503b088-63cd-4efd-ae8f-f3bbaffa2717
+  sort_id: 657
   title: L'orizzonte dorato della memoria
   width_cm: 50
   height_cm: 35
@@ -1483,6 +1695,7 @@
   - paesaggio
   - notturno
 - id: 5556664f-744a-4745-b5e9-543a82b85500
+  sort_id: 29
   title: L'ombra del Ritmo Notturno
   width_cm: 60
   height_cm: 40
@@ -1490,6 +1703,7 @@
   - città
   - notturno
 - id: 5567d02f-f9e1-49d7-b45d-4c0ea5fb7a9b
+  sort_id: 339
   title: Luce che scorre
   width_cm: 50
   height_cm: 35
@@ -1497,6 +1711,7 @@
   - astratto
   - notturno
 - id: 557efa9d-a432-4e98-af63-7aec116e23e7
+  sort_id: 503
   title: Riflessi d'Oro
   width_cm: 30
   height_cm: 20
@@ -1504,6 +1719,7 @@
   - paesaggio
   - natura morta
 - id: 5590c5ed-5165-4c69-9ba7-6e23893258b0
+  sort_id: 630
   title: L’Ultimo Tramonto di Borgo Rosso
   width_cm: 60
   height_cm: 40
@@ -1511,6 +1727,7 @@
   - paesaggio
   - fiori
 - id: 559c56b3-8ea4-4df8-984f-6c098fba8b46
+  sort_id: 36
   title: 'Cristol: Luce e Ritmo della Città Notturna'
   width_cm: 40
   height_cm: 30
@@ -1518,6 +1735,7 @@
   - città
   - notturno
 - id: 55cd387d-25ac-467d-a07b-67312e1031eb
+  sort_id: 11
   title: L'ombra del treno che non arriva
   width_cm: 70
   height_cm: 40
@@ -1525,6 +1743,7 @@
   - paesaggio
   - città
 - id: 5606a077-8134-4058-8198-72653fc022be
+  sort_id: 597
   title: L'alba tra palazzi e ciliegi
   width_cm: 60
   height_cm: 40
@@ -1532,6 +1751,7 @@
   - paesaggio
   - città
 - id: 56c718bf-19f1-4138-b1c1-d43e90422ac9
+  sort_id: 13
   title: L'Appuntamento con il Silenzio Blu
   width_cm: 30
   height_cm: 20
@@ -1539,6 +1759,7 @@
   - paesaggio
   - città
 - id: 575d1985-9e77-4940-8522-16147038727e
+  sort_id: 427
   title: Riflessi di un’ombra sul vetro
   width_cm: 30
   height_cm: 20
@@ -1546,6 +1767,7 @@
   - interni
   - ritratto
 - id: 57c9835a-fb8b-4d28-82ce-7a73a62d80bb
+  sort_id: 219
   title: 'Mirobozzi: L''Arco delle Soglie'
   width_cm: 40
   height_cm: 50
@@ -1553,6 +1775,7 @@
   - interni
   - astratto
 - id: 585d6302-c94b-49c8-b122-3a9f9b6adc95
+  sort_id: 467
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -1560,6 +1783,7 @@
   - interni
   - notturno
 - id: 58eaac24-0193-4a47-a15b-795455e594ad
+  sort_id: 375
   title: Luce tra le ombre della notte
   width_cm: 50
   height_cm: 60
@@ -1567,6 +1791,7 @@
   - notturno
   - paesaggio
 - id: 590bb767-c967-4686-ab40-a1d25aa191b1
+  sort_id: 258
   title: L'Ultimo Riflesso d'Oro
   width_cm: 40
   height_cm: 50
@@ -1574,6 +1799,7 @@
   - interni
   - notturno
 - id: 59796feb-af99-4c99-ad3b-622c2272660e
+  sort_id: 89
   title: Ombra di Tori Bar
   width_cm: 40
   height_cm: 30
@@ -1581,6 +1807,7 @@
   - città
   - notturno
 - id: 59903717-16c1-4c28-80ae-d45eb0c021b7
+  sort_id: 358
   title: L'Ultimo Silenzio della Luna
   width_cm: 40
   height_cm: 50
@@ -1588,6 +1815,7 @@
   - notturno
   - astratto
 - id: 59958676-17e2-4f90-b1dd-d3745f11bdfc
+  sort_id: 475
   title: L’Ombra del Fiore sul Verre
   width_cm: 50
   height_cm: 40
@@ -1595,6 +1823,7 @@
   - natura morta
   - fiori
 - id: 59af4c4b-d6e4-4c81-a47d-9ffbd738fdff
+  sort_id: 523
   title: L’Ultimo Tramonto degli Umori
   width_cm: 40
   height_cm: 50
@@ -1602,6 +1831,7 @@
   - paesaggio
   - notturno
 - id: 59b8fc24-8404-45ab-89ae-ef9818ad4f2e
+  sort_id: 617
   title: Rivoli d'Oro e Azzurri
   width_cm: 50
   height_cm: 35
@@ -1609,6 +1839,7 @@
   - paesaggio
   - città
 - id: 59d6f95e-a7af-4192-9c51-151bae228cb8
+  sort_id: 64
   title: L'Ultimo Viaggio verso Urmia
   width_cm: 50
   height_cm: 35
@@ -1616,6 +1847,7 @@
   - città
   - paesaggio
 - id: 59e0f026-724f-45dd-89f0-f0b87deea25c
+  sort_id: 621
   title: L’Ombra dei Colori d’Oro
   width_cm: 50
   height_cm: 60
@@ -1623,6 +1855,7 @@
   - paesaggio
   - notturno
 - id: 5a032979-c017-4706-b700-3a65ea652049
+  sort_id: 479
   title: Circoli d’oro e luce scarlatta
   width_cm: 40
   height_cm: 50
@@ -1630,6 +1863,7 @@
   - paesaggio
   - natura morta
 - id: 5a7363ff-4df9-4d54-8d2a-072ad45fb686
+  sort_id: 6
   title: L'Ultimo Viaggio al Crepuscolo
   width_cm: 70
   height_cm: 40
@@ -1637,6 +1871,7 @@
   - paesaggio
   - città
 - id: 5a761bce-92f8-479d-be00-72aa31b87dde
+  sort_id: 372
   title: Sfere Celesti e Terra Bruciata
   width_cm: 60
   height_cm: 50
@@ -1644,6 +1879,7 @@
   - astratto
   - natura morta
 - id: 5ab23976-8d39-4a96-92ca-9233dd90e854
+  sort_id: 190
   title: Lunghe ombre della città dormiente
   width_cm: 30
   height_cm: 20
@@ -1651,6 +1887,7 @@
   - paesaggio
   - notturno
 - id: 5ad70fd8-f57c-4bde-9f65-f83ad4a034f4
+  sort_id: 401
   title: L'Ultimo Silenzio del Cielo
   width_cm: 50
   height_cm: 35
@@ -1658,6 +1895,7 @@
   - paesaggio
   - notturno
 - id: 5b0a3321-b26b-4c83-803e-decd1ead790b
+  sort_id: 441
   title: L'Ultimo Riflesso d'Oro
   width_cm: 60
   height_cm: 40
@@ -1665,6 +1903,7 @@
   - astratto
   - notturno
 - id: 5b374b0a-c562-4586-95e6-ce8c093f7648
+  sort_id: 448
   title: L'Ultimo Riflesso del Verde
   width_cm: 50
   height_cm: 35
@@ -1672,6 +1911,7 @@
   - interni
   - natura morta
 - id: 5b4c4a66-aed2-4859-9411-91e22a9f72bd
+  sort_id: 672
   title: Rivolta di Colori
   width_cm: 70
   height_cm: 40
@@ -1679,6 +1919,7 @@
   - paesaggio
   - fiori
 - id: 5c1337fa-4ac1-4088-ade7-09c9ea960cca
+  sort_id: 46
   title: L'ombra di Pirin e Cuncin
   width_cm: 50
   height_cm: 30
@@ -1686,6 +1927,7 @@
   - paesaggio
   - città
 - id: 5cabc4df-b77d-4e5e-8b9f-43615823c33a
+  sort_id: 361
   title: Luce tra specchi e ombre
   width_cm: 50
   height_cm: 30
@@ -1693,6 +1935,7 @@
   - notturno
   - paesaggio
 - id: 5cdb6011-a19c-423c-9185-3941d6f54d76
+  sort_id: 349
   title: Luce sul Silenzio delle Murature
   width_cm: 40
   height_cm: 55
@@ -1700,6 +1943,7 @@
   - paesaggio
   - notturno
 - id: 5ce83271-eb56-4c86-aa15-f12c308662a7
+  sort_id: 596
   title: Albero al Crepuscolo
   width_cm: 40
   height_cm: 50
@@ -1707,6 +1951,7 @@
   - paesaggio
   - notturno
 - id: 5d2c3683-5834-4631-8d41-2bf8c6e4ff90
+  sort_id: 449
   title: L'Ultimo Riflesso del Verde
   width_cm: 50
   height_cm: 35
@@ -1714,6 +1959,7 @@
   - paesaggio
   - interni
 - id: 5dd53942-636d-49a7-8469-655d6c6449d8
+  sort_id: 391
   title: L'Ultimo Sogno del Corvo
   width_cm: 50
   height_cm: 40
@@ -1721,6 +1967,7 @@
   - astratto
   - paesaggio
 - id: 5e7792fc-051f-436c-841b-aa0fc586875a
+  sort_id: 221
   title: L'Arco dei Segni
   width_cm: 40
   height_cm: 50
@@ -1728,6 +1975,7 @@
   - astratto
   - città
 - id: 5ef8ff45-b7e8-46fc-8105-67d4002cbd5e
+  sort_id: 554
   title: L’Ultimo Sorso di Sole
   width_cm: 60
   height_cm: 50
@@ -1735,6 +1983,7 @@
   - paesaggio
   - città
 - id: 5f042313-51c7-4017-a2fd-1501f3c2b13f
+  sort_id: 292
   title: L'Ultimo Appuntamento al Caffè
   width_cm: 60
   height_cm: 40
@@ -1742,6 +1991,7 @@
   - interni
   - paesaggio
 - id: 5f4950e1-7983-408a-a4d7-4e5b97fdc687
+  sort_id: 112
   title: Riflessi di Luce e Strisce
   width_cm: 50
   height_cm: 30
@@ -1749,6 +1999,7 @@
   - città
   - notturno
 - id: 5fa6ebb7-d523-44d3-9e7c-66a0dda66179
+  sort_id: 665
   title: L’Ultimo Raggio di Terra
   width_cm: 50
   height_cm: 30
@@ -1756,6 +2007,7 @@
   - paesaggio
   - città
 - id: 60a84a32-5a90-44fd-afcc-5f70f890ab51
+  sort_id: 425
   title: L’Atelier dei Fiori e del Silenzio
   width_cm: 50
   height_cm: 30
@@ -1763,6 +2015,7 @@
   - paesaggio
   - fiori
 - id: 60ebfadf-fe3b-4fa8-ad73-21c7739cfaf2
+  sort_id: 27
   title: Rifugio Porti Cluni
   width_cm: 60
   height_cm: 40
@@ -1770,6 +2023,7 @@
   - interni
   - notturno
 - id: 614fdbbd-9d46-4418-a0fa-29176221b4e4
+  sort_id: 133
   title: L'ombra del Poste Italiane
   width_cm: 80
   height_cm: 60
@@ -1777,6 +2031,7 @@
   - città
   - notturno
 - id: 61cd0d1b-5dcb-4f58-addd-84bed7b73024
+  sort_id: 336
   title: Rivoli di Fuoco e Ombre
   width_cm: 30
   height_cm: 40
@@ -1784,6 +2039,7 @@
   - astratto
   - paesaggio
 - id: 623eff27-a15f-4552-b1e0-584e9ac0bb33
+  sort_id: 638
   title: L’Ultimo Tramonto su Collina d’Oro
   width_cm: 40
   height_cm: 50
@@ -1791,6 +2047,7 @@
   - paesaggio
   - città
 - id: 628199bf-0bce-472a-a60c-85985abaeedd
+  sort_id: 535
   title: Rise of the Red Dawn
   width_cm: 40
   height_cm: 30
@@ -1799,6 +2056,7 @@
   - città
   - fiori
 - id: 63172b3b-5b7c-4834-8c29-389addbede59
+  sort_id: 15
   title: Cirino - L’Attesa del Silenzio
   width_cm: 30
   height_cm: 20
@@ -1807,6 +2065,7 @@
   - città
   - notturno
 - id: 63a03be4-b0d0-48ad-9bda-54cee09a7b11
+  sort_id: 510
   title: Tulipani sul vetro ardente
   width_cm: 40
   height_cm: 50
@@ -1814,6 +2073,7 @@
   - natura morta
   - fiori
 - id: 63d484d8-13c9-4523-b8bb-6ad291f61743
+  sort_id: 151
   title: L'Ultimo Viaggio al Ristorante
   width_cm: 50
   height_cm: 40
@@ -1821,6 +2081,7 @@
   - paesaggio
   - città
 - id: 63df71b5-6c94-4c24-bcf2-afb5e7062c2d
+  sort_id: 519
   title: Tutte le rose del cielo
   width_cm: 50
   height_cm: 40
@@ -1828,6 +2089,7 @@
   - natura morta
   - fiori
 - id: 63e3cdf2-6337-4beb-8daf-d5c8f05921d1
+  sort_id: 325
   title: Oasi di Colori Solitari
   width_cm: 30
   height_cm: 20
@@ -1835,6 +2097,7 @@
   - astratto
   - interni
 - id: 64407296-9627-44d7-9141-b2d488df076a
+  sort_id: 547
   title: L'Ultimo Abbraccio al Sole
   width_cm: 50
   height_cm: 70
@@ -1842,6 +2105,7 @@
   - paesaggio
   - fiori
 - id: 651f4761-695b-4184-895a-1f413b1474bf
+  sort_id: 158
   title: L'Ultimo Sguardo della Strada
   width_cm: 60
   height_cm: 40
@@ -1849,6 +2113,7 @@
   - paesaggio
   - città
 - id: 6520407a-3e1d-4a9e-80ec-493ec172de77
+  sort_id: 100
   title: Riflessi di un’epoca perduta
   width_cm: 70
   height_cm: 40
@@ -1856,6 +2121,7 @@
   - interni
   - notturno
 - id: 664258e9-2d25-43f2-b34c-5ec06563bbff
+  sort_id: 97
   title: L'ombra dei segni luminosi
   width_cm: 30
   height_cm: 20
@@ -1863,6 +2129,7 @@
   - città
   - notturno
 - id: 66652f9c-9301-4688-aca5-a6cefa0d2ff2
+  sort_id: 86
   title: L'Uomo e la Macchina Silenziosa
   width_cm: 50
   height_cm: 35
@@ -1870,6 +2137,7 @@
   - città
   - notturno
 - id: 66771e5a-5c90-4a95-b625-b5bfe0ee58c0
+  sort_id: 223
   title: Ombre e Colori di Sogno
   width_cm: 30
   height_cm: 20
@@ -1877,6 +2145,7 @@
   - ritratto
   - astratto
 - id: 6708b339-5e75-442a-8158-dae7742eab97
+  sort_id: 264
   title: L'Ultimo Rametto
   width_cm: 40
   height_cm: 50
@@ -1884,6 +2153,7 @@
   - interni
   - notturno
 - id: 675e26c3-9077-48b6-9287-292f5fa30145
+  sort_id: 62
   title: L'ombra dei passaggi
   width_cm: 60
   height_cm: 50
@@ -1891,6 +2161,7 @@
   - città
   - notturno
 - id: 6769575d-1bfc-4955-b0b6-cad68d1b2efe
+  sort_id: 450
   title: L'Ultimo Riflesso del Verde
   width_cm: 50
   height_cm: 35
@@ -1898,6 +2169,7 @@
   - paesaggio
   - interni
 - id: 67c959c1-1213-48c7-8598-a8d6187147c9
+  sort_id: 413
   title: L'ombra del dubbio sul tavolino d'oro
   width_cm: 50
   height_cm: 40
@@ -1905,6 +2177,7 @@
   - astratto
   - notturno
 - id: 680bbd86-3d43-4498-9898-702403ff288d
+  sort_id: 47
   title: L'Ultimo Passo verso il Luce
   width_cm: 80
   height_cm: 45
@@ -1912,6 +2185,7 @@
   - paesaggio
   - città
 - id: 681652b8-ad4c-481d-9aa0-21883a515267
+  sort_id: 68
   title: L'Ultimo Rifugio della Luce
   width_cm: 50
   height_cm: 35
@@ -1919,6 +2193,7 @@
   - città
   - notturno
 - id: 681775c4-adcc-46aa-ac42-888f82411f0f
+  sort_id: 169
   title: L'ombra del cinema al crepuscolo
   width_cm: 50
   height_cm: 30
@@ -1926,6 +2201,7 @@
   - paesaggio
   - città
 - id: 68179f83-252c-4437-b7a3-751ba1e8117c
+  sort_id: 226
   title: Occhi sul Passato
   width_cm: 60
   height_cm: 80
@@ -1933,6 +2209,7 @@
   - città
   - notturno
 - id: 68a59998-4005-4021-ae52-5e61520aad98
+  sort_id: 653
   title: Alberi al Crepuscolo
   width_cm: 40
   height_cm: 55
@@ -1940,6 +2217,7 @@
   - paesaggio
   - fiori
 - id: 69426baa-a184-42c8-afb6-51a2267a7c77
+  sort_id: 548
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 40
@@ -1947,6 +2225,7 @@
   - paesaggio
   - città
 - id: 698e5eb8-c21f-4963-83f7-1338530f2d51
+  sort_id: 595
   title: L'Ultimo Raggio d'Oro
   width_cm: 60
   height_cm: 40
@@ -1954,6 +2233,7 @@
   - paesaggio
   - notturno
 - id: 6a3aae70-62f0-4f2b-929c-7deadd59c208
+  sort_id: 10
   title: L'Attesa al Tramonto della Stazione
   width_cm: 30
   height_cm: 20
@@ -1961,6 +2241,7 @@
   - paesaggio
   - città
 - id: 6a4c21df-4810-4730-b309-72d07c290cf9
+  sort_id: 162
   title: L'Uomo che guarda il Passato
   width_cm: 70
   height_cm: 40
@@ -1968,6 +2249,7 @@
   - paesaggio
   - città
 - id: 6a50e1ab-3f76-464d-bd22-6c879401ac38
+  sort_id: 642
   title: L’onda dei profumi
   width_cm: 50
   height_cm: 40
@@ -1975,6 +2257,7 @@
   - paesaggio
   - fiori
 - id: 6b1e9351-e43a-489c-9909-3b9dca088f50
+  sort_id: 287
   title: Caffè d’Ombra
   width_cm: 70
   height_cm: 40
@@ -1982,6 +2265,7 @@
   - paesaggio
   - città
 - id: 6c4143a0-fa8b-472d-b6db-1fb012a5d6d9
+  sort_id: 631
   title: L’Ultimo Riflesso del Mare
   width_cm: 30
   height_cm: 20
@@ -1989,6 +2273,7 @@
   - paesaggio
   - notturno
 - id: 6c4dedda-6e9d-4db0-9e9a-057111f5fe99
+  sort_id: 368
   title: L'Ultimo Riflesso del Cielo
   width_cm: 50
   height_cm: 60
@@ -1996,6 +2281,7 @@
   - notturno
   - paesaggio
 - id: 6d31ba9c-d91c-42f8-9766-e213d2c87f89
+  sort_id: 240
   title: L'Ultimo Sorriso del Silenzio
   width_cm: 40
   height_cm: 50
@@ -2003,6 +2289,7 @@
   - ritratto
   - notturno
 - id: 6e23f0c4-b372-47f3-8e9d-df60ed1c4958
+  sort_id: 560
   title: Fiori al Tramonto di un Giardino
   width_cm: 50
   height_cm: 30
@@ -2010,6 +2297,7 @@
   - natura morta
   - fiori
 - id: 6e4126dc-974c-45b2-8c8f-c92365e1ba91
+  sort_id: 613
   title: L'Uomo delle Terre Rosse
   width_cm: 50
   height_cm: 60
@@ -2017,6 +2305,7 @@
   - paesaggio
   - città
 - id: 6eb1e782-3710-470c-98ee-9cdab5687bde
+  sort_id: 28
   title: Ritratto di un Porto Clinico
   width_cm: 60
   height_cm: 40
@@ -2024,6 +2313,7 @@
   - città
   - notturno
 - id: 6eb50fe6-5479-485b-ab44-491e396062ce
+  sort_id: 620
   title: Riviera di Confini
   width_cm: 50
   height_cm: 30
@@ -2031,6 +2321,7 @@
   - paesaggio
   - città
 - id: 6ec3f75a-e54d-48ef-80ec-9b208a38746c
+  sort_id: 275
   title: Ombra e Colloquio
   width_cm: 60
   height_cm: 40
@@ -2038,6 +2329,7 @@
   - interni
   - ritratto
 - id: 6f15144a-56c8-49ca-a714-790d92a85ada
+  sort_id: 141
   title: L'angolo dorato di Parigi
   width_cm: 70
   height_cm: 40
@@ -2045,6 +2337,7 @@
   - paesaggio
   - città
 - id: 6f770847-6766-46ea-a9ad-54d1bbb8e562
+  sort_id: 606
   title: L’Ultimo Segnavia della Vita
   width_cm: 70
   height_cm: 40
@@ -2052,6 +2345,7 @@
   - paesaggio
   - fiori
 - id: 6fc24832-9e22-428f-b33a-79309ed7bde4
+  sort_id: 232
   title: Soglie d'Ombra
   width_cm: 40
   height_cm: 50
@@ -2059,6 +2353,7 @@
   - ritratto
   - astratto
 - id: 6fe729ec-91ec-4b5d-a5ed-054ad207516f
+  sort_id: 201
   title: Ombre su Dambrin
   width_cm: 40
   height_cm: 50
@@ -2066,6 +2361,7 @@
   - città
   - notturno
 - id: 70608f71-5de4-48e2-ab22-12a8654011e6
+  sort_id: 640
   title: L’onda dei colori fugaci
   width_cm: 50
   height_cm: 30
@@ -2073,6 +2369,7 @@
   - paesaggio
   - notturno
 - id: 707534c1-6820-4a0c-a10d-9bcb657c1cd0
+  sort_id: 213
   title: Caffè dei Sogni Perduti
   width_cm: 40
   height_cm: 50
@@ -2080,6 +2377,7 @@
   - città
   - notturno
 - id: 7137ef02-8d0a-4578-8145-1f8f5027274d
+  sort_id: 84
   title: L'Uomo e la Stazione Inquietante
   width_cm: 50
   height_cm: 35
@@ -2087,6 +2385,7 @@
   - città
   - notturno
 - id: 71b953cf-f61e-4c24-8ac2-84ceb33eda3a
+  sort_id: 534
   title: L'alba tra petali e skyline
   width_cm: 60
   height_cm: 80
@@ -2094,6 +2393,7 @@
   - paesaggio
   - notturno
 - id: 71c40953-17dc-417f-834d-0ebfe53679e1
+  sort_id: 505
   title: Fiori tra luce e mistero
   width_cm: 30
   height_cm: 20
@@ -2101,6 +2401,7 @@
   - natura morta
   - interni
 - id: 720a4c7c-7808-4b59-a958-745dff4a1d72
+  sort_id: 209
   title: Occhi nella Nebbia di Ferro
   width_cm: 50
   height_cm: 35
@@ -2108,6 +2409,7 @@
   - notturno
   - città
 - id: 72ecc7e9-89a5-4d7f-b857-ea525a8d2f3c
+  sort_id: 444
   title: L'Ultimo Sorso del Sole
   width_cm: 50
   height_cm: 40
@@ -2115,6 +2417,7 @@
   - paesaggio
   - notturno
 - id: 7373ed4c-27d3-417a-811c-2d5fbc71bf0c
+  sort_id: 650
   title: L’Ultimo Riso d’Oro
   width_cm: 40
   height_cm: 30
@@ -2122,6 +2425,7 @@
   - paesaggio
   - astratto
 - id: 7391e069-b2b7-4581-aba1-55dd4b4b064a
+  sort_id: 305
   title: L'Ultimo Caffè al Crepuscolo
   width_cm: 50
   height_cm: 35
@@ -2129,6 +2433,7 @@
   - paesaggio
   - città
 - id: 749bd4bd-b79f-4592-8c23-e9006f2b4189
+  sort_id: 82
   title: Luce sullo Sguardo
   width_cm: 40
   height_cm: 50
@@ -2136,6 +2441,7 @@
   - città
   - notturno
 - id: 74ab1d56-8e1f-4063-9976-dbe00a16f695
+  sort_id: 360
   title: L'occhio della luna sul tetto
   width_cm: 40
   height_cm: 50
@@ -2143,6 +2449,7 @@
   - astratto
   - notturno
 - id: 75cfb008-632b-48b6-85c1-1b73321dff8b
+  sort_id: 81
   title: L'ombra del neon
   width_cm: 70
   height_cm: 50
@@ -2150,6 +2457,7 @@
   - città
   - notturno
 - id: 763ca4a7-0f9a-41d3-9cba-93ec65fba067
+  sort_id: 353
   title: Luce che si scinde
   width_cm: 50
   height_cm: 35
@@ -2157,6 +2465,7 @@
   - astratto
   - notturno
 - id: 767912b1-f35a-48ba-a61d-06b6cecadb2e
+  sort_id: 326
   title: Oasi di Luce e Ombra
   width_cm: 30
   height_cm: 20
@@ -2164,6 +2473,7 @@
   - astratto
   - interni
 - id: 775162ad-9586-4108-853a-2c798d72eb76
+  sort_id: 359
   title: L'occhio della luna sul tetto
   width_cm: 40
   height_cm: 50
@@ -2171,6 +2481,7 @@
   - astratto
   - notturno
 - id: 77c3e26b-c4e3-4cd6-aed1-87b8f2ad9fcf
+  sort_id: 490
   title: Circoli d’Autunno
   width_cm: 40
   height_cm: 50
@@ -2178,6 +2489,7 @@
   - astratto
   - natura morta
 - id: 77c3f435-c3c3-423c-8c1f-ee3842d2f513
+  sort_id: 661
   title: Alba sul Fienile d’Oro
   width_cm: 50
   height_cm: 30
@@ -2185,6 +2497,7 @@
   - paesaggio
   - notturno
 - id: 790dfb51-6ddd-4e96-a39f-fb5129d35346
+  sort_id: 225
   title: Riflessi di Cromo
   width_cm: 30
   height_cm: 40
@@ -2192,6 +2505,7 @@
   - astratto
   - ritratto
 - id: 796d6f01-9e05-4995-bad6-645904faea96
+  sort_id: 456
   title: L’Ombra dei Fiori del Cielo
   width_cm: 50
   height_cm: 60
@@ -2199,6 +2513,7 @@
   - paesaggio
   - fiori
 - id: 79da5b1b-34e0-4b3c-8f91-6cf97eb1b5c0
+  sort_id: 491
   title: Spirale di Fiori e Memoria
   width_cm: 40
   height_cm: 50
@@ -2206,6 +2521,7 @@
   - natura morta
   - fiori
 - id: 7a37b91d-f7ba-49b2-85d6-c74b15997b36
+  sort_id: 641
   title: L'alba sul rosso
   width_cm: 30
   height_cm: 20
@@ -2213,6 +2529,7 @@
   - paesaggio
   - notturno
 - id: 7a424d19-a2b7-4b8c-861a-967cb8586e3b
+  sort_id: 198
   title: Occhi sul Silenzio della Città
   width_cm: 80
   height_cm: 60
@@ -2220,6 +2537,7 @@
   - paesaggio
   - città
 - id: 7a564396-0adc-48fa-a463-e168283f68d0
+  sort_id: 352
   title: Luce tra le ombre
   width_cm: 60
   height_cm: 80
@@ -2227,6 +2545,7 @@
   - astratto
   - notturno
 - id: 7a78db3f-80e8-4e1a-be49-c2909d9896f1
+  sort_id: 557
   title: Risveglio di Argle
   width_cm: 40
   height_cm: 30
@@ -2235,6 +2554,7 @@
   - città
   - fiori
 - id: 7af0a22f-8a2a-4c30-af19-291a67b4a3f0
+  sort_id: 492
   title: Circoli e Spirali del Sole
   width_cm: 60
   height_cm: 50
@@ -2242,6 +2562,7 @@
   - astratto
   - natura morta
 - id: 7ba25640-96de-454a-98c8-18eb433e4106
+  sort_id: 0
   title: L'Ultimo Silenzio della Strada
   width_cm: 50
   height_cm: 40
@@ -2249,6 +2570,7 @@
   - paesaggio
   - notturno
 - id: 7c1e55e6-684c-487c-8d1e-9e52b66cf2bb
+  sort_id: 524
   title: Occhio di Peonia
   width_cm: 60
   height_cm: 50
@@ -2256,6 +2578,7 @@
   - natura morta
   - fiori
 - id: 7c2be41e-3b40-4025-9411-373adca18a6b
+  sort_id: 237
   title: L'ombra del silenzio
   width_cm: 40
   height_cm: 50
@@ -2263,6 +2586,7 @@
   - ritratto
   - astratto
 - id: 7c8a94ad-a78b-49ac-9658-fdb0923846eb
+  sort_id: 564
   title: Rifiorire sul confine
   width_cm: 70
   height_cm: 40
@@ -2270,6 +2594,7 @@
   - paesaggio
   - fiori
 - id: 7c9ddfec-a388-4f7d-9f25-b145b5c5703b
+  sort_id: 207
   title: Occhi nella nebbia urbana
   width_cm: 50
   height_cm: 35
@@ -2277,6 +2602,7 @@
   - città
   - notturno
 - id: 7d271761-6cf3-4b63-8a29-f0dec482c0ef
+  sort_id: 192
   title: L'Ultimo Luce della Casa Perduta
   width_cm: 35
   height_cm: 25
@@ -2284,6 +2610,7 @@
   - interni
   - notturno
 - id: 7d718706-98eb-480c-b4b8-420326497e6c
+  sort_id: 140
   title: L’Ombra dei Fiori e le Luci di Pronto
   width_cm: 70
   height_cm: 40
@@ -2291,6 +2618,7 @@
   - paesaggio
   - città
 - id: 7dcba26e-0174-4c98-8ff9-d79e3cad9833
+  sort_id: 227
   title: Occhi sul Passato
   width_cm: 60
   height_cm: 80
@@ -2298,6 +2626,7 @@
   - città
   - notturno
 - id: 7e955e89-c37c-41aa-a82a-9a526dcd93e6
+  sort_id: 178
   title: L'Uomo e la Luna sul Silenzio della Città
   width_cm: 50
   height_cm: 40
@@ -2305,6 +2634,7 @@
   - ritratto
   - notturno
 - id: 7fbae1a4-c391-402c-bd4f-f34ceada68ee
+  sort_id: 148
   title: L’Ombra dei Luoghi
   width_cm: 60
   height_cm: 40
@@ -2312,6 +2642,7 @@
   - paesaggio
   - città
 - id: 806d0737-1733-4220-8890-aac2e34b7007
+  sort_id: 566
   title: Fiori sul vetro della città
   width_cm: 70
   height_cm: 50
@@ -2319,6 +2650,7 @@
   - paesaggio
   - fiori
 - id: 80789703-68e1-4fe1-810f-26dd57460278
+  sort_id: 442
   title: Luce tra le ombre rosate
   width_cm: 50
   height_cm: 40
@@ -2326,6 +2658,7 @@
   - interni
   - notturno
 - id: 813e7fad-b170-41ba-a39c-759f5deda42c
+  sort_id: 265
   title: L’ombra che cresce
   width_cm: 40
   height_cm: 50
@@ -2333,6 +2666,7 @@
   - interni
   - notturno
 - id: 81e4e53d-db52-47c1-af75-6e0794b87d1b
+  sort_id: 242
   title: Spirale del Silenzio
   width_cm: 40
   height_cm: 50
@@ -2340,6 +2674,7 @@
   - astratto
   - notturno
 - id: 81f4f74b-94ac-4953-abbb-42883fc0804c
+  sort_id: 187
   title: L’Ombra dei Passaggi
   width_cm: 40
   height_cm: 50
@@ -2347,6 +2682,7 @@
   - città
   - notturno
 - id: 8259e957-563a-428f-8c5d-dfd57f2709df
+  sort_id: 546
   title: L'Ultimo Abbraccio al Sole
   width_cm: 50
   height_cm: 70
@@ -2354,6 +2690,7 @@
   - paesaggio
   - fiori
 - id: 82775feb-1ec7-48a4-a589-0f2aba286671
+  sort_id: 367
   title: L’Ombra del Silenzio
   width_cm: 30
   height_cm: 20
@@ -2361,6 +2698,7 @@
   - astratto
   - notturno
 - id: 83429023-67aa-4086-a2ff-9c2da8c21140
+  sort_id: 302
   title: Riflesso di un Mondo Incerto
   width_cm: 50
   height_cm: 35
@@ -2368,6 +2706,7 @@
   - interni
   - paesaggio
 - id: 83893159-0b70-47e3-bde6-50a5e39b96d8
+  sort_id: 586
   title: L'Ultimo Riflesso d'Oro
   width_cm: 30
   height_cm: 20
@@ -2375,6 +2714,7 @@
   - paesaggio
   - notturno
 - id: 841f81ad-3fa3-42a5-b4f5-a6bd05920b51
+  sort_id: 569
   title: L’Ultimo Sorso
   width_cm: 50
   height_cm: 30
@@ -2382,6 +2722,7 @@
   - paesaggio
   - fiori
 - id: 849d71ca-4be9-4b5c-9092-ae74c312e263
+  sort_id: 261
   title: L'ombra del silenzio
   width_cm: 50
   height_cm: 35
@@ -2389,6 +2730,7 @@
   - città
   - notturno
 - id: 8504b2c7-d1c6-43ef-b444-af46c57fa013
+  sort_id: 371
   title: Sfere d’Ombra e Luce
   width_cm: 60
   height_cm: 80
@@ -2396,6 +2738,7 @@
   - astratto
   - natura morta
 - id: 85056678-3e38-49b2-bf27-b68f7b6928c2
+  sort_id: 294
   title: Rifugio tra i cerchi
   width_cm: 40
   height_cm: 50
@@ -2403,6 +2746,7 @@
   - interni
   - paesaggio
 - id: 86b1bc63-ef92-4ab4-ba19-9341b3637f75
+  sort_id: 170
   title: Luce sul P. Greco
   width_cm: 50
   height_cm: 30
@@ -2410,6 +2754,7 @@
   - paesaggio
   - città
 - id: 87128c0f-d3ba-4de1-a624-693e3c2f3827
+  sort_id: 303
   title: L'Uomo tra Luce e Silenzio
   width_cm: 50
   height_cm: 30
@@ -2417,6 +2762,7 @@
   - interni
   - notturno
 - id: 87b285f1-8c85-4b66-bc2e-d02715b877a6
+  sort_id: 354
   title: L’Archivio delle Sombre Porte
   width_cm: 50
   height_cm: 40
@@ -2424,6 +2770,7 @@
   - interni
   - notturno
 - id: 88066a8d-e2de-4c49-a80c-191be361bc39
+  sort_id: 309
   title: L'Ultimo Sorso
   width_cm: 50
   height_cm: 40
@@ -2431,6 +2778,7 @@
   - interni
   - città
 - id: 881e577e-bf73-4d64-83e5-e14b2c9e6e7e
+  sort_id: 605
   title: L’Ultimo Tramonto sul Mare
   width_cm: 80
   height_cm: 60
@@ -2438,6 +2786,7 @@
   - paesaggio
   - notturno
 - id: 88714cd2-c385-4d9c-9770-132ba8ee4464
+  sort_id: 139
   title: L’Ombra dei Sigari e le Storie del Polso
   width_cm: 60
   height_cm: 40
@@ -2445,6 +2794,7 @@
   - paesaggio
   - città
 - id: 888ee524-6387-46bb-8d0e-0fb436ac2792
+  sort_id: 389
   title: L'Ultimo Sorso d'Oro
   width_cm: 30
   height_cm: 20
@@ -2452,6 +2802,7 @@
   - astratto
   - paesaggio
 - id: 88e15865-9440-4059-af93-b2f3e64eaa03
+  sort_id: 53
   title: 'Tru2Lonts: L’Ombra dei Passaggi'
   width_cm: 50
   height_cm: 40
@@ -2459,6 +2810,7 @@
   - città
   - notturno
 - id: 88ee2774-7bbf-49e2-ad21-f480f9dd4f7a
+  sort_id: 48
   title: L'Ultimo Passo verso il Luce
   width_cm: 80
   height_cm: 45
@@ -2466,6 +2818,7 @@
   - paesaggio
   - città
 - id: 8978d3fa-549d-4e82-9f3f-a9d9454b60b9
+  sort_id: 506
   title: Rifiorire sul Limite
   width_cm: 50
   height_cm: 40
@@ -2473,6 +2826,7 @@
   - natura morta
   - fiori
 - id: 89885e5c-d7e8-4500-a43a-406a56aa4776
+  sort_id: 23
   title: Notte a Glow
   width_cm: 80
   height_cm: 45
@@ -2480,6 +2834,7 @@
   - città
   - notturno
 - id: 8a33b840-8794-439d-a442-f4d6402d39a8
+  sort_id: 298
   title: Luce tra i frammenti
   width_cm: 50
   height_cm: 35
@@ -2487,6 +2842,7 @@
   - astratto
   - notturno
 - id: 8a42524b-620b-47b8-84bd-1b958856ac85
+  sort_id: 419
   title: L'Ultimo Sorso sul Tavolino
   width_cm: 80
   height_cm: 60
@@ -2494,6 +2850,7 @@
   - paesaggio
   - interni
 - id: 8ab17a36-4462-4e73-b299-c04c989d0aa5
+  sort_id: 218
   title: Riflessi di Architettura e Silenzio
   width_cm: 40
   height_cm: 50
@@ -2501,6 +2858,7 @@
   - interni
   - astratto
 - id: 8ca45ad2-9226-4fcc-90d0-ee7bd8a00e81
+  sort_id: 454
   title: L'Ultimo Colloquio con il Sole
   width_cm: 40
   height_cm: 30
@@ -2508,6 +2866,7 @@
   - paesaggio
   - città
 - id: 8cbf119f-dd5d-4559-b8a8-754a16cba9e8
+  sort_id: 306
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -2515,6 +2874,7 @@
   - interni
   - ritratto
 - id: 8cc9df08-1f02-4d9d-b2c9-7a66716d5d05
+  sort_id: 279
   title: Ritratto di un’ora in tavola
   width_cm: 50
   height_cm: 40
@@ -2522,6 +2882,7 @@
   - interni
   - città
 - id: 8d54f3ab-b527-4d07-bfd7-076cd2277357
+  sort_id: 422
   title: L'Ultimo Sorso di Sole
   width_cm: 50
   height_cm: 35
@@ -2529,6 +2890,7 @@
   - paesaggio
   - notturno
 - id: 8d64d38f-f592-4685-9485-aa0079fa53a8
+  sort_id: 494
   title: Circoli e Spirali della Vita
   width_cm: 60
   height_cm: 50
@@ -2536,6 +2898,7 @@
   - natura morta
   - astratto
 - id: 8d770f93-5235-4422-98c6-02a675c5555b
+  sort_id: 412
   title: L'Ultimo Silenzio della Luna
   width_cm: 50
   height_cm: 40
@@ -2543,6 +2906,7 @@
   - astratto
   - ritratto
 - id: 8e93765f-ea2c-4b55-9775-71f4b655bd9c
+  sort_id: 626
   title: L’Ultimo Riflesso d’Oro
   width_cm: 30
   height_cm: 20
@@ -2550,6 +2914,7 @@
   - paesaggio
   - fiori
 - id: 8eeee5c6-50cb-451c-99b7-0d9269b24457
+  sort_id: 268
   title: 'Luce sul CPd: Notte tra fumo e luna'
   width_cm: 50
   height_cm: 35
@@ -2557,6 +2922,7 @@
   - paesaggio
   - notturno
 - id: 8fa0ac87-dff4-4d23-8dc2-b622120908c0
+  sort_id: 463
   title: L'Ultimo Fiore sul Cenacolo
   width_cm: 70
   height_cm: 40
@@ -2564,6 +2930,7 @@
   - interni
   - notturno
 - id: 8fb84717-98db-4c82-8f91-417e7a606766
+  sort_id: 410
   title: L'ultimo tramonto tra due sguardi
   width_cm: 50
   height_cm: 30
@@ -2571,6 +2938,7 @@
   - paesaggio
   - notturno
 - id: 8fe874fd-ffb3-4138-a621-8447fd81bcca
+  sort_id: 340
   title: L'Ora del Caffè d’Oro
   width_cm: 30
   height_cm: 40
@@ -2578,6 +2946,7 @@
   - paesaggio
   - città
 - id: 8ff68617-c6a8-4c06-aa37-173157d31421
+  sort_id: 399
   title: L'Uomo e il Silenzio della Luna
   width_cm: 35
   height_cm: 25
@@ -2585,6 +2954,7 @@
   - notturno
   - interni
 - id: 90181f6b-d468-456f-8fc0-4ce93a032d07
+  sort_id: 271
   title: Ritratto d'incontro
   width_cm: 50
   height_cm: 60
@@ -2592,6 +2962,7 @@
   - interni
   - notturno
 - id: 90de97f8-8b61-46cb-98d8-bad9caaa0a8a
+  sort_id: 103
   title: L'ombra del Comptoir
   width_cm: 50
   height_cm: 40
@@ -2599,6 +2970,7 @@
   - città
   - notturno
 - id: 90ed70a1-6291-4541-9047-181a8f79d31b
+  sort_id: 451
   title: L'Ultimo Riflesso di Sole
   width_cm: 50
   height_cm: 35
@@ -2606,6 +2978,7 @@
   - paesaggio
   - natura morta
 - id: 91411ec4-df6d-400e-87b3-430194066c8a
+  sort_id: 71
   title: L'Ultimo Tram per il Cuore
   width_cm: 50
   height_cm: 40
@@ -2613,6 +2986,7 @@
   - città
   - notturno
 - id: 91572d05-67d3-4c30-bbd7-4cd917c50566
+  sort_id: 32
   title: L'ombra dei segni
   width_cm: 50
   height_cm: 40
@@ -2620,6 +2994,7 @@
   - paesaggio
   - città
 - id: 91de64e3-6629-4909-b6ce-a9ee37ca9a42
+  sort_id: 241
   title: Spirale del Silenzio
   width_cm: 40
   height_cm: 50
@@ -2627,6 +3002,7 @@
   - astratto
   - notturno
 - id: 91e01934-043b-43c8-9947-edefa037e09b
+  sort_id: 83
   title: L'Uomo al Vetro del Tempo
   width_cm: 50
   height_cm: 35
@@ -2634,6 +3010,7 @@
   - città
   - notturno
 - id: 925ad035-a6e6-471e-af8f-bb40fb56952c
+  sort_id: 59
   title: L'ombra dei segni
   width_cm: 50
   height_cm: 30
@@ -2641,6 +3018,7 @@
   - città
   - paesaggio
 - id: 928f3ee4-0c45-49ae-9d8e-e6b87706608e
+  sort_id: 322
   title: Spirale di Luce e Ombra
   width_cm: 50
   height_cm: 35
@@ -2648,6 +3026,7 @@
   - astratto
   - interni
 - id: 92c317bb-5b58-4603-adac-5a2e5975b83a
+  sort_id: 114
   title: Rifugio Neon
   width_cm: 40
   height_cm: 50
@@ -2655,6 +3034,7 @@
   - città
   - notturno
 - id: 93743ee8-65ac-40f4-87e3-70842e566674
+  sort_id: 176
   title: Luce sullo Sogno Urbano
   width_cm: 80
   height_cm: 60
@@ -2662,6 +3042,7 @@
   - città
   - notturno
 - id: 9388f72c-46f5-4425-aedc-000f625e4b00
+  sort_id: 610
   title: Fiori d’oro sul lago verde
   width_cm: 40
   height_cm: 30
@@ -2669,6 +3050,7 @@
   - paesaggio
   - fiori
 - id: 93b8f23f-165b-4758-8b4b-8863c53e4692
+  sort_id: 37
   title: L'Arco dei Segni
   width_cm: 50
   height_cm: 60
@@ -2676,6 +3058,7 @@
   - città
   - paesaggio
 - id: 95373250-31e6-4914-b6a5-1550084785dd
+  sort_id: 511
   title: L’Ultimo Raggio d’Oro
   width_cm: 70
   height_cm: 40
@@ -2683,6 +3066,7 @@
   - paesaggio
   - fiori
 - id: 953b7ff3-94ce-43fa-ba74-a377d590b789
+  sort_id: 594
   title: Alba su un giardino di petali
   width_cm: 60
   height_cm: 50
@@ -2690,6 +3074,7 @@
   - paesaggio
   - città
 - id: 955af3ac-d0ed-4217-95ce-1e29c128bbbc
+  sort_id: 590
   title: L'Ultimo Sorso di Sole
   width_cm: 30
   height_cm: 20
@@ -2697,6 +3082,7 @@
   - paesaggio
   - città
 - id: 9567e484-3234-4cbe-a936-b5b4f2dfd2f9
+  sort_id: 439
   title: L’Ombra che Danza
   width_cm: 50
   height_cm: 35
@@ -2704,6 +3090,7 @@
   - astratto
   - interni
 - id: 95af1d5d-f530-4090-ba1a-d30e5a2732f0
+  sort_id: 434
   title: L'ombra verde della strada
   width_cm: 50
   height_cm: 30
@@ -2711,6 +3098,7 @@
   - paesaggio
   - fiori
 - id: 96131e8f-6b4e-4194-8477-b1fb30450a71
+  sort_id: 470
   title: Luce tra i confini del blu
   width_cm: 60
   height_cm: 40
@@ -2718,6 +3106,7 @@
   - astratto
   - notturno
 - id: 96763797-439d-4df1-a687-3a98f74bf04f
+  sort_id: 95
   title: L'ombra dei segni luminosi
   width_cm: 30
   height_cm: 20
@@ -2725,6 +3114,7 @@
   - città
   - notturno
 - id: 96f31480-fd79-485f-91a0-2d58507e2d20
+  sort_id: 269
   title: 'Luce sul CPd: Notte di transizione'
   width_cm: 50
   height_cm: 35
@@ -2732,6 +3122,7 @@
   - paesaggio
   - notturno
 - id: 97ab15b9-b4ba-4860-a6d8-ebb71415b4c0
+  sort_id: 243
   title: Spirale del Silenzio
   width_cm: 40
   height_cm: 50
@@ -2739,6 +3130,7 @@
   - astratto
   - notturno
 - id: 98337ffd-b598-45cc-b7a1-52bfd7d9ffab
+  sort_id: 488
   title: Vasi di luce e ombra
   width_cm: 50
   height_cm: 35
@@ -2746,6 +3138,7 @@
   - natura morta
   - interni
 - id: 984f3d4c-e7f9-4742-9e57-57b1d03fb7ec
+  sort_id: 633
   title: L’Ultimo Tramonto di un Borgo Perduto
   width_cm: 70
   height_cm: 40
@@ -2753,6 +3146,7 @@
   - paesaggio
   - fiori
 - id: 98713948-bc79-44ec-bbdc-acb9357f8490
+  sort_id: 249
   title: Occhio al Passato
   width_cm: 60
   height_cm: 40
@@ -2760,6 +3154,7 @@
   - paesaggio
   - città
 - id: 988c7326-324b-426f-b55f-06fb4e4c34d1
+  sort_id: 21
   title: L'Ultimo Tramonto sul Silenzio
   width_cm: 50
   height_cm: 35
@@ -2767,6 +3162,7 @@
   - paesaggio
   - città
 - id: 98ad4bb5-0c16-436b-87ca-9e82ea485d98
+  sort_id: 614
   title: Riflessi di un domani incerta
   width_cm: 60
   height_cm: 40
@@ -2774,6 +3170,7 @@
   - paesaggio
   - città
 - id: 99c31871-0650-41a1-a4a9-0c111b88d671
+  sort_id: 565
   title: Fiori contro la città
   width_cm: 70
   height_cm: 50
@@ -2781,6 +3178,7 @@
   - paesaggio
   - fiori
 - id: 99d825a4-dec2-448f-942e-8a6fc0f3bf90
+  sort_id: 124
   title: Terzo Mondo in Cortile
   width_cm: 30
   height_cm: 40
@@ -2788,6 +3186,7 @@
   - città
   - interni
 - id: 99e03876-3667-4967-b0a1-5fa1441d4eb2
+  sort_id: 549
   title: L'Ultimo Passo del Tramonto
   width_cm: 40
   height_cm: 50
@@ -2795,6 +3194,7 @@
   - paesaggio
   - città
 - id: 9a135c40-1d7d-4eb6-b639-500e3a4cb3f3
+  sort_id: 125
   title: L'Ultimo Colloquio al Museo
   width_cm: 60
   height_cm: 40
@@ -2802,6 +3202,7 @@
   - città
   - interni
 - id: 9a33a6cf-6081-498a-87b5-b0f6aabce051
+  sort_id: 374
   title: Cicli Celesti
   width_cm: 50
   height_cm: 60
@@ -2809,6 +3210,7 @@
   - astratto
   - notturno
 - id: 9babc7be-896b-4564-9c26-829bd98ea4d5
+  sort_id: 482
   title: Vasi di luce e ombra
   width_cm: 40
   height_cm: 50
@@ -2816,6 +3218,7 @@
   - interni
   - astratto
 - id: 9bc64bcc-9da3-4bc3-8d57-4dd4270dd5c8
+  sort_id: 440
   title: L’Atrio dell’Arte
   width_cm: 40
   height_cm: 50
@@ -2823,6 +3226,7 @@
   - interni
   - paesaggio
 - id: 9bca23bc-d001-4dca-ac7f-8b07e3f4879a
+  sort_id: 327
   title: Occhielli di un Tempo Rotto
   width_cm: 50
   height_cm: 30
@@ -2830,6 +3234,7 @@
   - astratto
   - notturno
 - id: 9c2c176e-0e6e-419b-916f-7e829855df94
+  sort_id: 65
   title: L’ombra dei segni
   width_cm: 50
   height_cm: 35
@@ -2837,6 +3242,7 @@
   - città
   - notturno
 - id: 9cf43d61-5612-4e41-aec2-e49077571fdd
+  sort_id: 552
   title: L'ombra del tempo che passa
   width_cm: 30
   height_cm: 40
@@ -2844,6 +3250,7 @@
   - paesaggio
   - ritratto
 - id: 9d415320-f323-421f-8fe5-e7a36a4648bb
+  sort_id: 377
   title: Luce notturna sul lago
   width_cm: 50
   height_cm: 40
@@ -2851,6 +3258,7 @@
   - paesaggio
   - notturno
 - id: 9d82d941-fef0-4107-8b53-6a88879636b3
+  sort_id: 593
   title: Alba su un giardino di petali
   width_cm: 60
   height_cm: 50
@@ -2858,6 +3266,7 @@
   - paesaggio
   - città
 - id: 9e02a45d-7f5d-4592-97f4-51ff159152ba
+  sort_id: 266
   title: L'Uomo nella Neve Silenziosa
   width_cm: 40
   height_cm: 50
@@ -2865,6 +3274,7 @@
   - paesaggio
   - notturno
 - id: 9e2060b7-a49b-4f5a-90a7-36822543665c
+  sort_id: 197
   title: 'Occhi tra vetri: riflessi di città'
   width_cm: 60
   height_cm: 40
@@ -2872,6 +3282,7 @@
   - città
   - notturno
 - id: 9e2b2503-a246-42d9-9c39-303b07946e57
+  sort_id: 254
   title: Occhio al Mondo
   width_cm: 60
   height_cm: 80
@@ -2879,6 +3290,7 @@
   - astratto
   - paesaggio
 - id: 9e38f9b7-52ac-432e-94c4-3dd9057ff597
+  sort_id: 522
   title: Alba di Ragno e Cielo di Pietra
   width_cm: 50
   height_cm: 30
@@ -2886,6 +3298,7 @@
   - paesaggio
   - notturno
 - id: 9e797817-68da-439b-a56b-f57063305429
+  sort_id: 228
   title: Occhi tra le sfere
   width_cm: 50
   height_cm: 35
@@ -2893,6 +3306,7 @@
   - astratto
   - notturno
 - id: 9ef4c674-75b5-46ca-8653-ac1e23e4c4ee
+  sort_id: 602
   title: L’Incontro dei Colori
   width_cm: 70
   height_cm: 40
@@ -2900,6 +3314,7 @@
   - paesaggio
   - fiori
 - id: 9f09cf8d-6bdc-4ad2-9fad-e6d593cef6eb
+  sort_id: 616
   title: Villaggi d’Ombra e Luce
   width_cm: 50
   height_cm: 35
@@ -2907,6 +3322,7 @@
   - paesaggio
   - città
 - id: 9f614f63-8469-4b46-8965-3830e955bf20
+  sort_id: 168
   title: L'ombra del cinema al crepuscolo
   width_cm: 50
   height_cm: 30
@@ -2914,6 +3330,7 @@
   - paesaggio
   - città
 - id: 9fa287ce-d4d3-445a-8688-c66d44cb616c
+  sort_id: 38
   title: L'Arco dei Segni
   width_cm: 50
   height_cm: 60
@@ -2921,6 +3338,7 @@
   - città
   - paesaggio
 - id: a00cc975-0e6e-41bf-91c3-ee515e5a82f5
+  sort_id: 608
   title: Riviera dei Fiori e del Silenzio
   width_cm: 50
   height_cm: 30
@@ -2928,6 +3346,7 @@
   - paesaggio
   - fiori
 - id: a047bb65-850d-4ecc-9efd-919f6638329a
+  sort_id: 252
   title: Occhio al Mondo
   width_cm: 60
   height_cm: 80
@@ -2935,6 +3354,7 @@
   - paesaggio
   - astratto
 - id: a06e6bee-9c95-4533-be9e-852e02aedc64
+  sort_id: 113
   title: Rifugio Neon
   width_cm: 40
   height_cm: 50
@@ -2942,6 +3362,7 @@
   - città
   - notturno
 - id: a178e1a7-8ea0-451a-a30d-9021f1272605
+  sort_id: 102
   title: L'ombra di Nuit et Lumière
   width_cm: 50
   height_cm: 40
@@ -2949,6 +3370,7 @@
   - città
   - notturno
 - id: a18e0143-f271-4b2d-b600-43e3ce51f247
+  sort_id: 3
   title: L'ombra dei passaggi perduti
   width_cm: 50
   height_cm: 30
@@ -2956,6 +3378,7 @@
   - paesaggio
   - notturno
 - id: a1a4acc2-ea71-4092-81c9-7d55c4887b45
+  sort_id: 588
   title: L'ombra del sole e la calza blu
   width_cm: 30
   height_cm: 20
@@ -2963,6 +3386,7 @@
   - paesaggio
   - città
 - id: a1a4b24a-4720-4239-bf07-7c2c8559b2b6
+  sort_id: 514
   title: Luna tra i petali
   width_cm: 50
   height_cm: 35
@@ -2970,6 +3394,7 @@
   - paesaggio
   - fiori
 - id: a1ade60e-5669-48b5-8be0-865aadb9c204
+  sort_id: 330
   title: Ondata di Silenzio
   width_cm: 40
   height_cm: 30
@@ -2977,6 +3402,7 @@
   - astratto
   - notturno
 - id: a20faf43-ee89-4114-afc0-73350787141e
+  sort_id: 495
   title: Circoli e Spirali del Sole
   width_cm: 60
   height_cm: 50
@@ -2984,6 +3410,7 @@
   - natura morta
   - astratto
 - id: a244edba-4c07-4b7a-ae9f-193fad1587fd
+  sort_id: 167
   title: Città Lettera
   width_cm: 50
   height_cm: 40
@@ -2991,6 +3418,7 @@
   - città
   - astratto
 - id: a27a6644-7590-472e-b7ce-adda99c9ae4c
+  sort_id: 431
   title: L’Ultimo Cantico del Fiume
   width_cm: 30
   height_cm: 20
@@ -2998,6 +3426,7 @@
   - paesaggio
   - astratto
 - id: a2a224bd-56ee-4c6f-8dcb-ec1e001536a7
+  sort_id: 406
   title: Riflessi di Sole su Vetro Blu
   width_cm: 80
   height_cm: 60
@@ -3005,6 +3434,7 @@
   - natura morta
   - fiori
 - id: a2b962cb-05af-4edf-b757-06773273ffe5
+  sort_id: 426
   title: L'Ultimo Sorso di Verità
   width_cm: 30
   height_cm: 20
@@ -3012,6 +3442,7 @@
   - paesaggio
   - interni
 - id: a2ff988d-a4e8-458a-a48a-ebc2fe465ed1
+  sort_id: 619
   title: L'alba su un tetto d'inverno
   width_cm: 50
   height_cm: 35
@@ -3019,6 +3450,7 @@
   - paesaggio
   - città
 - id: a30c8119-637c-4313-8b8d-fb838e680d4b
+  sort_id: 54
   title: L'Attesa dei Trucanti
   width_cm: 50
   height_cm: 40
@@ -3026,6 +3458,7 @@
   - città
   - notturno
 - id: a3b14570-dc3c-4c6d-9d05-4224fe3a2078
+  sort_id: 477
   title: Luce tra i cerchi e le rose
   width_cm: 35
   height_cm: 50
@@ -3033,6 +3466,7 @@
   - astratto
   - interni
 - id: a3bccc10-1674-4f46-80cd-10819a4d271d
+  sort_id: 311
   title: L'ombra del sogno urbano
   width_cm: 50
   height_cm: 40
@@ -3040,6 +3474,7 @@
   - interni
   - notturno
 - id: a4f5761a-3693-417d-93b7-88dce6ddb949
+  sort_id: 465
   title: L'Ultimo Sorso di Vita
   width_cm: 50
   height_cm: 35
@@ -3047,6 +3482,7 @@
   - paesaggio
   - natura morta
 - id: a58bf2cd-8613-43f6-a355-b728b9615689
+  sort_id: 143
   title: L'ombra di un sogno in via P.
   width_cm: 50
   height_cm: 35
@@ -3054,6 +3490,7 @@
   - paesaggio
   - fiori
 - id: a5c5434e-a312-4eb3-859b-9d0814c0bfa8
+  sort_id: 658
   title: Luce sul Silenzio
   width_cm: 30
   height_cm: 20
@@ -3061,6 +3498,7 @@
   - paesaggio
   - città
 - id: a6513cb8-983d-437a-aeaf-3da54db20f27
+  sort_id: 362
   title: Luce tra specchi e ombre
   width_cm: 50
   height_cm: 30
@@ -3068,6 +3506,7 @@
   - notturno
   - paesaggio
 - id: a66d9822-6f29-4e9f-a252-9d0fa7b91c69
+  sort_id: 91
   title: L'ombra dei segni
   width_cm: 50
   height_cm: 35
@@ -3075,6 +3514,7 @@
   - città
   - notturno
 - id: a6705da8-a4f6-4056-9e75-91bf3b2749bc
+  sort_id: 478
   title: Circoli d’oro e violetto
   width_cm: 50
   height_cm: 35
@@ -3083,6 +3523,7 @@
   - natura morta
   - fiori
 - id: a6b92448-cb01-42af-8920-acb3f9433728
+  sort_id: 319
   title: Spirale di luce e ombra
   width_cm: 50
   height_cm: 35
@@ -3090,6 +3531,7 @@
   - astratto
   - notturno
 - id: a7194851-a244-4d3d-9879-36418ea07590
+  sort_id: 405
   title: Luce tra i cerchi e le rose
   width_cm: 80
   height_cm: 60
@@ -3097,6 +3539,7 @@
   - natura morta
   - fiori
 - id: a78b58cf-ea85-4160-802c-bd721cd03a9c
+  sort_id: 604
   title: L'alba dei silenzi
   width_cm: 40
   height_cm: 30
@@ -3104,6 +3547,7 @@
   - paesaggio
   - notturno
 - id: a7fa6fb6-2ead-43bc-8d94-ac15468a8a36
+  sort_id: 402
   title: L'Ultimo Silenzio della Luna
   width_cm: 50
   height_cm: 35
@@ -3111,6 +3555,7 @@
   - paesaggio
   - notturno
 - id: a8b879a2-bccb-45e4-a148-c5ebf76ca3ae
+  sort_id: 134
   title: Ombra sul Supermercato
   width_cm: 80
   height_cm: 60
@@ -3118,6 +3563,7 @@
   - astratto
   - città
 - id: a8c57537-28f9-4e2b-8d41-99135d1d06cd
+  sort_id: 428
   title: L'Uomo delle Soglie
   width_cm: 30
   height_cm: 20
@@ -3125,6 +3571,7 @@
   - interni
   - ritratto
 - id: a8f32ccb-104c-4f8b-8876-f76d933ad946
+  sort_id: 312
   title: Luce sul Campo
   width_cm: 50
   height_cm: 35
@@ -3132,6 +3579,7 @@
   - paesaggio
   - astratto
 - id: a9337ec6-2ae6-427f-aa09-d469398b1365
+  sort_id: 628
   title: L’Ultimo Tramonto di Pietra e Sangue
   width_cm: 50
   height_cm: 35
@@ -3139,6 +3587,7 @@
   - paesaggio
   - notturno
 - id: a9de3f39-46bc-4a59-8939-88016602e141
+  sort_id: 126
   title: L'Ultimo Tram della Vita
   width_cm: 40
   height_cm: 30
@@ -3146,6 +3595,7 @@
   - città
   - notturno
 - id: a9e35435-5b26-44a1-8789-795f129f75d2
+  sort_id: 76
   title: L’ombra della città al tramonto
   width_cm: 50
   height_cm: 35
@@ -3153,6 +3603,7 @@
   - città
   - notturno
 - id: aa315ca0-d919-40a7-8390-5431e5fea772
+  sort_id: 526
   title: 'Occhi e petali: Un dialogo di luce'
   width_cm: 60
   height_cm: 50
@@ -3160,6 +3611,7 @@
   - natura morta
   - fiori
 - id: aa5aa179-c8c8-4327-9841-839041b891a4
+  sort_id: 80
   title: L'ombra dei segni luminosi
   width_cm: 80
   height_cm: 60
@@ -3167,6 +3619,7 @@
   - città
   - notturno
 - id: aa9efcc9-b0d2-4ebd-8cab-418435021c22
+  sort_id: 485
   title: L’Ombra del Ceramista
   width_cm: 60
   height_cm: 40
@@ -3174,6 +3627,7 @@
   - paesaggio
   - natura morta
 - id: aaa0a016-cdc6-4d19-972b-f76ec95dea09
+  sort_id: 2
   title: L'ombra del tramonto urbano
   width_cm: 50
   height_cm: 30
@@ -3181,6 +3635,7 @@
   - notturno
   - città
 - id: aabfdaa4-1e7a-4b9b-a0fb-9e0ff6fff5c3
+  sort_id: 472
   title: L'Ultimo Sorso di Rosa
   width_cm: 50
   height_cm: 35
@@ -3188,6 +3643,7 @@
   - interni
   - notturno
 - id: ab087d58-80bc-4f61-ad54-6501d1e7016f
+  sort_id: 255
   title: Luce tra le ombre
   width_cm: 40
   height_cm: 50
@@ -3195,6 +3651,7 @@
   - notturno
   - interni
 - id: ab25e55e-fedf-4970-bf99-c518e1b39911
+  sort_id: 307
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -3202,6 +3659,7 @@
   - interni
   - ritratto
 - id: ab75103b-a05f-42e6-abde-6f7d1503fff5
+  sort_id: 436
   title: L'Ultimo Sorso del Giardino
   width_cm: 40
   height_cm: 50
@@ -3209,6 +3667,7 @@
   - paesaggio
   - città
 - id: abaabec4-ecb2-45ad-9971-6690ae9aca23
+  sort_id: 538
   title: L'Occhio del Crepuscolo
   width_cm: 50
   height_cm: 60
@@ -3216,6 +3675,7 @@
   - notturno
   - astratto
 - id: ac36ac14-c923-402c-8b24-02d963cbcfcd
+  sort_id: 346
   title: Luce sul Silenzio Blu
   width_cm: 30
   height_cm: 20
@@ -3223,6 +3683,7 @@
   - interni
   - astratto
 - id: ac45163c-0d7f-4b8f-9e26-70a89d01f22a
+  sort_id: 115
   title: Rifugio Neon
   width_cm: 40
   height_cm: 50
@@ -3230,6 +3691,7 @@
   - città
   - notturno
 - id: ac62e392-adcf-497e-8f8e-0ba35e796945
+  sort_id: 660
   title: L’Ultimo Tramonto del Silenzio
   width_cm: 50
   height_cm: 30
@@ -3237,6 +3699,7 @@
   - paesaggio
   - notturno
 - id: aca0a1de-07ee-4a23-9ee6-a97245cdeae4
+  sort_id: 587
   title: L'Ombra del Sole Blu
   width_cm: 30
   height_cm: 20
@@ -3244,6 +3707,7 @@
   - paesaggio
   - città
 - id: acf3e7e5-b428-410d-9200-b25dab1e4d3c
+  sort_id: 184
   title: L’Ombra dei Luoghi Inquieti
   width_cm: 50
   height_cm: 40
@@ -3251,6 +3715,7 @@
   - città
   - notturno
 - id: ad5e9597-851f-4d67-a634-5eea832a7d54
+  sort_id: 387
   title: L'Oro del Silenzio
   width_cm: 80
   height_cm: 60
@@ -3258,6 +3723,7 @@
   - astratto
   - notturno
 - id: ad6f16c8-5829-496b-9169-83b12d637080
+  sort_id: 599
   title: L'alba del cigno dorato
   width_cm: 40
   height_cm: 30
@@ -3265,6 +3731,7 @@
   - paesaggio
   - notturno
 - id: ad74bbc6-2897-4d8f-9d62-c636c7bb72f0
+  sort_id: 116
   title: Riflessi di Polonia
   width_cm: 30
   height_cm: 20
@@ -3272,6 +3739,7 @@
   - città
   - ritratto
 - id: ae1bfac6-8a1d-45dd-94dd-832056d54ebf
+  sort_id: 138
   title: Ritratto di un Tramonto Urbano
   width_cm: 30
   height_cm: 20
@@ -3279,6 +3747,7 @@
   - paesaggio
   - città
 - id: ae90cb37-296c-4763-9017-2202120dd3ee
+  sort_id: 415
   title: Fiori nel Cuore del Verdeno
   width_cm: 50
   height_cm: 35
@@ -3286,6 +3755,7 @@
   - paesaggio
   - ritratto
 - id: aebbd8dc-1590-45a8-909a-5ab9e61b997f
+  sort_id: 501
   title: Ondata di Verde e Sangue
   width_cm: 70
   height_cm: 40
@@ -3293,6 +3763,7 @@
   - astratto
   - natura morta
 - id: af69c2d7-69f2-4530-9550-54c53498f0ef
+  sort_id: 388
   title: L'Ultimo Raggio d'Oro
   width_cm: 80
   height_cm: 60
@@ -3300,6 +3771,7 @@
   - paesaggio
   - notturno
 - id: afcc914c-d090-48cd-a519-afffad820f7e
+  sort_id: 615
   title: Rivoli di Terra e Blu del Silenzio
   width_cm: 30
   height_cm: 20
@@ -3307,6 +3779,7 @@
   - paesaggio
   - città
 - id: b01d1d88-9bce-404c-9f75-57716107c03c
+  sort_id: 199
   title: L'Ora del Pilota
   width_cm: 40
   height_cm: 30
@@ -3314,6 +3787,7 @@
   - città
   - notturno
 - id: b0be0901-ff2e-46c0-b11c-84b437aba272
+  sort_id: 216
   title: Occhi nel buio
   width_cm: 50
   height_cm: 35
@@ -3321,6 +3795,7 @@
   - astratto
   - ritratto
 - id: b0f47f44-6eb7-4330-80c7-ca5a5caa1827
+  sort_id: 316
   title: Cicli d’ombra e luce
   width_cm: 50
   height_cm: 35
@@ -3328,6 +3803,7 @@
   - paesaggio
   - astratto
 - id: b13ebd96-af84-4f8a-8ac4-b6380ec3152d
+  sort_id: 152
   title: Risveglio del Silenzio Bruciato
   width_cm: 30
   height_cm: 20
@@ -3335,6 +3811,7 @@
   - paesaggio
   - città
 - id: b17b0366-7128-4c99-9c2f-6e8f5bcfea21
+  sort_id: 160
   title: L'ombra dei silenzi
   width_cm: 70
   height_cm: 40
@@ -3342,6 +3819,7 @@
   - città
   - notturno
 - id: b1919a13-7227-45b9-bd7c-29bed3f0a205
+  sort_id: 157
   title: L'ombra della città al tramonto
   width_cm: 30
   height_cm: 20
@@ -3349,6 +3827,7 @@
   - città
   - notturno
 - id: b1cd2724-21f8-4169-9f49-fa51e00755a0
+  sort_id: 52
   title: L’ora dei treni e la luce degli anni passati
   width_cm: 60
   height_cm: 40
@@ -3356,6 +3835,7 @@
   - città
   - notturno
 - id: b1f608ec-cdf3-4c69-9c31-ce8dc082dcad
+  sort_id: 24
   title: L’Ombra dei Luoghi Notturni
   width_cm: 80
   height_cm: 45
@@ -3363,6 +3843,7 @@
   - città
   - notturno
 - id: b2557d5e-160b-43b0-ace2-7e8c517b5dbc
+  sort_id: 9
   title: L'Ultimo Viaggio al Crepuscolo
   width_cm: 60
   height_cm: 50
@@ -3370,6 +3851,7 @@
   - città
   - notturno
 - id: b2ac0d60-53b9-4e9a-9f8e-9904e91bed5e
+  sort_id: 601
   title: Sogno d’Autunno
   width_cm: 70
   height_cm: 40
@@ -3377,6 +3859,7 @@
   - paesaggio
   - fiori
 - id: b301d476-8e02-4680-9169-d0a231362c8f
+  sort_id: 639
   title: L’Ultimo Tramonto su Collina d’Oro
   width_cm: 40
   height_cm: 50
@@ -3384,6 +3867,7 @@
   - paesaggio
   - città
 - id: b304fd36-46f8-41b7-bec4-bf8082fd46ec
+  sort_id: 540
   title: L'Ultimo Tramonto sul Cielo di Betulla
   width_cm: 30
   height_cm: 20
@@ -3391,6 +3875,7 @@
   - paesaggio
   - città
 - id: b4091d35-8513-4f2b-99ad-4e63ce0ecaa1
+  sort_id: 541
   title: L'Ultimo Tramonto sul Cielo di Betlemme
   width_cm: 30
   height_cm: 20
@@ -3398,6 +3883,7 @@
   - paesaggio
   - città
 - id: b4701918-bdb5-4fef-937e-6f126000f2ae
+  sort_id: 107
   title: Caffè del Tempo
   width_cm: 60
   height_cm: 50
@@ -3405,6 +3891,7 @@
   - città
   - interni
 - id: b51644c3-8f95-49d1-b240-31bd644338f2
+  sort_id: 57
   title: L'ombra dei cartelli al crepuscolo
   width_cm: 30
   height_cm: 20
@@ -3412,6 +3899,7 @@
   - città
   - notturno
 - id: b6fd7c64-e4e0-443a-a187-a579868c4d88
+  sort_id: 127
   title: L'ombra dei passaggi
   width_cm: 40
   height_cm: 30
@@ -3419,6 +3907,7 @@
   - città
   - notturno
 - id: b732df1b-7d82-4d86-95bd-577b08b91384
+  sort_id: 396
   title: L'Ultimo Sogno del Caffè d'Oro
   width_cm: 50
   height_cm: 40
@@ -3426,6 +3915,7 @@
   - astratto
   - notturno
 - id: b76a994f-2ace-447e-92a6-461243a2fa8d
+  sort_id: 341
   title: L'Oro delle Tenebre
   width_cm: 40
   height_cm: 50
@@ -3433,6 +3923,7 @@
   - città
   - notturno
 - id: b86c4a84-7729-453d-8316-178f7e3dde70
+  sort_id: 73
   title: L'ombra della città al crepuscolo
   width_cm: 50
   height_cm: 35
@@ -3440,6 +3931,7 @@
   - città
   - notturno
 - id: b8f10dac-c27b-47f2-bd45-ca90fd1809dd
+  sort_id: 137
   title: L'Ultimo Viaggio al Banchi
   width_cm: 40
   height_cm: 30
@@ -3447,6 +3939,7 @@
   - paesaggio
   - città
 - id: b9025cde-5d27-4a42-87f2-2997e33aa0ee
+  sort_id: 282
   title: L’Ombra dei Caffè d’Oltrepassato
   width_cm: 60
   height_cm: 40
@@ -3454,6 +3947,7 @@
   - città
   - notturno
 - id: b95656bc-ae3f-47d4-9be5-674274f26a49
+  sort_id: 498
   title: Fiori tra vetri e colori smarriti
   width_cm: 40
   height_cm: 50
@@ -3461,6 +3955,7 @@
   - paesaggio
   - fiori
 - id: ba0619d3-c374-4094-bf24-9adfb54eb5dc
+  sort_id: 214
   title: Caffè al Crepuscolo
   width_cm: 40
   height_cm: 50
@@ -3468,6 +3963,7 @@
   - notturno
   - città
 - id: ba2b8621-5610-4487-8f2f-538786f9b2d5
+  sort_id: 247
   title: L'Astronauta del Silenzio
   width_cm: 40
   height_cm: 50
@@ -3475,6 +3971,7 @@
   - astratto
   - ritratto
 - id: baf903f2-f62d-4a4d-9ec7-9794d3778194
+  sort_id: 87
   title: L'Uomo e la Macchina del Tempo
   width_cm: 50
   height_cm: 35
@@ -3482,6 +3979,7 @@
   - paesaggio
   - città
 - id: bb0be7ea-7498-4a28-9248-14fe31437cc6
+  sort_id: 85
   title: L'Uomo della Stazione Silenziosa
   width_cm: 50
   height_cm: 35
@@ -3489,6 +3987,7 @@
   - città
   - notturno
 - id: bb3357eb-78b1-4ec0-a5b4-d3f97c270d1f
+  sort_id: 108
   title: L'Ultimo Collettivo
   width_cm: 60
   height_cm: 50
@@ -3496,6 +3995,7 @@
   - città
   - notturno
 - id: bc113b75-bbec-423b-a368-cbbdd1c9c318
+  sort_id: 259
   title: L'Ultimo Riflesso
   width_cm: 60
   height_cm: 40
@@ -3503,6 +4003,7 @@
   - interni
   - notturno
 - id: bc82502d-3ba4-4f51-8da4-fcd285191cdc
+  sort_id: 122
   title: Ridendo e Piangendo – Stazione Innamorata
   width_cm: 50
   height_cm: 35
@@ -3510,6 +4011,7 @@
   - città
   - notturno
 - id: bcb95ec1-ca24-45bd-8528-909d771158a4
+  sort_id: 500
   title: Ondata di Fuoco
   width_cm: 40
   height_cm: 55
@@ -3517,6 +4019,7 @@
   - astratto
   - interni
 - id: bd1d7a30-3080-477c-b227-a56a9fb61940
+  sort_id: 357
   title: Luce notturna su tavola d'inverno
   width_cm: 40
   height_cm: 50
@@ -3524,6 +4027,7 @@
   - notturno
   - interni
 - id: bd50e821-2cad-442d-93e2-36f87c226ed8
+  sort_id: 272
   title: L'Ultimo Sorso di Luce
   width_cm: 50
   height_cm: 60
@@ -3531,6 +4035,7 @@
   - paesaggio
   - città
 - id: be1627f6-5fd8-48b8-a662-e94e34f23b16
+  sort_id: 632
   title: Alberi e Luce su Collina d'Oro
   width_cm: 70
   height_cm: 40
@@ -3538,6 +4043,7 @@
   - paesaggio
   - fiori
 - id: bea7ccc6-9fef-404d-92b3-1c3b4fe0828d
+  sort_id: 318
   title: Circoli d’ombra e luce
   width_cm: 50
   height_cm: 35
@@ -3545,6 +4051,7 @@
   - astratto
   - città
 - id: bf0117b9-cde5-4bac-9df8-c47e279a0aa0
+  sort_id: 174
   title: L'Ultimo Passo verso il Ritratto della Notte
   width_cm: 50
   height_cm: 35
@@ -3552,6 +4059,7 @@
   - città
   - notturno
 - id: bf821667-e75a-4658-bec1-3a4ef0c82c4a
+  sort_id: 123
   title: L'ombra del mercoledì
   width_cm: 30
   height_cm: 40
@@ -3559,6 +4067,7 @@
   - città
   - interni
 - id: bfdc29bd-20bc-435c-af7e-e1e26ae658ac
+  sort_id: 314
   title: Circoli di Fuoco
   width_cm: 50
   height_cm: 35
@@ -3566,6 +4075,7 @@
   - astratto
   - città
 - id: c1068fb9-5410-4ea3-9b36-b5c69f78be87
+  sort_id: 188
   title: L’Ombra dei Muri d’Oro
   width_cm: 40
   height_cm: 50
@@ -3573,6 +4083,7 @@
   - città
   - notturno
 - id: c20aa77d-8cee-4c93-ac4e-ff9a1ffb8d2c
+  sort_id: 457
   title: Luce tra le sfumature
   width_cm: 40
   height_cm: 50
@@ -3580,6 +4091,7 @@
   - paesaggio
   - notturno
 - id: c2fad6c5-2608-4c27-b6bf-462ceeaaf5f9
+  sort_id: 476
   title: Riflessi di luce su vetro e rosso
   width_cm: 50
   height_cm: 35
@@ -3588,6 +4100,7 @@
   - natura morta
   - fiori
 - id: c3d8d595-c677-4e49-84a9-5af4cfb4ffef
+  sort_id: 404
   title: L'Ultimo Sorso d'Oro
   width_cm: 40
   height_cm: 50
@@ -3595,6 +4108,7 @@
   - paesaggio
   - notturno
 - id: c457eb2d-f663-4f0b-8c01-20e63345e535
+  sort_id: 5
   title: L'ombra del tramonto urbano
   width_cm: 70
   height_cm: 40
@@ -3602,6 +4116,7 @@
   - città
   - notturno
 - id: c4c45564-1377-4c48-a5b9-0529f48da6c1
+  sort_id: 348
   title: Luna su Muraglia d'Oro
   width_cm: 40
   height_cm: 55
@@ -3609,6 +4124,7 @@
   - paesaggio
   - città
 - id: c527fa41-1c4b-4591-9bee-44ef02266102
+  sort_id: 468
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -3616,6 +4132,7 @@
   - interni
   - fiori
 - id: c5c2a114-c018-4263-a651-36a6336b4792
+  sort_id: 194
   title: L’Ultimo Tramonto sul Silenzio
   width_cm: 50
   height_cm: 35
@@ -3623,6 +4140,7 @@
   - paesaggio
   - notturno
 - id: c69b6515-5cd6-4a04-91c6-82db084a7693
+  sort_id: 274
   title: Tavola dei Silenziosi
   width_cm: 30
   height_cm: 20
@@ -3630,6 +4148,7 @@
   - interni
   - ritratto
 - id: c6f80d1a-f4dc-4ae9-9a9b-37ec8cdfc37b
+  sort_id: 35
   title: 'Cristol: Luce e Ritratto della Città Notturna'
   width_cm: 40
   height_cm: 30
@@ -3637,6 +4156,7 @@
   - città
   - notturno
 - id: c7988dbc-1c59-4709-b8c8-86cc3191f4ab
+  sort_id: 497
   title: Semi di Fuoco
   width_cm: 30
   height_cm: 20
@@ -3644,6 +4164,7 @@
   - astratto
   - notturno
 - id: c7a88594-5d09-4a3d-a7fa-56ddf309d068
+  sort_id: 611
   title: Allegoria dei Venti d'Autunno
   width_cm: 30
   height_cm: 40
@@ -3651,6 +4172,7 @@
   - paesaggio
   - notturno
 - id: c81d2746-7cdc-4af4-80c1-ea98b99e10ea
+  sort_id: 236
   title: Sogno d'Oscurità
   width_cm: 40
   height_cm: 50
@@ -3658,6 +4180,7 @@
   - ritratto
   - astratto
 - id: c820b51e-cea3-41bc-b34c-57c58ce6714f
+  sort_id: 217
   title: Occhi nella Nebbia
   width_cm: 80
   height_cm: 60
@@ -3665,6 +4188,7 @@
   - notturno
   - città
 - id: c90183d1-c8cf-46e9-8fb7-b8af6340be8b
+  sort_id: 553
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 30
@@ -3672,6 +4196,7 @@
   - paesaggio
   - notturno
 - id: c91db9c3-e2ce-45a1-af79-bd39cb0647e4
+  sort_id: 101
   title: L'ombra di Nuit et Diel
   width_cm: 50
   height_cm: 40
@@ -3679,6 +4204,7 @@
   - città
   - notturno
 - id: c950fffe-1ca7-4a47-bba5-f044b68a2508
+  sort_id: 111
   title: L'Ultimo Caffè al Crepuscolo
   width_cm: 50
   height_cm: 35
@@ -3686,6 +4212,7 @@
   - città
   - notturno
 - id: c982b65c-e762-4376-8b15-b0887d4c9d88
+  sort_id: 502
   title: Ritratto di un Giardino Sogliare
   width_cm: 70
   height_cm: 40
@@ -3693,6 +4220,7 @@
   - astratto
   - natura morta
 - id: c9893656-ed1b-4ac3-b769-60fd714692a7
+  sort_id: 117
   title: Ombra di *P
   width_cm: 60
   height_cm: 40
@@ -3700,6 +4228,7 @@
   - ritratto
   - astratto
 - id: c9a1cb22-89c3-40a2-b30c-d3941f0191dc
+  sort_id: 350
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 40
@@ -3707,6 +4236,7 @@
   - paesaggio
   - notturno
 - id: c9c88e05-330c-4f2d-82df-028fb740560e
+  sort_id: 246
   title: L'Astronauta del Silenzio
   width_cm: 40
   height_cm: 50
@@ -3714,6 +4244,7 @@
   - astratto
   - ritratto
 - id: caecd5bf-df44-4f6d-aa6b-97f9cb0811e7
+  sort_id: 155
   title: L'Ultimo Viaggio del Sole
   width_cm: 70
   height_cm: 40
@@ -3721,6 +4252,7 @@
   - paesaggio
   - notturno
 - id: cbbe83eb-10d9-4393-9d35-5e13ac35ceb6
+  sort_id: 343
   title: Luce tra ombre e vetri
   width_cm: 40
   height_cm: 50
@@ -3728,6 +4260,7 @@
   - paesaggio
   - notturno
 - id: cbd1063e-5cf4-4a54-bbb8-84109f0f1f17
+  sort_id: 40
   title: L'ombra dei segni P.J.C.
   width_cm: 50
   height_cm: 40
@@ -3735,6 +4268,7 @@
   - città
   - interni
 - id: cbf8cc9c-25d7-40f8-bbf6-48188dab293a
+  sort_id: 16
   title: L'Appuntamento del Silenzio
   width_cm: 60
   height_cm: 40
@@ -3742,6 +4276,7 @@
   - paesaggio
   - città
 - id: cc4364f3-bb50-4a70-a3b1-922b30b4847a
+  sort_id: 486
   title: L'Ultimo Sorso della Notte
   width_cm: 50
   height_cm: 40
@@ -3749,6 +4284,7 @@
   - paesaggio
   - notturno
 - id: cc7e9c8d-b995-4f03-b3fa-e962121d021b
+  sort_id: 383
   title: Luce del Serpente d'Oro
   width_cm: 50
   height_cm: 30
@@ -3756,6 +4292,7 @@
   - notturno
   - paesaggio
 - id: cd52412c-d57c-4be8-a939-768bebd7f862
+  sort_id: 585
   title: L'Uovo del Crepuscolo
   width_cm: 60
   height_cm: 40
@@ -3763,6 +4300,7 @@
   - paesaggio
   - città
 - id: cde98c8c-a52b-43b9-b247-34a8f426ad35
+  sort_id: 351
   title: L'Ultimo Riflesso della Luna
   width_cm: 80
   height_cm: 60
@@ -3770,6 +4308,7 @@
   - paesaggio
   - notturno
 - id: ce008018-15f7-438b-82ee-316f5455c0ab
+  sort_id: 69
   title: L’ombra dei luccichii
   width_cm: 50
   height_cm: 30
@@ -3777,6 +4316,7 @@
   - città
   - notturno
 - id: cf02599d-2a70-41c0-9a64-7196a4f54711
+  sort_id: 530
   title: Occhi di vetro sul tramonto
   width_cm: 30
   height_cm: 20
@@ -3784,6 +4324,7 @@
   - paesaggio
   - città
 - id: cf1e7986-ce1a-4d60-a07b-7ce632163cb1
+  sort_id: 529
   title: Fiori nel Silenzio della Luce
   width_cm: 30
   height_cm: 20
@@ -3791,6 +4332,7 @@
   - paesaggio
   - fiori
 - id: cf307eef-f3be-43f8-ad9d-bd54b97575a1
+  sort_id: 345
   title: Luce tra muri e spirale d'oro
   width_cm: 30
   height_cm: 40
@@ -3798,6 +4340,7 @@
   - città
   - notturno
 - id: cf365b40-1d34-4750-8972-6eae2388895f
+  sort_id: 205
   title: Occhi nel Pendio
   width_cm: 50
   height_cm: 40
@@ -3805,6 +4348,7 @@
   - astratto
   - ritratto
 - id: cf85ce91-1efa-415a-88d6-6e6cd1193ab0
+  sort_id: 612
   title: Allegoria dei Venti d'Autunno
   width_cm: 60
   height_cm: 80
@@ -3812,6 +4356,7 @@
   - paesaggio
   - notturno
 - id: d0079578-297b-4f19-a938-8fbafb18ad7a
+  sort_id: 154
   title: L'Ultimo Viaggio del Sole
   width_cm: 70
   height_cm: 40
@@ -3819,6 +4364,7 @@
   - paesaggio
   - notturno
 - id: d044aad4-ebdc-4faa-bf79-ea2dc9ac4f09
+  sort_id: 67
   title: L'ombra dei segni
   width_cm: 50
   height_cm: 35
@@ -3826,6 +4372,7 @@
   - città
   - notturno
 - id: d2134162-d1c0-4ef2-86af-2a6ba1433458
+  sort_id: 517
   title: Rifiorire sul blu
   width_cm: 60
   height_cm: 50
@@ -3833,6 +4380,7 @@
   - fiori
   - paesaggio
 - id: d21b771d-7295-4611-825d-70dbe4fc19fd
+  sort_id: 558
   title: Fiori sul Limbo Urbano
   width_cm: 70
   height_cm: 40
@@ -3840,6 +4388,7 @@
   - paesaggio
   - fiori
 - id: d220963c-ab41-413a-9029-59ab14d58b9c
+  sort_id: 166
   title: L’Ultimo Tramonto di Borgo Rosso
   width_cm: 50
   height_cm: 60
@@ -3847,6 +4396,7 @@
   - paesaggio
   - città
 - id: d23d1139-3ed4-4f3f-8016-345721abfac0
+  sort_id: 250
   title: Occhi sul Passato
   width_cm: 60
   height_cm: 50
@@ -3854,6 +4404,7 @@
   - paesaggio
   - città
 - id: d2e27f46-ae0c-4a89-ab14-fc2f76bf34cd
+  sort_id: 296
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 30
@@ -3861,6 +4412,7 @@
   - paesaggio
   - notturno
 - id: d30d8793-4464-4f5d-9cda-934111827b54
+  sort_id: 172
   title: L’Ombra della Luna sul Peso d’Oro
   width_cm: 30
   height_cm: 20
@@ -3868,6 +4420,7 @@
   - città
   - notturno
 - id: d337e007-49f9-4438-aa73-6cdfa6dff985
+  sort_id: 204
   title: Occhi al Pendolo
   width_cm: 50
   height_cm: 40
@@ -3875,6 +4428,7 @@
   - astratto
   - ritratto
 - id: d3bcb40b-7b14-491e-8670-3a5bb6b7a8b8
+  sort_id: 297
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 30
@@ -3882,6 +4436,7 @@
   - paesaggio
   - notturno
 - id: d3dbb474-d77e-47aa-9bab-4772de6b7125
+  sort_id: 164
   title: L’Ombra del Tramonto
   width_cm: 50
   height_cm: 30
@@ -3889,6 +4444,7 @@
   - città
   - notturno
 - id: d504fa19-10d5-4745-a357-dc339655a129
+  sort_id: 289
   title: L'Ultimo Sorso al Tramonto
   width_cm: 30
   height_cm: 20
@@ -3896,6 +4452,7 @@
   - paesaggio
   - notturno
 - id: d54d5f6f-c760-473e-9adc-9def6014f98f
+  sort_id: 332
   title: Frammenti di Luce e Ombra
   width_cm: 40
   height_cm: 55
@@ -3903,6 +4460,7 @@
   - astratto
   - interni
 - id: d5b959ad-bb01-463f-93e7-d1fe528a451f
+  sort_id: 592
   title: L’Uomo che guarda il mare
   width_cm: 60
   height_cm: 40
@@ -3910,6 +4468,7 @@
   - paesaggio
   - città
 - id: d5d149f7-3a20-4d54-b56c-bedd649c8905
+  sort_id: 671
   title: L’Ombra dei Colori Solitari
   width_cm: 50
   height_cm: 30
@@ -3917,6 +4476,7 @@
   - paesaggio
   - notturno
 - id: d5d5fc2b-bcec-48b8-b7ad-9431716f28db
+  sort_id: 220
   title: L'Arco dei Silenziosi
   width_cm: 40
   height_cm: 50
@@ -3924,6 +4484,7 @@
   - astratto
   - interni
 - id: d64b13b8-1ba7-4b81-ba43-57fd4f8c3959
+  sort_id: 344
   title: Luce tra le ombre urbane
   width_cm: 40
   height_cm: 50
@@ -3931,6 +4492,7 @@
   - astratto
   - notturno
 - id: d64da1e0-eca1-4d1d-9413-ca987f526f1c
+  sort_id: 443
   title: Luce tra i confini
   width_cm: 50
   height_cm: 40
@@ -3938,6 +4500,7 @@
   - interni
   - notturno
 - id: d668b4ba-93e1-49e2-b46e-aafa19f56dcc
+  sort_id: 571
   title: Rifugio di Fiori e Silenzio
   width_cm: 40
   height_cm: 50
@@ -3945,6 +4508,7 @@
   - paesaggio
   - fiori
 - id: d7555c80-0914-4b69-8828-edbc0724e50d
+  sort_id: 382
   title: Luce del Sogno e Silenzio
   width_cm: 50
   height_cm: 30
@@ -3952,6 +4516,7 @@
   - notturno
   - paesaggio
 - id: d7633c59-a11b-4b70-89c2-c57df5ca9afe
+  sort_id: 559
   title: Vasi di Luce
   width_cm: 70
   height_cm: 40
@@ -3959,6 +4524,7 @@
   - natura morta
   - fiori
 - id: d7670ef2-a61e-49ee-a9fb-0dcf33f7efc3
+  sort_id: 299
   title: L'Ultimo Rifugio del Sole
   width_cm: 70
   height_cm: 50
@@ -3966,6 +4532,7 @@
   - astratto
   - notturno
 - id: d7aa7131-83e7-4a87-ad2b-5cf2cd9b6182
+  sort_id: 210
   title: Mezzi Occhi della Notte
   width_cm: 50
   height_cm: 40
@@ -3973,6 +4540,7 @@
   - ritratto
   - astratto
 - id: d85768fd-1282-4020-8ba7-bc745c9bcae3
+  sort_id: 267
   title: Luce sul CPd – Notte di transizione
   width_cm: 50
   height_cm: 35
@@ -3980,6 +4548,7 @@
   - paesaggio
   - notturno
 - id: d8776e37-8d8a-41c6-939e-7b07aaf05871
+  sort_id: 131
   title: Luce su Piazzo
   width_cm: 50
   height_cm: 35
@@ -3987,6 +4556,7 @@
   - città
   - notturno
 - id: d8830bf9-6df4-4c2b-afc7-fd6a50d5c57e
+  sort_id: 263
   title: L’Ombra che Parla
   width_cm: 40
   height_cm: 50
@@ -3994,6 +4564,7 @@
   - interni
   - città
 - id: d8da79fc-df14-4025-9919-e8f1fd0e0723
+  sort_id: 43
   title: L'Uomo al Passaggio
   width_cm: 40
   height_cm: 50
@@ -4001,6 +4572,7 @@
   - città
   - notturno
 - id: d8dabbf5-2db4-4eb6-ae81-4c534685dbf5
+  sort_id: 75
   title: L'ombra della città notturna
   width_cm: 50
   height_cm: 35
@@ -4008,6 +4580,7 @@
   - città
   - notturno
 - id: d9115c13-4df2-4294-b737-86dc500bdc1c
+  sort_id: 459
   title: L'Ultimo Sorso di Un'estate Perduta
   width_cm: 70
   height_cm: 40
@@ -4015,6 +4588,7 @@
   - paesaggio
   - città
 - id: d92a4ba8-3b93-47b6-a87e-494403aa177e
+  sort_id: 668
   title: L'Ultimo Viaggio nel Rosa
   width_cm: 50
   height_cm: 40
@@ -4022,6 +4596,7 @@
   - paesaggio
   - fiori
 - id: d9c04a3a-e768-4850-9afa-146b6055f7c8
+  sort_id: 99
   title: Riflessi di un tempo sospeso
   width_cm: 70
   height_cm: 40
@@ -4029,6 +4604,7 @@
   - interni
   - notturno
 - id: d9e9d65b-c4d8-45e7-8bf7-e7d5e3b0e273
+  sort_id: 433
   title: L'ombra del caffè e la luce del passato
   width_cm: 50
   height_cm: 40
@@ -4036,6 +4612,7 @@
   - paesaggio
   - città
 - id: d9f44b9c-8a76-4271-ad65-f205dd4e75ed
+  sort_id: 618
   title: L’Atmosfera dei Colori Perduti
   width_cm: 50
   height_cm: 35
@@ -4043,6 +4620,7 @@
   - paesaggio
   - città
 - id: da5aaea2-dd16-4781-a0f6-e54a69fc5a4f
+  sort_id: 98
   title: Due facce della città
   width_cm: 30
   height_cm: 20
@@ -4050,6 +4628,7 @@
   - città
   - notturno
 - id: da9373a8-566f-4e82-94cd-e58191827835
+  sort_id: 542
   title: L'Uomo tra le Barriere del Tempo
   width_cm: 60
   height_cm: 40
@@ -4057,6 +4636,7 @@
   - paesaggio
   - città
 - id: dad4e691-0b3c-4ad6-8c74-07c088c4184a
+  sort_id: 308
   title: L'Ultimo Sorso
   width_cm: 50
   height_cm: 40
@@ -4064,6 +4644,7 @@
   - interni
   - notturno
 - id: db5fbc4c-832d-426e-8b9e-648663c7d8ae
+  sort_id: 130
   title: Occhi nella nebbia
   width_cm: 30
   height_cm: 40
@@ -4071,6 +4652,7 @@
   - città
   - notturno
 - id: dcff1bfb-ef82-4227-99ff-94f7587595aa
+  sort_id: 518
   title: Riflessi di un giardino al tramonto
   width_cm: 50
   height_cm: 40
@@ -4078,6 +4660,7 @@
   - natura morta
   - fiori
 - id: dd70182c-1925-4765-8340-9e72ce02d44a
+  sort_id: 295
   title: L'Ultimo Sorso d'Oro
   width_cm: 50
   height_cm: 30
@@ -4085,6 +4668,7 @@
   - paesaggio
   - notturno
 - id: de845130-0116-4c67-b84e-94d22f295168
+  sort_id: 664
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 35
@@ -4092,6 +4676,7 @@
   - paesaggio
   - notturno
 - id: e0b9d333-038b-469a-b69f-1db95f25fafb
+  sort_id: 390
   title: L’Ombra dei Cieli Rotondi
   width_cm: 30
   height_cm: 20
@@ -4099,6 +4684,7 @@
   - astratto
   - natura morta
 - id: e11fde0b-f4ab-4416-8ee0-69a9d2e1b848
+  sort_id: 56
   title: L'Uomo al Buio della Città Notturna
   width_cm: 60
   height_cm: 40
@@ -4106,6 +4692,7 @@
   - città
   - notturno
 - id: e19ef47c-eec9-4930-8255-a5e8da5ca169
+  sort_id: 663
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 35
@@ -4113,6 +4700,7 @@
   - paesaggio
   - città
 - id: e1d57450-a010-4615-9a9d-1c7cdd5a1fb3
+  sort_id: 581
   title: Circoli d’oro e sfere di luce
   width_cm: 50
   height_cm: 60
@@ -4120,6 +4708,7 @@
   - paesaggio
   - astratto
 - id: e1dd9ff8-aaee-4631-bec9-36628f4dc7fc
+  sort_id: 609
   title: Frutti d’Autunno sul Fiume
   width_cm: 40
   height_cm: 30
@@ -4127,6 +4716,7 @@
   - paesaggio
   - fiori
 - id: e1f85bab-d20f-4d00-968c-29cb94843303
+  sort_id: 333
   title: Frammenti d’Ombra
   width_cm: 40
   height_cm: 30
@@ -4134,6 +4724,7 @@
   - astratto
   - interni
 - id: e299f9a8-ebbb-4233-808f-05e5113f4f78
+  sort_id: 175
   title: L'ombra dei passaggi
   width_cm: 50
   height_cm: 40
@@ -4141,6 +4732,7 @@
   - città
   - notturno
 - id: e2b2ce81-6970-4532-bc63-68540a588820
+  sort_id: 600
   title: Alba sul Lago
   width_cm: 80
   height_cm: 60
@@ -4148,6 +4740,7 @@
   - paesaggio
   - notturno
 - id: e3f9db47-e1ff-4bd7-abf2-81ea59532418
+  sort_id: 320
   title: Spirale di Luce
   width_cm: 50
   height_cm: 35
@@ -4155,6 +4748,7 @@
   - astratto
   - natura morta
 - id: e49d2db9-023c-4bb6-b013-b66229404ee9
+  sort_id: 338
   title: Circoli di Silenzio Urbano
   width_cm: 40
   height_cm: 50
@@ -4162,6 +4756,7 @@
   - astratto
   - notturno
 - id: e4b2dbc1-f3a1-48ab-8657-ab82a267aaa1
+  sort_id: 238
   title: L'Ultimo Sogno della Caccia
   width_cm: 40
   height_cm: 50
@@ -4169,6 +4764,7 @@
   - astratto
   - interni
 - id: e4c86faa-9ed3-4dc4-ab06-cd4dd7afb29a
+  sort_id: 675
   title: Alba su Monti d’Autunno
   width_cm: 50
   height_cm: 35
@@ -4176,6 +4772,7 @@
   - paesaggio
   - fiori
 - id: e4fa5c46-3afa-4438-b1a8-18ff40c56128
+  sort_id: 607
   title: Riviera dei Fiori e del Silenzio
   width_cm: 50
   height_cm: 30
@@ -4183,6 +4780,7 @@
   - paesaggio
   - fiori
 - id: e5464cfd-93f2-4f9d-bc99-954e4c86a5f1
+  sort_id: 622
   title: L'Ultimo Tramonto su Via Rossa
   width_cm: 60
   height_cm: 50
@@ -4190,6 +4788,7 @@
   - paesaggio
   - città
 - id: e624797e-725c-44e8-9876-84383f5828d9
+  sort_id: 473
   title: L'ombra del fico nella luce scarlatta
   width_cm: 50
   height_cm: 40
@@ -4197,6 +4796,7 @@
   - natura morta
   - fiori
 - id: e6427498-41ae-4177-8f43-18cdb58fb1c3
+  sort_id: 662
   title: L’Ultimo Raggio d’Oro
   width_cm: 50
   height_cm: 30
@@ -4204,6 +4804,7 @@
   - paesaggio
   - città
 - id: e678a2cc-0e53-4f66-a28f-2f72d237fc0c
+  sort_id: 507
   title: Rifiorire su un Taccuino di Pietà
   width_cm: 50
   height_cm: 40
@@ -4211,6 +4812,7 @@
   - natura morta
   - fiori
 - id: e6807f6a-1559-45f7-aaa0-6a1e23194215
+  sort_id: 669
   title: L'Ultimo Colore del Cielo
   width_cm: 70
   height_cm: 40
@@ -4218,6 +4820,7 @@
   - paesaggio
   - notturno
 - id: e6ac3ea1-e627-4674-95a9-c6fce31e5b36
+  sort_id: 435
   title: L'ombra verde della strada
   width_cm: 50
   height_cm: 30
@@ -4225,6 +4828,7 @@
   - paesaggio
   - fiori
 - id: e7e2c10d-42c1-4760-bde8-0686ebe0d3da
+  sort_id: 90
   title: L’ombra dei luccichii
   width_cm: 70
   height_cm: 50
@@ -4232,6 +4836,7 @@
   - città
   - notturno
 - id: e7f8d94c-a21e-43f4-abb3-494babe9e36e
+  sort_id: 159
   title: L'ultimo tramonto di Rino
   width_cm: 60
   height_cm: 40
@@ -4239,6 +4844,7 @@
   - paesaggio
   - notturno
 - id: e85b4f8e-9d3d-493e-ad2a-696005c4d8a2
+  sort_id: 270
   title: L'Ultimo Riflesso del Faraone
   width_cm: 30
   height_cm: 20
@@ -4246,6 +4852,7 @@
   - paesaggio
   - notturno
 - id: e9c08862-2f15-4346-a4d4-f33af9e2b1a1
+  sort_id: 179
   title: L'Uomo e la Luna sul Silenzio Industriale
   width_cm: 50
   height_cm: 40
@@ -4253,6 +4860,7 @@
   - paesaggio
   - notturno
 - id: ea6880b6-30a0-4e62-bfe9-7cbb8c3d1152
+  sort_id: 211
   title: Ritratto di Luce e Ombra
   width_cm: 50
   height_cm: 40
@@ -4260,6 +4868,7 @@
   - città
   - notturno
 - id: ea69a3ea-c20d-414b-8250-09f6fc98925d
+  sort_id: 234
   title: Mascara di Tenebre
   width_cm: 40
   height_cm: 50
@@ -4267,6 +4876,7 @@
   - ritratto
   - notturno
 - id: ea972a4b-feef-4ba4-bb83-1baed9b15096
+  sort_id: 563
   title: Rivolta di petali sul confine
   width_cm: 70
   height_cm: 40
@@ -4274,6 +4884,7 @@
   - paesaggio
   - fiori
 - id: eab179b5-4c0c-423b-8d8e-a373df9d0bcd
+  sort_id: 652
   title: L'Ultimo Silenzio del Campo
   width_cm: 50
   height_cm: 35
@@ -4281,6 +4892,7 @@
   - paesaggio
   - città
 - id: eae5498c-ffc6-49d8-8ec9-52a4915b1da1
+  sort_id: 49
   title: 'Plein Lumière: L’ombra della città notturna'
   width_cm: 80
   height_cm: 60
@@ -4288,6 +4900,7 @@
   - città
   - notturno
 - id: eb36403b-eb3d-477c-be8e-4b486b5375d2
+  sort_id: 163
   title: L’alba tra sigle e volpi
   width_cm: 70
   height_cm: 40
@@ -4295,6 +4908,7 @@
   - paesaggio
   - città
 - id: eb693a5b-d72f-4473-81a5-977303061a76
+  sort_id: 334
   title: L'Ultimo Sorriso del Silenzio
   width_cm: 50
   height_cm: 35
@@ -4302,6 +4916,7 @@
   - ritratto
   - astratto
 - id: eb704b08-3969-425f-ad78-9d4e205f1fef
+  sort_id: 674
   title: Alba sul Silenzio d’Oro
   width_cm: 50
   height_cm: 35
@@ -4309,6 +4924,7 @@
   - paesaggio
   - fiori
 - id: ebc8097a-4bfd-4dcf-9766-54c9e49b938a
+  sort_id: 462
   title: L'Ultimo Fiore sul Tavolino
   width_cm: 70
   height_cm: 40
@@ -4316,6 +4932,7 @@
   - interni
   - notturno
 - id: ec1f630c-942e-45c2-914a-d010e24b5bc4
+  sort_id: 649
   title: L'Ultimo Sorso del Cielo
   width_cm: 70
   height_cm: 50
@@ -4323,6 +4940,7 @@
   - paesaggio
   - fiori
 - id: ec41bd14-a6d1-435e-ae31-c4fab8cc6363
+  sort_id: 63
   title: L'Ultimo Tram della Vita Ordinaria
   width_cm: 30
   height_cm: 20
@@ -4330,6 +4948,7 @@
   - città
   - notturno
 - id: ec6b3f78-bc97-442d-afb9-3a9588293148
+  sort_id: 555
   title: L'ombra dei fiori rossi
   width_cm: 40
   height_cm: 50
@@ -4337,6 +4956,7 @@
   - paesaggio
   - città
 - id: ece24df9-79cd-4aa9-9d8b-727a0f28f9b8
+  sort_id: 531
   title: L'Occhio del Crepuscolo
   width_cm: 60
   height_cm: 40
@@ -4344,6 +4964,7 @@
   - paesaggio
   - notturno
 - id: ed40e8d8-a18f-4426-a92b-f9b4a4e5a181
+  sort_id: 430
   title: L'Ultimo Sorriso sul Tavolino Blu
   width_cm: 60
   height_cm: 50
@@ -4351,6 +4972,7 @@
   - paesaggio
   - ritratto
 - id: ed69a372-0084-43b3-b43b-e7e79fcbf1f3
+  sort_id: 556
   title: Risveglio di Argle
   width_cm: 80
   height_cm: 60
@@ -4359,6 +4981,7 @@
   - città
   - fiori
 - id: edb7d3f6-cc4d-4438-b926-0ab1ce179ce1
+  sort_id: 469
   title: L'Ultimo Sorso di Silenzio
   width_cm: 50
   height_cm: 40
@@ -4366,6 +4989,7 @@
   - interni
   - fiori
 - id: eea4249a-01d3-4dd3-b158-c45f712e0996
+  sort_id: 328
   title: L’Ombra dei Muri Silenziosi
   width_cm: 40
   height_cm: 30
@@ -4373,6 +4997,7 @@
   - paesaggio
   - notturno
 - id: eefbae4a-5ee8-487b-aef8-e2e0b2c0c313
+  sort_id: 376
   title: Luce tra i muri
   width_cm: 50
   height_cm: 60
@@ -4380,6 +5005,7 @@
   - notturno
   - paesaggio
 - id: ef543ff2-b7a8-4417-b879-d267c20b829e
+  sort_id: 445
   title: Riflessi di un Mondo Inquieto
   width_cm: 50
   height_cm: 35
@@ -4387,6 +5013,7 @@
   - interni
   - notturno
 - id: f08a3fa9-2cbe-40e7-aba8-e88bf994c883
+  sort_id: 384
   title: L'Ultimo Raggio d'Oro
   width_cm: 60
   height_cm: 80
@@ -4394,6 +5021,7 @@
   - astratto
   - notturno
 - id: f096c8a5-96c7-49ee-9aff-51219acb0dc0
+  sort_id: 300
   title: Riflesso di un mondo in fiore
   width_cm: 50
   height_cm: 35
@@ -4401,6 +5029,7 @@
   - interni
   - paesaggio
 - id: f0ade21e-4ea3-49a4-84ca-b91797415245
+  sort_id: 667
   title: Lume e Sospensione
   width_cm: 60
   height_cm: 50
@@ -4408,6 +5037,7 @@
   - paesaggio
   - notturno
 - id: f0c64a06-b5f3-42a9-8f4f-06a80db01d8b
+  sort_id: 461
   title: Riflessi di un volto tra vetri e luce
   width_cm: 70
   height_cm: 40
@@ -4415,6 +5045,7 @@
   - paesaggio
   - notturno
 - id: f1544746-2de4-4ab2-be1e-7e71adc5baa7
+  sort_id: 499
   title: Ondata di fuoco e luce
   width_cm: 40
   height_cm: 55
@@ -4422,6 +5053,7 @@
   - astratto
   - notturno
 - id: f16e496c-e4c4-4ca2-accd-755494f38848
+  sort_id: 286
   title: Caffè tra ombre e luce
   width_cm: 70
   height_cm: 40
@@ -4429,6 +5061,7 @@
   - interni
   - notturno
 - id: f215c097-fd40-43d7-97d6-09e25bad79b7
+  sort_id: 651
   title: L’Ombra del Silenzio
   width_cm: 70
   height_cm: 50
@@ -4436,6 +5069,7 @@
   - paesaggio
   - notturno
 - id: f242d5c1-5779-4f70-b34d-d5e3f88efb25
+  sort_id: 253
   title: Occhio al Mondo
   width_cm: 60
   height_cm: 80
@@ -4443,6 +5077,7 @@
   - paesaggio
   - astratto
 - id: f258d873-c43f-4bef-9cd0-a579dfa22af8
+  sort_id: 33
   title: L'ombra del *Spil* sotto il sole declinante
   width_cm: 40
   height_cm: 50
@@ -4450,6 +5085,7 @@
   - città
   - notturno
 - id: f2c34b6e-38be-4c2d-81cc-d245c0bc7222
+  sort_id: 231
   title: L'Ultimo Silenzio degli Angeli
   width_cm: 50
   height_cm: 40
@@ -4457,6 +5093,7 @@
   - ritratto
   - notturno
 - id: f3251684-0e01-4bdd-9b48-337357369250
+  sort_id: 66
   title: L'ombra dei segni
   width_cm: 50
   height_cm: 35
@@ -4464,6 +5101,7 @@
   - città
   - notturno
 - id: f34c477d-3f28-4227-ac13-d7a1add3e711
+  sort_id: 42
   title: L'ombra dei segni P.J.C.
   width_cm: 50
   height_cm: 40
@@ -4471,6 +5109,7 @@
   - città
   - interni
 - id: f3903a8f-6553-4160-8de7-d6fec0efc8a9
+  sort_id: 18
   title: L'Arrivo del Silenzio
   width_cm: 30
   height_cm: 20
@@ -4478,6 +5117,7 @@
   - paesaggio
   - città
 - id: f39730a2-124f-48bf-9672-d79e334f5221
+  sort_id: 200
   title: Ondata di Ombre
   width_cm: 40
   height_cm: 50
@@ -4485,6 +5125,7 @@
   - città
   - notturno
 - id: f400e798-eff9-4372-af62-dad0ba6cb5c4
+  sort_id: 635
   title: L'Uomo che Aspetta il Silenzio
   width_cm: 40
   height_cm: 50
@@ -4492,6 +5133,7 @@
   - paesaggio
   - città
 - id: f417321b-0b37-4d13-9678-a6a606da3f93
+  sort_id: 208
   title: Occhi nella Nebbia di Ferro
   width_cm: 50
   height_cm: 35
@@ -4499,6 +5141,7 @@
   - notturno
   - città
 - id: f5214df8-97fc-4a04-8a42-724d449ee310
+  sort_id: 484
   title: Rivolta di Colori
   width_cm: 60
   height_cm: 40
@@ -4506,6 +5149,7 @@
   - astratto
   - notturno
 - id: f57277a9-ed56-4c1d-ad23-28f83e3c37ea
+  sort_id: 60
   title: L'Ultimo Tramonto di Procl
   width_cm: 70
   height_cm: 40
@@ -4513,6 +5157,7 @@
   - paesaggio
   - città
 - id: f65aaedb-2480-4950-be34-047bac3214de
+  sort_id: 466
   title: L'Ultimo Sorso di Luce
   width_cm: 50
   height_cm: 35
@@ -4520,6 +5165,7 @@
   - paesaggio
   - natura morta
 - id: f6a019cb-c7f3-4bb2-9991-62013118e406
+  sort_id: 536
   title: Risveglio di un giardino urbano
   width_cm: 40
   height_cm: 30
@@ -4527,6 +5173,7 @@
   - paesaggio
   - città
 - id: f6a73eea-48bf-4612-9976-a8be0950fc6b
+  sort_id: 51
   title: L’ora dei treni – Notturna urbana
   width_cm: 30
   height_cm: 20
@@ -4534,6 +5181,7 @@
   - città
   - notturno
 - id: f704a211-ba9d-4954-b908-fd04a073dafe
+  sort_id: 39
   title: L'ombra dei Luce e del Caffè
   width_cm: 40
   height_cm: 50
@@ -4541,6 +5189,7 @@
   - paesaggio
   - città
 - id: f71a6221-9c55-40dd-83dd-51cc5a5e95c7
+  sort_id: 458
   title: L’Architettura dei Sentimenti
   width_cm: 50
   height_cm: 35
@@ -4548,6 +5197,7 @@
   - paesaggio
   - astratto
 - id: f7babb3c-37fe-4425-87e4-a8159c835934
+  sort_id: 1
   title: L'ombra del tramonto sullo scorrere del tempo
   width_cm: 50
   height_cm: 30
@@ -4555,6 +5205,7 @@
   - paesaggio
   - notturno
 - id: f82653d9-bcd6-46e8-80b1-7e91ff185bc4
+  sort_id: 177
   title: Luce su Neons
   width_cm: 80
   height_cm: 60
@@ -4562,6 +5213,7 @@
   - città
   - notturno
 - id: f8409ce3-ed97-42f5-adcb-36e89573fbb7
+  sort_id: 356
   title: L’Ombra del Silenzio
   width_cm: 50
   height_cm: 40
@@ -4569,6 +5221,7 @@
   - notturno
   - interni
 - id: f8548f01-6dd5-4ebf-b16d-d2e8456717b5
+  sort_id: 149
   title: Fiori di Contrasto
   width_cm: 60
   height_cm: 40
@@ -4576,6 +5229,7 @@
   - paesaggio
   - città
 - id: f89dc9ab-c1b5-4a63-967d-b29cd071d3e9
+  sort_id: 77
   title: L'Ultimo Passo al Cinema
   width_cm: 50
   height_cm: 35
@@ -4583,6 +5237,7 @@
   - città
   - notturno
 - id: f9075e81-ac8c-46c1-94dd-d8bae3c9a940
+  sort_id: 173
   title: L’Ombra di Fuind
   width_cm: 40
   height_cm: 50
@@ -4590,6 +5245,7 @@
   - città
   - notturno
 - id: f93c634d-d37c-4170-beef-1d57939b5bcf
+  sort_id: 568
   title: Rifiorire su un tetto d'autunno
   width_cm: 30
   height_cm: 20
@@ -4597,6 +5253,7 @@
   - paesaggio
   - città
 - id: f966fb3f-6e8c-431b-a90e-7aaeb765ed3e
+  sort_id: 572
   title: Rifugio di Fiori e Silenzio
   width_cm: 40
   height_cm: 50
@@ -4604,6 +5261,7 @@
   - paesaggio
   - fiori
 - id: f96f8a3e-ab8c-4b34-98eb-8b9989d4b9c1
+  sort_id: 483
   title: Luce tra i vasi
   width_cm: 60
   height_cm: 40
@@ -4611,6 +5269,7 @@
   - natura morta
   - interni
 - id: f99618c8-45c7-4079-b210-14bc24e04c57
+  sort_id: 321
   title: Spirale del Tempo e del Silenzio
   width_cm: 50
   height_cm: 35
@@ -4618,6 +5277,7 @@
   - astratto
   - natura morta
 - id: fb217d2d-f363-4d96-a0a0-5c15c8f953cd
+  sort_id: 420
   title: L'Ultimo Sorso di Verità
   width_cm: 70
   height_cm: 40
@@ -4625,6 +5285,7 @@
   - paesaggio
   - fiori
 - id: fb611f1e-9fcf-45f2-a3d3-1a32e4bfd441
+  sort_id: 293
   title: Rifugio tra i cerchi
   width_cm: 40
   height_cm: 50
@@ -4632,6 +5293,7 @@
   - interni
   - paesaggio
 - id: fb66b068-0fd3-4933-9abe-f6ed01b78bf8
+  sort_id: 370
   title: Luce Sferica
   width_cm: 60
   height_cm: 80
@@ -4639,6 +5301,7 @@
   - astratto
   - notturno
 - id: fba5def4-0d2c-4d5b-a3a2-20900a34cfa8
+  sort_id: 493
   title: Circoli e Spirali del Sole
   width_cm: 60
   height_cm: 50
@@ -4646,6 +5309,7 @@
   - astratto
   - natura morta
 - id: fba6fb43-b616-4e33-a75b-e0ac51e68f9e
+  sort_id: 509
   title: Riflessi di Luce su Radici d’Arco
   width_cm: 60
   height_cm: 50
@@ -4653,6 +5317,7 @@
   - natura morta
   - fiori
 - id: fc308dab-7881-4a1c-8b73-4298f936c741
+  sort_id: 30
   title: L'ombra del Pasticcio Notturno
   width_cm: 30
   height_cm: 20
@@ -4660,6 +5325,7 @@
   - città
   - notturno
 - id: fcde8b07-b49c-4389-8b4d-fbbc6a19dd6b
+  sort_id: 417
   title: L'ombra sul vetro caldo
   width_cm: 60
   height_cm: 40
@@ -4667,6 +5333,7 @@
   - interni
   - notturno
 - id: fd10746d-1381-4601-a926-6269b950bc0c
+  sort_id: 393
   title: L'Occhio della Luna Sorrise
   width_cm: 50
   height_cm: 40
@@ -4674,6 +5341,7 @@
   - astratto
   - notturno
 - id: fd94d5e9-ef4a-49d3-9935-833df298a245
+  sort_id: 471
   title: Vasi di luce
   width_cm: 50
   height_cm: 35
@@ -4681,6 +5349,7 @@
   - interni
   - notturno
 - id: fdd6ed4f-6d87-4943-83d3-2224f58a03a7
+  sort_id: 364
   title: L'alba sul mistero blu
   width_cm: 80
   height_cm: 60
@@ -4688,6 +5357,7 @@
   - paesaggio
   - notturno
 - id: febba594-3764-438a-b915-eba935c9209a
+  sort_id: 598
   title: L'alba tra roccia e fuoco
   width_cm: 50
   height_cm: 30
@@ -4695,6 +5365,7 @@
   - paesaggio
   - notturno
 - id: fec16d28-8752-42f6-a5fe-892743b3d126
+  sort_id: 645
   title: L’Ultimo Raggio di Luce su Mare e Fiori
   width_cm: 50
   height_cm: 30
@@ -4702,6 +5373,7 @@
   - natura morta
   - fiori
 - id: fef1ff5e-fc01-4d05-90af-3a4e92d88680
+  sort_id: 153
   title: Risveglio del Fango
   width_cm: 30
   height_cm: 20
@@ -4709,6 +5381,7 @@
   - paesaggio
   - città
 - id: ff23443d-2481-4192-a653-e81c70e23873
+  sort_id: 489
   title: Rifiorire su un Taccuino d'Oro
   width_cm: 40
   height_cm: 50
@@ -4716,6 +5389,7 @@
   - natura morta
   - fiori
 - id: ff26c56a-3c08-41c6-bb53-1c4c5e7f36e3
+  sort_id: 625
   title: L'alba sul Ponte Rosso
   width_cm: 60
   height_cm: 40
@@ -4723,6 +5397,7 @@
   - paesaggio
   - città
 - id: ff2c8bf6-8300-4d2c-ada6-7383835e57f2
+  sort_id: 171
   title: L'Ultimo Tram tra Luce e Ombra
   width_cm: 40
   height_cm: 50
@@ -4730,6 +5405,7 @@
   - città
   - notturno
 - id: ffc0d332-97c7-41c2-ba94-8c2e8115bd5e
+  sort_id: 398
   title: Luce tra le sbarre
   width_cm: 30
   height_cm: 20

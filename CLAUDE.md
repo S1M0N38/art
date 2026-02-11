@@ -50,6 +50,7 @@ art/
 
 ```yaml
 - id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+  sort_id: 1                # Display order in gallery
   title: "Tramonto su Fossano"
   width_cm: 120             # Real painting width in cm
   height_cm: 80             # Real painting height in cm
