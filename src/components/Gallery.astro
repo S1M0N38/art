@@ -16,28 +16,17 @@ interface Props {
 
 const { paintings } = Astro.props;
 
-// --- Proportional sizing algorithm ---
-// scale ∈ [0.4, 1.0] — sqrt(normalized_area) prevents large paintings
-// from dominating while still showing meaningful size differences.
-const areas = paintings.map((p) => p.width_cm * p.height_cm);
-const maxArea = Math.max(...areas);
-const scales = areas.map((a) => 0.4 + 0.6 * Math.sqrt(a / maxArea));
-
-// Pair paintings with their pre-computed scales, then sort by curated sort_id
-const sorted = paintings
-  .map((p, i) => ({ painting: p, scale: scales[i] }))
-  .sort((a, b) => a.painting.sort_id - b.painting.sort_id);
+const sorted = [...paintings].sort((a, b) => a.sort_id - b.sort_id);
 ---
 
 <div class="gallery" id="gallery">
-  {sorted.map(({ painting, scale }) => (
+  {sorted.map((painting) => (
     <PaintingCard
       id={painting.id}
       title={painting.title}
       width_cm={painting.width_cm}
       height_cm={painting.height_cm}
       tags={painting.tags}
-      scale={scale}
     />
   ))}
 </div>

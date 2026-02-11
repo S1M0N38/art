@@ -166,13 +166,9 @@ button {
 /* --- Gallery (masonry) --- */
 .gallery {
   padding: calc(var(--header-height) + var(--masonry-gap)) var(--masonry-gap) var(--masonry-gap);
-  columns: 4;
-  column-gap: var(--masonry-gap);
+  position: relative;
 }
 
-@media (max-width: 1400px) { .gallery { columns: 3; } }
-@media (max-width: 900px)  { .gallery { columns: 2; } }
-@media (max-width: 480px)  { .gallery { columns: 2; } }
 @media (max-width: 480px) {
   .painting-card__title { font-size: 1.1rem; }
   .painting-card__dims  { font-size: 0.75rem; }
@@ -180,8 +176,7 @@ button {
 
 /* --- Painting Card --- */
 .painting-card {
-  break-inside: avoid;
-  margin-bottom: var(--masonry-gap);
+  width: 340px;
   position: relative;
   overflow: hidden;
   cursor: pointer;

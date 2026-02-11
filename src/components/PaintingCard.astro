@@ -5,10 +5,9 @@ interface Props {
   width_cm: number;
   height_cm: number;
   tags: string[];
-  scale: number;
 }
 
-const { id, title, width_cm, height_cm, tags, scale } = Astro.props;
+const { id, title, width_cm, height_cm, tags } = Astro.props;
 
 const cdnBase = 'https://francescoluchino-art.b-cdn.net';
 const thumbUrl = `${cdnBase}/thumbs/${id}.webp`;
@@ -26,7 +25,7 @@ const aspect = width_cm / height_cm;
   data-tags={tags.join(',')}
   data-thumb={thumbUrl}
   data-full={originalUrl}
-  style={`--aspect: ${aspect.toFixed(4)}; --scale: ${scale.toFixed(3)};`}
+  style={`--aspect: ${aspect.toFixed(4)};`}
 >
   <div class="painting-card__wrap">
     <img

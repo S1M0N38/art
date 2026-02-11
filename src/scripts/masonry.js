@@ -1,24 +1,44 @@
 /**
- * masonry.js — Intersection Observer lazy loading with blur-up effect.
+ * masonry.js — Masonry layout + Intersection Observer lazy loading.
  *
- * CSS columns handle the masonry layout natively.
- * This script only manages image loading:
- *   1. Observe all .painting-card__img elements
- *   2. When a card enters the viewport buffer, swap placeholder → thumbnail
- *   3. On load, transition from blurred placeholder to sharp image
+ * Uses Desandro's masonry-layout for positioning and imagesloaded
+ * to re-layout as images load. Lazy loading with blur-up is handled
+ * via Intersection Observer.
  */
+
+import Masonry from 'masonry-layout';
+import imagesLoaded from 'imagesloaded';
 
 (function () {
   'use strict';
 
-  const ROOTMARGIN = '200px 0px'; // start loading 200px before visible
+  const COLUMN_WIDTH = 340;
+  const GUTTER = 16; // matches --masonry-gap
+  const ROOTMARGIN = '200px 0px';
 
-  /** Swap placeholder → real thumbnail and handle blur-up transition */
+  const gallery = document.querySelector('.gallery');
+  if (!gallery) return;
+
+  // --- Initialize Masonry ---
+  const msnry = new Masonry(gallery, {
+    itemSelector: '.painting-card',
+    columnWidth: COLUMN_WIDTH,
+    gutter: GUTTER,
+    horizontalOrder: true,
+    transitionDuration: '0.3s',
+    initLayout: true,
+  });
+
+  // --- imagesLoaded: re-layout as images load ---
+  imagesLoaded(gallery).on('progress', function () {
+    msnry.layout();
+  });
+
+  // --- Intersection Observer lazy loading (blur-up) ---
   function loadImage(img) {
     const src = img.dataset.src;
     if (!src) return;
 
-    // Create a new Image to preload without flashing
     const loader = new Image();
     loader.onload = function () {
       img.src = src;
@@ -26,12 +46,9 @@
       img.classList.add('painting-card__img--loaded');
     };
     loader.src = src;
-
-    // Clean up data attribute so we don't reload
     delete img.dataset.src;
   }
 
-  // --- Intersection Observer ---
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(
       function (entries) {
@@ -44,14 +61,13 @@
       },
       { rootMargin: ROOTMARGIN }
     );
-
-    // Observe all painting images
-    const images = document.querySelectorAll('.painting-card__img[data-src]');
-    images.forEach(function (img) {
+    document.querySelectorAll('.painting-card__img[data-src]').forEach((img) => {
       observer.observe(img);
     });
   } else {
-    // Fallback: load all images immediately
     document.querySelectorAll('.painting-card__img[data-src]').forEach(loadImage);
   }
+
+  // Expose instance for filter integration later
+  window.__msnry = msnry;
 })();
