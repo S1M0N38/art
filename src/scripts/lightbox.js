@@ -31,7 +31,8 @@ function buildDataSource() {
     }
 
     return {
-      src: card.dataset.full,
+      src: card.dataset.full,          // original JPG (loaded in background)
+      msrc: card.dataset.thumb,        // 800px thumb (shown immediately as placeholder)
       width: w,
       height: h,
       // Custom data for caption
@@ -90,13 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return _thumbEl;
   });
 
-  // --- Placeholder from the card's current src ---
+  // --- Placeholder: always use the 800px thumb for instant display ---
   lightbox.addFilter('placeholderSrc', (_src, slide) => {
-    if (slide.data.element) {
-      const img = slide.data.element.querySelector('img');
-      if (img) return img.src;
-    }
-    return _src;
+    return slide.data.msrc || _src;
   });
 
   // --- Custom caption UI element ---
