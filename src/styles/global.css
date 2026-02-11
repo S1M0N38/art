@@ -286,6 +286,11 @@ button {
 
 /* --- Lightbox (PhotoSwipe overrides) --- */
 
+/* Crossfade: original fades in over the placeholder thumb */
+.pswp__img {
+  transition: opacity 0.3s ease;
+}
+
 /* Caption bar at bottom */
 .pswp__custom-caption {
   position: absolute;

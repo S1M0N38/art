@@ -96,6 +96,31 @@ document.addEventListener('DOMContentLoaded', () => {
     return slide.data.msrc || _src;
   });
 
+  // --- Crossfade: hide original until fully loaded, then fade in ---
+  // Without this the browser progressively renders the original JPG
+  // top-to-bottom on top of the placeholder, causing visible flicker.
+  lightbox.on('contentLoadImage', ({ content }) => {
+    const img = content.element;
+    if (img && img.tagName === 'IMG') {
+      // If the image is already cached the browser fires `complete`
+      // synchronously — skip hiding so there's no flash.
+      if (!img.complete) {
+        img.style.opacity = '0';
+      }
+    }
+  });
+
+  lightbox.on('loadComplete', ({ content }) => {
+    const img = content.element;
+    if (img && img.tagName === 'IMG') {
+      // Use rAF so the browser composites the placeholder first,
+      // then transitions the original in on the next frame.
+      requestAnimationFrame(() => {
+        img.style.opacity = '1';
+      });
+    }
+  });
+
   // --- Custom caption UI element ---
   lightbox.on('uiRegister', () => {
     lightbox.pswp.ui.registerElement({
