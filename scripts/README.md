@@ -33,7 +33,17 @@ uv run scripts/utils/preprocess.py --threshold 230          # custom brightness 
 **Input:** `images/raw/` (JPG, JPEG, PNG)
 **Output:** `images/processed/` (same filenames, quality 95)
 
-### 2. Optimize — generate CDN variants
+### 2. Deduplicate — remove duplicate images
+
+Removes duplicate images using the `imagededup-ui` web app.
+
+```bash
+uvx imagededup-ui images/processed/
+```
+
+This process create a the file `images/processed/.imagededup.txt` where each line is a duplicated image.
+
+### 3. Optimize — generate CDN variants
 
 Creates three size variants per image, using the filename (UUID) as the output name.
 
@@ -52,7 +62,7 @@ uv run scripts/utils/optimize.py --skip-existing            # skip already optim
 | `thumbs/`      | WebP   | 800px     | 80      | Masonry grid       |
 | `placeholders/` | WebP  | 20px      | 10      | Blur-up effect     |
 
-### 3. Upload — push to BunnyCDN
+### 4. Upload — push to BunnyCDN
 
 Uploads optimized variants to BunnyCDN storage, preserving the directory structure.
 
