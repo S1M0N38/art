@@ -15,6 +15,9 @@ Produces three variants per source image:
   - thumbs/     (≤800px wide WebP, quality 80)
   - placeholders/ (≤20px wide WebP, quality 10)
 
+Images listed in images/processed/.imagededup.txt are automatically excluded.
+The file must exist; run the deduplication step first if it is missing.
+
 Usage:
     uv run scripts/utils/optimize.py                          # optimize all from images/processed/
     uv run scripts/utils/optimize.py images/processed/abc.jpg # single file
@@ -31,12 +34,32 @@ from PIL import Image, UnidentifiedImageError
 
 PROCESSED_DIR = Path("images/processed")
 OPTIMIZED_DIR = Path("images/optimized")
+DEDUP_FILE = PROCESSED_DIR / ".imagededup.txt"
 
 VARIANTS = {
     "originals": {"max_width": None, "quality": None, "ext": ".jpg"},
     "thumbs": {"max_width": 800, "quality": 80, "ext": ".webp"},
     "placeholders": {"max_width": 20, "quality": 10, "ext": ".webp"},
 }
+
+
+def load_duplicates() -> set[str]:
+    """Load the set of duplicate filenames from .imagededup.txt.
+
+    Exits with an error if the file is not found.
+    """
+    if not DEDUP_FILE.exists():
+        print(
+            f"Error: {DEDUP_FILE} not found.\n"
+            "Run the deduplication step first before optimizing.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    return {
+        line.strip()
+        for line in DEDUP_FILE.read_text().splitlines()
+        if line.strip()
+    }
 
 
 def variant_path(uuid: str, variant: str) -> Path:
@@ -127,6 +150,14 @@ def main() -> None:
         files = [Path(f) for f in args.files]
     else:
         files = sorted(PROCESSED_DIR.glob("*.jpg"))
+
+    # Exclude duplicates identified by the deduplication step
+    duplicates = load_duplicates()
+    before_count = len(files)
+    files = [f for f in files if f.name not in duplicates]
+    excluded = before_count - len(files)
+    if excluded:
+        print(f"Excluding {excluded} duplicate(s) from .imagededup.txt")
 
     if not files:
         print(f"No images found in {PROCESSED_DIR}/")
