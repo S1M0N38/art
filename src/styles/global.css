@@ -24,7 +24,7 @@
   --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
 
   --masonry-gap: 16px;
-  --header-height: 56px;
+  --header-height: 96px;
 
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -95,7 +95,7 @@ button {
   top: 0;
   left: 0;
   right: 0;
-  height: 240px;
+  height: 320px;
   background: linear-gradient(
     to bottom,
     rgba(8, 8, 8, 0.97) 0%,
@@ -115,7 +115,7 @@ button {
 
 .site-header__title {
   font-family: var(--font-display);
-  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
   font-weight: 300;
   letter-spacing: 0.04em;
   color: var(--color-text);
@@ -134,7 +134,7 @@ button {
 
 .site-header__link {
   font-family: var(--font-body);
-  font-size: 0.8rem;
+  font-size: clamp(0.85rem, 1.2vw, 1.05rem);
   font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -182,6 +182,7 @@ button {
   cursor: pointer;
   background-color: var(--color-surface);
   line-height: 0;
+  margin-bottom: var(--masonry-gap);
   transition: transform 0.35s var(--ease-out), filter 0.35s var(--ease-out);
 }
 
