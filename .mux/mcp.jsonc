@@ -11,7 +11,7 @@
     },
     "playwrite": {
       "command": "npx @playwright/mcp@latest",
-      "disabled": true
+      "disabled": false
     }
   }
 }

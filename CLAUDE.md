@@ -169,3 +169,4 @@ Reference docs available via Context7 `resolve-library-id` / `query-docs`:
 - No images in the git repo — only code and YAML metadata
 - Scripts use `uv run` (inline script dependencies, no virtualenv needed)
 - Adding a painting = one YAML entry + upload image to BunnyCDN
+- **Playwright MCP**: always use a port other than 1234 (reserved for manual testing)
