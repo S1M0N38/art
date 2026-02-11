@@ -20,14 +20,16 @@ def main():
     titles = json.loads((SCRIPT_DIR / "titles.json").read_text())
     tags = json.loads((SCRIPT_DIR / "tags.json").read_text())
     dimensions = json.loads((SCRIPT_DIR / "dimensions.json").read_text())
+    sort_ids = json.loads((SCRIPT_DIR / "sort_ids.json").read_text())
 
     # Validate all files have the same UUIDs
-    assert titles.keys() == tags.keys() == dimensions.keys(), "UUID mismatch across files"
+    assert titles.keys() == tags.keys() == dimensions.keys() == sort_ids.keys(), "UUID mismatch across files"
 
     paintings = []
     for uid in sorted(titles):
         paintings.append({
             "id": uid,
+            "sort_id": sort_ids[uid],
             "title": titles[uid],
             "width_cm": dimensions[uid]["width_cm"],
             "height_cm": dimensions[uid]["height_cm"],

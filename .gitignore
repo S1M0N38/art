@@ -74,4 +74,6 @@ scripts/generate/titles.json
 scripts/generate/tags.json
 scripts/generate/dimensions.json
 scripts/generate/paintings.yaml
+scripts/generate/sort_ids.json
+scripts/generate/embeddings.npz
 

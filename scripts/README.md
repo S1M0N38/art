@@ -78,6 +78,7 @@ them into YAML.
 images/optimized/originals/  →  dimensions.py  →  dimensions.json ─┐
 images/optimized/thumbs/     →  tags.py        →  tags.json ───────┤
 images/optimized/thumbs/     →  titles.py      →  titles.json ─────┤
+images/optimized/thumbs/     →  sort_ids.py    →  sort_ids.json ───┤
                                                                     ↓
                                                               paintings.py
                                                                     ↓
@@ -131,9 +132,22 @@ uv run scripts/generate/titles.py --skip-existing                               
 
 **Output:** `scripts/generate/titles.json` — `{uuid: "Titolo del Dipinto"}`
 
-### 4. Paintings — merge into YAML
+### 4. Sort IDs — compute visual ordering via CLIP + t-SNE
 
-Merges the three JSON files into a single `paintings.yaml`. Validates that all files contain
+Generates a visually coherent display order by embedding each thumbnail with CLIP, reducing
+to 1D with t-SNE, and assigning sequential `sort_id` values so similar paintings appear near
+each other in the gallery.
+
+```bash
+uv run scripts/generate/sort_ids.py                                             # all thumbnails
+uv run scripts/generate/sort_ids.py --skip-existing                             # resume
+```
+
+**Output:** `scripts/generate/sort_ids.json` — `{uuid: sort_id}`
+
+### 5. Paintings — merge into YAML
+
+Merges the four JSON files into a single `paintings.yaml`. Validates that all files contain
 the same set of UUIDs before writing.
 
 ```bash
