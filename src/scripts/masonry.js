@@ -24,7 +24,6 @@ import imagesLoaded from 'imagesloaded';
     itemSelector: '.painting-card',
     columnWidth: COLUMN_WIDTH,
     gutter: GUTTER,
-    horizontalOrder: true,
     transitionDuration: '0.3s',
     initLayout: true,
   });
