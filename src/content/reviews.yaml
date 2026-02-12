@@ -1,640 +1,427 @@
-reviews:
-  - critic: Aldo Spinardi
-    source:
-      - SCAN0154
-      - SCAN0172
-      - SCAN0173
-      - SCAN0215
-    text: >-
-      Ormai da venti anni presente negli ambienti artistici del Piemonte (ed
-      oltre), conferma la sua fedeltà all'arte fugurativa, ma é evidente che l a
-      sua ricerca si muove seguendo due elementi essenziali : la trasformazione,
-      anzi, la visualizzazione di tutto ciò che suscita il suo interesse e la
-      sua sensibilità in forme piani, volumi geometrici ed il colore, dai prati
-      di un verde tenero alla superficie del quale sembra affiorare l'oro di una
-      misteriosa sorgente, al viola intenso delle colline, ai rossi, agli
-      amaranto dei suoi fiori giganti, sia che facciano parte di un paesaggio
-      nel quale diventano personaggi di spicco. Due elementi che caratterizzano
-      il suo stile, i quali confluiscono in un'atmosfera sottile ma artificiosa,
-      lirica, che talvolta sembra aprirsi in spazi metafisici, apparen temente
-      vuoti, dove l'uomo é assente, e altre volte, invece, ci presenta l'uomo
-      nella sua solitudine, nella sua angoscia, nella sua ricerca del colloquio,
-      dell'attenzione da parte dei suoi simili, dell'amicizia, se non é un
-      desiderio inattuabile, un'utopia...
+- id: 1a3d4031-aed5-401c-92d5-8e5c6cc77495
+  critic: Aldo Spinardi
+  source:
+  - SCAN0154
+  - SCAN0172
+  - SCAN0173
+  - SCAN0215
+  text: 'Ormai da venti anni presente negli ambienti artistici del Piemonte (ed oltre), conferma la sua fedeltà all''arte
+    fugurativa, ma é evidente che l a sua ricerca si muove seguendo due elementi essenziali : la trasformazione, anzi, la
+    visualizzazione di tutto ciò che suscita il suo interesse e la sua sensibilità in forme piani, volumi geometrici ed il
+    colore, dai prati di un verde tenero alla superficie del quale sembra affiorare l''oro di una misteriosa sorgente, al
+    viola intenso delle colline, ai rossi, agli amaranto dei suoi fiori giganti, sia che facciano parte di un paesaggio nel
+    quale diventano personaggi di spicco. Due elementi che caratterizzano il suo stile, i quali confluiscono in un''atmosfera
+    sottile ma artificiosa, lirica, che talvolta sembra aprirsi in spazi metafisici, apparen temente vuoti, dove l''uomo é
+    assente, e altre volte, invece, ci presenta l''uomo nella sua solitudine, nella sua angoscia, nella sua ricerca del colloquio,
+    dell''attenzione da parte dei suoi simili, dell''amicizia, se non é un desiderio inattuabile, un''utopia...'
+- id: 532251bf-e7d7-4c18-82fb-b3209c9ab7a5
+  critic: Aldo Spinardi
+  source:
+  - SCAN0245
+  text: 'Nei suoi centri abitati, immersi nel viola del crepuscolo, spesso le pareti delle case cono chiare e c''è sempre
+    u n rettangolo più luminoso ed è la voce dello spirito, sempre viva anche quando il buio, la materia, all''apparenza prendono
+    il sopravvento.
 
-  - critic: Aldo Spinardi
-    source:
-      - SCAN0245
-    text: >-
-      Nei suoi centri abitati, immersi nel viola del crepuscolo, spesso le pareti
-      delle case cono chiare e c'è sempre u n rettangolo più luminoso ed è la voce
-      dello spirito, sempre viva anche quando il buio, la materia, all'apparenza
-      prendono il sopravvento.
+    Se egli si inoltra verso la città, gli appaiono le ciminiere fumanti, le fabbriche avvolte in nebbie violacee, scure,
+    ma nelle sue pupille c''è quella sua natura tenera, chiara, di cui egli prende possesso non imperiosamente, ma con la
+    delicatezza del padre che prende affettuosamente per mano il suo bambino e lo accompagna per una strada solitaria, doe
+    è luce e silenzio.
 
-      Se egli si inoltra verso la città, gli appaiono le ciminiere fumanti, le
-      fabbriche avvolte in nebbie violacee, scure, ma nelle sue pupille c'è
-      quella sua natura tenera, chiara, di cui egli prende possesso non
-      imperiosamente, ma con la delicatezza del padre che prende affettuosamente
-      per mano il suo bambino e lo accompagna per una strada solitaria, doe è
-      luce e silenzio.
+    Questo suo fiume assurge a simbolo: chiare le acque, scoscesi i fianchi delle colline, d''un lato contagiate dall''azzurro
+    che rimbalza dalle acque a i campi, al cielo, dall''altro lato le balze sono immerse in un diffuso e penetrante calore.
 
-      Questo suo fiume assurge a simbolo: chiare le acque, scoscesi i fianchi
-      delle colline, d'un lato contagiate dall'azzurro che rimbalza dalle
-      acque a i campi, al cielo, dall'altro lato le balze sono immerse in un
-      diffuso e penetrante calore.
+    Soprattutto d i fronte a certi spaccati luminosi, il pensiero corre a Pippo Bercetti, che dimorava e operava a Borgata
+    Rosa, proprio sulla riva destra del Po, a mezza strada tra Sassi e San Mauro. Singolare affinità, non avendo Luchino mai
+    avuto la possibilità d i ammirare i suoi dipinti, pur avendone sentito parlare come di un maestro.
 
-      Soprattutto d i fronte a certi spaccati luminosi, il pensiero corre a
-      Pippo Bercetti, che dimorava e operava a Borgata Rosa, proprio sulla riva
-      destra del Po, a mezza strada tra Sassi e San Mauro. Singolare affinità,
-      non avendo Luchino mai avuto la possibilità d i ammirare i suoi dipinti,
-      pur avendone sentito parlare come di un maestro.
+    Se per un verso Luchino, per la limpidezza, la delicatezza dei suoi colori, potrebbe essere collocato tra i chiaristi,
+    è tuttavia doveroso ricordare che essi erano legati al vero, mentre il nostro trasfigura il paesaggio, avviandosi senza
+    indugi verso l''essenziale. [...]'
+- id: 0012549c-f105-4d2d-90b7-1e529d49b027
+  critic: Anna Francesca Biondolillo
+  source:
+  - SCAN0174
+  - SCAN0183
+  - SCAN0194
+  text: La poetica pittorica di Francesco Luchino trovato suo sensoriale riflesso interpretativo nella valorizzazione degli
+    elementi oggettivi risiedenti nella quotidianità. Dallo scenario esistenziale di talun giorno, il maestro piemontese carpisce
+    risvolti lirici, istanze percettive del perenne logorio dei giorni.
+- id: 7c18952c-d68a-4017-9f79-0cec76615654
+  critic: Antonio Oberti
+  source:
+  - SCAN0238
+  text: Ogni penneilata di questi dipinti è forse un passo, un attimo, colti nel cuore di un bosco o una sensazione vissuta
+    tra infanzia e maturità, ancora inconscia ma con il bisogno istintivo di concretizzarsi in un linguaggio vivo ed immediato
+    ma permeato sempre da un ricercarzazionalismo espressivo. Nell'illusione di ricondurre la realta ad un cerchio in cui
+    vita e morte, infanzia e maturità, ingenuità e saggezza coincidono e non sono altro che sguardi aperti su un mondo che
+    non esiste più, se non negli occhi dei bambini e dei Buddha.
+- id: 504e291f-6c2f-4c2e-8f7d-81078c3c28bc
+  critic: Barbara Romeo
+  source:
+  - SCAN0169
+  text: La sua tavolozza è quella della pittura del Novecento, in cui l'ispirazione si unisce alla raffigurazione; nello stesso
+    ambito va collo cato il gusto variegato della mistura croma tica, che gioca sui contrasti dei toni e dei contro toni,
+    e il gioco della luce, una luce malinconica, che avvolge di ombrosità le fi gure e gli interni. In effetti la sua scrittura
+    non è mai gravosa, piuttosto carezzevole, in quanto i contenuti dei suoi lavori sono in ventari di oggetti o scene urbane,
+    che sem brano essere scaturiti da una memoria selettiva, dove i momenti visivi si sono fis sati soprattutto in ragione
+    dei sentimenti che hanno suscitato nel suo animo. Pittore dell'essenzialità, di segno e di colore. Di grande interesse
+    è il suo modo di affrontare l'impasto pigmentoso, con un fare sicuro e essere approssimazione. è quindi evidente la forza
+    evocativa che sa svelare con perspicacia la bellezza della vita e dell'animo umano. Francesco Luchino esercita infatti
+    una manuale controllata, quando non esuberante, in un gioco a volte aprospettico, in altre con lievi accenni di profondità,
+    grazie a meditate partiture.
+- id: 64c68307-a2ef-475e-9e95-c5767fcf7855
+  critic: Barbara Romeo
+  source:
+  - SCAN0192
+  text: L'originalità di queste opere, risiede non solo nella scelta tonale, ma soprattutto nell'impiano iconografico e nella
+    segnica, che ci rimanda per certi versi, alla cartellonistica degli anni '50, in cui colori pastello e grande scritte
+    troneggiavano negli spazi pubblicitari e non. Lo stile di Francesco Luchino rispecchia una ricerca estetica e stilistica
+    molto colta e accurata, che porta l'artista a realizare opere che quasi, fermano il tempo. Attimi immortalatiosi come
+    l'occhio di Francesco Luchino li vede e soprattutto li vivie. I colori sono brillanti ma allo stesso tempo evanescenti
+    e vertono su tonalità pastello che vanno dall'ocra al rosa, dal verde al porpora, e che conferiscono ai dipinti un'atmosfera
+    sognante e rilassata. Francesco Luchino è narratore della notte e del giorno, cantore del tempo e della quotidianità,
+    e attraverso la raffinatezza di cui che realizza, occupa unippo di rilievo nel panorama dell'arte contemporanea.
+- id: 33f75542-bd0b-4b93-a76c-48d3ee5a0bd1
+  critic: Claudio J. Torre
+  source:
+  - SCAN0243
+  - SCAN0245
+  text: 'Quello che colpisce come "primo impatto" nelle opere di Francesco Luchino è l''impostazione scenografica dello spazio
+    pittorico dove si alternano sperimentalismi paesaggistici e tecniche di riduzione degli elementi formali. Come se la ricerca
+    si delineasse sui contorni di ciò che appare, il suo lavoro si divide in organizzazione delle superfici e drammatizzazione
+    cromatica; ad esempio, le linee di fuga dei suoi paesaggi strappano l''immagine dalla sua staticità e sembra che un vento
+    dispettoso riempia di tensione dinamica queste apparizioni bucoliche destinate a "fuggire" davanti ai nostri occhi; oppure
+    la tendenza a rendere l e "forme morte" nella loro completa corposità cromatica per farci sentire il peso di ciò che stà
+    immobile sullo sfondo.
 
-      Se per un verso Luchino, per la limpidezza, la delicatezza dei suoi
-      colori, potrebbe essere collocato tra i chiaristi, è tuttavia doveroso
-      ricordare che essi erano legati al vero, mentre il nostro trasfigura il
-      paesaggio, avviandosi senza indugi verso l'essenziale. [...]
+    Vedendo i suoi quadri si può intuire una irrequietezza latente che ancora e sempre passa sui vasti repertori dell''espressività
+    formale scegliendo ciò che è più adatto alla sensazione del movimento.
 
-  - critic: Anna Francesca Biondolillo
-    source:
-      - SCAN0174
-      - SCAN0183
-      - SCAN0194
-    text: >-
-      La poetica pittorica di Francesco Luchino trovato suo sensoriale riflesso
-      interpretativo nella valorizzazione degli elementi oggettivi risiedenti
-      nella quotidianità. Dallo scenario esistenziale di talun giorno, il
-      maestro piemontese carpisce risvolti lirici, istanze percettive del
-      perenne logorio dei giorni.
+    Questo punto ci permette una osservazione più generale: da tempo il "lavoro del pittore''" ha sviluppato la sua sensibilità
+    in una maniera diversa dalla tradizionale forma del genio fondatore di scuole. Ora è l''uomo della metropoli che prova
+    ad esprimere la sua emotività, ma non subendo l''imposizione di una scuola precisa, sperimenta le varie impostazioni come
+    qualcosa che gli appartiene personalmente, aumentando in maniera inverosimile il ventaglio stesso delle possibilità formali
+    dell''arte.
 
-  - critic: Antonio Oberti
-    source:
-      - SCAN0238
-    text: >-
-      Ogni penneilata di questi dipinti è forse un passo, un attimo, colti nel
-      cuore di un bosco o una sensazione vissuta tra infanzia e maturità, ancora
-      inconscia ma con il bisogno istintivo di concretizzarsi in un linguaggio
-      vivo ed immediato ma permeato sempre da un ricercarzazionalismo
-      espressivo. Nell'illusione di ricondurre la realta ad un cerchio in cui
-      vita e morte, infanzia e maturità, ingenuità e saggezza coincidono e non
-      sono altro che sguardi aperti su un mondo che non esiste più, se non negli
-      occhi dei bambini e dei Buddha.
+    Francesco Luchino opera quindi per un espressionismo semplice e chiaro non angosciato drammaticamente ma bensì attento
+    e sensibile alla qualità di ciò che può essere creato come riflessione generale sulle forme che ci circondano.
 
-  - critic: Barbara Romeo
-    source:
-      - SCAN0169
-      # - SCAN0186 this is a duplicate of SCAN0169
-    text: >-
-      La sua tavolozza è quella della pittura del Novecento, in cui
-      l'ispirazione si unisce alla raffigurazione; nello stesso ambito va collo
-      cato il gusto variegato della mistura croma tica, che gioca sui contrasti
-      dei toni e dei contro toni, e il gioco della luce, una luce malinconica,
-      che avvolge di ombrosità le fi gure e gli interni. In effetti la sua
-      scrittura non è mai gravosa, piuttosto carezzevole, in quanto i contenuti
-      dei suoi lavori sono in ventari di oggetti o scene urbane, che sem brano
-      essere scaturiti da una memoria selettiva, dove i momenti visivi si sono
-      fis sati soprattutto in ragione dei sentimenti che hanno suscitato nel suo
-      animo. Pittore dell'essenzialità, di segno e di colore. Di grande
-      interesse è il suo modo di affrontare l'impasto pigmentoso, con un fare
-      sicuro e essere approssimazione. è quindi evidente la forza evocativa che
-      sa svelare con perspicacia la bellezza della vita e dell'animo umano.
-      Francesco Luchino esercita infatti una manuale controllata, quando non
-      esuberante, in un gioco a volte aprospettico, in altre con lievi accenni
-      di profondità, grazie a meditate partiture.
+    Dipingere quindi significa educare la percezione a cogliere il lato poetico di ciò che è ripetuto dalla natura e dalla
+    cultura; Francesco Luchino costruendo la tela d i segni e colori del suo mondo interno contribuisce a portare anche il
+    semplice fruitore in quel campo di libere costruzioni metaforiche che è l''arte.
 
-  - critic: Barbara Romeo
-    source:
-      - SCAN0192
-    text: >-
-      L'originalità di queste opere, risiede non solo nella scelta tonale, ma
-      soprattutto nell'impiano iconografico e nella segnica, che ci rimanda per
-      certi versi, alla cartellonistica degli anni '50, in cui colori pastello e
-      grande scritte troneggiavano negli spazi pubblicitari e non. Lo stile di
-      Francesco Luchino rispecchia una ricerca estetica e stilistica molto colta
-      e accurata, che porta l'artista a realizare opere che quasi, fermano il
-      tempo. Attimi immortalatiosi come l'occhio di Francesco Luchino li vede e
-      soprattutto li vivie. I colori sono brillanti ma allo stesso tempo
-      evanescenti e vertono su tonalità pastello che vanno dall'ocra al rosa,
-      dal verde al porpora, e che conferiscono ai dipinti un'atmosfera sognante
-      e rilassata. Francesco Luchino è narratore della notte e del giorno,
-      cantore del tempo e della quotidianità, e attraverso la raffinatezza di
-      cui che realizza, occupa unippo di rilievo nel panorama dell'arte
-      contemporanea.
+    Concludendo questa piccola presentazione vogliano ricordare che solo in una sincera necessità possono convogliare tutte
+    le possibilità come seri lavori di sperimentazione. Francesco Luchino ha dimostrato con le sue opere di non riuscire a
+    trattenere un impulso al vedere che si esilia dalla quotidianità rinchiudendosi in quel DIVERSO spazio dove "dire" è veramente
+    vicino al sentire il piccolo ritaglio di tela che raccoglie i nostri sogni non ancora dissolti confondendo e moltiplicando
+    significati del reale.'
+- id: 038ff7bd-6423-40c8-860d-68eaee17ce6d
+  critic: Dino Marasà
+  source:
+  - SCAN0129
+  text: 'Visioni segniche ammantate di colore si ritrovano nell''arte del maestro Francesco Luchino.
 
-  - critic: Claudio J. Torre
-    source:
-      - SCAN0243
-      - SCAN0245
-    text: >-
-      Quello che colpisce come "primo impatto" nelle opere di Francesco Luchino
-      è l'impostazione scenografica dello spazio pittorico dove si alternano
-      sperimentalismi paesaggistici e tecniche di riduzione degli elementi
-      formali. Come se la ricerca si delineasse sui contorni di ciò che appare,
-      il suo lavoro si divide in organizzazione delle superfici e
-      drammatizzazione cromatica; ad esempio, le linee di fuga dei suoi paesaggi
-      strappano l'immagine dalla sua staticità e sembra che un vento dispettoso
-      riempia di tensione dinamica queste apparizioni bucoliche destinate a
-      "fuggire" davanti ai nostri occhi; oppure la tendenza a rendere l e "forme
-      morte" nella loro completa corposità cromatica per farci sentire il peso
-      di ciò che stà immobile sullo sfondo.
+    Il nostro é alla continua ricerca di modalità espressive che svelano sia un animo sensibile ale diverse forme dela realtà
+    sia ale vibrazioni romantiche del semplice. Il suo linguaggio pitorico é avvezzo ala separazione del segno e del colore
+    si da rappresentare gli oggeti su piani diversi dela tela.
 
-      Vedendo i suoi quadri si può intuire una irrequietezza latente che ancora
-      e sempre passa sui vasti repertori dell'espressività formale scegliendo
-      ciò che è più adatto alla sensazione del movimento.
+    Impressioni simpatetiche della realtà accostate a sviluppi figurativi dotati di armonica luminosità com pletano la visione
+    pittorica del Nostro. Coivolgendo la vista e l''animo Francesco Luchino riesce a renderse il suo universo vivo e pulsante
+    tangibile e a trasportarci nella dimensione fantastica della sua Pittura con disinvoltura e immediatezza. E'' un''esperienza
+    artistica, quella del maestro allo stesso livello dei grande del passato che tuttora affascinano e ci accompagnano per
+    i sentieri dell''arte rendendolaosi un''esperienza che valica le barriere del tempo e della forma.'
+- id: 911c7646-d237-4773-90d8-290f4842e686
+  critic: Dino Marasà
+  source:
+  - SCAN0138
+  text: Un quadro pittorico ricco di personalità e soluzioni rappresentative armonioso. La capacité di comprare, mixare con
+    modernità sulla tela è la forza dell'arte di Francesco Luchino, un Artista che guarda all'arte con raffinatezza.
+- id: 58fbf945-fed8-4b71-ba16-df4c18fbf24d
+  critic: Dino Marasà
+  source:
+  - SCAN0155
+  text: L'alfabeto artistico d i Francesco Luchino ci offre sulla tela visioni particolari del mondo. Grazie allo uso di una
+    linea semplice e di generose campiture cromatiche da vita a personaggi ed elementi che ricalcano l a realtà. Egli parte
+    da una consolidata base figurativa per proiettarsi verso la sua personale visione surreale dai tratti fortemente geometrici
+    e schematici. Credo che il maestro Francesco Luchino abbia riscoperto e rielaborato l'amore per il geometrizzante caricandolo
+    di tratti romantici e vibratili tensioni dell'animo. Si leva dalle sue tele una energia pura e schietta che avvolge il
+    fruitore delle sue opere, facendolo cullare d a impetuosi pleniluni che giocano con mura d i una città ideale dove vivono
+    degli abitan- ti eterei e ideali nati nella mente dell'artista. È questa in sintesi l'arte del maestro Francesco Luchino,
+    che vuole estendere il suo messaggio agilmente ad ogni fruitore, accompagnandolo in un viaggio ai confini del consueto,
+    offrendo cosi dei momenti di riflessione e di confronto intellettuale non comuni.
+- id: 6993cb7f-c2eb-4bde-ae17-bd4bbdd4104f
+  critic: Dino Marasà
+  source:
+  - SCAN0105
+  text: L'autunno con i loro colori ispira il pennello del maestro Francesco Luchino che tesse sul supporto la sua trama narrativa
+    scandita dal suo personalissimo ed interressante stile espressivo. I personaggi che contemplano la natura e il paesaggio,
+    custodiscono gelosamente i loro pensieri profondi e allo spettatore non rimane altro che immaginare quali essi siano.
+- id: c2526636-5536-450c-98c0-fa09a410160b
+  critic: Dino Marasà
+  source:
+  - SCAN0164
+  text: Il maestro Francesco Luchino ha sviluppato negli anni mediateda la sua lunga ricerca espressiva, una sintassi compositiva
+    alla a descrivre il palcoscenico del quotidiano nei loro più svariati aspetti. Mediente una pitta inclarata sull'uomo
+    e i loro rapporti con l'ambiente circostante, possente e ben stutturata cromaticamente, il maestro Francesco Luchino ci
+    rende partecipe della sua creatività, risultanto sempre piacevole ai sensi.
+- id: 2c0b82f1-0b96-4d12-bd78-7f8dbe246fe0
+  critic: Dino Marasà
+  source:
+  - SCAN0167
+  text: Con il suo lavoro Francesco Luchino conduce chi guarda in un mondo abitato da uomini e cose del nostro ordinario,
+    ma ciò che rende queste opere eccezionali è la resa unica e originalissima dei soggetti. Vera e propria firma di un maestro
+    ormai affermato e coerentissimo nella sua idea di Arte.
+- id: ebff5651-a551-4c5d-afe2-90374695b593
+  critic: Dino Marasà
+  source:
+  - SCAN0188
+  text: 'L''esperssione pittorica del maestro Francesco Luchino ci regala ancora una volta le visioni del suo particolare
+    modo di concepire e di ritrarre. Spesso soffermando lo sguardo sulle sue opere ci si domanda se da quale parte, in quale
+    maniera esista un universo parallello con le caratteristiche segniche, timbriche e tonali che tanto attraggono il fruitore
+    delle sue opere. Il maestro Francesco Luchino si aspira alle nostre cittàosi dense e palpitanti di vita, crogiolo di emozioni
+    e di diverse esistenze, per esaltarne i personaggi colti nella loro quotidiana semplicità. E'' l''animodel Pittore, dotato
+    di una sua particolare sensibilità, che rielabora le percezioni abituali per restituirle sotto forma di opera d''arte
+    sul supporto. E questo atto creativo del maestro Francesco Luchino è simbolo dello immenso universo più da scopriere che
+    è l''arte in se stessa.
 
-      Questo punto ci permette una osservazione più generale: da tempo il
-      "lavoro del pittore'" ha sviluppato la sua sensibilità in una maniera
-      diversa dalla tradizionale forma del genio fondatore di scuole. Ora è
-      l'uomo della metropoli che prova ad esprimere la sua emotività, ma non
-      subendo l'imposizione di una scuola precisa, sperimenta le varie
-      impostazioni come qualcosa che gli appartiene personalmente, aumentando in
-      maniera inverosimile il ventaglio stesso delle possibilità formali
-      dell'arte.
+    E''anche un momento di evasione dal quotidiano che riesce a liberare le nostre coscienze dal consueto permietendo un contatto
+    diretto con l''assoluto inteso come espressione artistica suprema dell''intelletto che non si arrende mai nella ricerca
+    di nuovi orizzonti espressivi e compositivi.'
+- id: b27df206-b934-49e5-8f69-b7aee7102ceb
+  critic: Giorgio Borio
+  source:
+  - SCAN0164
+  - SCAN0207
+  text: Il suo mondo è una sequenza di immagini estrapolate alla realtà e interpretate creativamente in strutture spiccatamente
+    individualistiche. Il colore, elemento caratterizzante di questi lavori, sviluppa correlazioni secondo architettoniche
+    regole dal perfetto equilibrio. [...] Un dipingere che dimostra come atraverso la ricerca sua ancora possibile pervenire
+    a risultati di notevole caratura.
+- id: bbd9fa74-32ba-420d-8707-77ad3c68bf3c
+  critic: Walter Venanzio
+  source:
+  - SCAN0207
+  text: 'La sua arte è l''espressione più pura di un pittore contemporaneo che ha saputo cogliere personalissime interpretazioni
+    formali.
 
-      Francesco Luchino opera quindi per un espressionismo semplice e chiaro non
-      angosciato drammaticamente ma bensì attento e sensibile alla qualità di
-      ciò che può essere creato come riflessione generale sulle forme che ci
-      circondano.
+    Colori luci ed ombre si integrano in una fusione d''insieme ben determinata da un notevole spessore di alta esecuzione.
+    C''è grande padronanza di mezzi espressivi che sorprendono per quel legame così intenso, equilibrato, sobrio, soprattutto
+    nella rappresentazione degli interni, ove trasforma lo spazio rendendolo particolarmente suggestivo.'
+- id: 5aa7e8e8-3204-4fef-8a95-e90f09db2030
+  critic: Giuliano Serafini
+  source:
+  - SCAN0238
+  text: 'Nel panorama della pittura contemporanea, Francesco Luchino, che espone alla Galeria «Michelangelo» di via Maragliano,
+    si distinguue per onesta di intento professionale e poetico, e soprattutto per proporre un discorso di estrema godibilità
+    visiva. L''attenzione al «plein air» e al paesaggio urbano denomata in qusto lavoro una vena squisitamente lirica, un
+    potenziale espressivo che ricerca nei nodi della natura e dell''esistenza i segni più intensi. Il colore, steso in piatte
+    campiture che richiamano in quale modo la «macchia» e il sintetismo della pittura del primo novecento, è forse la carta
+    vincente dell''opera di Luchino: l''accostamento sapiente e calibrato dei toni, gliacati su una gamma fauve dove, a tratti,
+    affiorano note timbriche sonore e spericolate, fa del suo repertorio paesistico un piccolo universo sospeso fra realtà
+    e sogno.'
+- id: 27bfb2ab-cc0c-4cca-8e03-a04f4adecc52
+  critic: Laura Scaramozzino
+  source:
+  - SCAN0163
+  text: Francesco Luchino, pittore autodidatta originario di San Mauro, in provincia di Torino, propone un linguaggio pittorico
+    che stabilisce un fronto espressivo costante tra la solidità austera e impenetrabile delle strutture architettoniche e
+    la levità curvilinea e circolare degli elementi naturali e del gesto, pur mai del tutto risolutorio, dell'umomo. La danza
+    lieve di un fremito di pianta pare riproduire la vocazione ascensionale degli astri a cui talvolta,anche la geometria
+    urbana tende con le sue forme arcuate, all'interno, pero, di spazi più domestici e quotidiani o nel rifugio rassicurante
+    di profondi notturni. L'artista sembra porsi alla ricerca di un equilibrio improbabile tra la conquista della perfezione
+    e della compiutezza di cui il cerchio è simbolo calzante- avviata dall'esistente, e un mondo di cui egli stati è artefice
+    e nel quale non riconosce più il proprio intento creativo e spirituale, ma soltanto il silenzio inaccostabile di un universo
+    divenuto incomprehensible al suo stesso demiurgo. Opere come "Sere sul terrazzo"(2006), "In città di notte"(2006), "Interno
+    con ravolo verde"(1997) rinviano alla solitudine spaesante dell'umomo di fronte all'alterità e a se stesso. In alcune
+    produzioni è manifesta l'influenza della pittura metafisica che tutte subisce un'originale rielaborazione alla luce soprattutto
+    di un utilizzo del colore che prende le mosse alla pittura italiana moderna dei primi novecento. Le pennellate ampie,uniformi
+    ed essenziali di Luchino ci riportano alle risoluzioni cromatiche di Morandi,merice l'elaborazione dei paesaggi urbani
+    non puo non farci tornare alla mente le architetture spoglie di Carrà e De Chirico. Un'attenzione particolare è dedicata
+    ai paesaggi notturni, penso a opere come "In città di notte"(2003) e all'omonimo del 2005, nei quali gli elementi della
+    leggerezza e della circolarità riconducono quasi alle malinconiche trasparenze di un poetico Chagall. La notte soltanto,
+    sembra infatti render meno gravoso il peso dell'esistenza e della finitudine. Cosi come il mare l'oscurità assume le funzioni
+    di un avvolgente liquido amnio-tico in cui l'umono e la natura nitrovano un'accoglienza necessaria al fine di una possibile
+    rigenerazione. La figura umana,nella produzione artistica del pittore, viene rappresentata attraverso una resa del volto
+    con i tratti dipinti in modo abbozzato e sommario o è colta di spalle e serrata nell'atmosfera rigida, ora algida, ora
+    oscura, di paesaggi lineari e sospesi. il frutore, nel'assenza di una tramatura espressiva nel ritratto vago, eppur paradossalmente
+    definito nella costruzione strutturale dei personaggi, coglie l'impossibilità di un approccio communicativo che si costituisca
+    tramite il medium dello sguardo e del gesto. La Pregnanza simbolica della posizione assunta dalle figure umane rinvia,+dunque,
+    a una visione tragica dell'esistenza,che sottolinea la più esseniziale e costitutiva collocazione dell'essere nel mondo
+    e il suo venire Dunque "colto di spalle" dagli eventi inattesi e dal tempo. L'essere umano è spentatore di se stesso e
+    di ciò che accade ma la sua appararente passività cui dovire consapevolezza e tramutarsi in attiva predispositione attraverso
+    la contemplazione della natura e la ricerca di un'ulteriorità rappresentata dai notturni, dal mare e dagli astri infuocati
+    di fronte ai quali il drama moncollettivo dell'essere cede all'estasi della bellezza e del mistero. L'umono non svolge,osi,la
+    mera funzione di una comparsa e il drama individuale e collettivo in cui è "gettato" cui diventare il teatro del suo stesso
+    riscatto e dell'affirmazione della propria essenza. Lo sguardo sul mondo precede e rende possibile una precomprensione
+    del sé lontana nella banalizzazione positiva o negativa della vita stessa. Il capo chino sul collo e piegato su di una
+    spalla può sollevarvi al cielo e avviare quell'epoche, o suspensione del giudizio, che permetta all'uomo di ritrovare
+    nel'essere la propria originaria vocazione. Nell'opera di Luchino colori densi, oscuri e sabbiosi si altemano ad asciutte
+    luminosità cristallizzate dal sole, azzurri vibranti e verdi sottili a tinte brune e appesantite da neri pastosi. Nella
+    produzione artistica del pittore piemontese un ruolo fondamentale è svolto dunque, alla luce, ora uniforme, nitida ed
+    estesa, ora occlusa da interni claustrofobici e anomimi. La luce non è mai solo illuminazione naturale ma soprattutto
+    irradiazione interiore che conferisce a agli ambientazione il senso di disagio o di riscatto di coloro i quali ne occupano
+    gli spazi.
+- id: 53bcb5b2-8bb8-4558-9727-563671f7b8ab
+  critic: Liliana Nobile
+  source:
+  - SCAN0170
+  text: 'Un''armonica malinconia sovrasta e sospende lo spazio urbano rappresentato da Francesco Luchino: artista che medita
+    sul senso della vita e sullo scorrere del tempo in modo elegante ed essenziale, comeanche sulla decidenza del progresso,
+    se quest''ultimo è un voler superare un''origine di senso che si deturpa invece nel corrotto ragionamento, con un''impressione
+    fissata su un supporto che preserva e consegnata la sua visione alla posterità partecipe curiosa dell''accadere. Intensa,
+    profonda, spirituale, inarrivabile è la verità alla quale egli vuole pervenire, in quanto approdo certo e de finitivo.
+    Ma l''artista va essere: Francesco Luchino conunica il suo interesse per quanto accade all''esterno e con la sensibilità
+    di pittore attento e critico non si limita a presentare la realta oggettiva circostante, piuttosto manifesta, con toni
+    gravi e meditat, una riflessione che non stride con il mondo circostante, perché partecipa, si nutre diesso e lo testimonia,
+    a futura memoria.'
+- id: 9f6fbd5e-851b-4145-87cb-a4dd96fafcb9
+  critic: Paolo Levi
+  source:
+  - SCAN0168
+  - SCAN0185
+  - SCAN0171
+  text: 'La pittura di Francesco Luchino descrive interni di abitazioni e scorci cittadini frantumati e ricostruiti in forme
+    geometriche.
 
-      Dipingere quindi significa educare la percezione a cogliere il lato
-      poetico di ciò che è ripetuto dalla natura e dalla cultura; Francesco
-      Luchino costruendo la tela d i segni e colori del suo mondo interno
-      contribuisce a portare anche il semplice fruitore in quel campo di libere
-      costruzioni metaforiche che è l'arte.
+    Anche gli oggetti presenti nella composizione, suppellettili e particolari architettonici, diventano forme nette, come
+    le finestre trasmutate i n rettangoli luminosi, che si aprono sulle pareti degli edifici.
 
-      Concludendo questa piccola presentazione vogliano ricordare che solo in
-      una sincera necessità possono convogliare tutte le possibilità come seri
-      lavori di sperimentazione. Francesco Luchino ha dimostrato con le sue
-      opere di non riuscire a trattenere un impulso al vedere che si esilia
-      dalla quotidianità rinchiudendosi in quel DIVERSO spazio dove "dire" è
-      veramente vicino al sentire il piccolo ritaglio di tela che raccoglie i
-      nostri sogni non ancora dissolti confondendo e moltiplicando significati
-      del reale.
+    Luchino lavora con un tratto denso e deciso, stende cromatismi intensi e caldi in ampie campiture, facendo sì che una
+    luminosità avvolgente emani dal quadro.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0129
-    text: >-
-      Visioni segniche ammantate di colore si ritrovano nell'arte del maestro
-      Francesco Luchino.
+    I personaggi vengono rappresentati anch''essi in modo allusivo e stilizzato, inseriti con armonia nel contesto. Queste
+    opere di gusto contemporaneo nel disegno, nel soggetto e nell''uso della luce e del colore, descrivono bene il nostro
+    presente, dotate come sono di un''immediatezza comunicativa e di una rara capacità di riscrivere il realezza alterarlo,
+    ma solo rielaborandolo in colorita sintesi visiva.'
+- id: d999031d-a69f-4a2d-bd62-dd2d178f0d0b
+  critic: Pier Carlo Maschera
+  source:
+  - SCAN0160
+  - SCAN0166
+  text: '[...] Accostamenti rari di grandissima sensibilità, ravvisabili in quei "salti cromatici" di gradevolissimo impatto,
+    capaci di evocare la disperazione della solitudine o la solare e cristallina atmossera di una mattinata primaverile. Un
+    cromatism non "urlato" ma sommessamente modulato: la tenue luce in lontananza ad indicare speranze mai sopite, il rosso
+    del sole altramonto nella campagna semiaddormentata a sottolineare il momentaneo nulla in attesa dell''alba successiva,
+    gli avventori al bar sorpresi nella pausa riflessiva, uguali e pur diversi nel tratteggio cromatico che li coglie nell''anonimato
+    di un viso appena accennato. Altrimenti non potrebbe essere, visto il carattere introverso dell''autore, che solo con
+    la pittura si dona completamente al pubblico. Dai primi quadri degli anni Settanta, tratteggiati con minuzia certosina
+    all''espressionismo altalenante fra astrattismo e figurativo (ci si consenta questo inusuale accostamento stilistico),
+    in una personalissima "scomposizione" del soggetto in una sequenza di piani geometrici, dove i particulari assumono importanta
+    secondaria e dove il colore diventa l''elemento caratterizzante (e, per il visitatore, catalizzatore) dell''opera [...]'
+- id: 501272a1-7532-4c3b-8b50-2049c2abc601
+  critic: Pier Carlo Maschera
+  source:
+  - SCAN0162
+  text: '[...] Si addentra nei meandi dell''inconscio con una spiccata personalità pittorica, molto sensibilità e padronanza
+    tecnica. Il suo linguaggio suggestivo unisce la realtà ove egli vivo alla fantasia di cui è padrone. La raffinatezza espressiva
+    si avvale del senso informale delle opere per raggiungere strati lirici più elevati e diversamente più lontani, nelle
+    tutte l''insieme è legato da unesso cromatico sobrio ed equilibrato. Il suo ingaggio, se pure è colto e ricercato, più
+    essere recepto da agli individuo perché agli essere ha in se elementi validi di fare affiorare valori nuovi e orientamenti
+    estenziali diversi dalle solite routines.'
+- id: 0486e5bb-0a15-4314-8100-cde2e643b8b3
+  critic: Pier Carlo Maschera
+  source:
+  - SCAN0195
+  text: 'Per la seconda volta, dopo la prima migliorata tenutasi nel mese di giugno 2003, Francesco Luchino, uno dei più quotati
+    pittori contemporanei non solo per quanto riguarda il territorio sambaurese, è presente con una sua personale nella sala
+    conferenze del palazzo municipale. L''inaugurazione ufficiale di questa bella esposizione, che comprende una trentina
+    di opere frutto del lavoro creativo di quest''ultimo biennio ed intitolata "La Nuova Collezione". «Portatore di una individualità
+    particolaremente evidente», come scrive Giorgio Borio, Francesco Luchino è pittore tendente all''astrattismo, con alcune
+    personalissime concessioni al figurativo, evidenziate in "Pianura" e "Case in collina".
 
-      Il nostro é alla continua ricerca di modalità espressive che svelano sia
-      un animo sensibile ale diverse forme dela realtà sia ale vibrazioni
-      romantiche del semplice. Il suo linguaggio pitorico é avvezzo ala
-      separazione del segno e del colore si da rappresentare gli oggeti su piani
-      diversi dela tela.
+    Realtà ed allegoria sono presenti nelle sue opere, in cui si evidenzia un sofferto processo di ricerca, sua per quanto
+    riguarda la forma, sua per quanto concerne il colore. La sapiente sovrapposizione dei piani prospettici ed il felice accostamento
+    cromatico, uniti alla nitidezza del fatto, creano atmossfere surreali dove figure e paesaggi spaccano su sfondi volutamente
+    evanescenti; in cui I'' emotività fa da regia, alla rappresentazione formale, nella totale indipendenza creativa.
 
-      Impressioni simpatetiche della realtà accostate a sviluppi figurativi
-      dotati di armonica luminosità com pletano la visione pittorica del Nostro.
-      Coivolgendo la vista e l'animo Francesco Luchino riesce a renderse il suo
-      universo vivo e pulsante tangibile e a trasportarci nella dimensione
-      fantastica della sua Pittura con disinvoltura e immediatezza. E'
-      un'esperienza artistica, quella del maestro allo stesso livello dei grande
-      del passato che tuttora affascinano e ci accompagnano per i sentieri
-      dell'arte rendendolaosi un'esperienza che valica le barriere del tempo e
-      della forma.
+    L''originalità di "Interno con fiori", le splendide cromie di "Riviera" e "Sottobosco", la luminosità, de "In collina",
+    l''incombente atmosfera di "Periferia", sono i tanti "movimenti" della grande sinfonia pittoricaorchestrata da Luchino.
+    Una "poetica del segno" ricca di allusions, esuberante di immagini, che sollecita la formulazione dell''immagine, poichè
+    Francesco Luchino non è pittore da compromessi. La sua è una pittura ricca di creatività, di sobrio realismismo misto
+    adestro spericolato: doti queste che fanno grande il suo autore [...]'
+- id: 7d215025-19ef-4235-a96c-2f17204ca316
+  critic: Sandro Serradifalco
+  source:
+  - SCAN0158
+  - SCAN0175
+  - SCAN0176
+  - SCAN0182
+  - SCAN0194
+  text: 'La riaffermazione dell''elemento quotidiano assume nella pittura di Francesco Luchino prova di consistente spontaneità
+    espressiva. Il saper comprendere la figura umana nel suo contesto naturale sfocia in una dimensione contemplativa della
+    realtà interiore.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0138
-    text: >-
-      Un quadro pittorico ricco di personalità e soluzioni rappresentative
-      armonioso. La capacité di comprare, mixare con modernità sulla tela è la
-      forza dell'arte di Francesco Luchino, un Artista che guarda all'arte con
-      raffinatezza.
+    Tale volontà di ricerca, trova sua concretezza nella decisione del segno, nella meditata compostezza tonale. Pittura apparentemente
+    conforme a cononi idealizzativi novecentesi, tuttavia innovativa grazie a tematiche narrative alla struggente contemporaneità.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0155
-      # - SCAN0165 this is a duplicate of SCAN0155
-    text: >-
-      L'alfabeto artistico d i Francesco Luchino ci offre sulla tela visioni
-      particolari del mondo. Grazie allo uso di una linea semplice e di generose
-      campiture cromatiche da vita a personaggi ed elementi che ricalcano l a
-      realtà. Egli parte da una consolidata base figurativa per proiettarsi
-      verso la sua personale visione surreale dai tratti fortemente geometrici e
-      schematici. Credo che il maestro Francesco Luchino abbia riscoperto e
-      rielaborato l'amore per il geometrizzante caricandolo di tratti romantici
-      e vibratili tensioni dell'animo. Si leva dalle sue tele una energia pura e
-      schietta che avvolge il fruitore delle sue opere, facendolo cullare d a
-      impetuosi pleniluni che giocano con mura d i una città ideale dove vivono
-      degli abitan- ti eterei e ideali nati nella mente dell'artista. È questa
-      in sintesi l'arte del maestro Francesco Luchino, che vuole estendere il
-      suo messaggio agilmente ad ogni fruitore, accompagnandolo in un viaggio ai
-      confini del consueto, offrendo cosi dei momenti di riflessione e di
-      confronto intellettuale non comuni.
+    Contemporaneità ispiratrice di taluna opera pittorica del nostro, contemporaneità sinonimo di attenta osservazione dell''elemento
+    uomini e della sua necessaria volontà comunicativa.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0105
-    text: >-
-      L'autunno con i loro colori ispira il pennello del maestro Francesco
-      Luchino che tesse sul supporto la sua trama narrativa scandita dal suo
-      personalissimo ed interressante stile espressivo. I personaggi che
-      contemplano la natura e il paesaggio, custodiscono gelosamente i loro
-      pensieri profondi e allo spettatore non rimane altro che immaginare quali
-      essi siano.
+    Ed in tale contesto la capacité descrittiva di Francesco Luchino trova particolare sbocco evolutivo.'
+- id: 87034501-947b-4023-a8dc-23cdfd7db49a
+  critic: Sandro Serradifalco
+  source:
+  - SCAN0177
+  text: L'abilità pittorica di Francesco Luchino è ragguardevole e si fa apprezzare sua per la compostezza stilistica dei
+    loro lavori sua per la maestria tecnica e il talento dimostrati con il provietto uso delle forme e delle campiture. Benché
+    legato al figurativo e alla rappresentazione del reale tende volentieri al surreale lasciandosi piacevolmente influenzare
+    da velati e sussurrati onirismi cromatici di pregiata fattura.
+- id: 4ea193f0-34a6-41a4-9fce-dbbbe4c692c5
+  critic: Sandro Serradifalco
+  source:
+  - SCAN0181
+  text: "Possiamo ritenere la volontà artistica di un dato pittore mezzo espressivo di un voler comunicare quanto di più intimo\
+    \ risieda nel proprio io, possiamo essere credere che la creatività prenda spunto dal trascorso existenziale dell'individuali\
+    \ artisti esendo dunque direttamente proportionale alla complessità del proprio iter existenziale. Poi con stipore da\
+    \ una pittura meditata ecco scoprir che in agli singolo fotogramma del nostro giornaliero cammino possa risiedere la chiave\
+    \ di svolta per intendere e svelare la poesia risiedente ciascun animo umano.\nGià Giorgio Morandi dimostrava che nella\
+    \ semplificà ed essentialità degli oggetti e nella loro continua (quasi maniacale) rappresentazione si celassero i frutti\
+    \ di una profonda meditazione. Pittura intimista e meditata come quella di Francesco Luchino. Pittore tecnicamente sofisticato\
+    \ ed eccezionalmente comunicatore, riesce con caparbia descrittiva a renderere lirico agli istante.\nScene d'interni,\
+    \ personaggi \"trafugati\" alla strada e possenti descrizioni paesaggistiche conducono la nostra osservazione in contesti\
+    \ fruitivi nei quali la nostra consistenza contemporanea si confronta (perdendo l'arrogante dinamismo dei nostri tempi)\
+    \ con il silenzio, l'immobilità, il positivo pensiero. \nUna pittura dunque esortativa del magico risiedente in taluno\
+    \ istante biologico, nel quale il pensiero (o il sovraptensiero) prende il posting all'insensato grido, all'illusoria\
+    \ volontà trasgressiva. Un miscellanea valida ed altoamente narrativa.\nUn far pittura che non lascia spazio a duplici\
+    \ finalità interpretative facendosi carico di testimoniar, di manifestare, di rendere magico quando risiede intorno all'individuo."
+- id: 8f2db77d-6efb-426d-913f-3313c4985beb
+  critic: Vittorio Bottino
+  source:
+  - SCAN0241
+  - SCAN0151
+  - SCAN0237
+  - SCAN0238
+  - SCAN0190
+  - SCAN0187
+  text: 'A Francesco Luchino piacciono i paesaggi ed infatti - essendo autodidatta - ha iniziato copiando i maestri francesi,
+    olandesi e fiamminghi, quasi per gioco e per muovere la mano nella giusta direzione e dimensione. Poi passò a d essere
+    s e stesso con raffigurazioni realistiche con la tavolozza in plein air e molta ricerca del soggetto, ma dentro di s è
+    sentiva urgere la pressione dell''architettura, della fantasia pur alimentata dal vero. Cominciò quindi a ricercare un''identità
+    particolare che amalgamasse i due interessi (realtà e invenzione) attraverso il filo conduttore della costruttività.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0164
-    text: >-
-      Il maestro Francesco Luchino ha sviluppato negli anni mediateda la sua
-      lunga ricerca espressiva, una sintassi compositiva alla a descrivre il
-      palcoscenico del quotidiano nei loro più svariati aspetti. Mediente una
-      pitta inclarata sull'uomo e i loro rapporti con l'ambiente circostante,
-      possente e ben stutturata cromaticamente, il maestro Francesco Luchino ci
-      rende partecipe della sua creatività, risultanto sempre piacevole ai
-      sensi.
+    Nacquero i paesaggi scomposti e ricomposti, le case essenzializzate, i campi lunghi tagliati dai contrasti cromatici.
+    Progettazione e razionalismo trovarono eco nei temi, si riconosceva il luogo ma questo era filtrato da una cosciente presa
+    d i posizione di origine culturale. Non fu facile, per Francesco Luchino, stabilire un equilibrio, anche perchè doveva
+    fare uso di colori diversi, ribaltare, non le proporzioni, ma la visualizzazione senza entrare nel post-cubismo o nell''astrattismo
+    anche se certi fondi ricordano questa tendenza. Doveva soprattutto tener conto delle proprie necessità intimistiche e
+    di quelle del fruitore allargando la cerchia di questi ultimi. Oggi i dipinti di Luchino rispondono appieno a quanto egli
+    si prefiggeva anche se le ricerche non finiscono mai specialmente dove la pluralità mentale ha il sopravvento sulla platealità
+    di quanto ci circonda.
 
-  - critic: Dino Marasà
-    source:
-      - SCAN0167
-    text: >-
-      Con il suo lavoro Francesco Luchino conduce chi guarda in un mondo abitato
-      da uomini e cose del nostro ordinario, ma ciò che rende queste opere
-      eccezionali è la resa unica e originalissima dei soggetti. Vera e propria
-      firma di un maestro ormai affermato e coerentissimo nella sua idea di
-      Arte.
-
-  - critic: Dino Marasà
-    source:
-      - SCAN0188
-    text: >-
-      L'esperssione pittorica del maestro Francesco Luchino ci regala ancora una
-      volta le visioni del suo particolare modo di concepire e di ritrarre.
-      Spesso soffermando lo sguardo sulle sue opere ci si domanda se da quale
-      parte, in quale maniera esista un universo parallello con le
-      caratteristiche segniche, timbriche e tonali che tanto attraggono il
-      fruitore delle sue opere. Il maestro Francesco Luchino si aspira alle
-      nostre cittàosi dense e palpitanti di vita, crogiolo di emozioni e di
-      diverse esistenze, per esaltarne i personaggi colti nella loro quotidiana
-      semplicità. E' l'animodel Pittore, dotato di una sua particolare
-      sensibilità, che rielabora le percezioni abituali per restituirle sotto
-      forma di opera d'arte sul supporto. E questo atto creativo del maestro
-      Francesco Luchino è simbolo dello immenso universo più da scopriere che è
-      l'arte in se stessa.
-
-      E'anche un momento di evasione dal quotidiano che riesce a liberare le
-      nostre coscienze dal consueto permietendo un contatto diretto con
-      l'assoluto inteso come espressione artistica suprema dell'intelletto che
-      non si arrende mai nella ricerca di nuovi orizzonti espressivi e
-      compositivi.
-
-  - critic: Giorgio Borio
-    source:
-      - SCAN0164
-      - SCAN0207
-    text: >-
-      Il suo mondo è una sequenza di immagini estrapolate alla realtà e
-      interpretate creativamente in strutture spiccatamente individualistiche.
-      Il colore, elemento caratterizzante di questi lavori, sviluppa
-      correlazioni secondo architettoniche regole dal perfetto equilibrio. [...]
-      Un dipingere che dimostra come atraverso la ricerca sua ancora possibile
-      pervenire a risultati di notevole caratura.
-
-  - critic: Walter Venanzio
-    source:
-      - SCAN0207
-    text: >-
-      La sua arte è l'espressione più pura di un pittore contemporaneo che ha
-      saputo cogliere personalissime interpretazioni formali.
-
-      Colori luci ed ombre si integrano in una fusione d'insieme ben determinata
-      da un notevole spessore di alta esecuzione. C'è grande padronanza di mezzi
-      espressivi che sorprendono per quel legame così intenso, equilibrato,
-      sobrio, soprattutto nella rappresentazione degli interni, ove trasforma lo
-      spazio rendendolo particolarmente suggestivo.
-
-  - critic: Giuliano Serafini
-    source:
-      - SCAN0238
-    text: >-
-      Nel panorama della pittura contemporanea, Francesco Luchino, che espone
-      alla Galeria «Michelangelo» di via Maragliano, si distinguue per onesta di
-      intento professionale e poetico, e soprattutto per proporre un discorso di
-      estrema godibilità visiva. L'attenzione al «plein air» e al paesaggio
-      urbano denomata in qusto lavoro una vena squisitamente lirica, un
-      potenziale espressivo che ricerca nei nodi della natura e dell'esistenza i
-      segni più intensi. Il colore, steso in piatte campiture che richiamano in
-      quale modo la «macchia» e il sintetismo della pittura del primo novecento,
-      è forse la carta vincente dell'opera di Luchino: l'accostamento sapiente e
-      calibrato dei toni, gliacati su una gamma fauve dove, a tratti, affiorano
-      note timbriche sonore e spericolate, fa del suo repertorio paesistico un
-      piccolo universo sospeso fra realtà e sogno.
-
-  - critic: Laura Scaramozzino
-    source:
-      - SCAN0163
-    text: >-
-      Francesco Luchino, pittore autodidatta originario di San Mauro, in
-      provincia di Torino, propone un linguaggio pittorico che stabilisce un
-      fronto espressivo costante tra la solidità austera e impenetrabile delle
-      strutture architettoniche e la levità curvilinea e circolare degli
-      elementi naturali e del gesto, pur mai del tutto risolutorio, dell'umomo.
-      La danza lieve di un fremito di pianta pare riproduire la vocazione
-      ascensionale degli astri a cui talvolta,anche la geometria urbana tende
-      con le sue forme arcuate, all'interno, pero, di spazi più domestici e
-      quotidiani o nel rifugio rassicurante di profondi notturni. L'artista
-      sembra porsi alla ricerca di un equilibrio improbabile tra la conquista
-      della perfezione e della compiutezza di cui il cerchio è simbolo calzante-
-      avviata dall'esistente, e un mondo di cui egli stati è artefice e nel
-      quale non riconosce più il proprio intento creativo e spirituale, ma
-      soltanto il silenzio inaccostabile di un universo divenuto
-      incomprehensible al suo stesso demiurgo. Opere come "Sere sul
-      terrazzo"(2006), "In città di notte"(2006), "Interno con ravolo
-      verde"(1997) rinviano alla solitudine spaesante dell'umomo di fronte
-      all'alterità e a se stesso. In alcune produzioni è manifesta l'influenza
-      della pittura metafisica che tutte subisce un'originale rielaborazione
-      alla luce soprattutto di un utilizzo del colore che prende le mosse alla
-      pittura italiana moderna dei primi novecento. Le pennellate ampie,uniformi
-      ed essenziali di Luchino ci riportano alle risoluzioni cromatiche di
-      Morandi,merice l'elaborazione dei paesaggi urbani non puo non farci
-      tornare alla mente le architetture spoglie di Carrà e De Chirico.
-      Un'attenzione particolare è dedicata ai paesaggi notturni, penso a opere
-      come "In città di notte"(2003) e all'omonimo del 2005, nei quali gli
-      elementi della leggerezza e della circolarità riconducono quasi alle
-      malinconiche trasparenze di un poetico Chagall. La notte soltanto, sembra
-      infatti render meno gravoso il peso dell'esistenza e della finitudine.
-      Cosi come il mare l'oscurità assume le funzioni di un avvolgente liquido
-      amnio-tico in cui l'umono e la natura nitrovano un'accoglienza necessaria
-      al fine di una possibile rigenerazione. La figura umana,nella produzione
-      artistica del pittore, viene rappresentata attraverso una resa del volto
-      con i tratti dipinti in modo abbozzato e sommario o è colta di spalle e
-      serrata nell'atmosfera rigida, ora algida, ora oscura, di paesaggi lineari
-      e sospesi. il frutore, nel'assenza di una tramatura espressiva nel
-      ritratto vago, eppur paradossalmente definito nella costruzione
-      strutturale dei personaggi, coglie l'impossibilità di un approccio
-      communicativo che si costituisca tramite il medium dello sguardo e del
-      gesto. La Pregnanza simbolica della posizione assunta dalle figure umane
-      rinvia,+dunque, a una visione tragica dell'esistenza,che sottolinea la più
-      esseniziale e costitutiva collocazione dell'essere nel mondo e il suo
-      venire Dunque "colto di spalle" dagli eventi inattesi e dal tempo.
-      L'essere umano è spentatore di se stesso e di ciò che accade ma la sua
-      appararente passività cui dovire consapevolezza e tramutarsi in attiva
-      predispositione attraverso la contemplazione della natura e la ricerca di
-      un'ulteriorità rappresentata dai notturni, dal mare e dagli astri
-      infuocati di fronte ai quali il drama moncollettivo dell'essere cede
-      all'estasi della bellezza e del mistero. L'umono non svolge,osi,la mera
-      funzione di una comparsa e il drama individuale e collettivo in cui è
-      "gettato" cui diventare il teatro del suo stesso riscatto e
-      dell'affirmazione della propria essenza. Lo sguardo sul mondo precede e
-      rende possibile una precomprensione del sé lontana nella banalizzazione
-      positiva o negativa della vita stessa. Il capo chino sul collo e piegato
-      su di una spalla può sollevarvi al cielo e avviare quell'epoche, o
-      suspensione del giudizio, che permetta all'uomo di ritrovare nel'essere la
-      propria originaria vocazione. Nell'opera di Luchino colori densi, oscuri e
-      sabbiosi si altemano ad asciutte luminosità cristallizzate dal sole,
-      azzurri vibranti e verdi sottili a tinte brune e appesantite da neri
-      pastosi. Nella produzione artistica del pittore piemontese un ruolo
-      fondamentale è svolto dunque, alla luce, ora uniforme, nitida ed estesa,
-      ora occlusa da interni claustrofobici e anomimi. La luce non è mai solo
-      illuminazione naturale ma soprattutto irradiazione interiore che
-      conferisce a agli ambientazione il senso di disagio o di riscatto di
-      coloro i quali ne occupano gli spazi.
-
-  - critic: Liliana Nobile
-    source:
-      - SCAN0170
-    text: >-
-      Un'armonica malinconia sovrasta e sospende lo spazio urbano rappresentato
-      da Francesco Luchino: artista che medita sul senso della vita e sullo
-      scorrere del tempo in modo elegante ed essenziale, comeanche sulla
-      decidenza del progresso, se quest'ultimo è un voler superare un'origine di
-      senso che si deturpa invece nel corrotto ragionamento, con un'impressione
-      fissata su un supporto che preserva e consegnata la sua visione alla
-      posterità partecipe curiosa dell'accadere. Intensa, profonda, spirituale,
-      inarrivabile è la verità alla quale egli vuole pervenire, in quanto
-      approdo certo e de finitivo. Ma l'artista va essere: Francesco Luchino
-      conunica il suo interesse per quanto accade all'esterno e con la
-      sensibilità di pittore attento e critico non si limita a presentare la
-      realta oggettiva circostante, piuttosto manifesta, con toni gravi e
-      meditat, una riflessione che non stride con il mondo circostante, perché
-      partecipa, si nutre diesso e lo testimonia, a futura memoria.
-
-  - critic: Paolo Levi
-    source:
-      - SCAN0168
-      - SCAN0185
-      - SCAN0171
-      # - SCAN0180 this is a duplicate of SCAN0168
-    text: >-
-      La pittura di Francesco Luchino descrive interni di abitazioni e scorci
-      cittadini frantumati e ricostruiti in forme geometriche.
-
-      Anche gli oggetti presenti nella composizione, suppellettili e particolari
-      architettonici, diventano forme nette, come le finestre trasmutate i n
-      rettangoli luminosi, che si aprono sulle pareti degli edifici.
-
-      Luchino lavora con un tratto denso e deciso, stende cromatismi intensi e
-      caldi in ampie campiture, facendo sì che una luminosità avvolgente emani
-      dal quadro.
-
-      I personaggi vengono rappresentati anch'essi in modo allusivo e
-      stilizzato, inseriti con armonia nel contesto. Queste opere di gusto
-      contemporaneo nel disegno, nel soggetto e nell'uso della luce e del
-      colore, descrivono bene il nostro presente, dotate come sono di
-      un'immediatezza comunicativa e di una rara capacità di riscrivere il
-      realezza alterarlo, ma solo rielaborandolo in colorita sintesi visiva.
-
-  - critic: Pier Carlo Maschera
-    source:
-      - SCAN0160
-      - SCAN0166
-    text: >-
-      [...] Accostamenti rari di grandissima sensibilità, ravvisabili in quei
-      "salti cromatici" di gradevolissimo impatto, capaci di evocare la
-      disperazione della solitudine o la solare e cristallina atmossera di una
-      mattinata primaverile. Un cromatism non "urlato" ma sommessamente
-      modulato: la tenue luce in lontananza ad indicare speranze mai sopite, il
-      rosso del sole altramonto nella campagna semiaddormentata a sottolineare
-      il momentaneo nulla in attesa dell'alba successiva, gli avventori al bar
-      sorpresi nella pausa riflessiva, uguali e pur diversi nel tratteggio
-      cromatico che li coglie nell'anonimato di un viso appena accennato.
-      Altrimenti non potrebbe essere, visto il carattere introverso dell'autore,
-      che solo con la pittura si dona completamente al pubblico. Dai primi
-      quadri degli anni Settanta, tratteggiati con minuzia certosina
-      all'espressionismo altalenante fra astrattismo e figurativo (ci si
-      consenta questo inusuale accostamento stilistico), in una personalissima
-      "scomposizione" del soggetto in una sequenza di piani geometrici, dove i
-      particulari assumono importanta secondaria e dove il colore diventa
-      l'elemento caratterizzante (e, per il visitatore, catalizzatore)
-      dell'opera [...]
-
-  - critic: Pier Carlo Maschera
-    source:
-      - SCAN0162
-    text: >-
-      [...] Si addentra nei meandi dell'inconscio con una spiccata personalità
-      pittorica, molto sensibilità e padronanza tecnica. Il suo linguaggio
-      suggestivo unisce la realtà ove egli vivo alla fantasia di cui è padrone.
-      La raffinatezza espressiva si avvale del senso informale delle opere per
-      raggiungere strati lirici più elevati e diversamente più lontani, nelle
-      tutte l'insieme è legato da unesso cromatico sobrio ed equilibrato. Il suo
-      ingaggio, se pure è colto e ricercato, più essere recepto da agli
-      individuo perché agli essere ha in se elementi validi di fare affiorare
-      valori nuovi e orientamenti estenziali diversi dalle solite routines.
-
-  - critic: Pier Carlo Maschera
-    source:
-      - SCAN0195
-    text: >-
-      Per la seconda volta, dopo la prima migliorata tenutasi nel mese di giugno
-      2003, Francesco Luchino, uno dei più quotati pittori contemporanei non
-      solo per quanto riguarda il territorio sambaurese, è presente con una sua
-      personale nella sala conferenze del palazzo municipale. L'inaugurazione
-      ufficiale di questa bella esposizione, che comprende una trentina di opere
-      frutto del lavoro creativo di quest'ultimo biennio ed intitolata "La Nuova
-      Collezione". «Portatore di una individualità particolaremente evidente»,
-      come scrive Giorgio Borio, Francesco Luchino è pittore tendente
-      all'astrattismo, con alcune personalissime concessioni al figurativo,
-      evidenziate in "Pianura" e "Case in collina".
-
-      Realtà ed allegoria sono presenti nelle sue opere, in cui si evidenzia un
-      sofferto processo di ricerca, sua per quanto riguarda la forma, sua per
-      quanto concerne il colore. La sapiente sovrapposizione dei piani
-      prospettici ed il felice accostamento cromatico, uniti alla nitidezza del
-      fatto, creano atmossfere surreali dove figure e paesaggi spaccano su
-      sfondi volutamente evanescenti; in cui I' emotività fa da regia, alla
-      rappresentazione formale, nella totale indipendenza creativa.
-
-      L'originalità di "Interno con fiori", le splendide cromie di "Riviera" e
-      "Sottobosco", la luminosità, de "In collina", l'incombente atmosfera di
-      "Periferia", sono i tanti "movimenti" della grande sinfonia
-      pittoricaorchestrata da Luchino. Una "poetica del segno" ricca di
-      allusions, esuberante di immagini, che sollecita la formulazione
-      dell'immagine, poichè Francesco Luchino non è pittore da compromessi. La
-      sua è una pittura ricca di creatività, di sobrio realismismo misto adestro
-      spericolato: doti queste che fanno grande il suo autore [...]
-
-  - critic: Sandro Serradifalco
-    source:
-      - SCAN0158
-      - SCAN0175
-      - SCAN0176
-      - SCAN0182
-      - SCAN0194
-      # - SCAN0193 this is a duplicate of SCAN0158
-    text: >-
-      La riaffermazione dell'elemento quotidiano assume nella pittura di
-      Francesco Luchino prova di consistente spontaneità espressiva. Il saper
-      comprendere la figura umana nel suo contesto naturale sfocia in una
-      dimensione contemplativa della realtà interiore.
-
-      Tale volontà di ricerca, trova sua concretezza nella decisione del segno,
-      nella meditata compostezza tonale. Pittura apparentemente conforme a
-      cononi idealizzativi novecentesi, tuttavia innovativa grazie a tematiche
-      narrative alla struggente contemporaneità.
-
-      Contemporaneità ispiratrice di taluna opera pittorica del nostro,
-      contemporaneità sinonimo di attenta osservazione dell'elemento uomini e
-      della sua necessaria volontà comunicativa.
-
-      Ed in tale contesto la capacité descrittiva di Francesco Luchino trova
-      particolare sbocco evolutivo.
-
-  - critic: Sandro Serradifalco
-    source:
-      - SCAN0177
-    text: >-
-      L'abilità pittorica di Francesco Luchino è ragguardevole e si fa
-      apprezzare sua per la compostezza stilistica dei loro lavori sua per la
-      maestria tecnica e il talento dimostrati con il provietto uso delle forme
-      e delle campiture. Benché legato al figurativo e alla rappresentazione del
-      reale tende volentieri al surreale lasciandosi piacevolmente influenzare
-      da velati e sussurrati onirismi cromatici di pregiata fattura.
-
-  - critic: Sandro Serradifalco
-    source:
-      - SCAN0181
-    text: >-
-      Possiamo ritenere la volontà artistica di un dato pittore mezzo espressivo
-      di un voler comunicare quanto di più intimo risieda nel proprio io,
-      possiamo essere credere che la creatività prenda spunto dal trascorso
-      existenziale dell'individuali artisti esendo dunque direttamente
-      proportionale alla complessità del proprio iter existenziale. Poi con
-      stipore da una pittura meditata ecco scoprir che in agli singolo
-      fotogramma del nostro giornaliero cammino possa risiedere la chiave di
-      svolta per intendere e svelare la poesia risiedente ciascun animo umano.
-
-      Già Giorgio Morandi dimostrava che nella semplificà ed essentialità degli
-      oggetti e nella loro continua (quasi maniacale) rappresentazione si
-      celassero i frutti di una profonda meditazione. Pittura intimista e
-      meditata come quella di Francesco Luchino. Pittore tecnicamente
-      sofisticato ed eccezionalmente comunicatore, riesce con caparbia
-      descrittiva a renderere lirico agli istante.
-
-      Scene d'interni, personaggi "trafugati" alla strada e possenti descrizioni
-      paesaggistiche conducono la nostra osservazione in contesti fruitivi nei
-      quali la nostra consistenza contemporanea si confronta (perdendo
-      l'arrogante dinamismo dei nostri tempi) con il silenzio, l'immobilità, il
-      positivo pensiero. 
-
-      Una pittura dunque esortativa del magico risiedente in taluno istante
-      biologico, nel quale il pensiero (o il sovraptensiero) prende il posting
-      all'insensato grido, all'illusoria volontà trasgressiva. Un miscellanea
-      valida ed altoamente narrativa.
-
-      Un far pittura che non lascia spazio a duplici finalità interpretative
-      facendosi carico di testimoniar, di manifestare, di rendere magico quando
-      risiede intorno all'individuo.
-
-  - critic: Vittorio Bottino
-    source:
-      - SCAN0241
-      - SCAN0151
-      - SCAN0237
-      - SCAN0238
-      - SCAN0190
-      - SCAN0187
-    text: >-
-      A Francesco Luchino piacciono i paesaggi ed infatti - essendo autodidatta
-      - ha iniziato copiando i maestri francesi, olandesi e fiamminghi, quasi
-      per gioco e per muovere la mano nella giusta direzione e dimensione. Poi
-      passò a d essere s e stesso con raffigurazioni realistiche con la
-      tavolozza in plein air e molta ricerca del soggetto, ma dentro di s è
-      sentiva urgere la pressione dell'architettura, della fantasia pur
-      alimentata dal vero. Cominciò quindi a ricercare un'identità particolare
-      che amalgamasse i due interessi (realtà e invenzione) attraverso il filo
-      conduttore della costruttività.
-
-      Nacquero i paesaggi scomposti e ricomposti, le case essenzializzate, i
-      campi lunghi tagliati dai contrasti cromatici. Progettazione e
-      razionalismo trovarono eco nei temi, si riconosceva il luogo ma questo era
-      filtrato da una cosciente presa d i posizione di origine culturale. Non fu
-      facile, per Francesco Luchino, stabilire un equilibrio, anche perchè
-      doveva fare uso di colori diversi, ribaltare, non le proporzioni, ma la
-      visualizzazione senza entrare nel post-cubismo o nell'astrattismo anche se
-      certi fondi ricordano questa tendenza. Doveva soprattutto tener conto
-      delle proprie necessità intimistiche e di quelle del fruitore allargando
-      la cerchia di questi ultimi. Oggi i dipinti di Luchino rispondono appieno
-      a quanto egli si prefiggeva anche se le ricerche non finiscono mai
-      specialmente dove la pluralità mentale ha il sopravvento sulla platealità
-      di quanto ci circonda.
-
-      Strutture allora, ma non distruzione, geometria, ma non alchimia, realtà
-      ma non retorica: tre punti di forza sui quali poggia la produzione del
-      pittore di San Mauro. Un campo di papaveri ti sembra un manto gettato
-      sulle onde, figure nel buio paiono fantasmi colorati che si aggirano nel
-      nulla, delle case sulla collina possono essere paragonate ad aneliti
-      antichi che cercano il cielo, le piante sono magari rosse come se un vento
-      le sferzasse sino a creare sagome indefinibili. La cromia talvolta ti
-      disorienta, ti chiedi s e si tratta di autunno o di inverno, di primavera
-      o d'estate, poi improvvisamente ricordi di averla vista in una fiaba di
-      Andersen. L'onirismo appare e scompare, il senso tattile delle cose si
-      innesta e dissocia senza alcun preavviso logico. Eppure, quando guardi
-      bene, tutto ti appare al suo posto, rimane il senso di un racconto con
-      nuove armonie politiche, perchè, malgrado l'evidente architettura,
-      Francesco Luchino è sempre un sentimentale, solo che non h a voluto dirlo
-      con le parole degli altri.
-
-  - critic: Vittorio Bottino
-    source:
-      - SCAN0245
-    text: >-
-      Dopo un lungo lavoro preparatorio, nel 1978 Luchino comincio con i "nuovi"
-      paesaggi, tracciati e costruiotti dopo aver impostato un fondo quasi
-      astratto. In tal modo il soggetti assumee una dimensione fantastica,
-      personalissima, ricca di toni che si accostano e si scontrano in una
-      costruzione a piani di origine geometrica. Sicuri i tagli e le prospettive
-      per una libertà espressiva accentua, dove i particolari non perseguono uno
-      schema fisso, ma si innestano a seconda del gioco onirico. [...]
+    Strutture allora, ma non distruzione, geometria, ma non alchimia, realtà ma non retorica: tre punti di forza sui quali
+    poggia la produzione del pittore di San Mauro. Un campo di papaveri ti sembra un manto gettato sulle onde, figure nel
+    buio paiono fantasmi colorati che si aggirano nel nulla, delle case sulla collina possono essere paragonate ad aneliti
+    antichi che cercano il cielo, le piante sono magari rosse come se un vento le sferzasse sino a creare sagome indefinibili.
+    La cromia talvolta ti disorienta, ti chiedi s e si tratta di autunno o di inverno, di primavera o d''estate, poi improvvisamente
+    ricordi di averla vista in una fiaba di Andersen. L''onirismo appare e scompare, il senso tattile delle cose si innesta
+    e dissocia senza alcun preavviso logico. Eppure, quando guardi bene, tutto ti appare al suo posto, rimane il senso di
+    un racconto con nuove armonie politiche, perchè, malgrado l''evidente architettura, Francesco Luchino è sempre un sentimentale,
+    solo che non h a voluto dirlo con le parole degli altri.'
+- id: b89e60d3-05e0-4d20-87d8-527098619460
+  critic: Vittorio Bottino
+  source:
+  - SCAN0245
+  text: Dopo un lungo lavoro preparatorio, nel 1978 Luchino comincio con i "nuovi" paesaggi, tracciati e costruiotti dopo
+    aver impostato un fondo quasi astratto. In tal modo il soggetti assumee una dimensione fantastica, personalissima, ricca
+    di toni che si accostano e si scontrano in una costruzione a piani di origine geometrica. Sicuri i tagli e le prospettive
+    per una libertà espressiva accentua, dove i particolari non perseguono uno schema fisso, ma si innestano a seconda del
+    gioco onirico. [...]
