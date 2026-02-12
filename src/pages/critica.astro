@@ -1,0 +1,64 @@
+---
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+
+// Load reviews data at build time
+const yamlContent = readFileSync('src/content/reviews.yaml', 'utf-8');
+const reviews = parse(yamlContent) as Array<{
+  id: string;
+  critic: string;
+  source: string[];
+  text: string;
+}>;
+
+// Group reviews by critic, preserving YAML order
+const criticMap = new Map<string, string[]>();
+for (const review of reviews) {
+  if (!criticMap.has(review.critic)) {
+    criticMap.set(review.critic, []);
+  }
+  criticMap.get(review.critic)!.push(review.text);
+}
+const critics = Array.from(criticMap.entries()).map(([name, texts]) => ({
+  name,
+  texts,
+}));
+---
+
+<Base title="La Critica — Francesco Luchino">
+  <Header />
+  <main class="critica">
+    <header class="critica__hero">
+      <h1 class="critica__title">La Critica</h1>
+      <p class="critica__subtitle">Voci dalla critica d'arte su Francesco Luchino</p>
+      <div class="critica__hero-rule" aria-hidden="true"></div>
+    </header>
+
+    <div class="critica__list">
+      {critics.map(({ name, texts }) => (
+        <article class="critic-card">
+          <div class="critic-card__header">
+            <span class="critic-card__quote-mark" aria-hidden="true">&laquo;</span>
+            <h2 class="critic-card__name">{name}</h2>
+          </div>
+          <div class="critic-card__divider" aria-hidden="true" />
+          {texts.map((text, i) => (
+            <div class="critic-card__review">
+              {i > 0 && <hr class="critic-card__separator" />}
+              <div class="review-text" data-expandable>
+                <p class="review-text__content">{text}</p>
+              </div>
+              <button class="review-text__toggle" aria-expanded="false">
+                Leggi tutto ›
+              </button>
+            </div>
+          ))}
+        </article>
+      ))}
+    </div>
+  </main>
+</Base>
+
+<script src="../scripts/critica.js"></script>
