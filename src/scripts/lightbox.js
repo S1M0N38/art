@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }),
 
     // Zoom levels
-    initialZoomLevel: 'fit',
+    initialZoomLevel: (zoomLevelObject) => zoomLevelObject.fit * 0.85,
     secondaryZoomLevel: 2,
     maxZoomLevel: 4,
 
