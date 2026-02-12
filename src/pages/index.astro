@@ -19,7 +19,7 @@ const paintings = parse(yamlContent) as Array<{
 ---
 
 <Base title="Francesco Luchino — Opere">
-  <Header />
+  <Header currentPath={Astro.url.pathname} />
   <Gallery paintings={paintings} />
   <Lightbox />
 </Base>
