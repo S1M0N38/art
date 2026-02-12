@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Padding around the image
     paddingFn: () => ({
       top: 40,
-      bottom: 80,
-      left: 0,
-      right: 0,
+      bottom: 100,
+      left: 40,
+      right: 40,
     }),
 
     // Zoom levels
@@ -141,10 +141,10 @@ document.addEventListener('DOMContentLoaded', () => {
             .join('');
 
           el.innerHTML = `
-            <div class="pswp__caption-title">${data.title}</div>
-            <div class="pswp__caption-meta">
-              <span class="pswp__caption-dims">${data.widthCm} × ${data.heightCm} cm</span>
-              ${tagsHtml}
+            <div class="pswp__caption-row">
+              <div class="pswp__caption-title">${data.title}</div>
+              <div class="pswp__caption-tags">${tagsHtml}</div>
+              <div class="pswp__caption-dims">${data.widthCm} × ${data.heightCm} cm</div>
             </div>
           `;
         });
