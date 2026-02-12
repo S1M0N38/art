@@ -324,13 +324,14 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   flex-shrink: 1;
+  flex-grow: 1;
   min-width: 0;
 }
 
 .pswp__caption-tags {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 8px;
   flex-shrink: 0;
 }
