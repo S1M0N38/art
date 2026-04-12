@@ -1,3533 +1,5419 @@
-- id: 00cb4951-6117-4c35-8d61-691ac4930414
-  sort_id: 175
-  title: L'Ultimo Sorso al Sole
-  width_cm: 80
-  height_cm: 45
-  tags:
-  - paesaggio
-  - città
-- id: 011b078a-538f-447d-8cda-87a38fa37ce5
-  sort_id: 56
-  title: L'ombra dei segni luminosi
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 0184333f-10d3-4b20-be46-9fe98ff111f1
-  sort_id: 19
-  title: L'Ultimo Passo della Luna
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 01c453f6-e1c9-4e16-a33e-2691aa869437
-  sort_id: 172
-  title: Murmure di *Mürsten* – Rifugio in un angolo di luce
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - paesaggio
-  - città
-- id: 020660e2-42b4-46b3-9fb4-eba147ae145c
-  sort_id: 200
-  title: Risveglio di un Abisso
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - astratto
-  - notturno
-- id: 03b12dbb-cf8a-4782-ad7f-f7fca7f33fce
-  sort_id: 353
-  title: Luna tra petali di fuoco
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - notturno
-  - astratto
-- id: 03c96c70-42d3-4de3-9890-abb405f8beba
-  sort_id: 196
-  title: L'Ultimo Sorriso del Sole
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 04af36a1-b5b9-4440-b24a-8ad98f2d3641
-  sort_id: 287
-  title: L’Atleta della Luce Blu
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 04d47d30-5914-4f84-b903-6d5fdb29010d
-  sort_id: 121
-  title: L'Occhio della Città
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 04e82333-0ab9-46b3-97eb-d1433b0e510e
-  sort_id: 298
-  title: Ondata di vetro e luce
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - natura morta
-  - astratto
-- id: 05e02bcc-96af-433b-ad8f-ccbca11c5f02
-  sort_id: 415
-  title: L’alba sul Silenzio delle Case
-  width_cm: 80
-  height_cm: 45
-  tags:
-  - paesaggio
-  - notturno
-- id: 06211e41-624e-436f-89bc-e19c2dcc70aa
-  sort_id: 23
-  title: Ombra di Panico
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: 067c1e52-daf5-4042-a659-428a0ad72842
-  sort_id: 179
-  title: L'Ultimo Sorso sul Tavolino
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - paesaggio
-  - interni
-- id: 06dce764-b9fc-48ec-b406-71589bb57806
-  sort_id: 163
-  title: Dialoghi al Caffè
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - ritratto
-- id: 076a0dcc-3c3f-47c3-9355-5906aa526e76
-  sort_id: 183
-  title: L'Ultimo Sogno del Caffè Blu
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - interni
-  - notturno
-- id: 076b2fa3-81a0-4a0c-b235-dfebbbb9804a
-  sort_id: 169
-  title: L'Ultimo Sorso al Caffè Perfetto
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 08235182-a275-466a-85a6-966fbbe98338
-  sort_id: 323
-  title: Rifiorire tra vetri e luce
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: 082ccd31-9cff-4cef-9d99-916093ef4b1b
-  sort_id: 337
-  title: Rifiorire su un tetto d'autunno
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 086361e7-f34e-4fe7-b93b-e6f7e36ccea6
-  sort_id: 413
-  title: L’Ultimo Tramonto su un Borgo d’Ombra
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 088612ac-fd7f-4d80-80ae-89c5b8f58fe8
-  sort_id: 424
-  title: L’Ombra dei Pastori
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: 08957f6f-61d3-4f7d-bd1f-11fa3c1ee054
-  sort_id: 400
-  title: L’alba su un borgo d’oro e sangue
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 092c3c43-2694-4dd2-927f-fe362007ef20
-  sort_id: 248
-  title: L'Ultimo Sorso
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - interni
-- id: 09a8cda9-8853-45c0-8a38-f4d4a7c2bfcb
-  sort_id: 127
-  title: Onda di Pendio
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: 0a89001e-53f5-488c-bdf7-1d4cc9b8b272
-  sort_id: 109
-  title: L'alba dei segni
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: 0d7b7056-d331-498c-a2f2-db26a44c07ca
-  sort_id: 277
-  title: Ritratto di un mondo da guardare
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 0e093fc7-bd93-4275-8769-05017bef44cd
-  sort_id: 112
-  title: L'Ultimo Raggio d'Oro
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 0e32e9d9-dbd8-4dfb-84d9-6abb74a5dc36
-  sort_id: 436
-  title: L'ombra del sole giallo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 0e75bcee-39c4-4c2d-a0e9-8490a6584518
-  sort_id: 34
-  title: L’Ombra dei Passaggi
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 0eb216b0-a55b-44fc-8fd7-92d260afcecb
-  sort_id: 382
-  title: L'alba sul lago d'ombra
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 0ecc96fe-5a60-4169-9042-6498d985eeaf
-  sort_id: 260
-  title: L'Ultimo Silenzio al Vetro
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - interni
-  - notturno
-- id: 0f8f96e5-3507-4ed4-903c-c896ec512cc5
-  sort_id: 362
-  title: Luna sul Lago Notturno
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 0fec0853-af06-406d-b52b-be3384be3032
-  sort_id: 262
-  title: L'ombra del balcone dorato
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 10ebd18c-f846-4b22-8555-acaeb8069576
-  sort_id: 355
-  title: Circoli d’ombra e luce
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - fiori
-- id: 1128216e-9378-41f2-a2bb-c97a55a5b23d
-  sort_id: 184
-  title: L’Ombra dei Colori Sospesi
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - interni
-- id: 120ed006-ac24-4c65-8f38-f1c3a9354095
-  sort_id: 283
-  title: L'ombra dei fiori e la voce del paesaggio
-  width_cm: 80
-  height_cm: 45
-  tags:
-  - paesaggio
-  - città
-- id: 1357555b-94d0-423f-9a4c-b094fc49f906
-  sort_id: 133
-  title: Rivoli di Vita Blu
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - ritratto
-  - astratto
-- id: 13da3774-6547-45fa-aaaa-cb0865c42e4a
-  sort_id: 18
-  title: L'ombra della città al crepuscolo
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 13e501f8-1ed2-479a-863d-3225ba475970
-  sort_id: 131
-  title: Ritratto di Luce e Ombra
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 160dd7a5-4c10-4018-8001-3b795c408042
-  sort_id: 242
-  title: L'Ultimo Colloquio al Buio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - notturno
-- id: 16d6ad93-bfed-4890-a937-8e32399e702a
-  sort_id: 347
-  title: L’Ultimo Raggio di Luce su Fiori e Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - fiori
-- id: 17195db6-7544-422a-a71c-cd72f730b603
-  sort_id: 345
-  title: L'alba del serpente urbano
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 178fafe5-47fc-458c-a712-5e5f3243fdd8
-  sort_id: 266
-  title: L'Uomo del Punto Blu
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 17e5b396-292f-4a8d-9eb2-b0615565a565
-  sort_id: 167
-  title: 'Occhi sul divano: umori di un salotto interrotto'
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - interni
-  - notturno
-- id: 1873c5e4-e256-4dd5-9b65-080e3206eb1b
-  sort_id: 11
-  title: L'Ultimo Tramonto del Silenzio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 18b18b92-3e8f-4bca-b6a8-d918286cec73
-  sort_id: 356
-  title: Frutti d’ombra e luce sospesa
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - astratto
-  - natura morta
-- id: 19266cd9-33ad-4afa-8c55-cbbdbe6b49f5
-  sort_id: 84
-  title: 'Grigio: Riflessi di un Mondo Inquieto'
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: 1adb2b14-e5fc-4130-81b9-d6bec36bb14f
-  sort_id: 294
-  title: Ondata di Riflessi
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 1ca26da7-990e-4d5d-b683-a66291c3f990
-  sort_id: 81
-  title: L'Ultimo Silenzio della Porta Blu
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 1d70a8e2-8365-47d9-be8b-5600ca236d1a
-  sort_id: 158
-  title: L'Atto del Silenzio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - notturno
-- id: 1d71b6ec-d924-4f47-8057-f7a20cf514f8
-  sort_id: 365
-  title: L'aquila del silenzio industriale
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 1ee7991a-e359-4089-8a86-e031726153cd
-  sort_id: 120
-  title: L’Ombra degli Archi
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - interni
-- id: 1f1eeaba-3101-43b9-b373-cf7676e4f9fa
-  sort_id: 74
-  title: Riflessi di un Mondo Inquieto
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - astratto
-- id: 1fd760e2-31cf-40b4-9f56-b2805ef962f4
-  sort_id: 79
-  title: Ritratti di Lettere
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - astratto
-  - città
-- id: 20357d39-a396-4c51-89ba-6844ed8af70a
-  sort_id: 47
-  title: L’Ombra dei Luoghi che Non Siamo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 22c4c41b-caf4-47ea-a8cf-3646a3d47741
-  sort_id: 5
-  title: L’Ultimo Viaggio al Crepuscolo
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 2321d1a2-3e54-43dc-bbbc-5c479d0db703
-  sort_id: 255
-  title: L'Ultimo Sorso di Sole
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 2426eecb-bfc7-47ad-8787-20b74cbbac14
-  sort_id: 333
-  title: Occhi di Petunia
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: 24cbf61a-c3e3-46b1-a803-25f0240aa165
-  sort_id: 113
-  title: L’Ombra dei Luoghi Inquieti
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 26838976-6e67-4517-866c-155391dcb35f
-  sort_id: 285
-  title: L'Ultimo Sorriso di un Estate Blu
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - fiori
-- id: 26f47743-b3bc-4e59-8338-f67d8ce29488
-  sort_id: 220
-  title: L'Ultimo Sorso della Luna
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - notturno
-  - interni
-- id: 27535c16-d520-4b3a-b853-b52c7378b5fc
-  sort_id: 374
-  title: L'Ultimo Riflesso del Sereno
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 281e8592-707c-4c00-94ef-e018f5438f03
-  sort_id: 63
-  title: Occhi tra vetri e ombre
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 28547114-6445-4a0a-9753-0a3193a6b7fc
-  sort_id: 275
-  title: L'Uomo e il Sole che Sceglie
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: 2892a2c5-4773-481a-a0e7-34320a9d42a9
-  sort_id: 410
-  title: L’Ultimo Tramonto di Pietra
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 2a7b6077-bb9f-4924-b86a-9dad5019b976
-  sort_id: 416
-  title: L'alba del Silenzio
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 2bde8a88-9abc-44c5-82e9-856a1de35c56
-  sort_id: 87
-  title: L'ombra dei segni rossi
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 2c13328c-7cef-4eed-a48d-513c03f9832a
-  sort_id: 55
-  title: L'Ora dei Cinque
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 2c3dc3c7-605a-4fc6-bb55-5d9d9ae29cc6
-  sort_id: 78
-  title: L'Ultimo Riflesso della Luce
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 2c5d37a7-6519-4777-b45d-1a9da4a31743
-  sort_id: 335
-  title: Risveglio d'Oro
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - fiori
-  - interni
-- id: 2c75808b-e542-40e1-a1bd-71bd42b4fc6d
-  sort_id: 417
-  title: L’Ultimo Tramonto di Neve
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 2c805a7f-9a9d-4491-a231-fb0f16639e61
-  sort_id: 101
-  title: L'ombra del domani
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 2dd7e187-14e1-4648-a843-fcb9318af7e0
-  sort_id: 116
-  title: L'ombra dei muri silenti
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 2e5425bf-22dd-4aa2-b3cf-ce0baa46885e
-  sort_id: 320
-  title: L’Ombra dei Colori Vivaci
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - natura morta
-- id: 2fe4bd55-9cce-42bc-baec-15329ba1bd3e
-  sort_id: 292
-  title: L'Uomo e la Città che Aspetta
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 311241d5-a533-4af2-afcf-4b7e998667d9
-  sort_id: 256
-  title: Sogno di Sottoferra
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - città
-  - notturno
-- id: 32344fd9-5682-4b83-b48f-4c8704f2b4b0
-  sort_id: 310
-  title: L’ombra del fiore sul vetro caldo
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: 324a5847-475c-47d9-bf65-57c38c08bdd4
-  sort_id: 302
-  title: L’Ombra del Caffè e il Sole che Scompare
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - interni
-  - natura morta
-- id: 32a29a76-5478-4254-bb7c-c38946a4819f
-  sort_id: 286
-  title: L'ultimo tramonto sullo specchio del mondo
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 3311f086-b089-4cfe-8b1f-42daa971fc9b
-  sort_id: 57
-  title: L'ombra dei segni luminosi
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - interni
-  - notturno
-- id: 3325997c-ac9a-448e-a653-f0b121d14648
-  sort_id: 328
-  title: L'Ultimo Riflesso del Sole
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - fiori
-- id: 33fda469-a4f5-4beb-ba9d-5fb224465e7e
-  sort_id: 351
-  title: L’Ombra del Silenzio
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - notturno
-  - astratto
-- id: 34526b35-afc4-4bc9-915d-f6a7d833c66c
-  sort_id: 73
-  title: Riflessi di Cronotopo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 34e06efd-3760-46a6-8f02-da9d206eeb1b
-  sort_id: 160
-  title: L'Ultimo Sorso d'Oro
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - notturno
-- id: 35b08de0-d81e-490a-9cc8-3f652660e328
-  sort_id: 7
-  title: L'Ultimo Viaggio al Crepuscolo
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 360aebbc-50ee-4a5f-b348-0889965703a9
-  sort_id: 387
-  title: Frutti d'inverno sul tetto blu
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: 36512a42-680c-45a4-a280-e721da5bd2a8
-  sort_id: 269
-  title: L'Occhio del Collettivo
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: 3692f6c4-4d9b-4131-8e40-ff2ef5990ce4
-  sort_id: 210
-  title: Luce sul Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 36a5aae9-e079-462b-8991-7a4118dd2d47
-  sort_id: 363
-  title: Luce del Sogno e Serpente d'Oro
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - notturno
-  - paesaggio
-- id: 373e920d-3753-4f99-9d0b-7745e3f25522
-  sort_id: 192
-  title: Soglie di Luce
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - notturno
-- id: 37b83a95-1102-4481-b21b-20f45f7e5106
-  sort_id: 82
-  title: L'Ultimo Sogno al Supermercato
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 37eb1947-a66b-4778-b697-cb8985fe245d
-  sort_id: 46
-  title: L'ombra dei luccichii
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 3813aeb4-e892-4429-b6d0-b7a5994cd25c
-  sort_id: 156
-  title: L'Ultimo Riflesso
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - ritratto
-  - notturno
-- id: 388680f9-a706-401e-953e-3329589f9d54
-  sort_id: 250
-  title: L'Ultimo Sorso di Verità
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - ritratto
-- id: 3960d44e-c02d-4313-8216-6ea6505a4b80
-  sort_id: 155
-  title: L’Abisso dei Tentacoli
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 3a54c3c9-cc71-4bec-bde9-47d47e358cc6
-  sort_id: 422
-  title: L’Ultimo Raggio d’Oro
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - fiori
-- id: 3bf53fac-d156-410f-88af-a0a0628bbe00
-  sort_id: 16
-  title: L'Uomo che guarda il Passato
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 3c0324f5-f38f-4b91-abed-90c51cfc5748
-  sort_id: 110
-  title: Ombra di un Passaggio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 3c62c1fc-4122-4eaf-b1c6-6b4879905d46
-  sort_id: 425
-  title: L'ultimo tramonto d'autunno
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 3c98c613-b4aa-40d1-98c3-60d2cc680ea4
-  sort_id: 27
-  title: L’Ombra dei Luoghi che Non Soffrono
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 3cb81ae3-0212-424c-a5af-fdb8f9e9e939
-  sort_id: 90
-  title: Fiori tra il rumore della città
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: 3d5d65e4-e047-4648-88eb-3f5b4dfa597c
-  sort_id: 340
-  title: Fiori al Limite della Vita
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - natura morta
-  - fiori
-- id: 3dbf353e-00f2-40d4-a1b6-4ca11f61e9db
-  sort_id: 280
-  title: L'Uomo e le Spirali del Tempo
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 3e51fa97-266f-4b18-ab70-f3b518c98a03
-  sort_id: 332
-  title: Occhio di Rosa
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - fiori
-  - ritratto
-- id: 3e82715e-105f-40d0-a302-590b943d319d
-  sort_id: 428
-  title: L’Ombra dei Silenziosi
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 3ef8e94f-8a18-4938-80cf-4f1b4231585d
-  sort_id: 10
-  title: L'attesa del treno
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 3fb61ff0-d019-4451-aff7-3f9187b24a58
-  sort_id: 44
-  title: 'Plein Lumière: L’ombra della città al crepuscolo'
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - città
-  - notturno
-- id: 40a591d3-5b99-4c2f-be04-984f2fe52fb2
-  sort_id: 142
-  title: Soglio del Silenzio
-  width_cm: 20
-  height_cm: 30
-  tags:
-  - ritratto
-  - astratto
-- id: 41704633-aa89-429d-82f1-d42a72c5a7b9
-  sort_id: 439
-  title: Risveglio del Cuore di Cielo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 41901393-c9d9-4036-8b75-71b564e30373
-  sort_id: 166
-  title: Cartomancie al sole
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - interni
-  - città
-- id: 42409c2a-2ac0-4a13-95d9-00cb56cdac31
-  sort_id: 231
-  title: Ombra e Luce in Transit
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - astratto
-  - interni
-- id: 43318959-46a1-4e54-86e7-cc347a4195d0
-  sort_id: 140
-  title: Riflesso di città
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - città
-- id: 4523dd26-4f6b-49a1-945a-d6a27afcc567
-  sort_id: 366
-  title: L'Ultimo Sorso d'Oro
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - interni
-- id: 45e537eb-3525-4b88-bf07-0fd02b864af9
-  sort_id: 263
-  title: Fiori nel Silenzio della Luce
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 45f05347-0c70-4475-8030-6af8c787b634
-  sort_id: 147
-  title: L'Ultimo Sorso
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - notturno
-- id: 45f75e4b-0e55-449c-b1a5-08b8d04c35a7
-  sort_id: 114
-  title: L’Ombra dei Luoghi Inquieti
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 463170d7-d09a-40f3-90e9-c9a5af32514a
-  sort_id: 8
-  title: L'ombra del tramonto urbano
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 466a2490-e1f9-4e86-bca8-f58742079518
-  sort_id: 282
-  title: Albatros sul Silenzio Urbano
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 47775df6-7255-4218-a312-e93a4b5d831f
-  sort_id: 154
-  title: Maternità d'Aurora
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - notturno
-- id: 47f466ba-194e-4ce1-8739-bbfbd29fc0e4
-  sort_id: 379
-  title: L'Ultimo Viaggio d'Oro
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 48878c90-9b6a-4f8f-b90f-8af4b5a1170d
-  sort_id: 199
-  title: L’Ombra dei Canti del Silenzio
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 48934637-baca-4afd-96c2-f81f6fb3d599
-  sort_id: 264
-  title: L'Ultimo Silenzio del Focolare
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 48ebe527-6c28-4eba-b64b-ceab990c8967
-  sort_id: 396
-  title: L'alba su un borgo di sogni
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - fiori
-- id: 49db8d80-22af-42e9-b176-e5d8632ead1f
-  sort_id: 253
-  title: L'Ultimo Raggio di Sole sul Divano
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: 4a7d0208-9355-41fa-9ffc-41b1ac389c84
-  sort_id: 126
-  title: Occhio al Passato
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 4a9db7c0-1ff1-4df0-8f06-92d012f9aa76
-  sort_id: 373
-  title: Circoli d’Ombra e Luce
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - paesaggio
-- id: 4aa64741-c431-4b33-adec-1c5f9e375d42
-  sort_id: 65
-  title: Caffè al Crepuscolo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 4aa679ee-0ef1-478d-afab-1e698e91dde3
-  sort_id: 261
-  title: L’Ombra del Fiore
-  width_cm: 35
-  height_cm: 50
-  tags:
-  - paesaggio
-  - fiori
-- id: 4add218a-aaa4-4099-87e8-edfb0015a5a8
-  sort_id: 12
-  title: L'Attesa del Silenzio
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 4afa1ff4-a8d2-4ef4-9001-541c897c43ff
-  sort_id: 279
-  title: L'Ultimo Sorso di Sole
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - fiori
-- id: 4b726935-e4ca-4271-8578-d5608b89ce6b
-  sort_id: 102
-  title: L’Ombra del Tramonto
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 4b8d870f-2416-4fc3-af79-9a21448afe8c
-  sort_id: 177
-  title: Due ombre sul terrazzo d'autunno
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 4b91423a-8ba6-49eb-a41c-f70fcd7b4c12
-  sort_id: 189
-  title: L'Ultimo Sorso di Caffè
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - interni
-  - notturno
-- id: 4c91a142-7eb5-43ba-9293-26a525120bc7
-  sort_id: 68
-  title: L'Uomo e la Luce Blu
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 4cdcbe5f-733c-4592-a75b-e4f455cee284
-  sort_id: 195
-  title: Spirale di Luce e Ombra
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - natura morta
-- id: 4ce4cfb6-2970-45a4-9135-b3a03234d4a8
-  sort_id: 21
-  title: L’Ombra dei Segni
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 4d3b22fd-8b54-4bc3-adfa-ca0843d86f4a
-  sort_id: 61
-  title: Nove porte al tramonto
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 4dac0066-0806-487f-9104-4661fc19fd0d
-  sort_id: 330
-  title: Risveglio Primaverile – Luce e Tradizione
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: 4e808df1-fd9b-4033-b170-794b1928d024
-  sort_id: 51
-  title: Ombra e Luce di Tori Bar
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 4ecbad2a-cf07-41b5-a1a4-df49ae43051d
-  sort_id: 381
-  title: L’Ombra del Silenzio
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - astratto
-  - notturno
-- id: 4ef43ff9-6cb0-48ce-8d6f-dc214e22e346
-  sort_id: 91
-  title: L’Ombra del Fiore
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 4f6dfcf4-dea1-45ac-a9ea-51e1be622470
-  sort_id: 89
-  title: L'ombra di un sogno in via P.
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - fiori
-- id: 500934e2-f0a8-4684-aa71-36d9b449f00d
-  sort_id: 398
-  title: L’Ombra dei Colori del Mare
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 501384ca-9808-44e2-b17a-96317c72c454
-  sort_id: 165
-  title: L'Ultimo Cenacolo Blu
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - ritratto
-- id: 5089a090-4617-42da-92d6-9cc1341542fa
-  sort_id: 227
-  title: Luce tra vetri e sogni
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 513af41f-be90-4e58-9fd6-aa033e1ffcc7
-  sort_id: 203
-  title: Riflessi di Luce Scomposta
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - notturno
-- id: 5424b515-1add-4e84-a839-aa7e90a12a74
-  sort_id: 187
-  title: L'Ultimo Riflesso d'Oro
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - notturno
-- id: 5473dc63-62c4-440b-8baa-61fe3f71a8c3
-  sort_id: 412
-  title: L’Ombra dei Campi Dorati
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 5503b088-63cd-4efd-ae8f-f3bbaffa2717
-  sort_id: 423
-  title: L'orizzonte dorato della memoria
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 5556664f-744a-4745-b5e9-543a82b85500
-  sort_id: 15
-  title: L'ombra del Ritmo Notturno
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 5567d02f-f9e1-49d7-b45d-4c0ea5fb7a9b
-  sort_id: 202
-  title: Luce che scorre
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - notturno
-- id: 557efa9d-a432-4e98-af63-7aec116e23e7
-  sort_id: 322
-  title: Riflessi d'Oro
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - natura morta
-- id: 559c56b3-8ea4-4df8-984f-6c098fba8b46
-  sort_id: 40
-  title: 'Cristol: Luce e Ritmo della Città Notturna'
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 5606a077-8134-4058-8198-72653fc022be
-  sort_id: 377
-  title: L'alba tra palazzi e ciliegi
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 575d1985-9e77-4940-8522-16147038727e
-  sort_id: 251
-  title: Riflessi di un’ombra sul vetro
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - interni
-  - ritratto
-- id: 57c9835a-fb8b-4d28-82ce-7a73a62d80bb
-  sort_id: 136
-  title: 'Mirobozzi: L''Arco delle Soglie'
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - astratto
-- id: 59903717-16c1-4c28-80ae-d45eb0c021b7
-  sort_id: 223
-  title: L'Ultimo Silenzio della Luna
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - notturno
-  - astratto
-- id: 59af4c4b-d6e4-4c81-a47d-9ffbd738fdff
-  sort_id: 349
-  title: L’Ultimo Tramonto degli Umori
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: 59b8fc24-8404-45ab-89ae-ef9818ad4f2e
-  sort_id: 408
-  title: Rivoli d'Oro e Azzurri
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 59d6f95e-a7af-4192-9c51-151bae228cb8
-  sort_id: 31
-  title: L'Ultimo Viaggio verso Urmia
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - paesaggio
-- id: 59e0f026-724f-45dd-89f0-f0b87deea25c
-  sort_id: 405
-  title: L’Ombra dei Colori d’Oro
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - notturno
-- id: 5a032979-c017-4706-b700-3a65ea652049
-  sort_id: 308
-  title: Circoli d’oro e luce scarlatta
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - natura morta
-- id: 5a7363ff-4df9-4d54-8d2a-072ad45fb686
-  sort_id: 3
-  title: L'Ultimo Viaggio al Crepuscolo
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 5a761bce-92f8-479d-be00-72aa31b87dde
-  sort_id: 358
-  title: Sfere Celesti e Terra Bruciata
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - astratto
-  - natura morta
-- id: 5ab23976-8d39-4a96-92ca-9233dd90e854
-  sort_id: 115
-  title: Lunghe ombre della città dormiente
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 5b0a3321-b26b-4c83-803e-decd1ead790b
-  sort_id: 232
-  title: L'Ultimo Riflesso d'Oro
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: 5b374b0a-c562-4586-95e6-ce8c093f7648
-  sort_id: 254
-  title: L'Ultimo Riflesso del Verde
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - natura morta
-- id: 5b4c4a66-aed2-4859-9411-91e22a9f72bd
-  sort_id: 438
-  title: Rivolta di Colori
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 5c1337fa-4ac1-4088-ade7-09c9ea960cca
-  sort_id: 24
-  title: L'ombra di Pirin e Cuncin
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 5cabc4df-b77d-4e5e-8b9f-43615823c33a
-  sort_id: 217
-  title: Luce tra specchi e ombre
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - notturno
-  - paesaggio
-- id: 5ce83271-eb56-4c86-aa15-f12c308662a7
-  sort_id: 370
-  title: Albero al Crepuscolo
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: 5e7792fc-051f-436c-841b-aa0fc586875a
-  sort_id: 138
-  title: L'Arco dei Segni
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - città
-- id: 5ef8ff45-b7e8-46fc-8105-67d4002cbd5e
-  sort_id: 289
-  title: L’Ultimo Sorso di Sole
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 5f042313-51c7-4017-a2fd-1501f3c2b13f
-  sort_id: 176
-  title: L'Ultimo Appuntamento al Caffè
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - interni
-  - paesaggio
-- id: 5f4950e1-7983-408a-a4d7-4e5b97fdc687
-  sort_id: 76
-  title: Riflessi di Luce e Strisce
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: 5fa6ebb7-d523-44d3-9e7c-66a0dda66179
-  sort_id: 431
-  title: L’Ultimo Raggio di Terra
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 60a84a32-5a90-44fd-afcc-5f70f890ab51
-  sort_id: 249
-  title: L’Atelier dei Fiori e del Silenzio
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - fiori
-- id: 60ebfadf-fe3b-4fa8-ad73-21c7739cfaf2
-  sort_id: 13
-  title: Rifugio Porti Cluni
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: 614fdbbd-9d46-4418-a0fa-29176221b4e4
-  sort_id: 83
-  title: L'ombra del Poste Italiane
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - città
-  - notturno
-- id: 61cd0d1b-5dcb-4f58-addd-84bed7b73024
-  sort_id: 204
-  title: Rivoli di Fuoco e Ombre
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - astratto
-  - paesaggio
-- id: 628199bf-0bce-472a-a60c-85985abaeedd
-  sort_id: 343
-  title: Rise of the Red Dawn
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-  - fiori
-- id: 63172b3b-5b7c-4834-8c29-389addbede59
-  sort_id: 1
-  title: Cirino - L’Attesa del Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-  - notturno
-- id: 63a03be4-b0d0-48ad-9bda-54cee09a7b11
-  sort_id: 325
-  title: Tulipani sul vetro ardente
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: 63d484d8-13c9-4523-b8bb-6ad291f61743
-  sort_id: 105
-  title: L'Ultimo Viaggio al Ristorante
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 63e3cdf2-6337-4beb-8daf-d5c8f05921d1
-  sort_id: 230
-  title: Oasi di Colori Solitari
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - astratto
-  - interni
-- id: 651f4761-695b-4184-895a-1f413b1474bf
-  sort_id: 14
-  title: L'Ultimo Sguardo della Strada
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 66652f9c-9301-4688-aca5-a6cefa0d2ff2
-  sort_id: 50
-  title: L'Uomo e la Macchina Silenziosa
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 66771e5a-5c90-4a95-b625-b5bfe0ee58c0
-  sort_id: 135
-  title: Ombre e Colori di Sogno
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - ritratto
-  - astratto
-- id: 67c959c1-1213-48c7-8598-a8d6187147c9
-  sort_id: 233
-  title: L'ombra del dubbio sul tavolino d'oro
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: 680bbd86-3d43-4498-9898-702403ff288d
-  sort_id: 20
-  title: L'Ultimo Passo verso il Luce
-  width_cm: 80
-  height_cm: 45
-  tags:
-  - paesaggio
-  - città
-- id: 681652b8-ad4c-481d-9aa0-21883a515267
-  sort_id: 33
-  title: L'Ultimo Rifugio della Luce
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 68179f83-252c-4437-b7a3-751ba1e8117c
-  sort_id: 134
-  title: Occhi sul Passato
-  width_cm: 60
-  height_cm: 80
-  tags:
-  - città
-  - notturno
-- id: 68a59998-4005-4021-ae52-5e61520aad98
-  sort_id: 419
-  title: Alberi al Crepuscolo
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - paesaggio
-  - fiori
-- id: 69426baa-a184-42c8-afb6-51a2267a7c77
-  sort_id: 273
-  title: L'Ultimo Sorso d'Oro
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 698e5eb8-c21f-4963-83f7-1338530f2d51
-  sort_id: 371
-  title: L'Ultimo Raggio d'Oro
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: 6a3aae70-62f0-4f2b-929c-7deadd59c208
-  sort_id: 2
-  title: L'Attesa al Tramonto della Stazione
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: 6a50e1ab-3f76-464d-bd22-6c879401ac38
-  sort_id: 386
-  title: L’onda dei profumi
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 6c4143a0-fa8b-472d-b6db-1fb012a5d6d9
-  sort_id: 399
-  title: L’Ultimo Riflesso del Mare
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 6c4dedda-6e9d-4db0-9e9a-057111f5fe99
-  sort_id: 368
-  title: L'Ultimo Riflesso del Cielo
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - notturno
-  - paesaggio
-- id: 6d31ba9c-d91c-42f8-9766-e213d2c87f89
-  sort_id: 146
-  title: L'Ultimo Sorriso del Silenzio
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - notturno
-- id: 6e4126dc-974c-45b2-8c8f-c92365e1ba91
-  sort_id: 411
-  title: L'Uomo delle Terre Rosse
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: 6eb50fe6-5479-485b-ab44-491e396062ce
-  sort_id: 404
-  title: Riviera di Confini
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 6ec3f75a-e54d-48ef-80ec-9b208a38746c
-  sort_id: 161
-  title: Ombra e Colloquio
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - interni
-  - ritratto
-- id: 6f15144a-56c8-49ca-a714-790d92a85ada
-  sort_id: 86
-  title: L'angolo dorato di Parigi
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 6f770847-6766-46ea-a9ad-54d1bbb8e562
-  sort_id: 390
-  title: L’Ultimo Segnavia della Vita
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 6fe729ec-91ec-4b5d-a5ed-054ad207516f
-  sort_id: 128
-  title: Ombre su Dambrin
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 70608f71-5de4-48e2-ab22-12a8654011e6
-  sort_id: 391
-  title: L’onda dei colori fugaci
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 707534c1-6820-4a0c-a10d-9bcb657c1cd0
-  sort_id: 130
-  title: Caffè dei Sogni Perduti
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 71b953cf-f61e-4c24-8ac2-84ceb33eda3a
-  sort_id: 346
-  title: L'alba tra petali e skyline
-  width_cm: 60
-  height_cm: 80
-  tags:
-  - paesaggio
-  - notturno
-- id: 71c40953-17dc-417f-834d-0ebfe53679e1
-  sort_id: 317
-  title: Fiori tra luce e mistero
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - natura morta
-  - interni
-- id: 720a4c7c-7808-4b59-a958-745dff4a1d72
-  sort_id: 129
-  title: Occhi nella Nebbia di Ferro
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - notturno
-  - città
-- id: 7391e069-b2b7-4581-aba1-55dd4b4b064a
-  sort_id: 185
-  title: L'Ultimo Caffè al Crepuscolo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: 749bd4bd-b79f-4592-8c23-e9006f2b4189
-  sort_id: 62
-  title: Luce sullo Sguardo
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 74ab1d56-8e1f-4063-9976-dbe00a16f695
-  sort_id: 219
-  title: L'occhio della luna sul tetto
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - notturno
-- id: 75cfb008-632b-48b6-85c1-1b73321dff8b
-  sort_id: 49
-  title: L'ombra del neon
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 763ca4a7-0f9a-41d3-9cba-93ec65fba067
-  sort_id: 214
-  title: Luce che si scinde
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - notturno
-- id: 77c3e26b-c4e3-4cd6-aed1-87b8f2ad9fcf
-  sort_id: 352
-  title: Circoli d’Autunno
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - natura morta
-- id: 77c3f435-c3c3-423c-8c1f-ee3842d2f513
-  sort_id: 430
-  title: Alba sul Fienile d’Oro
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 790dfb51-6ddd-4e96-a39f-fb5129d35346
-  sort_id: 150
-  title: Riflessi di Cromo
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - astratto
-  - ritratto
-- id: 796d6f01-9e05-4995-bad6-645904faea96
-  sort_id: 258
-  title: L’Ombra dei Fiori del Cielo
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - fiori
-- id: 79da5b1b-34e0-4b3c-8f91-6cf97eb1b5c0
-  sort_id: 324
-  title: Spirale di Fiori e Memoria
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: 7a37b91d-f7ba-49b2-85d6-c74b15997b36
-  sort_id: 388
-  title: L'alba sul rosso
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 7a424d19-a2b7-4b8c-861a-967cb8586e3b
-  sort_id: 124
-  title: Occhi sul Silenzio della Città
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: 7a564396-0adc-48fa-a463-e168283f68d0
-  sort_id: 211
-  title: Luce tra le ombre
-  width_cm: 60
-  height_cm: 80
-  tags:
-  - astratto
-  - notturno
-- id: 7a78db3f-80e8-4e1a-be49-c2909d9896f1
-  sort_id: 336
-  title: Risveglio di Argle
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-  - fiori
-- id: 7af0a22f-8a2a-4c30-af19-291a67b4a3f0
-  sort_id: 316
-  title: Circoli e Spirali del Sole
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - astratto
-  - natura morta
-- id: 7ba25640-96de-454a-98c8-18eb433e4106
+- id: 8fb3f3d2-3342-403a-874b-a012514f17e0
   sort_id: 0
-  title: L'Ultimo Silenzio della Strada
+  title: Figura sul Balcone
+  year: 2010
   width_cm: 50
-  height_cm: 40
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+- id: 2f12dbb3-abca-4e86-afc9-f4a10ee18738
+  sort_id: 1
+  title: Prati a Maggio
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
   tags:
   - paesaggio
-  - notturno
-- id: 7c2be41e-3b40-4025-9411-373adca18a6b
-  sort_id: 148
-  title: L'ombra del silenzio
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - astratto
-- id: 7c8a94ad-a78b-49ac-9658-fdb0923846eb
-  sort_id: 341
-  title: Rifiorire sul confine
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 7d271761-6cf3-4b63-8a29-f0dec482c0ef
-  sort_id: 118
-  title: L'Ultimo Luce della Casa Perduta
-  width_cm: 35
-  height_cm: 25
-  tags:
-  - interni
-  - notturno
-- id: 7e955e89-c37c-41aa-a82a-9a526dcd93e6
-  sort_id: 100
-  title: L'Uomo e la Luna sul Silenzio della Città
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - ritratto
-  - notturno
-- id: 7fbae1a4-c391-402c-bd4f-f34ceada68ee
-  sort_id: 88
-  title: L’Ombra dei Luoghi
+  - figura
+- id: e47d1876-7f14-418e-a522-54e667c7cb23
+  sort_id: 2
+  title: Fiori di Campo
+  year: 2013
   width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 80789703-68e1-4fe1-810f-26dd57460278
-  sort_id: 235
-  title: Luce tra le ombre rosate
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: 81f4f74b-94ac-4953-abbb-42883fc0804c
-  sort_id: 111
-  title: L’Ombra dei Passaggi
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 8259e957-563a-428f-8c5d-dfd57f2709df
-  sort_id: 268
-  title: L'Ultimo Abbraccio al Sole
-  width_cm: 50
-  height_cm: 70
+  height_cm: 35
+  technique: olio su tavola
   tags:
   - paesaggio
   - fiori
-- id: 82775feb-1ec7-48a4-a589-0f2aba286671
-  sort_id: 372
-  title: L’Ombra del Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - astratto
-  - notturno
-- id: 83429023-67aa-4086-a2ff-9c2da8c21140
-  sort_id: 181
-  title: Riflesso di un Mondo Incerto
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - paesaggio
-- id: 83893159-0b70-47e3-bde6-50a5e39b96d8
-  sort_id: 284
-  title: L'Ultimo Riflesso d'Oro
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: 849d71ca-4be9-4b5c-9092-ae74c312e263
-  sort_id: 153
-  title: L'ombra del silenzio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: 8504b2c7-d1c6-43ef-b444-af46c57fa013
-  sort_id: 359
-  title: Sfere d’Ombra e Luce
-  width_cm: 60
-  height_cm: 80
-  tags:
-  - astratto
-  - natura morta
-- id: 85056678-3e38-49b2-bf27-b68f7b6928c2
-  sort_id: 178
-  title: Rifugio tra i cerchi
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - paesaggio
-- id: 87128c0f-d3ba-4de1-a624-693e3c2f3827
-  sort_id: 182
-  title: L'Uomo tra Luce e Silenzio
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - interni
-  - notturno
-- id: 881e577e-bf73-4d64-83e5-e14b2c9e6e7e
-  sort_id: 380
-  title: L’Ultimo Tramonto sul Mare
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - paesaggio
-  - notturno
-- id: 88e15865-9440-4059-af93-b2f3e64eaa03
-  sort_id: 45
-  title: 'Tru2Lonts: L’Ombra dei Passaggi'
+- id: 5f93e9cd-e9f9-4c66-be41-0a756fb520a7
+  sort_id: 3
+  title: Campi di Lavanda
+  year: 2015
   width_cm: 50
   height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 8978d3fa-549d-4e82-9f3f-a9d9454b60b9
-  sort_id: 315
-  title: Rifiorire sul Limite
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: 89885e5c-d7e8-4500-a43a-406a56aa4776
-  sort_id: 36
-  title: Notte a Glow
-  width_cm: 80
-  height_cm: 45
-  tags:
-  - città
-  - notturno
-- id: 8ca45ad2-9226-4fcc-90d0-ee7bd8a00e81
-  sort_id: 252
-  title: L'Ultimo Colloquio con il Sole
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: 8cbf119f-dd5d-4559-b8a8-754a16cba9e8
-  sort_id: 186
-  title: L'Ultimo Sorso di Silenzio
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - ritratto
-- id: 8cc9df08-1f02-4d9d-b2c9-7a66716d5d05
-  sort_id: 162
-  title: Ritratto di un’ora in tavola
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - città
-- id: 8e93765f-ea2c-4b55-9775-71f4b655bd9c
-  sort_id: 393
-  title: L’Ultimo Riflesso d’Oro
-  width_cm: 30
-  height_cm: 20
+  technique: olio su tavola
   tags:
   - paesaggio
   - fiori
-- id: 8fa0ac87-dff4-4d23-8dc2-b622120908c0
-  sort_id: 241
-  title: L'Ultimo Fiore sul Cenacolo
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: 8fb84717-98db-4c82-8f91-417e7a606766
-  sort_id: 295
-  title: L'ultimo tramonto tra due sguardi
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 8fe874fd-ffb3-4138-a621-8447fd81bcca
-  sort_id: 205
-  title: L'Ora del Caffè d’Oro
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 8ff68617-c6a8-4c06-aa37-173157d31421
-  sort_id: 226
-  title: L'Uomo e il Silenzio della Luna
-  width_cm: 35
-  height_cm: 25
-  tags:
-  - notturno
-  - interni
-- id: 90de97f8-8b61-46cb-98d8-bad9caaa0a8a
-  sort_id: 59
-  title: L'ombra del Comptoir
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 91411ec4-df6d-400e-87b3-430194066c8a
-  sort_id: 43
-  title: L'Ultimo Tram per il Cuore
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 925ad035-a6e6-471e-af8f-bb40fb56952c
-  sort_id: 25
-  title: L'ombra dei segni
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - città
-  - paesaggio
-- id: 92c317bb-5b58-4603-adac-5a2e5975b83a
-  sort_id: 69
-  title: Rifugio Neon
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: 93743ee8-65ac-40f4-87e3-70842e566674
-  sort_id: 97
-  title: Luce sullo Sogno Urbano
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - città
-  - notturno
-- id: 9388f72c-46f5-4425-aedc-000f625e4b00
-  sort_id: 385
-  title: Fiori d’oro sul lago verde
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - fiori
-- id: 93b8f23f-165b-4758-8b4b-8863c53e4692
-  sort_id: 28
-  title: L'Arco dei Segni
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - città
-  - paesaggio
-- id: 95373250-31e6-4914-b6a5-1550084785dd
-  sort_id: 326
-  title: L’Ultimo Raggio d’Oro
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 953b7ff3-94ce-43fa-ba74-a377d590b789
-  sort_id: 369
-  title: Alba su un giardino di petali
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 955af3ac-d0ed-4217-95ce-1e29c128bbbc
-  sort_id: 288
-  title: L'Ultimo Sorso di Sole
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: 9567e484-3234-4cbe-a936-b5b4f2dfd2f9
-  sort_id: 236
-  title: L’Ombra che Danza
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - interni
-- id: 95af1d5d-f530-4090-ba1a-d30e5a2732f0
-  sort_id: 243
-  title: L'ombra verde della strada
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - fiori
-- id: 96131e8f-6b4e-4194-8477-b1fb30450a71
-  sort_id: 306
-  title: Luce tra i confini del blu
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: 96f31480-fd79-485f-91a0-2d58507e2d20
-  sort_id: 213
-  title: 'Luce sul CPd: Notte di transizione'
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: 97ab15b9-b4ba-4860-a6d8-ebb71415b4c0
-  sort_id: 151
-  title: Spirale del Silenzio
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - notturno
-- id: 98337ffd-b598-45cc-b7a1-52bfd7d9ffab
-  sort_id: 299
-  title: Vasi di luce e ombra
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - natura morta
-  - interni
-- id: 984f3d4c-e7f9-4742-9e57-57b1d03fb7ec
-  sort_id: 394
-  title: L’Ultimo Tramonto di un Borgo Perduto
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 98713948-bc79-44ec-bbdc-acb9357f8490
-  sort_id: 125
-  title: Occhio al Passato
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 98ad4bb5-0c16-436b-87ca-9e82ea485d98
-  sort_id: 409
-  title: Riflessi di un domani incerta
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: 99c31871-0650-41a1-a4a9-0c111b88d671
-  sort_id: 342
-  title: Fiori contro la città
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - paesaggio
-  - fiori
-- id: 99d825a4-dec2-448f-942e-8a6fc0f3bf90
-  sort_id: 66
-  title: Terzo Mondo in Cortile
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - città
-  - interni
-- id: 99e03876-3667-4967-b0a1-5fa1441d4eb2
-  sort_id: 276
-  title: L'Ultimo Passo del Tramonto
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: 9a135c40-1d7d-4eb6-b639-500e3a4cb3f3
-  sort_id: 72
-  title: L'Ultimo Colloquio al Museo
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - interni
-- id: 9a33a6cf-6081-498a-87b5-b0f6aabce051
-  sort_id: 357
-  title: Cicli Celesti
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - astratto
-  - notturno
-- id: 9babc7be-896b-4564-9c26-829bd98ea4d5
-  sort_id: 304
-  title: Vasi di luce e ombra
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - astratto
-- id: 9bc64bcc-9da3-4bc3-8d57-4dd4270dd5c8
-  sort_id: 296
-  title: L’Atrio dell’Arte
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - paesaggio
-- id: 9bca23bc-d001-4dca-ac7f-8b07e3f4879a
-  sort_id: 225
-  title: Occhielli di un Tempo Rotto
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - astratto
-  - notturno
-- id: 9cf43d61-5612-4e41-aec2-e49077571fdd
-  sort_id: 272
-  title: L'ombra del tempo che passa
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - paesaggio
-  - ritratto
-- id: 9e02a45d-7f5d-4592-97f4-51ff159152ba
-  sort_id: 119
-  title: L'Uomo nella Neve Silenziosa
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: 9e2060b7-a49b-4f5a-90a7-36822543665c
-  sort_id: 122
-  title: 'Occhi tra vetri: riflessi di città'
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: 9e38f9b7-52ac-432e-94c4-3dd9057ff597
-  sort_id: 348
-  title: Alba di Ragno e Cielo di Pietra
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: 9e797817-68da-439b-a56b-f57063305429
-  sort_id: 143
-  title: Occhi tra le sfere
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - notturno
-- id: 9ef4c674-75b5-46ca-8653-ac1e23e4c4ee
-  sort_id: 384
-  title: L’Incontro dei Colori
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: 9f614f63-8469-4b46-8965-3830e955bf20
-  sort_id: 93
-  title: L'ombra del cinema al crepuscolo
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: a18e0143-f271-4b2d-b600-43e3ce51f247
-  sort_id: 9
-  title: L'ombra dei passaggi perduti
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: a1a4acc2-ea71-4092-81c9-7d55c4887b45
-  sort_id: 290
-  title: L'ombra del sole e la calza blu
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: a1a4b24a-4720-4239-bf07-7c2c8559b2b6
-  sort_id: 338
-  title: Luna tra i petali
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - fiori
-- id: a244edba-4c07-4b7a-ae9f-193fad1587fd
-  sort_id: 92
-  title: Città Lettera
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - astratto
-- id: a27a6644-7590-472e-b7ce-adda99c9ae4c
-  sort_id: 240
-  title: L’Ultimo Cantico del Fiume
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - astratto
-- id: a2a224bd-56ee-4c6f-8dcb-ec1e001536a7
-  sort_id: 224
-  title: Riflessi di Sole su Vetro Blu
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - natura morta
-  - fiori
-- id: a2ff988d-a4e8-458a-a48a-ebc2fe465ed1
-  sort_id: 403
-  title: L'alba su un tetto d'inverno
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: a3b14570-dc3c-4c6d-9d05-4224fe3a2078
-  sort_id: 313
-  title: Luce tra i cerchi e le rose
-  width_cm: 35
-  height_cm: 50
-  tags:
-  - astratto
-  - interni
-- id: a3bccc10-1674-4f46-80cd-10819a4d271d
-  sort_id: 188
-  title: L'ombra del sogno urbano
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: a4f5761a-3693-417d-93b7-88dce6ddb949
-  sort_id: 245
-  title: L'Ultimo Sorso di Vita
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - natura morta
-- id: a5c5434e-a312-4eb3-859b-9d0814c0bfa8
-  sort_id: 420
-  title: Luce sul Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: a66d9822-6f29-4e9f-a252-9d0fa7b91c69
-  sort_id: 52
-  title: L'ombra dei segni
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: a6705da8-a4f6-4056-9e75-91bf3b2749bc
-  sort_id: 312
-  title: Circoli d’oro e violetto
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - natura morta
-  - fiori
-- id: a78b58cf-ea85-4160-802c-bd721cd03a9c
-  sort_id: 375
-  title: L'alba dei silenzi
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: a7fa6fb6-2ead-43bc-8d94-ac15468a8a36
-  sort_id: 228
-  title: L'Ultimo Silenzio della Luna
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: a8f32ccb-104c-4f8b-8876-f76d933ad946
-  sort_id: 190
-  title: Luce sul Campo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - astratto
-- id: a9337ec6-2ae6-427f-aa09-d469398b1365
-  sort_id: 395
-  title: L’Ultimo Tramonto di Pietra e Sangue
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - notturno
-- id: a9de3f39-46bc-4a59-8939-88016602e141
-  sort_id: 71
-  title: L'Ultimo Tram della Vita
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: aa5aa179-c8c8-4327-9841-839041b891a4
-  sort_id: 48
-  title: L'ombra dei segni luminosi
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - città
-  - notturno
-- id: aa9efcc9-b0d2-4ebd-8cab-418435021c22
-  sort_id: 300
-  title: L’Ombra del Ceramista
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - natura morta
-- id: aabfdaa4-1e7a-4b9b-a0fb-9e0ff6fff5c3
-  sort_id: 305
-  title: L'Ultimo Sorso di Rosa
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - notturno
-- id: ab75103b-a05f-42e6-abde-6f7d1503fff5
-  sort_id: 244
-  title: L'Ultimo Sorso del Giardino
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: abaabec4-ecb2-45ad-9971-6690ae9aca23
-  sort_id: 267
-  title: L'Occhio del Crepuscolo
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - notturno
-  - astratto
-- id: ac36ac14-c923-402c-8b24-02d963cbcfcd
-  sort_id: 215
-  title: Luce sul Silenzio Blu
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - interni
-  - astratto
-- id: ac62e392-adcf-497e-8f8e-0ba35e796945
-  sort_id: 426
-  title: L’Ultimo Tramonto del Silenzio
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: ad5e9597-851f-4d67-a634-5eea832a7d54
-  sort_id: 367
-  title: L'Oro del Silenzio
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - astratto
-  - notturno
-- id: ad74bbc6-2897-4d8f-9d62-c636c7bb72f0
-  sort_id: 67
-  title: Riflessi di Polonia
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - città
-  - ritratto
-- id: ae1bfac6-8a1d-45dd-94dd-832056d54ebf
-  sort_id: 22
-  title: Ritratto di un Tramonto Urbano
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: ae90cb37-296c-4763-9017-2202120dd3ee
-  sort_id: 259
-  title: Fiori nel Cuore del Verdeno
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - ritratto
-- id: aebbd8dc-1590-45a8-909a-5ab9e61b997f
-  sort_id: 321
-  title: Ondata di Verde e Sangue
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - astratto
-  - natura morta
-- id: afcc914c-d090-48cd-a519-afffad820f7e
-  sort_id: 407
-  title: Rivoli di Terra e Blu del Silenzio
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: b01d1d88-9bce-404c-9f75-57716107c03c
-  sort_id: 77
-  title: L'Ora del Pilota
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: b0be0901-ff2e-46c0-b11c-84b437aba272
-  sort_id: 137
-  title: Occhi nel buio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - ritratto
-- id: b0f47f44-6eb7-4330-80c7-ca5a5caa1827
-  sort_id: 194
-  title: Cicli d’ombra e luce
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - astratto
-- id: b13ebd96-af84-4f8a-8ac4-b6380ec3152d
-  sort_id: 106
-  title: Risveglio del Silenzio Bruciato
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: b17b0366-7128-4c99-9c2f-6e8f5bcfea21
-  sort_id: 17
-  title: L'ombra dei silenzi
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: b1cd2724-21f8-4169-9f49-fa51e00755a0
-  sort_id: 42
-  title: L’ora dei treni e la luce degli anni passati
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: b2557d5e-160b-43b0-ace2-7e8c517b5dbc
+- id: fb206b6e-75e2-4d94-8948-58759b7a453f
   sort_id: 4
-  title: L'Ultimo Viaggio al Crepuscolo
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: b304fd36-46f8-41b7-bec4-bf8082fd46ec
-  sort_id: 271
-  title: L'Ultimo Tramonto sul Cielo di Betulla
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - città
-- id: b732df1b-7d82-4d86-95bd-577b08b91384
-  sort_id: 354
-  title: L'Ultimo Sogno del Caffè d'Oro
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - astratto
-  - notturno
-- id: b76a994f-2ace-447e-92a6-461243a2fa8d
-  sort_id: 206
-  title: L'Oro delle Tenebre
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: b86c4a84-7729-453d-8316-178f7e3dde70
-  sort_id: 38
-  title: L'ombra della città al crepuscolo
+  title: Fiori di Campo
+  year: 2011
   width_cm: 50
   height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: b9025cde-5d27-4a42-87f2-2997e33aa0ee
-  sort_id: 168
-  title: L’Ombra dei Caffè d’Oltrepassato
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: b95656bc-ae3f-47d4-9be5-674274f26a49
-  sort_id: 319
-  title: Fiori tra vetri e colori smarriti
-  width_cm: 40
-  height_cm: 50
+  technique: olio su tavola
   tags:
   - paesaggio
   - fiori
-- id: bb3357eb-78b1-4ec0-a5b4-d3f97c270d1f
-  sort_id: 64
-  title: L'Ultimo Collettivo
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: bc82502d-3ba4-4f51-8da4-fcd285191cdc
-  sort_id: 70
-  title: Ridendo e Piangendo – Stazione Innamorata
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: bcb95ec1-ca24-45bd-8528-909d771158a4
-  sort_id: 318
-  title: Ondata di Fuoco
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - astratto
-  - interni
-- id: bd1d7a30-3080-477c-b227-a56a9fb61940
-  sort_id: 222
-  title: Luce notturna su tavola d'inverno
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - notturno
-  - interni
-- id: bd50e821-2cad-442d-93e2-36f87c226ed8
-  sort_id: 159
-  title: L'Ultimo Sorso di Luce
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: bea7ccc6-9fef-404d-92b3-1c3b4fe0828d
-  sort_id: 193
-  title: Circoli d’ombra e luce
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - astratto
-  - città
-- id: bf0117b9-cde5-4bac-9df8-c47e279a0aa0
-  sort_id: 99
-  title: L'Ultimo Passo verso il Ritratto della Notte
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: c1068fb9-5410-4ea3-9b36-b5c69f78be87
-  sort_id: 117
-  title: L’Ombra dei Muri d’Oro
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: c20aa77d-8cee-4c93-ac4e-ff9a1ffb8d2c
-  sort_id: 247
-  title: Luce tra le sfumature
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: c2fad6c5-2608-4c27-b6bf-462ceeaaf5f9
-  sort_id: 311
-  title: Riflessi di luce su vetro e rosso
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - interni
-  - natura morta
-  - fiori
-- id: c3d8d595-c677-4e49-84a9-5af4cfb4ffef
-  sort_id: 270
-  title: L'Ultimo Sorso d'Oro
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: c4c45564-1377-4c48-a5b9-0529f48da6c1
-  sort_id: 209
-  title: Luna su Muraglia d'Oro
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - paesaggio
-  - città
-- id: c69b6515-5cd6-4a04-91c6-82db084a7693
-  sort_id: 164
-  title: Tavola dei Silenziosi
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - interni
-  - ritratto
-- id: c7988dbc-1c59-4709-b8c8-86cc3191f4ab
-  sort_id: 350
-  title: Semi di Fuoco
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - astratto
-  - notturno
-- id: c81d2746-7cdc-4af4-80c1-ea98b99e10ea
-  sort_id: 149
-  title: Sogno d'Oscurità
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - astratto
-- id: c820b51e-cea3-41bc-b34c-57c58ce6714f
-  sort_id: 139
-  title: Occhi nella Nebbia
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - notturno
-  - città
-- id: c90183d1-c8cf-46e9-8fb7-b8af6340be8b
-  sort_id: 274
-  title: L'Ultimo Sorso d'Oro
+- id: f3af12e2-c3c5-4ef7-a722-d69e9b43b6e3
+  sort_id: 5
+  title: Campagna d'Estate
+  year: 2012
   width_cm: 50
   height_cm: 30
+  technique: olio su tavola
   tags:
   - paesaggio
-  - notturno
-- id: c91db9c3-e2ce-45a1-af79-bd39cb0647e4
-  sort_id: 54
-  title: L'ombra di Nuit et Diel
-  width_cm: 50
-  height_cm: 40
-  tags:
   - città
-  - notturno
-- id: c9893656-ed1b-4ac3-b769-60fd714692a7
-  sort_id: 80
-  title: Ombra di *P
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - ritratto
-  - astratto
-- id: c9a1cb22-89c3-40a2-b30c-d3941f0191dc
-  sort_id: 212
-  title: L'Ultimo Sorso d'Oro
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: c9c88e05-330c-4f2d-82df-028fb740560e
-  sort_id: 152
-  title: L'Astronauta del Silenzio
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - ritratto
-- id: cbbe83eb-10d9-4393-9d35-5e13ac35ceb6
-  sort_id: 207
-  title: Luce tra ombre e vetri
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - notturno
-- id: cbd1063e-5cf4-4a54-bbb8-84109f0f1f17
-  sort_id: 41
-  title: L'ombra dei segni P.J.C.
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - interni
-- id: cbf8cc9c-25d7-40f8-bbf6-48188dab293a
+- id: a3465252-4c94-4728-be20-266678202320
   sort_id: 6
-  title: L'Appuntamento del Silenzio
-  width_cm: 60
+  title: Case e Fiori Gialli
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 5c54c3c7-a3a2-42f6-b510-7e1e4c143108
+  sort_id: 7
+  title: Campagna d'Autunno
+  year: 2007
+  width_cm: 30
   height_cm: 40
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: cc4364f3-bb50-4a70-a3b1-922b30b4847a
-  sort_id: 297
-  title: L'Ultimo Sorso della Notte
-  width_cm: 50
-  height_cm: 40
+- id: be9cf8cd-f62e-4dc8-9877-eee7ea01c494
+  sort_id: 8
+  title: Pianura
+  year: 2001
+  width_cm: 55
+  height_cm: 35
+  technique: olio su tavola
   tags:
   - paesaggio
-  - notturno
-- id: cde98c8c-a52b-43b9-b247-34a8f426ad35
-  sort_id: 218
-  title: L'Ultimo Riflesso della Luna
-  width_cm: 80
-  height_cm: 60
-  tags:
-  - paesaggio
-  - notturno
-- id: ce008018-15f7-438b-82ee-316f5455c0ab
-  sort_id: 37
-  title: L’ombra dei luccichii
+  - città
+- id: cd49e1ca-f2f4-4048-bfcb-3fae03faa745
+  sort_id: 9
+  title: Verso La Primavera
+  year: 2012
   width_cm: 50
   height_cm: 30
-  tags:
-  - città
-  - notturno
-- id: cf307eef-f3be-43f8-ad9d-bd54b97575a1
-  sort_id: 208
-  title: Luce tra muri e spirale d'oro
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: cf85ce91-1efa-415a-88d6-6e6cd1193ab0
-  sort_id: 406
-  title: Allegoria dei Venti d'Autunno
-  width_cm: 60
-  height_cm: 80
+  technique: olio su tavola
   tags:
   - paesaggio
-  - notturno
-- id: d0079578-297b-4f19-a938-8fbafb18ad7a
-  sort_id: 108
-  title: L'Ultimo Viaggio del Sole
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: d044aad4-ebdc-4faa-bf79-ea2dc9ac4f09
-  sort_id: 39
-  title: L'ombra dei segni
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: d2134162-d1c0-4ef2-86af-2a6ba1433458
-  sort_id: 331
-  title: Rifiorire sul blu
-  width_cm: 60
-  height_cm: 50
-  tags:
   - fiori
-  - paesaggio
-- id: d220963c-ab41-413a-9029-59ab14d58b9c
-  sort_id: 103
-  title: L’Ultimo Tramonto di Borgo Rosso
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - città
-- id: d23d1139-3ed4-4f3f-8016-345721abfac0
-  sort_id: 123
-  title: Occhi sul Passato
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: d30d8793-4464-4f5d-9cda-934111827b54
-  sort_id: 95
-  title: L’Ombra della Luna sul Peso d’Oro
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - città
-  - notturno
-- id: d3bcb40b-7b14-491e-8670-3a5bb6b7a8b8
-  sort_id: 174
-  title: L'Ultimo Sorso d'Oro
+- id: bc1b6ded-1ff5-4f84-b7cf-4453f430ce47
+  sort_id: 10
+  title: Case in Collina
+  year: 2007
   width_cm: 50
   height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: d504fa19-10d5-4745-a357-dc339655a129
-  sort_id: 173
-  title: L'Ultimo Sorso al Tramonto
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: d54d5f6f-c760-473e-9adc-9def6014f98f
-  sort_id: 197
-  title: Frammenti di Luce e Ombra
-  width_cm: 40
-  height_cm: 55
-  tags:
-  - astratto
-  - interni
-- id: d5b959ad-bb01-463f-93e7-d1fe528a451f
-  sort_id: 293
-  title: L’Uomo che guarda il mare
-  width_cm: 60
-  height_cm: 40
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: d5d149f7-3a20-4d54-b56c-bedd649c8905
-  sort_id: 437
-  title: L’Ombra dei Colori Solitari
+- id: f3922a07-8039-47f2-9379-57ef1b347c08
+  sort_id: 11
+  title: Campo di Lavanda
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: bb929614-d7e6-4c2b-8721-e62b66cb35b7
+  sort_id: 12
+  title: L'Autunno nei Prati
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 835f8142-fac2-471b-a36e-d1cf52d2f9f0
+  sort_id: 13
+  title: Case in Collina
+  year: 2003
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tela
+  tags:
+  - paesaggio
+  - città
+- id: 6982f620-0fd9-419f-977c-97e528275e50
+  sort_id: 14
+  title: Prati in Fiore
+  year: 1990
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 9b239ca8-2498-4715-a6cf-c48a44ed1fba
+  sort_id: 15
+  title: Strada fra i Campi
+  year: 2004
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - notturno
+- id: 0419c3df-cc8b-46c5-9f78-22211427f2d2
+  sort_id: 16
+  title: Periferia d'Autunno
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 9e779a2c-64ac-43f1-be15-1ee437fa75fb
+  sort_id: 17
+  title: Baite Controluce
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: f48c8b96-40f3-40e3-8d75-077fce33e5c5
+  sort_id: 18
+  title: Alberi sotto il Monte
+  year: 2008
   width_cm: 50
   height_cm: 30
+  technique: olio su tavola
   tags:
   - paesaggio
   - notturno
-- id: d7633c59-a11b-4b70-89c2-c57df5ca9afe
-  sort_id: 339
-  title: Vasi di Luce
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: d7670ef2-a61e-49ee-a9fb-0dcf33f7efc3
-  sort_id: 170
-  title: L'Ultimo Rifugio del Sole
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - astratto
-  - notturno
-- id: d7aa7131-83e7-4a87-ad2b-5cf2cd9b6182
-  sort_id: 132
-  title: Mezzi Occhi della Notte
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - ritratto
-  - astratto
-- id: d8776e37-8d8a-41c6-939e-7b07aaf05871
-  sort_id: 85
-  title: Luce su Piazzo
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - città
-  - notturno
-- id: d8830bf9-6df4-4c2b-afc7-fd6a50d5c57e
-  sort_id: 238
-  title: L’Ombra che Parla
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - interni
-  - città
-- id: d9115c13-4df2-4294-b737-86dc500bdc1c
-  sort_id: 239
-  title: L'Ultimo Sorso di Un'estate Perduta
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: d92a4ba8-3b93-47b6-a87e-494403aa177e
-  sort_id: 433
-  title: L'Ultimo Viaggio nel Rosa
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: d9c04a3a-e768-4850-9afa-146b6055f7c8
-  sort_id: 60
-  title: Riflessi di un tempo sospeso
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: d9e9d65b-c4d8-45e7-8bf7-e7d5e3b0e273
-  sort_id: 257
-  title: L'ombra del caffè e la luce del passato
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: d9f44b9c-8a76-4271-ad65-f205dd4e75ed
-  sort_id: 402
-  title: L’Atmosfera dei Colori Perduti
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: da5aaea2-dd16-4781-a0f6-e54a69fc5a4f
-  sort_id: 58
-  title: Due facce della città
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - città
-  - notturno
-- id: da9373a8-566f-4e82-94cd-e58191827835
-  sort_id: 265
-  title: L'Uomo tra le Barriere del Tempo
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: db5fbc4c-832d-426e-8b9e-648663c7d8ae
-  sort_id: 75
-  title: Occhi nella nebbia
-  width_cm: 30
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: dcff1bfb-ef82-4227-99ff-94f7587595aa
-  sort_id: 334
-  title: Riflessi di un giardino al tramonto
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - natura morta
-  - fiori
-- id: e0b9d333-038b-469a-b69f-1db95f25fafb
-  sort_id: 360
-  title: L’Ombra dei Cieli Rotondi
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - astratto
-  - natura morta
-- id: e11fde0b-f4ab-4416-8ee0-69a9d2e1b848
-  sort_id: 35
-  title: L'Uomo al Buio della Città Notturna
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: e19ef47c-eec9-4930-8255-a5e8da5ca169
-  sort_id: 429
-  title: L’Ultimo Raggio d’Oro
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: e1d57450-a010-4615-9a9d-1c7cdd5a1fb3
-  sort_id: 278
-  title: Circoli d’oro e sfere di luce
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - paesaggio
-  - astratto
-- id: e1f85bab-d20f-4d00-968c-29cb94843303
-  sort_id: 198
-  title: Frammenti d’Ombra
+- id: 13e6a1a7-c1b2-4f08-a07d-84079cc7190c
+  sort_id: 19
+  title: Autunno in Montagna
+  year: 2006
   width_cm: 40
   height_cm: 30
-  tags:
-  - astratto
-  - interni
-- id: e299f9a8-ebbb-4233-808f-05e5113f4f78
-  sort_id: 98
-  title: L'ombra dei passaggi
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - città
-  - notturno
-- id: e2b2ce81-6970-4532-bc63-68540a588820
-  sort_id: 383
-  title: Alba sul Lago
-  width_cm: 80
-  height_cm: 60
+  technique: olio su tavola
   tags:
   - paesaggio
   - notturno
-- id: e4b2dbc1-f3a1-48ab-8657-ab82a267aaa1
-  sort_id: 145
-  title: L'Ultimo Sogno della Caccia
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - astratto
-  - interni
-- id: e4fa5c46-3afa-4438-b1a8-18ff40c56128
-  sort_id: 392
-  title: Riviera dei Fiori e del Silenzio
+- id: c3edf9b6-f593-42a3-8de3-d6432023cf32
+  sort_id: 20
+  title: La Montangna di Sera
+  year: 2009
   width_cm: 50
   height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 5b517483-bb3d-4163-ae14-78fe665a98da
+  sort_id: 21
+  title: Fiori Rossi sotto il Ponte
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
   tags:
   - paesaggio
   - fiori
-- id: e5464cfd-93f2-4f9d-bc99-954e4c86a5f1
-  sort_id: 397
-  title: L'Ultimo Tramonto su Via Rossa
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: e6427498-41ae-4177-8f43-18cdb58fb1c3
-  sort_id: 427
-  title: L’Ultimo Raggio d’Oro
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - città
-- id: e6807f6a-1559-45f7-aaa0-6a1e23194215
-  sort_id: 432
-  title: L'Ultimo Colore del Cielo
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: e7e2c10d-42c1-4760-bde8-0686ebe0d3da
-  sort_id: 53
-  title: L’ombra dei luccichii
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: e7f8d94c-a21e-43f4-abb3-494babe9e36e
-  sort_id: 107
-  title: L'ultimo tramonto di Rino
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: e85b4f8e-9d3d-493e-ad2a-696005c4d8a2
-  sort_id: 157
-  title: L'Ultimo Riflesso del Faraone
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - paesaggio
-  - notturno
-- id: ea69a3ea-c20d-414b-8250-09f6fc98925d
-  sort_id: 144
-  title: Mascara di Tenebre
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - ritratto
-  - notturno
-- id: eab179b5-4c0c-423b-8d8e-a373df9d0bcd
-  sort_id: 418
-  title: L'Ultimo Silenzio del Campo
+- id: e36629df-fd3f-447a-bafd-3abdf3264774
+  sort_id: 22
+  title: Albero Rosso
+  year: 2008
   width_cm: 50
   height_cm: 35
-  tags:
-  - paesaggio
-  - città
-- id: eb36403b-eb3d-477c-be8e-4b486b5375d2
-  sort_id: 104
-  title: L’alba tra sigle e volpi
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - città
-- id: eb693a5b-d72f-4473-81a5-977303061a76
-  sort_id: 201
-  title: L'Ultimo Sorriso del Silenzio
-  width_cm: 50
-  height_cm: 35
-  tags:
-  - ritratto
-  - astratto
-- id: eb704b08-3969-425f-ad78-9d4e205f1fef
-  sort_id: 440
-  title: Alba sul Silenzio d’Oro
-  width_cm: 50
-  height_cm: 35
+  technique: olio su tavola
   tags:
   - paesaggio
   - fiori
-- id: ec1f630c-942e-45c2-914a-d010e24b5bc4
-  sort_id: 435
-  title: L'Ultimo Sorso del Cielo
-  width_cm: 70
-  height_cm: 50
-  tags:
-  - paesaggio
-  - fiori
-- id: ec41bd14-a6d1-435e-ae31-c4fab8cc6363
-  sort_id: 30
-  title: L'Ultimo Tram della Vita Ordinaria
-  width_cm: 30
-  height_cm: 20
-  tags:
-  - città
-  - notturno
-- id: ec6b3f78-bc97-442d-afb9-3a9588293148
-  sort_id: 291
-  title: L'ombra dei fiori rossi
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - paesaggio
-  - città
-- id: ece24df9-79cd-4aa9-9d8b-727a0f28f9b8
-  sort_id: 329
-  title: L'Occhio del Crepuscolo
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - paesaggio
-  - notturno
-- id: ed40e8d8-a18f-4426-a92b-f9b4a4e5a181
-  sort_id: 246
-  title: L'Ultimo Sorriso sul Tavolino Blu
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - paesaggio
-  - ritratto
-- id: edb7d3f6-cc4d-4438-b926-0ab1ce179ce1
-  sort_id: 303
-  title: L'Ultimo Sorso di Silenzio
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - interni
-  - fiori
-- id: eea4249a-01d3-4dd3-b158-c45f712e0996
-  sort_id: 191
-  title: L’Ombra dei Muri Silenziosi
-  width_cm: 40
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: eefbae4a-5ee8-487b-aef8-e2e0b2c0c313
-  sort_id: 216
-  title: Luce tra i muri
-  width_cm: 50
-  height_cm: 60
-  tags:
-  - notturno
-  - paesaggio
-- id: ef543ff2-b7a8-4417-b879-d267c20b829e
-  sort_id: 237
-  title: Riflessi di un Mondo Inquieto
+- id: 12e944c5-d7ca-4d34-916e-9e858ee649ff
+  sort_id: 23
+  title: Primavera
+  year: 2010
   width_cm: 50
   height_cm: 35
+  technique: olio su tavola
   tags:
-  - interni
-  - notturno
-- id: f08a3fa9-2cbe-40e7-aba8-e88bf994c883
-  sort_id: 361
-  title: L'Ultimo Raggio d'Oro
-  width_cm: 60
-  height_cm: 80
-  tags:
-  - astratto
-  - notturno
-- id: f0ade21e-4ea3-49a4-84ca-b91797415245
-  sort_id: 434
-  title: Lume e Sospensione
-  width_cm: 60
-  height_cm: 50
+  - paesaggio
+  - fiori
+- id: b6e83015-18d0-4894-8802-50d3e78f64fc
+  sort_id: 24
+  title: Fine Inverno nei Prati
+  year: 2005
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
   tags:
   - paesaggio
   - notturno
-- id: f16e496c-e4c4-4ca2-accd-755494f38848
-  sort_id: 171
-  title: Caffè tra ombre e luce
-  width_cm: 70
+- id: 6f6eeaca-fe69-4f8c-b0d6-0e7781961498
+  sort_id: 25
+  title: La Palude
+  year: 1981
+  width_cm: 60
   height_cm: 40
-  tags:
-  - interni
-  - notturno
-- id: f215c097-fd40-43d7-97d6-09e25bad79b7
-  sort_id: 421
-  title: L’Ombra del Silenzio
-  width_cm: 70
-  height_cm: 50
+  technique: olio su tela
   tags:
   - paesaggio
   - notturno
-- id: f258d873-c43f-4bef-9cd0-a579dfa22af8
+- id: 1790050b-6d68-4d53-816a-4d904f0848c7
   sort_id: 26
-  title: L'ombra del *Spil* sotto il sole declinante
+  title: La Palude Fiorita
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - natura morta
+  - fiori
+- id: d20f6654-2c8e-4f10-885a-5d4271484e31
+  sort_id: 27
+  title: Vista dal Colle
+  year: 2016
   width_cm: 40
   height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: f2c34b6e-38be-4c2d-81cc-d245c0bc7222
-  sort_id: 141
-  title: L'Ultimo Silenzio degli Angeli
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - ritratto
-  - notturno
-- id: f400e798-eff9-4372-af62-dad0ba6cb5c4
-  sort_id: 414
-  title: L'Uomo che Aspetta il Silenzio
-  width_cm: 40
-  height_cm: 50
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: f5214df8-97fc-4a04-8a42-724d449ee310
-  sort_id: 309
-  title: Rivolta di Colori
+- id: 1319dcb2-8647-4da6-b727-53f7c10e0c2c
+  sort_id: 28
+  title: Sentiero in Collina
+  year: 2013
   width_cm: 60
-  height_cm: 40
+  height_cm: 35
+  technique: olio su tavola
   tags:
-  - astratto
-  - notturno
-- id: f57277a9-ed56-4c1d-ad23-28f83e3c37ea
+  - paesaggio
+  - città
+- id: 2631c3d8-2b5a-4480-a402-3a5e24fcc7c8
   sort_id: 29
-  title: L'Ultimo Tramonto di Procl
-  width_cm: 70
-  height_cm: 40
+  title: In Collina
+  year: 2004
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: f704a211-ba9d-4954-b908-fd04a073dafe
+- id: 98c28aee-e564-4c97-b6ea-49d2c455af31
+  sort_id: 30
+  title: Vento in RIva al Lago
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - natura morta
+- id: 663311f7-8235-412e-ad49-3252c8168a8a
+  sort_id: 31
+  title: Inverno sotto i Monti
+  year: 2016
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 79aa4f31-9815-4340-9609-ffb7fbaf2dc2
   sort_id: 32
-  title: L'ombra dei Luce e del Caffè
+  title: Strada di Montagna
+  year: 2010
   width_cm: 40
   height_cm: 50
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: f71a6221-9c55-40dd-83dd-51cc5a5e95c7
-  sort_id: 234
-  title: L’Architettura dei Sentimenti
+- id: 1a323697-fc2f-409e-bf27-b73bf871c350
+  sort_id: 33
+  title: Case tra gli Alberi
+  year: 2009
   width_cm: 50
   height_cm: 35
-  tags:
-  - paesaggio
-  - astratto
-- id: f8409ce3-ed97-42f5-adcb-36e89573fbb7
-  sort_id: 221
-  title: L’Ombra del Silenzio
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - notturno
-  - interni
-- id: f9075e81-ac8c-46c1-94dd-d8bae3c9a940
-  sort_id: 96
-  title: L’Ombra di Fuind
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - città
-  - notturno
-- id: f93c634d-d37c-4170-beef-1d57939b5bcf
-  sort_id: 344
-  title: Rifiorire su un tetto d'autunno
-  width_cm: 30
-  height_cm: 20
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: f966fb3f-6e8c-431b-a90e-7aaeb765ed3e
-  sort_id: 281
-  title: Rifugio di Fiori e Silenzio
-  width_cm: 40
-  height_cm: 50
+- id: 78c42a46-8640-46ba-ad4f-4992e7543e88
+  sort_id: 34
+  title: Sera Invernale sulle Baite
+  year: 2013
+  width_cm: 60
+  height_cm: 30
+  technique: olio su tavola
   tags:
   - paesaggio
-  - fiori
-- id: f96f8a3e-ab8c-4b34-98eb-8b9989d4b9c1
-  sort_id: 301
-  title: Luce tra i vasi
-  width_cm: 60
-  height_cm: 40
-  tags:
-  - natura morta
-  - interni
-- id: fb217d2d-f363-4d96-a0a0-5c15c8f953cd
-  sort_id: 180
-  title: L'Ultimo Sorso di Verità
-  width_cm: 70
-  height_cm: 40
-  tags:
-  - paesaggio
-  - fiori
-- id: fba6fb43-b616-4e33-a75b-e0ac51e68f9e
-  sort_id: 327
-  title: Riflessi di Luce su Radici d’Arco
-  width_cm: 60
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: fd10746d-1381-4601-a926-6269b950bc0c
-  sort_id: 364
-  title: L'Occhio della Luna Sorrise
-  width_cm: 50
-  height_cm: 40
-  tags:
-  - astratto
   - notturno
-- id: fd94d5e9-ef4a-49d3-9935-833df298a245
-  sort_id: 307
-  title: Vasi di luce
+  - città
+- id: 68c6a9d4-2aa8-4110-8560-e95163647456
+  sort_id: 35
+  title: I Tetti del Paese
+  year: 2008
+  width_cm: 40
+  height_cm: 30
+  technique: olio su cartone
+  tags:
+  - paesaggio
+  - città
+- id: 9886f518-43ec-4c15-826d-8cf50ac64e1c
+  sort_id: 36
+  title: La Finestra sul Lago
+  year: 2016
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 5a6b8b83-42e9-4e61-b9a1-5eae565683bc
+  sort_id: 37
+  title: I Tetti del Villaggio
+  year: 2003
+  width_cm: 38
+  height_cm: 42
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: f6e3058f-f0fd-4d23-92a2-828f8dce0cb6
+  sort_id: 38
+  title: Il Vento della Sera
+  year: 2009
   width_cm: 50
   height_cm: 35
+  technique: olio su tavola
   tags:
-  - interni
+  - città
   - notturno
-- id: fdd6ed4f-6d87-4943-83d3-2224f58a03a7
-  sort_id: 378
-  title: L'alba sul mistero blu
-  width_cm: 80
+  - paesaggio
+- id: 24cf4f27-6186-4f43-9fb1-ae0ef2c63e82
+  sort_id: 39
+  title: Mattino sul Terrazzo
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: bb178884-e635-4423-a828-5fb2b7efb03f
+  sort_id: 40
+  title: Veduta Urbana
+  year: 2016
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: 9c54fdff-705b-4f54-9ff0-ac971573d274
+  sort_id: 41
+  title: Il Paese sul Fiume
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: a28c8b7a-7a89-4a2b-86db-db11e8dcc42f
+  sort_id: 42
+  title: A Sera sul Lago
+  year: 2016
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - notturno
+- id: 61390475-415f-4289-ba50-758a112c35e8
+  sort_id: 43
+  title: Volo Mattutino sul Po
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: c4f8d65a-053c-43bd-bf8e-6291c9f8d13b
+  sort_id: 44
+  title: Mattino sotto il Colle
+  year: 2015
+  width_cm: 50
   height_cm: 60
+  technique: olio su tavola
   tags:
   - paesaggio
-  - notturno
-- id: febba594-3764-438a-b915-eba935c9209a
-  sort_id: 376
-  title: L'alba tra roccia e fuoco
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - paesaggio
-  - notturno
-- id: fec16d28-8752-42f6-a5fe-892743b3d126
-  sort_id: 389
-  title: L’Ultimo Raggio di Luce su Mare e Fiori
-  width_cm: 50
-  height_cm: 30
-  tags:
-  - natura morta
-  - fiori
-- id: ff23443d-2481-4192-a653-e81c70e23873
-  sort_id: 314
-  title: Rifiorire su un Taccuino d'Oro
-  width_cm: 40
-  height_cm: 50
-  tags:
-  - natura morta
-  - fiori
-- id: ff26c56a-3c08-41c6-bb53-1c4c5e7f36e3
-  sort_id: 401
-  title: L'alba sul Ponte Rosso
+  - città
+- id: 51ec41ce-81e1-424a-b276-9fcc3e9f614b
+  sort_id: 45
+  title: Casolari sotto il Monte
+  year: 2016
   width_cm: 60
   height_cm: 40
+  technique: olio su tavola
   tags:
   - paesaggio
   - città
-- id: ff2c8bf6-8300-4d2c-ada6-7383835e57f2
-  sort_id: 94
-  title: L'Ultimo Tram tra Luce e Ombra
+- id: 1f40e6d4-12d1-427a-b7f7-1cfaf1b3875a
+  sort_id: 46
+  title: Riviera
+  year: 2010
   width_cm: 40
   height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: 575d18da-5303-424a-97ae-22695a5c8aa8
+  sort_id: 47
+  title: Casolari sul Mare
+  year: 2011
+  width_cm: 40
+  height_cm: 30
+  technique: olio su cartone
+  tags:
+  - paesaggio
+  - città
+  - marina
+- id: 93bc820d-0dc8-4d7c-b6c8-211d41fbb9c7
+  sort_id: 48
+  title: Case in Riva al Fiume
+  year: 2011
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 892d0a9f-2c20-4de4-83dc-ba7c003d92bf
+  sort_id: 49
+  title: Il Paese sul Mare
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: 945380e0-24b5-4857-9910-44982d9ddead
+  sort_id: 50
+  title: I Dintorni del Paese
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 74eac575-1da5-47e8-a1f0-ed122af3318a
+  sort_id: 51
+  title: Fiori sul Lago
+  year: 2010
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 42186ae6-b79e-40e1-ae42-175783970e7e
+  sort_id: 52
+  title: Mattino sul Lago
+  year: 2015
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: cf440443-99f0-46bb-9c7c-c52c1f90a430
+  sort_id: 53
+  title: Volo sul Lago
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: c8b899ee-3c80-4e41-8565-ef913a086377
+  sort_id: 54
+  title: Riviera
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
   tags:
   - città
-  - notturno
-- id: ffc0d332-97c7-41c2-ba94-8c2e8115bd5e
-  sort_id: 229
-  title: Luce tra le sbarre
-  width_cm: 30
-  height_cm: 20
+  - paesaggio
+  - marina
+- id: af50aebb-9a33-4bc4-970a-5029dac80442
+  sort_id: 55
+  title: Prima Neve sul Lago
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - marina
+- id: aeb5dd05-82c3-45ab-aa46-a56550871a33
+  sort_id: 56
+  title: Vele sul Lago
+  year: 2017
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - marina
+  - paesaggio
+- id: 7b102876-d501-4513-a033-f4a88f7c90d2
+  sort_id: 57
+  title: Riviera
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - marina
+- id: 5bd6155b-8678-484b-aefc-a4a36d23c63f
+  sort_id: 58
+  title: Borgata sul Lago
+  year: 2015
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: c06c387c-f7c8-425a-aef1-2760234562b7
+  sort_id: 59
+  title: Autunno lungo il Fiume
+  year: 2008
+  width_cm: 58
+  height_cm: 48
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: e36220fa-6a59-4cbb-a8e7-8feb2ed05a04
+  sort_id: 60
+  title: Fiori Rossi sullo Stagno
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: d05af6be-18d2-4a4b-a57f-ac1712e5a39a
+  sort_id: 61
+  title: Autunno sul Fiume
+  year: 2010
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
   tags:
   - paesaggio
   - notturno
+- id: cf6c19d3-dd95-41d2-8809-ec94950fceda
+  sort_id: 62
+  title: Prima Luce in Riva al Lago
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - notturno
+- id: f6bbc60b-629a-4f9b-ae38-866b2fc326f2
+  sort_id: 63
+  title: Foglie Gialle sul Lago
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 683179a0-089e-40c5-868d-dd62da597542
+  sort_id: 64
+  title: Fronde al Vento
+  year: 2013
+  width_cm: 52
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - paesaggio
+  - fiori
+- id: cc2acea7-793d-4268-b138-047b61de59f8
+  sort_id: 65
+  title: Ultime Luci in Riva al Lago
+  year: 2014
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - marina
+- id: 83986819-3e98-4751-adbc-b2e979870dec
+  sort_id: 66
+  title: Strada Costiera
+  year: 2014
+  width_cm: 52
+  height_cm: 46
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - fiori
+- id: 02c0b328-7af2-4fff-9033-5981f78493bf
+  sort_id: 67
+  title: Primavera tra le Case
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 4d64ac55-c669-4ff8-9e9a-148a17dbcd4b
+  sort_id: 68
+  title: Estate sul Lagetto
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - natura morta
+- id: 45bed987-36d5-4888-bf64-be24596c94f3
+  sort_id: 69
+  title: Fiori Rossi in Riva al Lago
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 1b12cb6d-d6b6-4bde-ba51-6452ed776db8
+  sort_id: 70
+  title: Fiori Rossi sul Lago
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+  - marina
+- id: b5f728b3-f929-4e10-b20e-efb7875647a4
+  sort_id: 71
+  title: Fiori di Palude
+  year: 2013
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+- id: c0b64808-b291-48dc-bd36-cc0d266f4d9a
+  sort_id: 72
+  title: Fiori Rossi sullo Stagno
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 54e59159-5815-4cd6-9458-1b203b5b508a
+  sort_id: 73
+  title: In Riva al Lago
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 400a0615-3b11-4773-9b50-f3eff09525b0
+  sort_id: 74
+  title: Primavera nel Parco
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+- id: 0d7117f4-6109-40b2-bbe0-ce04f6313d77
+  sort_id: 75
+  title: Senza titolo
+  year: null
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 3d363a58-70b6-469c-915e-1f6231fd8f24
+  sort_id: 76
+  title: Veduta Urbana
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - fiori
+- id: e370f097-4683-4184-b003-8973f0b9a4b4
+  sort_id: 77
+  title: Il Balcone di Mattino
+  year: 2015
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: aeb1f04c-e8ed-4c4e-a30b-8907f84c7123
+  sort_id: 78
+  title: Il Balcone di Periferia
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: f5d8c21c-f17b-46b8-a8f1-beafc947e55f
+  sort_id: 79
+  title: Fiori e Piante sul Balcone
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 09d1840f-d5ba-4642-8019-c712babde11f
+  sort_id: 80
+  title: Fiori in Piazza
+  year: 2015
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - fiori
+- id: ecd3e12a-b438-4130-a3ed-753f6bde410c
+  sort_id: 81
+  title: In Volo sui Tetti
+  year: 2012
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 762132d9-673a-4a6c-be2c-e2f77693f3f7
+  sort_id: 82
+  title: La Città dal Balcone
+  year: 2012
+  width_cm: 70
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - fiori
+- id: c1413fb0-a59a-48ba-a8d7-401662814807
+  sort_id: 83
+  title: In Balcone sulla Piazza
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 3041aaf9-d82c-4467-a976-bda317315912
+  sort_id: 84
+  title: Primavera in Cortile
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+- id: 2bcfa73f-f090-4129-aba4-ae4a4e447be3
+  sort_id: 85
+  title: L'Aiuola dei Portici
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - fiori
+  - città
+- id: e92c0486-f7e9-46f2-980b-690db5716b98
+  sort_id: 86
+  title: Mattino di Maggio
+  year: 2014
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - natura morta
+- id: a42852e4-e1d5-45b1-9bfb-045b8292ff5d
+  sort_id: 87
+  title: Fiori nella Cancellata
+  year: 2016
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+- id: ef574549-e8df-455a-950a-1447e34669bd
+  sort_id: 88
+  title: Primavera nel Balcone
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+- id: 36408050-0737-43df-9886-5ec5b3d3c9be
+  sort_id: 89
+  title: Sera d'Inverno
+  year: 2009
+  width_cm: 55
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - città
+- id: dbdc8a52-b1fb-413c-80d4-c5067dfc8483
+  sort_id: 90
+  title: Vento di Primavera
+  year: 2013
+  width_cm: 52
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: a2f7a99d-d839-4a49-b424-22190266096d
+  sort_id: 91
+  title: Sera di Fine Inverno
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 32ad5b6a-01ac-4c96-8e1a-a13673daae71
+  sort_id: 92
+  title: Fine Inverno sul Fiume
+  year: 2016
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 4c4f8dfe-afe6-4e87-b3f6-92067903496a
+  sort_id: 93
+  title: La Città Lontana
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: 56041b0b-f5a7-4c3f-bbed-0ab6a2f0d6bb
+  sort_id: 94
+  title: Spiaggia Solitaria
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+  - notturno
+- id: c8a2711b-c8d2-410e-837f-d09302a40aa4
+  sort_id: 95
+  title: Spunta il Giorno
+  year: 2011
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+- id: ffea0b64-bf96-4683-9cd6-a2ca43e5fab9
+  sort_id: 96
+  title: Sera sugli Scogli
+  year: 2016
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - marina
+- id: 026e2930-2eb5-427f-98ea-260c74324e4e
+  sort_id: 97
+  title: Sera sul Lago
+  year: 2011
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: a971a3b2-c15d-47e6-b746-44aadd8c4b3f
+  sort_id: 98
+  title: Sera d'Estate
+  year: 2007
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - paesaggio
+  - notturno
+- id: d955d74c-805c-441b-8b7d-d2892fd320b1
+  sort_id: 99
+  title: Volo sulla Scogliera
+  year: 2013
+  width_cm: 45
+  height_cm: 52
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: 045428c0-78d9-419a-842d-01ff403042b5
+  sort_id: 100
+  title: Il Volo del Mattino
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - fiori
+- id: eb1720e1-17d5-4b25-b198-185b520213fb
+  sort_id: 101
+  title: Volo di Primavera
+  year: 2012
+  width_cm: 45
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - figura
+- id: 863144c2-763d-4e5b-b803-f729e70e17b1
+  sort_id: 102
+  title: Verso Sera
+  year: 2006
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+- id: 2093526e-4a8e-44a6-9640-bcdb9d60865f
+  sort_id: 103
+  title: Fiori nel Tramonto
+  year: 2015
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - notturno
+  - paesaggio
+- id: ce9bea32-1ff0-4770-9e4f-1f9b6c1e56d6
+  sort_id: 104
+  title: Rose al Chiaro di Luna
+  year: 2010
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - natura morta
+- id: 9095dd37-cfc3-4192-94f9-687d3af85cdf
+  sort_id: 105
+  title: Prima Luce sul Balcone
+  year: 2015
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - fiori
+- id: 41b83526-79a4-4723-9a23-30714b378872
+  sort_id: 106
+  title: Fiori in Riva al Mare
+  year: 1983
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tela
+  tags:
+  - paesaggio
+  - fiori
+- id: 1c098010-7635-48c4-84d8-9f5aad6a7633
+  sort_id: 107
+  title: Notturno sul Lungomare
+  year: 2015
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 9691f691-cef2-4952-91c6-c951acf5973d
+  sort_id: 108
+  title: Primavera
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 157d4465-facf-4b14-ab7f-1abe45d00020
+  sort_id: 109
+  title: La Città verso Sera
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: cdf60a6e-70e3-424b-99a6-fc8f618716ad
+  sort_id: 110
+  title: Ultimo Sole sul Balcone
+  year: 2012
+  width_cm: 45
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 85657945-11e6-45d2-87ba-839529e7bb34
+  sort_id: 111
+  title: Notte d'Estate sul Terrazzo
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: d1515e80-7db8-4393-848f-44fd2dbbcd88
+  sort_id: 112
+  title: Notte Surreale
+  year: 2013
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 0d9f83f5-dea1-4085-859a-a585ec896cd3
+  sort_id: 113
+  title: Fiori nell'Abitato
+  year: 2009
+  width_cm: 40
+  height_cm: 41
+  technique: olio su tavola
+  tags:
+  - fiori
+  - città
+- id: 4cabbf40-62a7-40bd-bea1-58a2a187c567
+  sort_id: 114
+  title: Spunta il Giorno
+  year: 2012
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 3421d811-6280-48e6-bfc7-b8da35add043
+  sort_id: 115
+  title: Volo nella Sera
+  year: 2012
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - natura morta
+  - fiori
+- id: efa1fda3-73e6-4a65-a04e-a53b838ec536
+  sort_id: 116
+  title: Notte in Periferia
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: 35c323b0-3276-41f4-a099-dc49b010d6ed
+  sort_id: 117
+  title: Tramonto ai Casolari
+  year: 2006
+  width_cm: 35
+  height_cm: 25
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 4ae2b92f-30e4-4f59-8b15-0bffbdbb51d6
+  sort_id: 118
+  title: Notturno in Giardino
+  year: 2014
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+  - fiori
+- id: 4df2b6d5-7b81-4d52-967a-6b755b033760
+  sort_id: 119
+  title: Notturno sotto il Portico
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: d2c2df73-e84a-469b-8732-e9ffa801c428
+  sort_id: 120
+  title: In Volo nei Vicoli
+  year: 2015
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 3598f4bd-7278-474b-bdd5-c21c1d6e2616
+  sort_id: 121
+  title: La Luna sul Lago
+  year: 2010
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+  - fiori
+- id: 735952d0-d3df-4d33-b0a7-afda398211cf
+  sort_id: 122
+  title: Cespugli al Tramonto
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 8a5bd771-5db0-4803-82fc-0c45b6f76b3a
+  sort_id: 123
+  title: Scogliera al Tramonto
+  year: 2008
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+  - notturno
+- id: eda7921f-c786-4a68-af1b-25ff2ee60e32
+  sort_id: 124
+  title: La Luna sul Giardino
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - fiori
+  - paesaggio
+- id: eb22c62a-f2fa-4d84-a5b9-c66c9523fe11
+  sort_id: 125
+  title: Fiori Rossi nella Notte
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - notturno
+- id: 9451e77e-bd8c-4f3c-9b97-0593212fcc06
+  sort_id: 126
+  title: Notte di Luna
+  year: 2007
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 7b4fadb5-01df-43c5-836a-1e0d64a13649
+  sort_id: 127
+  title: Notte d'Estate in Giardino
+  year: 2014
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - notturno
+  - fiori
+- id: a6ac5eb2-d7ad-4b95-a53f-150e0186b251
+  sort_id: 128
+  title: Notte sul Terrazzo
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+- id: d4e31b53-0aca-45c5-bc9d-121e6d5ec43a
+  sort_id: 129
+  title: Senza titolo
+  year: null
+  width_cm: 45
+  height_cm: 52
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+  - figura
+- id: ad5847b1-1752-4161-a543-f1be20ef675f
+  sort_id: 130
+  title: Notte di Luna sul Giardino
+  year: 2014
+  width_cm: 45
+  height_cm: 52
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 8ed48b8f-7701-4f14-a0a5-5117bce56e58
+  sort_id: 131
+  title: Chiaro di Luna
+  year: 2003
+  width_cm: 32
+  height_cm: 43
+  technique: olio su tavola
+  tags:
+  - notturno
+  - figura
+- id: f2d27cc2-1faa-488d-bbbd-2f3e99311e46
+  sort_id: 132
+  title: Mezzanotte in Paese
+  year: 2002
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: c2828340-4b7a-4413-849a-8d7b93243b29
+  sort_id: 133
+  title: Notturno sotto la Luna
+  year: 2002
+  width_cm: 35
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 730d1423-e8c2-4233-b7f6-f7334c24a960
+  sort_id: 134
+  title: Notte in Città
+  year: null
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: e6eaa4de-291d-4819-b650-ed64f53434a1
+  sort_id: 135
+  title: Autunno sul Terrazzo
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+- id: ce3c0186-eedc-4fd0-8f70-158b6b115fa4
+  sort_id: 136
+  title: Figura sul Balcone
+  year: 2005
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: e3b8b42c-8560-40e4-8471-1c938918b61c
+  sort_id: 137
+  title: 'Interno: Notturno sotto la Luna'
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: 087d4f5a-a0f2-45c2-813b-16aca20c6b65
+  sort_id: 138
+  title: Notturno d'Estate
+  year: 2005
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+- id: a9bcdefa-3804-4e5b-9811-0cf06bf27c37
+  sort_id: 139
+  title: Vecchie Case
+  year: 2002
+  width_cm: 44
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: b1837c7d-fa55-4572-b477-980555fd7208
+  sort_id: 140
+  title: Alla Finestra
+  year: null
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 292c3992-4861-4c95-b0ca-786315579280
+  sort_id: 141
+  title: Figura alla Finestra
+  year: null
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: b1e55d74-5d3e-4901-8ac2-4eb746b111e4
+  sort_id: 142
+  title: Vento d'Autunno
+  year: 2000
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+- id: bfef8c00-bf29-4f0b-8e1c-fae96a5af35e
+  sort_id: 143
+  title: Sul Balcone di Notte
+  year: 2006
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+  - figura
+- id: ac530aa8-a33f-40bf-8ca0-5dc4d3912134
+  sort_id: 144
+  title: Dietro i Fiori
+  year: 2014
+  width_cm: 46
+  height_cm: 52
+  technique: olio su tavola
+  tags:
+  - fiori
+  - figura
+- id: d36a6ab0-35e9-4fd0-9287-4301058249ac
+  sort_id: 145
+  title: Senza titolo
+  year: null
+  width_cm: 52
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+- id: d02e0573-eb01-47c8-a275-239f58625583
+  sort_id: 146
+  title: Il Cortile Fiorito
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - paesaggio
+- id: 8615ea1f-bd41-416c-a59d-2f57b35e3660
+  sort_id: 147
+  title: La Veranda Rossa e Blù
+  year: 2012
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 4a7261f0-c7e3-4b43-b9ae-eff577e34dff
+  sort_id: 148
+  title: Fiori Gialli e Viola
+  year: 2013
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - fiori
+  - natura morta
+- id: 540be3b8-131a-4f85-b708-1cf268a99555
+  sort_id: 149
+  title: Tenda Rossa e Fiori Azzurri
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 2f3fd9d0-e453-4463-a60d-79f233afaf13
+  sort_id: 150
+  title: La Luna e i Fiori
+  year: 2012
+  width_cm: 35
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 3d7c6a54-cc27-4caf-90cd-17f86cb410b3
+  sort_id: 151
+  title: Fiori Rossi alla Finestra
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 6224bde3-7422-4030-be78-8dca51202d95
+  sort_id: 152
+  title: Il Balcone sul Corso
+  year: 2016
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 0b5b42ed-7b4d-4666-b1f8-c3cbec3c4145
+  sort_id: 153
+  title: Fiori alla Finestra
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 92b841f6-8688-4d8a-a68b-9f90bdb94a67
+  sort_id: 154
+  title: Fiori Rossi alla Finestra
+  year: 2014
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 447f7b5c-7f00-4c43-9f3a-47693142177a
+  sort_id: 155
+  title: Luna Rossa
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: dfd0ec7e-ff97-4af6-938d-e1088b95adf5
+  sort_id: 156
+  title: Fiori Viola alla Finestra
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 83904f23-2b0a-4d5f-9173-91b0403363e3
+  sort_id: 157
+  title: 'Interno: Fiori in Penombra'
+  year: 2014
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - natura morta
+- id: 44103800-3aea-4037-acc6-669ec4a79c0f
+  sort_id: 158
+  title: Foglie e Fiori davanti alla Vetrata
+  year: 2010
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - natura morta
+- id: f8dc0a26-3d25-425b-ba52-09a800c955b2
+  sort_id: 159
+  title: Fiori in Penombra
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: fb49f405-a12c-4196-b1b0-51aa5d7ba0c7
+  sort_id: 160
+  title: 'Interno: Fiori Rossi'
+  year: 2014
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+- id: 43480029-8880-45ae-874a-699b38c84cd3
+  sort_id: 161
+  title: La Veranda sul Porto
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - marina
+- id: b54af5d5-0725-4f8b-a1d5-31a39435ada4
+  sort_id: 162
+  title: Fiori e Cemento
+  year: 2014
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - fiori
+  - interni
+- id: 5acea6e8-eb1a-4150-897d-4b1e54a9b15f
+  sort_id: 163
+  title: 'Interno: Tavolo e Oggetti'
+  year: 3013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: f69b370c-0696-495f-8dc2-0d9ea745ad4b
+  sort_id: 164
+  title: La Vetrata e Tavolo Blù
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: b1087f4a-d68c-4056-9d3a-2a89a2ea4f12
+  sort_id: 165
+  title: 'Interno: Tenda Verde e Fiori'
+  year: 2014
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - natura morta
+- id: 871434ae-caf1-40de-b4dd-a60f1c6b5791
+  sort_id: 166
+  title: Oggetti in Primavera
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+- id: 97ba709d-9969-4ad7-83ab-1f83345158d1
+  sort_id: 167
+  title: Interno con Fiori e Figura
+  year: 2003
+  width_cm: 40
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - figura
+- id: 1952a414-710b-4dfb-804c-159b6104934d
+  sort_id: 168
+  title: 'Interno: Tavoli Rossi e Tenda Blù'
+  year: 2013
+  width_cm: 52
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 2b8a2ebe-76d5-4a70-9894-28b6a3dba27a
+  sort_id: 169
+  title: Meriggio d'Estate
+  year: 2000
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+  - fiori
+- id: 730143ad-e110-4887-bb7f-567a01589617
+  sort_id: 170
+  title: 'Interno: Figura di Spalle'
+  year: 2000
+  width_cm: 35
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+- id: 9e90e120-a46a-4019-a22c-ae0a30792127
+  sort_id: 171
+  title: Fiori Rossi sul Balcone
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: 3cac9422-e8a4-4142-8dbf-024e95f24037
+  sort_id: 172
+  title: 'Notte: Fiori alla Finestra'
+  year: 2007
+  width_cm: 35
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - fiori
+  - interni
+- id: e9a671d3-73cb-4076-99c9-078efdeff513
+  sort_id: 173
+  title: La Luna alla Finestra
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+- id: 3819c759-2200-4821-bcc9-3d95a1d0d1cc
+  sort_id: 174
+  title: Il Vaso sul Balcone
+  year: 2007
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - città
+  - notturno
+- id: d3cf3f39-c952-44ca-b28b-eaead76269ec
+  sort_id: 175
+  title: 'Interno: Tavolo Blù e Fiori'
+  year: 2006
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+- id: 16c4990b-2117-4d7a-b2f6-0d7bff6a8249
+  sort_id: 176
+  title: Senza titolo
+  year: null
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: 99e23c99-b6e3-4f57-ad9f-78005d56276b
+  sort_id: 177
+  title: Estate sul Tavolo
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: aba5af00-2c9f-4088-ad14-d470353851c5
+  sort_id: 178
+  title: Vasi e Fiori sotto la Luna
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - notturno
+  - fiori
+- id: 64c11449-a481-4990-987f-cd738ecacfc7
+  sort_id: 179
+  title: Il Vaso Blù
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: ff8cac51-570f-45d2-a1d8-bec71f693508
+  sort_id: 180
+  title: 'Interno: Oggetti sul Tavolo'
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 49ee91d3-79a7-43cb-a9e4-7a8965981009
+  sort_id: 181
+  title: Bottiglie Controluce
+  year: 2009
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: 1adbde7f-a455-4f53-9316-7fc688610ad2
+  sort_id: 182
+  title: Oggetti alla Finestra
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 06490473-76a6-4322-a8df-f302c30afe9f
+  sort_id: 183
+  title: Controluce al Tramonto
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - interni
+- id: c1ae7585-6174-4481-b3f9-dbe83fff4e5a
+  sort_id: 184
+  title: Oggetti alla Finestra
+  year: 2016
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 9adbe639-5980-4074-9fd8-6469d0a33564
+  sort_id: 185
+  title: Oggetti sul Balcone
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: 1438684c-268e-43d0-93e9-0474d2121308
+  sort_id: 186
+  title: 'Interno: Tavolo Rosso e Oggetti'
+  year: 2017
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 33b1109e-9da3-4c64-bc49-e1037b9ea15c
+  sort_id: 187
+  title: Tenda, Tavolo e Oggetti
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - città
+- id: e11553fd-2eac-43df-8d39-4519810bbca8
+  sort_id: 188
+  title: Tavolo sul Balcone
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+  - città
+- id: 362c4434-42ef-4125-9ee3-a2cd8899290b
+  sort_id: 189
+  title: Senza titolo
+  year: null
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 70763247-55a3-45d8-89a9-1e6089e0717f
+  sort_id: 190
+  title: Tavolo sotto la Pergola
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: 5a5de26c-499f-46ad-871f-a5c5e57871c7
+  sort_id: 191
+  title: Tavolo e Oggetti alla Finestra
+  year: 2016
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 44768516-0eb9-4f52-b6fe-e35040118813
+  sort_id: 192
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - notturno
+- id: bc42bb57-a072-412a-95ce-dedc358c7ee6
+  sort_id: 193
+  title: Il Vaso Blù
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su cartone
+  tags:
+  - interni
+  - natura morta
+- id: 571d42a3-1adf-448e-8fdd-1f31926be446
+  sort_id: 194
+  title: 'Interno: il Vaso Blù'
+  year: 2012
+  width_cm: 45
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+  - fiori
+- id: 28042b10-939f-45b6-8414-0c7ecbad0c8e
+  sort_id: 195
+  title: Oggetti sul Tavolo Rosso
+  year: 2010
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+- id: b1b741d2-cd25-4fe3-ab25-586da95374c7
+  sort_id: 196
+  title: 'Interno: Tavolo Verde e Vasi'
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 229161ab-f6a2-4dac-9c0a-a2611e63f09d
+  sort_id: 197
+  title: 'Interno: tavoli rossi e vaso'
+  year: 2008
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: b20e48f1-1819-459f-a4ea-a6c38e6614a7
+  sort_id: 198
+  title: 'Interno: Tavolo Blù'
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 05c4ffb3-85dc-49c8-98a9-ef9ae168a1b4
+  sort_id: 199
+  title: Interno Giallo e Tavolo Verde
+  year: 2005
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: e14a1d03-4cc4-45d8-8630-d12fb5cbcfc4
+  sort_id: 200
+  title: 'Interno: la Tenda Rossa e Blù'
+  year: 2008
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - fiori
+- id: 46fb66aa-2f09-48e0-864c-4dc62be9e096
+  sort_id: 201
+  title: Tavolo Rosso in Giardino
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+  - natura morta
+- id: 91a5e309-cb5a-4573-923e-7c3bbfe73af4
+  sort_id: 202
+  title: 'Interno: Tavolo Rosso e Oggetti'
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 45ee0eae-9d35-422f-a0de-d291c4c2d946
+  sort_id: 203
+  title: Il Tavolo Rosso sul Balcone
+  year: 2011
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: 25f4fc2c-8417-4afb-a146-6c972b2400a9
+  sort_id: 204
+  title: In Veranda al Tramonto
+  year: 2006
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: d0a51250-9c95-4711-80db-6f9230c465c4
+  sort_id: 205
+  title: Interno al Tramonto
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: e5840445-b940-4d6f-9108-066bc09ef35c
+  sort_id: 206
+  title: Interno Rosso e Blù
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - figura
+- id: 38c5e417-d247-4d25-a535-a86b1469c2a3
+  sort_id: 207
+  title: 'Interno: la Scultura e la Figura'
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 1c2a4086-d169-4de3-9b76-95689549be0c
+  sort_id: 208
+  title: Interno di Notte
+  year: 2010
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+  - figura
+- id: 487d0b2a-6609-412d-a478-c0f5e817c2f8
+  sort_id: 209
+  title: Tavolo Rosso e Figura alla Finestra
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - notturno
+- id: def6aaed-91f0-471f-b6e3-eface7c1392e
+  sort_id: 210
+  title: Interno di Sera
+  year: 2008
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: fce9e866-050e-4b58-9807-f71afbe361e7
+  sort_id: 211
+  title: 'Interno: Donna alla Finestra'
+  year: 1999
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tela
+  tags:
+  - interni
+  - figura
+- id: 9d53d319-7398-4621-9b89-ae18cb42bc56
+  sort_id: 212
+  title: 'Interno: Figura nel Balcone'
+  year: null
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - notturno
+- id: 83c53c27-7920-423d-8a43-f0f319f9fafe
+  sort_id: 213
+  title: Scultura in Interno
+  year: 2013
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: b235453e-8a0e-494f-b1e4-8a8e153d05e6
+  sort_id: 214
+  title: I Vasi sul Balcone
+  year: 2014
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+  - città
+- id: 92ab4b7d-9b12-42eb-88b1-4fecbc2eaa5a
+  sort_id: 215
+  title: Interno con Vaso e Figura
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - natura morta
+- id: fd418c30-bcfa-49fe-a7ec-c4183af42654
+  sort_id: 216
+  title: Maggio sul Terrazzo
+  year: 2008
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: d265fa28-baf7-4496-8bb2-e4e315181400
+  sort_id: 217
+  title: Dietro le Tende
+  year: 2010
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - fiori
+- id: 7f3ab8ec-903d-40c7-90f0-be513a1b8f51
+  sort_id: 218
+  title: Pianta su Tavolo Verde
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+  - fiori
+- id: e7f0f449-035a-407f-ad0f-48614d12d09d
+  sort_id: 219
+  title: Guardando la Città
+  year: 2012
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+- id: e985b122-88ce-4399-aea6-8e60982a132d
+  sort_id: 220
+  title: La Terrazza sulla Città
+  year: 2008
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - fiori
+- id: f779429c-aaad-4740-87ef-feaea1be3d6e
+  sort_id: 221
+  title: Tavolo Blù su Terrazzo
+  year: 2013
+  width_cm: 55
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - natura morta
+- id: 3a27b80d-4b6e-4f6a-a226-3c09ad776add
+  sort_id: 222
+  title: Interno e Figura in Cortile
+  year: 2016
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: edf95fbc-a00b-4f5d-95ae-151201e25e65
+  sort_id: 223
+  title: Mattino alla Vetrata
+  year: 2012
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - fiori
+- id: 13191663-2aa2-40b3-89c5-57ec62ba4204
+  sort_id: 224
+  title: 'Interno: Tavoli Rossi e Gialli'
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 6caa9513-6d68-479d-a024-2a4483819525
+  sort_id: 225
+  title: 'Interno: Tavolo Rosso e Figura'
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: f3c1e8e2-857a-4ce2-bfaf-2d6bf8c09eba
+  sort_id: 226
+  title: Quiete Serale
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - fiori
+- id: 4b837276-9c35-4f18-bf08-2b55dd22cf8e
+  sort_id: 227
+  title: 'Interno: Figura e Vaso'
+  year: 2008
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - notturno
+- id: 2eb39343-ed25-4d11-9201-aa75b39f6aee
+  sort_id: 228
+  title: Estate in Terrazza
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - paesaggio
+  - fiori
+- id: 41f7e7e2-655d-4a4a-9721-479081a94dd8
+  sort_id: 229
+  title: 'Interno: Figura e Piante'
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - fiori
+- id: 145aee65-7b66-44b7-9789-015815f0a7ff
+  sort_id: 230
+  title: Sul Divano verso Sera
+  year: 2014
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - figura
+- id: c6c0efb4-e6f8-4fad-abae-a5e864a62013
+  sort_id: 231
+  title: 'Interno: Tenda Verde e Poltrona'
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 2fea51a8-fa76-4aca-a0be-a815c2df0d62
+  sort_id: 232
+  title: Figura sotto la Pergola
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+  - paesaggio
+- id: 5f263ab6-e492-4e6d-b731-93fe7722ad31
+  sort_id: 233
+  title: Figure e Fiori in Penombra
+  year: 2014
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - figura
+  - fiori
+  - interni
+- id: 4bd97559-d12a-4e58-bf97-9d96533a77ef
+  sort_id: 234
+  title: Allo Specchio di Sera
+  year: 2012
+  width_cm: 54
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+  - fiori
+- id: 799368ed-29fd-49f9-b107-e5bb56742bf8
+  sort_id: 235
+  title: 'Interno: Tavoli Rossi'
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: bb548823-dd34-49a6-83e8-9f26b61b5dbc
+  sort_id: 236
+  title: Panni al Sole
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - interni
+- id: 27700ccd-5d10-46ec-b30e-9d9d013cd0d1
+  sort_id: 237
+  title: Primavera sul Balcone
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - fiori
+- id: 38f80b4d-9d50-45c8-bc1e-54a64fb5ede6
+  sort_id: 238
+  title: Donna alla Finestra
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - paesaggio
+- id: 2c8a4a35-616c-4fd9-af5f-57ebb7ac2395
+  sort_id: 239
+  title: L'Albero Fiorito
+  year: 2015
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - fiori
+  - figura
+  - notturno
+- id: c71bab11-20e3-48e0-a40b-3f7a705b1e16
+  sort_id: 240
+  title: Notturno sul Balcone
+  year: 2015
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+  - figura
+- id: a6d31f79-47c6-4135-87e2-04a00b09aafb
+  sort_id: 241
+  title: Sul Balcone a Primavera
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - interni
+  - notturno
+- id: 951b7af2-d3c9-40dd-9a9f-5bab89b7933f
+  sort_id: 242
+  title: Guardando i Pesci Rossi
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: d0c8ce71-0991-4de0-9606-272c50149649
+  sort_id: 243
+  title: Dietro la Tenda Verde
+  year: 2017
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: f8cb60a3-e46e-49a7-9570-4f91ee3e84cf
+  sort_id: 244
+  title: Notturno alla Finestra
+  year: 2012
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+- id: 7a97f0d6-80ed-458e-9100-2af5a1b9e6fe
+  sort_id: 245
+  title: Mattutino
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - paesaggio
+  - notturno
+- id: d089e7a0-7703-412d-a9a7-0e08aac3653b
+  sort_id: 246
+  title: Tavoli Rossi e Figura sul Balcone
+  year: 2014
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: 91c31a81-b795-44fe-b07e-5e3a3a09f73c
+  sort_id: 247
+  title: 'Sul Balcone: Figura e Tavoli'
+  year: 2014
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 7c770ed3-55a8-4fd0-8508-64bf16e06202
+  sort_id: 248
+  title: Paesaggio Urbano
+  year: 2004
+  width_cm: 35
+  height_cm: 43
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 0569cd34-06e8-4454-b825-25e66545f33b
+  sort_id: 249
+  title: Fiori di Sera
+  year: null
+  width_cm: 45
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - fiori
+  - interni
+- id: dd4a6037-beed-4382-9bc6-3d8970a06eb4
+  sort_id: 250
+  title: Primavera in Periferia
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 677064d2-ed87-4d9f-ba99-d5b3d63a92bd
+  sort_id: 251
+  title: Ultimo Sole
+  year: null
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: 9395cb00-c77b-4e8f-b61c-229d1c2eb532
+  sort_id: 252
+  title: Aspettando la Sera
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: a98dac6a-cb65-4559-aac2-bf7968d4d7e1
+  sort_id: 253
+  title: Prime Luci del Mattino
+  year: 2005
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+  - marina
+- id: b3208b3b-ca14-4705-9a31-8182542e989b
+  sort_id: 254
+  title: Estate in Giardino
+  year: 2010
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - figura
+- id: 4b64f034-9bd0-4c1e-b023-016425de38aa
+  sort_id: 255
+  title: Figura sul Terrazzo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: 11c6375d-9785-4373-a920-6e59aac0c7c9
+  sort_id: 256
+  title: Fiori Rossi in Riva al Mare
+  year: 2011
+  width_cm: 53
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+  - notturno
+- id: 572b621f-c54f-4992-bc0a-abfdfcd270e4
+  sort_id: 257
+  title: Figura in Giardino
+  year: 2017
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+  - fiori
+- id: 9004f6a2-822c-4b38-8ddd-416e872c9c02
+  sort_id: 258
+  title: Giardino dalla Finestra
+  year: 2009
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - paesaggio
+- id: 0fa8ef03-de26-4fd9-b524-b3100819e7a3
+  sort_id: 259
+  title: Ritorno al Paese
+  year: 2010
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - figura
+- id: 8d1ab047-dc68-4a49-8ae4-1b0a365ffb02
+  sort_id: 260
+  title: Figura nell'Orto
+  year: 2013
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+- id: 3c1a38f4-23f1-4920-b7fc-5050743c60cc
+  sort_id: 261
+  title: Mattino sul Terrazzo
+  year: 2012
+  width_cm: 45
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+- id: 19f7f870-6485-4b42-9b97-36243788da7d
+  sort_id: 262
+  title: Passeggiata ai Giardini
+  year: 2014
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+- id: 96760c03-758c-4ac1-bf3e-4d3ed5333fa8
+  sort_id: 263
+  title: Per Fiori in Giardino
+  year: 2013
+  width_cm: 52
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - fiori
+  - paesaggio
+  - figura
+- id: 97907e4f-6fcd-4bde-8695-2593ddfc64eb
+  sort_id: 264
+  title: In Vacanza al Mare
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - marina
+- id: 5ca17c17-6015-4d9e-b6ea-6bdc906d9ccf
+  sort_id: 265
+  title: Figura in Riva al Lago
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 44397e58-01bb-4601-b7c7-10b403b7014d
+  sort_id: 266
+  title: Aspettando la Sera
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: 7e9d2d76-83c5-494c-8f6f-ae14276139bb
+  sort_id: 267
+  title: Mattina nel Giardino
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - figura
+  - fiori
+  - paesaggio
+- id: 2e3a53de-68c5-49d1-a515-5a1fbb948c36
+  sort_id: 268
+  title: Fiori in Riva al Lago
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: b5275141-ffb4-4dc5-a66d-77f786f606a9
+  sort_id: 269
+  title: Grandi Fiori sul Terrazzo
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+  - figura
+- id: ceda1d9c-208f-42bf-974a-2db3c6578953
+  sort_id: 270
+  title: Estate nel Prato
+  year: 2014
+  width_cm: 55
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - figura
+- id: 1de2a67d-2c65-4b65-b8b5-102ce31198cc
+  sort_id: 271
+  title: Lettura Pomeridiana
+  year: 2016
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - città
+  - figura
+- id: 409016b3-6843-4765-ac7f-70dc1ded6d4d
+  sort_id: 272
+  title: In Lettura sul Terrazzo
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - notturno
+- id: 8973c6cb-fba9-411b-866d-62e92955199f
+  sort_id: 273
+  title: Estate in Giardino
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - figura
+  - interni
+  - fiori
+- id: ae63b9bc-d1ae-4a32-80f1-be4d00691359
+  sort_id: 274
+  title: Tavolo Rosso in Giardino
+  year: 3013
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - interni
+  - fiori
+- id: a0a8116d-99a2-4acb-94a3-ea7635fdaeaf
+  sort_id: 275
+  title: La Terrazza in Collina
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 9f5f6567-c44f-4201-9353-60c52e21eadb
+  sort_id: 276
+  title: Sul Terrazzo
+  year: 2007
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: df5be2a6-149c-440c-a829-2f10823456f7
+  sort_id: 277
+  title: Figura in Poltrona
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - figura
+- id: 7f91f666-9651-4f23-9c0e-6ab79d2567db
+  sort_id: 278
+  title: Colazione sul Terrazzo
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - paesaggio
+  - figura
+- id: 0c9c8832-cbc1-4a90-b9b1-7005421383e6
+  sort_id: 279
+  title: Sul Terrazzo in Collina
+  year: 2015
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: e5523628-2682-4fea-b4b8-891bce8abdda
+  sort_id: 280
+  title: 'Interno: Tavoli e Figura'
+  year: 1995
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: a51e205c-8081-4ea2-bea6-548e88969ab9
+  sort_id: 281
+  title: Interno con Tenda e Tavoli
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - natura morta
+- id: 0926d250-c84b-45bb-bd1e-328a4e2da49b
+  sort_id: 282
+  title: Fine Estate nel Quartiere
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 26d229c0-94de-4fce-ab11-796733065ed2
+  sort_id: 283
+  title: 'Interno: Figure ai Tavoli'
+  year: 2015
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 404913e4-8047-42e2-8437-fa4109353af2
+  sort_id: 284
+  title: Guardando la Sfera
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - fiori
+- id: b4ec93e1-0282-4dea-a822-666744e042dd
+  sort_id: 285
+  title: Figura a Tavola
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - notturno
+- id: 63d24294-2cc0-4c60-9d45-f58e5b637550
+  sort_id: 286
+  title: Figura in Interno
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 48c4d190-b800-4967-a881-8df0b441edea
+  sort_id: 287
+  title: Sera sul Terrazzo
+  year: 2005
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - paesaggio
+  - figura
+- id: c7ab74e7-e0c4-4621-95dc-4daefc38d231
+  sort_id: 288
+  title: 'Interno: Figura dietro la Vetrata'
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 88c5b1cb-3185-4503-a8e0-b7728297825e
+  sort_id: 289
+  title: La Terrazza Rossa e Blù
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 95e5e70d-72b6-4153-83c8-f10901a478bb
+  sort_id: 290
+  title: Agosto in Periferia
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+  - figura
+- id: 9591b146-0d9c-47b8-bb7b-381d61a0c06e
+  sort_id: 291
+  title: Interno con Figure
+  year: 2006
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 73818dc6-740d-490d-93aa-e720e450f53e
+  sort_id: 292
+  title: Mattino al Bar
+  year: 2005
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - notturno
+- id: 5c7c52d0-4f07-4a34-88f7-2f734e755ced
+  sort_id: 293
+  title: 'Interno: Figure al Tavolo'
+  year: null
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: e8eb3383-7fcd-4324-917d-68dc58b0ab34
+  sort_id: 294
+  title: In Strada
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: c3537304-b795-4662-9c9d-aeb7ba3e6ae2
+  sort_id: 295
+  title: Nel Bar
+  year: 2006
+  width_cm: 40
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 61586977-9c80-4bae-b631-937de7a42219
+  sort_id: 296
+  title: Pomeriggio sotto la Pergola
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: bbbb9190-848b-4d9b-80c2-cf906048dcf6
+  sort_id: 297
+  title: Giocatori di Carte
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 90e35de0-115e-4d38-bedc-864c97b66ac0
+  sort_id: 298
+  title: Nel Bar
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - figura
+- id: ffd6cb32-6703-4813-bfcc-6c740b524f8e
+  sort_id: 299
+  title: 'Interno: Tavolo Verde e Figure'
+  year: 2011
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 77a2c58a-c778-4b84-a914-e5614f1a26a0
+  sort_id: 300
+  title: 'Interno: Figure e Tavoli'
+  year: 2008
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 04024c20-3b7a-443b-93f0-555d60701f04
+  sort_id: 301
+  title: Sera all'Osteria
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: 87a5adb1-f954-4c93-ab33-cc57137a7e1d
+  sort_id: 302
+  title: Si fa Sera
+  year: 2005
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - figura
+- id: 1d5043fc-c53b-4b64-814d-862c247659b4
+  sort_id: 303
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 30332b88-196d-4fb4-8366-80fcf40f862c
+  sort_id: 304
+  title: Figura in Penombra
+  year: 2007
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+  - interni
+- id: 9ca65399-c5e0-4de7-b0d7-7c386dbdba50
+  sort_id: 305
+  title: 'Interno: Fiori e Oggetti'
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - fiori
+- id: 1f5471b6-38d9-4401-a450-2d2b1d3913ad
+  sort_id: 306
+  title: La Chiesetta del Paese
+  year: 2013
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+  - figura
+- id: fa307270-ac89-4dee-aea2-7e22f0a0ae79
+  sort_id: 307
+  title: La Piazza sotta la Luna
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - interni
+- id: 947e6710-4b23-4e35-8dc2-174af6cdf4d3
+  sort_id: 308
+  title: Solitudine
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: 7f0e571e-c6e7-41c6-8359-18eb9d8f5cca
+  sort_id: 309
+  title: Ultime luci sulla Scogliera
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - marina
+  - figura
+- id: 75e663af-a167-4f20-bc89-837fff9aefb0
+  sort_id: 310
+  title: Figure sul Terrazzo
+  year: 2012
+  width_cm: 50
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - figura
+  - città
+  - paesaggio
+- id: 3a97ee40-86c5-4f13-a23c-9aef90452022
+  sort_id: 311
+  title: Sera in Riva al Mare
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - figura
+- id: e77df6c1-3c26-41bf-a09a-956bfafe3a2a
+  sort_id: 312
+  title: Ultima Luce sul Lungomare
+  year: 2016
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+  - marina
+- id: 3dc61d3d-7449-4074-8ede-9a209a7377e5
+  sort_id: 313
+  title: Verso Sera ai Giardini
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 94b99b17-f33f-40d0-8f14-2d06a46128d8
+  sort_id: 314
+  title: Il Ponte sul Po a San Mauro
+  year: 2012
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 49332a69-2254-4a85-b342-e5ad966b8073
+  sort_id: 315
+  title: Il Balcone sul Lago
+  year: 2014
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - fiori
+- id: 88b2b12e-14ee-47ed-a1e0-3d4bc5cd0ed3
+  sort_id: 316
+  title: Il Vecchio Cortile
+  year: 2007
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - notturno
+- id: e10edf5a-1c72-4b28-8f3a-a9f38bf0aa1b
+  sort_id: 317
+  title: Figure in Riva al Lago
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+- id: e3163e63-2853-418d-be75-260dc62906af
+  sort_id: 318
+  title: Paese sul Mare
+  year: 2009
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - marina
+  - paesaggio
+- id: eb3b3a5a-d5da-43b6-a1a4-dd6831adcfc4
+  sort_id: 319
+  title: Panni al Sole e Figura
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+- id: a94a8904-3877-4ecd-9346-b12cc5531755
+  sort_id: 320
+  title: Tetti di Periferia
+  year: 2005
+  width_cm: 55
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: e369502e-1327-4c0d-a572-78ed8c1030dc
+  sort_id: 321
+  title: La Piazza delle Bancarelle
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: 74c43869-d709-43c1-b6e8-2866c6702957
+  sort_id: 322
+  title: La Casa Rossa
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+- id: 7b0411a2-351e-47bf-9e10-320be6dde816
+  sort_id: 323
+  title: Tetti Rossi
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - notturno
+- id: d571cc98-d5a8-475d-bdf5-13039639becc
+  sort_id: 324
+  title: Città al Mattino
+  year: 2011
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - figura
+- id: 08c7e069-c72d-4c17-b286-23dfac3c98e1
+  sort_id: 325
+  title: Figura e Fiori sul Balcone
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: 7b676f16-7fa6-4b77-ad9b-082b0866dcd9
+  sort_id: 326
+  title: Periferia
+  year: 2005
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: c98de795-7884-4064-9034-c4028b2def6b
+  sort_id: 327
+  title: 'Periferia: Figura sul Balcone'
+  year: 2016
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - fiori
+- id: b5e9c81a-d0b9-45a8-8b08-bb46373c0b62
+  sort_id: 328
+  title: Tetti in Periferia
+  year: 2016
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: c7e5f07b-d1e7-446e-8e24-86fb08e90fb0
+  sort_id: 329
+  title: Panni sul Balcone
+  year: 2014
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - figura
+- id: f2f557e1-694c-4a19-898f-87d80f255529
+  sort_id: 330
+  title: Autunno sul Lago
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - notturno
+- id: b0d954c7-3d36-4d9f-ae7f-d357e8dc1b03
+  sort_id: 331
+  title: In Piazza Domenica Mattina
+  year: 2015
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - fiori
+- id: 78e1b715-7f03-4d81-8586-edc683bd8b49
+  sort_id: 332
+  title: Laghetto nel Parco
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 632b07ad-3b9c-4c01-acd9-7a7a69be13df
+  sort_id: 333
+  title: Davanti alla Vetrina
+  year: 2016
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - fiori
+- id: 7afdce50-a951-42c3-80fb-613516aeb731
+  sort_id: 334
+  title: Fiori in Periferia
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+  - fiori
+- id: 4940298d-9a01-4c51-823b-2e504532634b
+  sort_id: 335
+  title: Passanti in Riva al Lago
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - fiori
+  - figura
+- id: e4925cc1-155e-46fb-9bb8-95db609f39e6
+  sort_id: 336
+  title: Per Strada
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - paesaggio
+- id: f450955a-efcf-4867-87a7-7e0ee5fd041d
+  sort_id: 337
+  title: I Fiori sul Balcone
+  year: 2013
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - fiori
+  - città
+- id: 33ec9905-6d65-428a-84e6-a62ebacf8e34
+  sort_id: 338
+  title: Fiori sulla Piazza
+  year: 2015
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: dfa920ef-8456-485a-911f-d825509e8535
+  sort_id: 339
+  title: Passeggiata nei Giardini
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: f7e33f98-13da-4f12-a02f-170f2379119e
+  sort_id: 340
+  title: Cortile di casa
+  year: 2018
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - figura
+- id: 30fa5cd5-cfba-4094-8e6a-2351352f6f9f
+  sort_id: 341
+  title: Per Strada col Cappello Rosso
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: db1fb587-12b1-41b6-8753-d66fa043ff84
+  sort_id: 342
+  title: Ultime Figure sul Corso
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 56b1d5c0-3bbe-4a91-8442-a1382f412820
+  sort_id: 343
+  title: Ottobre ai Giardini
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 67374c14-604c-417f-bd6e-5851aaf9075c
+  sort_id: 344
+  title: Passanti nella Piazza
+  year: 2012
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: d73129c3-b13f-45ce-ac13-30b30a18d097
+  sort_id: 345
+  title: Veduta Urbana
+  year: 2015
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: 1f9e034f-84db-4737-b79f-f0ad9834dfaa
+  sort_id: 346
+  title: L'Aiuola Rossa
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: 8c0ab595-e6c3-40ab-bac2-defc09ee82cf
+  sort_id: 347
+  title: Periferia alla Domenica
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 0a32bc95-a4c5-42e7-97f9-7b1c0c822d79
+  sort_id: 348
+  title: Primavera sulla Piazza
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - fiori
+- id: 622cafed-70b3-4fcc-bd96-c1145ae1c0f9
+  sort_id: 349
+  title: Visione Urbana
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 56c91132-c57f-471e-985f-3e89c83d281c
+  sort_id: 350
+  title: La Domenica Mattina
+  year: 2014
+  width_cm: 52
+  height_cm: 46
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - fiori
+- id: 6f8ae7ed-65e9-4bcb-951e-8b4e4c6309d6
+  sort_id: 351
+  title: Fiori in Periferia
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - fiori
+  - notturno
+- id: cd21cba8-b68f-408a-8099-98154bca1a5f
+  sort_id: 352
+  title: Autunno sul Corso
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+- id: 4a8c59b1-5832-4829-868b-4292c731780e
+  sort_id: 353
+  title: L'Aiuola del Corso
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - paesaggio
+  - fiori
+- id: 50902828-4e26-4a2f-b23f-b4429f762391
+  sort_id: 354
+  title: Case nel Verde
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 1c6cef80-7775-4067-b8e6-ca7366b442ae
+  sort_id: 355
+  title: Ultimo Sole ai Giardini
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - città
+- id: 50bb49b3-36ee-48c9-9598-434e6008bfa7
+  sort_id: 356
+  title: Angolo Urbano
+  year: 2017
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 6ab7971e-7085-44e7-bb73-71ca64ad33ec
+  sort_id: 357
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: f1281074-53b9-4d00-99d2-9530a6224d4f
+  sort_id: 358
+  title: Veduta Urbana
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: b016c476-81a0-4fa2-92ad-436fed12a6cf
+  sort_id: 359
+  title: Visione Urbana
+  year: 2008
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 2ef8c109-464f-46a8-bad0-152b6e40b72c
+  sort_id: 360
+  title: La Tempesta
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - marina
+  - notturno
+- id: 1b2da3fd-7a30-43f2-a308-1e03eff877b1
+  sort_id: 361
+  title: La Tempesta
+  year: null
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - paesaggio
+  - notturno
+- id: 0f80a6f0-890b-4b4d-bdfd-7c3860925f32
+  sort_id: 362
+  title: DIetro la Tenda
+  year: 2014
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: 0d131d9e-14e1-4720-a5ae-f7635891da1c
+  sort_id: 363
+  title: Dietro la cancellata
+  year: 2012
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - natura morta
+  - fiori
+- id: 96f9fd98-8800-4879-9f08-9aa86689e5c2
+  sort_id: 364
+  title: Dietro la Tenda
+  year: 2009
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: ac0daecd-1ef6-46cd-840d-f8a6ccbf89d8
+  sort_id: 365
+  title: La Sfera di Cristallo
+  year: 2012
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: d128ac39-63c4-41ee-9e74-cf445d2617ec
+  sort_id: 366
+  title: Alla Finestra di Notte
+  year: 2009
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - notturno
+  - interni
+- id: c91646ea-45f2-49ce-9061-2ecae6e2e632
+  sort_id: 367
+  title: Figura alla Finestra
+  year: 2003
+  width_cm: 34
+  height_cm: 42
+  technique: olio su tavola
+  tags:
+  - figura
+  - interni
+- id: 1dcb0d7a-5b49-4388-b55c-4a48bb81fdff
+  sort_id: 368
+  title: Senza titolo
+  year: null
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - figura
+  - interni
+- id: be9d1bef-8b46-474b-b424-2c4c4c082569
+  sort_id: 369
+  title: Figura tra le Fronde
+  year: 2009
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: 43a5e6bf-9b22-4be1-92cc-520e9356026e
+  sort_id: 370
+  title: Interno Urbano
+  year: 2002
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+- id: 8df5e89a-15dd-4ae3-b318-f9a742212869
+  sort_id: 371
+  title: Per Strada di Notte
+  year: 2004
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: d9200d47-1718-4661-8218-9549d30325ea
+  sort_id: 372
+  title: Figura in Interno
+  year: 2008
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+  - città
+- id: dbc85b48-b8c1-4fc0-8b33-4a77f45e3945
+  sort_id: 373
+  title: Per Strada col Cappello Rosso
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: d075fa78-966e-4f86-84ca-14bbfefc58d4
+  sort_id: 374
+  title: Folla Urbana
+  year: 2005
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - figura
+  - notturno
+- id: f1cc9205-dfe7-4abc-b21d-6298cc224a77
+  sort_id: 375
+  title: 'Interno: l''Esposizione'
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 39ae5ecb-0396-4072-b430-1af0a27ada6b
+  sort_id: 376
+  title: 'Interno: Scultura e Figure'
+  year: null
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: ef3dee48-fba5-4bee-8a64-562408c5e6a9
+  sort_id: 377
+  title: Interno, 2 Figure e Scultura
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 6621a320-bd78-4094-8a5d-5560d70d2124
+  sort_id: 378
+  title: 'Interno: Figura che Osserva'
+  year: 2008
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 01df4ccb-2e2a-420b-9832-374e3d82c1cf
+  sort_id: 379
+  title: Il Mercato del Paese
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: c9c602b4-76bf-448e-8dca-cec609d88cac
+  sort_id: 380
+  title: L'Esposizione
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: d6478d63-660a-4bf2-8ae2-6c28f0fa4400
+  sort_id: 381
+  title: In Città di Notte
+  year: 2004
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+- id: 00564b7e-f02e-4db8-89ae-cadd215652dd
+  sort_id: 382
+  title: Notte in Piazza
+  year: 2001
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 872366fd-577a-42de-a4b3-4d949e8c78e3
+  sort_id: 383
+  title: Via Vai Urbano
+  year: 2010
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 9a949490-28ac-4986-ba7f-a6cb679d6a62
+  sort_id: 384
+  title: Visione Urbana
+  year: 1999
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 26fe03f3-1d2e-44d7-9144-ec352aa744ff
+  sort_id: 385
+  title: Carnevale
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+- id: 91609897-70eb-4412-8388-fe34abb3fb30
+  sort_id: 386
+  title: Periferia di Notte
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 7d873389-569f-48b4-9592-a9aef7c422b2
+  sort_id: 387
+  title: Di Notte sotto i Portici
+  year: 2010
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 3faffeb4-d07b-410c-9925-52ac628bdefc
+  sort_id: 388
+  title: Carnevale
+  year: 2013
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 91b4c52f-663f-400f-ae34-8ff42c0b5989
+  sort_id: 389
+  title: 'Periferia: la Scultura e i Passanti'
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 8c655bfb-bd1a-45f0-8596-2e743cab46ee
+  sort_id: 390
+  title: Primo Mattino in Piazza
+  year: 2012
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 6d85d537-31d5-46b1-adae-ea6228b1e291
+  sort_id: 391
+  title: La Strada
+  year: 1983
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 255a82b5-e7d0-4095-8e1d-4d73ed3d5d8c
+  sort_id: 392
+  title: 'Interno: Figure alla Mostra'
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: d3d7d8ea-2a46-472d-a52d-9d34ba7eea75
+  sort_id: 393
+  title: Periferia
+  year: 2002
+  width_cm: 45
+  height_cm: 31
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 962e9118-9143-4369-a989-f42e3fc00b17
+  sort_id: 394
+  title: Agosto in Paese
+  year: 2014
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 07d162b8-348e-46df-816e-4d221c0f5511
+  sort_id: 395
+  title: Ricordi
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 68857831-2d67-4d0c-98dc-9fdaafe7a366
+  sort_id: 396
+  title: Luci nella Notte
+  year: 2008
+  width_cm: 35
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 03180a92-4257-45d0-a339-c928c5324bc3
+  sort_id: 397
+  title: Periferia verso Sera
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 25e74f46-63ab-412f-90b1-eb273d386ef9
+  sort_id: 398
+  title: Paese di Sera
+  year: null
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: f7488e3f-de0f-4515-b5cd-7e0694bd66f2
+  sort_id: 399
+  title: Passanti nella Notte
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 91e2457c-c3f1-4c4a-a35f-7e64983910d8
+  sort_id: 400
+  title: I Portici del Paese
+  year: 2003
+  width_cm: 35
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: cfbc1d86-52e6-448b-b2f6-3903aed2f101
+  sort_id: 401
+  title: Figure nella sera
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: af79b854-7bcf-435f-953c-3ba403c2ed30
+  sort_id: 402
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: fb0e4b3a-32d5-46d9-991b-6483dd163ea4
+  sort_id: 403
+  title: Primo Sole sulla Piazza
+  year: 2016
+  width_cm: 66
+  height_cm: 45
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 9be7f824-3fd9-4c29-9bad-14d5eb67ca80
+  sort_id: 404
+  title: Notturno Urbano
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 11b2ac90-ec07-4ae0-8e5f-1c51fadd7dd8
+  sort_id: 405
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+- id: 66ddf81e-dd24-43f5-9e27-a20e0ba0dbb2
+  sort_id: 406
+  title: Luci Notturne ai Giardini
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - paesaggio
+- id: 9e253cc8-0976-428c-a4f1-641e36261912
+  sort_id: 407
+  title: Tarda Notte in Periferia
+  year: 2009
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 117247aa-75bb-4549-bd30-368fd999d032
+  sort_id: 408
+  title: Sera Autunnale
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - notturno
+  - paesaggio
+  - città
+- id: f622cce3-a8f1-49ad-96d9-bd9219b21d3c
+  sort_id: 409
+  title: Ritorno alla Sera
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - notturno
+  - città
+  - figura
+- id: 1d7ecf40-f75b-4d6a-8706-86ac42f01a85
+  sort_id: 410
+  title: Passeggiata Notturna
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 1bd56ce4-f85a-4195-8912-b2e9b6c04622
+  sort_id: 411
+  title: Visione Urbana dal Balcone
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 7eb518dd-7c86-43a4-a769-a9bbd38dc843
+  sort_id: 412
+  title: Notte nei Vicoli
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 3e386cb7-0416-4c04-8ed3-d6bef90d72ae
+  sort_id: 413
+  title: Notturno sul Balcone
+  year: 2013
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: acd16638-f0ba-497f-8816-78f12eeb1369
+  sort_id: 414
+  title: Ultime Figure sulla Piazza
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 8d248b07-480b-4a56-8d60-fc4b811b5378
+  sort_id: 415
+  title: Notturno Urbano
+  year: 2015
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 0e55ec2b-36a0-4b74-9c1f-33ea835c11ab
+  sort_id: 416
+  title: Angolo di Notte
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 2fd20196-3556-4dbd-aae8-6ac6f15c97f5
+  sort_id: 417
+  title: Notte in Centro
+  year: 2012
+  width_cm: 57
+  height_cm: 40
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+- id: 465f3772-bee0-4d3b-a4aa-6769822e5317
+  sort_id: 418
+  title: Tarda Notte in Città
+  year: 2015
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: d9a01340-2540-4a23-b9b3-919c169852ae
+  sort_id: 419
+  title: Prime Luci in Centro
+  year: 2016
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 5606fb91-7291-4603-8c3d-8be05e53dee5
+  sort_id: 420
+  title: Ultime Luci in Città
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 3c18e8fd-2a3a-4c3c-b7bb-c7523fa67f59
+  sort_id: 421
+  title: La Strada verso Sera
+  year: 2015
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: e661d5f5-6ce8-4eb0-a3f3-3d7581ddeedd
+  sort_id: 422
+  title: Periferia all'Alba
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - paesaggio
+- id: 8e5ff712-7c6d-42d7-a447-df72f5ad2362
+  sort_id: 423
+  title: Figura in Periferia
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 0b3fc755-a1c9-48fe-92d6-325509c57306
+  sort_id: 424
+  title: Periferia di Sera
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 0b03c3f9-25a9-40a7-a629-2ef11c14aa3f
+  sort_id: 425
+  title: Si Fa Sera in Centro
+  year: 2016
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 238526fa-1c70-4e0d-9e3e-2f3d0a472cd3
+  sort_id: 426
+  title: Sottopasso in Periferia
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+- id: 2048a19c-2e03-4e6d-b9a5-a5eef676b27d
+  sort_id: 427
+  title: Notte in Centro
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 41294a81-0e4d-486f-9494-83b71712fc7c
+  sort_id: 428
+  title: L'ultimo Tram in Periferia
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: a178716c-6703-40b5-ae73-953b1829f648
+  sort_id: 429
+  title: Ultime Luci sul Corso
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 4522e965-ff61-4068-83db-664f874fa4d5
+  sort_id: 430
+  title: Ultimi Passanti in Periferia
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 214cb9aa-50c8-4ebb-85d7-6c32114f45f5
+  sort_id: 431
+  title: Ombre Notturne in Periferia
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: ed29eb51-6cef-4ded-bbef-381682cef646
+  sort_id: 432
+  title: Mattino sotto i Portici
+  year: 2015
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: 5c006fe1-60d2-49aa-be07-10483e30ed5b
+  sort_id: 433
+  title: La Vetrina del Centro
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: 0c169882-82b6-4501-a119-50ef78846cdd
+  sort_id: 434
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 883d6845-fc73-4793-9fd7-64a1ac708a98
+  sort_id: 435
+  title: Tarda Notte per la Città
+  year: 2009
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 498a9447-427b-4ee7-8c12-b311977c43ed
+  sort_id: 436
+  title: Il Bar di Periferia
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 5a327ab8-8444-4598-9fd2-dedead9e5aca
+  sort_id: 437
+  title: La Piazzetta di Periferia
+  year: 2014
+  width_cm: 52
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: baa92503-fa8b-4cc2-9cb1-774cbe58c6a9
+  sort_id: 438
+  title: Senza titolo
+  year: null
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: fd83fe1f-c096-45f5-acf5-adb067a26f40
+  sort_id: 439
+  title: Di Sera in Periferia
+  year: 2008
+  width_cm: 55
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 10bfd816-6b4a-44ff-9579-42ded03820d2
+  sort_id: 440
+  title: Figure nella Notte
+  year: 2006
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 4aa3f977-c70f-4671-b92f-8541a5b8f790
+  sort_id: 441
+  title: Periferia
+  year: 2006
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: b7c34999-4d96-40c6-9fad-a0f04df5cc3a
+  sort_id: 442
+  title: Notturno in Piazza
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: e249ee42-b39a-4cc8-a2ed-0475ef672069
+  sort_id: 443
+  title: Uno Sguardo in Piazza
+  year: 2014
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ad01df41-c655-4a40-8f8f-6a827a35f964
+  sort_id: 444
+  title: Notte sul Corso
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: b19ceb51-3f03-4e93-bc60-426041e47a99
+  sort_id: 445
+  title: Cala la Sera in Periferia
+  year: 2015
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 0d50231a-ff96-402c-83d7-9b0c71f6274e
+  sort_id: 446
+  title: Notte Estiva in Città
+  year: 2012
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 78a87212-0cae-4007-a849-60ecc818e0bc
+  sort_id: 447
+  title: Mattino in Strada
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 40198e23-7c9d-421c-8583-658332020cd4
+  sort_id: 448
+  title: È Notte in Periferia
+  year: 2013
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 630fc8b9-dc81-4bf6-881b-90799d7c64ac
+  sort_id: 449
+  title: Via Vai Urbano
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 0b224033-1991-4e4b-80d7-d81d8934d972
+  sort_id: 450
+  title: Mattino sul Cavalcavia
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: b6f80f27-df3c-4d2c-98be-efd9d72d9b1f
+  sort_id: 451
+  title: Figure per Strada
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 9e7dfce7-64a0-434b-9e46-0267be6f4a14
+  sort_id: 452
+  title: Visione Urbana
+  year: 2014
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 33879b70-5977-420a-ba8f-aebda220bc2b
+  sort_id: 453
+  title: L'Edicola di Periferia
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 0f3f764e-597b-4eef-af7a-64be13012604
+  sort_id: 454
+  title: A Spasso sotto i Portici
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ae094659-e784-4d5b-9847-df11f0c039c8
+  sort_id: 455
+  title: Figure in Strada
+  year: 2016
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ad06da46-7e46-4f37-a27b-cf8357fc1e41
+  sort_id: 456
+  title: Passanti Notturni
+  year: 2012
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 2c5eb46d-2dd5-41fc-b053-e5df9036e8ed
+  sort_id: 457
+  title: I Portici del Paese
+  year: 2013
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 9a472ccd-2907-407f-bc43-f17ba87b76aa
+  sort_id: 458
+  title: Passanti Urbani
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 52b5e34b-bad7-45a4-9b6a-b708b25b298c
+  sort_id: 459
+  title: I Portici di Periferia
+  year: 2015
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+- id: 4ab45c4e-364c-4545-b0a6-519797c2dc7b
+  sort_id: 460
+  title: Per Strada col Cappello Blù
+  year: 2011
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: c6269541-3546-4ac0-a825-3f92ce9f152f
+  sort_id: 461
+  title: Angolo Urbano
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 120b7205-32cc-4ebc-8640-dcbee2c96d77
+  sort_id: 462
+  title: Controluce sotto i Portici
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: c49c0244-1aaa-4d98-ac55-cd239a4ddf21
+  sort_id: 463
+  title: Passanti nella Notte
+  year: 2016
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 5b0d6267-8492-4aee-a356-a84ea46c390d
+  sort_id: 464
+  title: La Piazzatta del Paese
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ca2c60e9-324f-4b64-b6d3-1d76a3fa74dd
+  sort_id: 465
+  title: Via Vai sotto i Portici
+  year: 2012
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 2b519098-e5d8-4381-abea-ea35ba865e51
+  sort_id: 466
+  title: Figure sotto i Portici
+  year: 2105
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 7899b7f2-afdc-45ef-8e4c-c6c5aca77836
+  sort_id: 467
+  title: Ombre Notturne
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 6c268391-ca7f-451c-825f-24979e1fe1bc
+  sort_id: 468
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 4fe88cc2-6632-40e2-a8af-ba65b78fff9e
+  sort_id: 469
+  title: Senza titolo
+  year: null
+  width_cm: 70
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: e855c42f-e535-4813-90f3-678f65b6f45a
+  sort_id: 470
+  title: Vetrine e Passanti
+  year: 2016
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 16167800-670c-4b7e-a036-a7af2f7e9e89
+  sort_id: 471
+  title: Notturno in Centro
+  year: 2013
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+- id: 9632d8d6-207b-48d0-827e-3e9b489d5f1e
+  sort_id: 472
+  title: Vestrina e Passanti
+  year: 2015
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: dc92583d-1ca3-4f24-a763-0d501e5f0dd0
+  sort_id: 473
+  title: 'Centro Città: Colori nella Notte'
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: d691d08c-d15b-4ddf-9355-b964b77ccae8
+  sort_id: 474
+  title: Senza titolo
+  year: null
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: 82d939db-1bbb-4eba-b24d-30c11d2f198d
+  sort_id: 475
+  title: Per la Città di Notte
+  year: 2007
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: d7a1e638-6d21-4221-a4ce-f5abd4cec406
+  sort_id: 476
+  title: Figure dietro la Finestra
+  year: 1998
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: 431bec39-24f5-43a3-84a9-ffe55357ab4c
+  sort_id: 477
+  title: Gente in Strada
+  year: 2005
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ff601192-e2b8-4971-b028-09dea94dccd9
+  sort_id: 478
+  title: Figure sotto i Portici
+  year: 2010
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: e8748f4b-c7c2-4971-9f6b-b31779f0d82d
+  sort_id: 479
+  title: 'Interno: Figure e Vetrine'
+  year: 2016
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - figura
+- id: 4a18c038-0f89-4182-9981-1ed3f552cff9
+  sort_id: 480
+  title: A Spasso di Notte
+  year: 2013
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 55f926ed-68df-4a4c-afd9-f90127eedad4
+  sort_id: 481
+  title: Alla Sera in Centro
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: a786c86c-e6a6-4285-9c0a-3c6d2c7bdf69
+  sort_id: 482
+  title: Stazione verso Sera
+  year: 2016
+  width_cm: 40
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 6332a121-6111-4001-9e41-84346036dfb8
+  sort_id: 483
+  title: Per Strada
+  year: 2011
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 90788b4c-d7e4-49a9-9f53-f21f2c337452
+  sort_id: 484
+  title: La Piazza Affollata
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 454cfd38-49fd-4fec-99bb-3245c97a1749
+  sort_id: 485
+  title: Al Centro Commericiale
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: 17a07140-2406-4da9-99b8-f48f513e179b
+  sort_id: 486
+  title: La Vetrina nell'Angolo
+  year: 2014
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+- id: 0a5f5a7e-78d1-4ebf-83c5-cbbd55e6c3ba
+  sort_id: 487
+  title: Via Vai Cittadino
+  year: 2013
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+  - notturno
+- id: fb902be1-6ce7-4557-bf52-5298102d640c
+  sort_id: 488
+  title: Insigne e Passante
+  year: 2015
+  width_cm: 50
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: ba924e25-0280-46f8-95f1-1fd58ecc6914
+  sort_id: 489
+  title: Insegne Rosse e Verdi
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 102a8bcb-1f14-4317-9bda-4be8086fe912
+  sort_id: 490
+  title: Per Strada di Notte
+  year: 2017
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 4781445a-ed23-4e80-bc9a-ce31020e8c7a
+  sort_id: 491
+  title: Via Vai Notturno
+  year: 2012
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+  - figura
+- id: 9fc21d40-9835-4697-9288-f8ab213eced9
+  sort_id: 492
+  title: Via Vai davanti alla Vetrina
+  year: 2010
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: c7fabca1-67b5-48bd-bc01-cd40990b9945
+  sort_id: 493
+  title: Vertina e Figure nella Notte
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 673e4e4e-bd7f-4835-8139-af986f8da527
+  sort_id: 494
+  title: Guardando la Vetrina
+  year: 2015
+  width_cm: 50
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - interni
+  - figura
+- id: 6ec87eb2-5d69-46b9-9599-43b0ccd42409
+  sort_id: 495
+  title: Per Strada di notte
+  year: 2008
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 76be8c08-e805-4887-9ffc-ca94d213da2f
+  sort_id: 496
+  title: Via Vai al Bar
+  year: 2012
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - figura
+- id: 8aff93cd-80e8-4611-85fa-936300e5713f
+  sort_id: 497
+  title: 'Interno: Figure e Vetrine'
+  year: 2015
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - figura
+- id: e5d650b4-9769-4ae3-af65-5024588c0feb
+  sort_id: 498
+  title: Figure in Interno
+  year: 2011
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - interni
+  - figura
+- id: d90f0cc2-0a6c-4159-a83e-5af501e11828
+  sort_id: 499
+  title: Figure e Vetrine
+  year: 2013
+  width_cm: 30
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - figura
+- id: 7251c7d8-cf4e-43ca-acc4-e17dff42eb6e
+  sort_id: 500
+  title: La Grande Vetrina
+  year: 2011
+  width_cm: 55
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+- id: 92408cd0-0938-42c8-a073-b395c9a69277
+  sort_id: 501
+  title: Figure in Interno
+  year: 2011
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - interni
+  - città
+  - figura
+- id: c0c2771e-eeca-40b6-9d88-56841693ade0
+  sort_id: 502
+  title: Di Notte per Strada
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 45755c09-9f76-4e3f-ad6e-dfdcbf3f7dac
+  sort_id: 503
+  title: Davanti alla Vetrina
+  year: 2013
+  width_cm: 40
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: fec88bf5-0d9e-420c-ba13-f0d86c6fec3d
+  sort_id: 504
+  title: La Vetrina e i Passanti
+  year: 2014
+  width_cm: 50
+  height_cm: 60
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - notturno
+  - figura
+- id: c0c77a3b-a915-4a70-8270-14bdd4d1a35e
+  sort_id: 505
+  title: Davanti alla Vetrina
+  year: 2004
+  width_cm: 45
+  height_cm: 30
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - natura morta
+- id: b8d86602-c01e-4a09-b08e-9a1eb98df233
+  sort_id: 506
+  title: Arrivo Notturno
+  year: 2013
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 69067ebc-df65-4dd7-869b-1f9080cf0bea
+  sort_id: 507
+  title: Sotto il Cavalcavia
+  year: 2017
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 1a3ff74d-ef82-4566-b16d-0ce385e8533b
+  sort_id: 508
+  title: 'Interno: Figure in Attesa'
+  year: 2015
+  width_cm: 50
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - interni
+  - figura
+- id: 24d26a40-9c2e-44b8-ab17-a60f2d36ae62
+  sort_id: 509
+  title: Ricordo di una Notte
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+- id: 79ec47c6-6a06-4ce1-a16a-d15d26fbcca7
+  sort_id: 510
+  title: Attesa nella Notte
+  year: null
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 3777a028-3257-4344-8c6a-51501484b56a
+  sort_id: 511
+  title: Ultime Figure alla Stazione
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: dfa4c929-b3a6-4837-a444-9080f870e441
+  sort_id: 512
+  title: La Stazione di Periferia
+  year: 2014
+  width_cm: 60
+  height_cm: 35
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: e7991685-f336-43af-b13f-4d53f33acb63
+  sort_id: 513
+  title: In Attesa
+  year: 2015
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 9361372f-a60e-40df-8a38-3adfb50d7261
+  sort_id: 514
+  title: Figure in Attesa
+  year: 2014
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: 9e6f20d2-17e9-4f0e-9192-0d1acf27740a
+  sort_id: 515
+  title: Ricordo di Una Notte
+  year: 2012
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: ace4b831-361c-489d-a90e-6ae5bb781d33
+  sort_id: 516
+  title: La Sera alla Stazione
+  year: 2010
+  width_cm: 60
+  height_cm: 40
+  technique: olio su tavola
+  tags:
+  - città
+  - notturno
+  - figura
+- id: c0b802f9-1145-48ce-8122-fa81ab381ea2
+  sort_id: 517
+  title: Attesa
+  year: 1981
+  width_cm: 60
+  height_cm: 50
+  technique: olio su tela
+  tags:
+  - città
+  - notturno
+  - figura
