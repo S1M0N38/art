@@ -1,5 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#080808"/>
-  <rect x="6" y="6" width="20" height="20" rx="1" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
-  <rect x="9" y="9" width="14" height="14" rx="0.5" fill="#c9a84c" opacity="0.15"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .fg { fill: #000; }
+    @media (prefers-color-scheme: dark) {
+      .fg { fill: #fff; }
+    }
+  </style>
+
+  <!-- Centered, italic handwritten F -->
+  <g transform="translate(4,0)">
+    <path class="fg" d="
+      M22 10
+      C19 11,17 13,17 16
+      L18 50
+      C18 53,20 55,23 54
+      C25 53,26 51,26 48
+      L25 33
+
+      L39 32
+      C42 32,44 30,43 28
+      C42 26,40 25,37 25
+      L25 26
+
+      L24 18
+      L45 17
+      C48 17,50 15,49 13
+      C48 11,46 10,43 10
+      Z
+    " transform="skewX(-18)"/>
+
+    <!-- Closer, tighter dot -->
+    <path class="fg" d="
+      M42 47
+      C45 46,47 48,46 50
+      C45 52,42 53,40 51
+      C39 49,40 47,42 47
+      Z
+    " transform="rotate(-18 42 48)"/>
+  </g>
 </svg>
