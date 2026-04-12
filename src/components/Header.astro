@@ -4,23 +4,11 @@ interface Props {
 }
 
 const { currentPath = '/' } = Astro.props;
-const base = import.meta.env.BASE_URL;
 
-// Normalize paths for comparison (strip trailing slash, handle base URL)
 const normalizePath = (path: string) => {
-  // Remove base URL from path
   let normalized = path;
-  if (normalized.startsWith(base)) {
-    normalized = normalized.slice(base.length);
-  }
-  // Ensure path starts with /
-  if (!normalized.startsWith('/')) {
-    normalized = '/' + normalized;
-  }
-  // Remove trailing slash (except for root)
-  if (normalized !== '/' && normalized.endsWith('/')) {
-    normalized = normalized.slice(0, -1);
-  }
+  if (!normalized.startsWith('/')) normalized = '/' + normalized;
+  if (normalized !== '/' && normalized.endsWith('/')) normalized = normalized.slice(0, -1);
   return normalized;
 };
 
@@ -28,22 +16,22 @@ const current = normalizePath(currentPath);
 ---
 
 <header class="site-header">
-  <a href={base} class="site-header__title">Francesco Luchino</a>
+  <a href="/galleria" class="site-header__title">Francesco Luchino</a>
   <nav class="site-header__nav">
     <a 
-      href={base} 
-      class:list={['site-header__link', { 'site-header__link--active': current === '/' }]}
+      href="/galleria" 
+      class:list={['site-header__link', { 'site-header__link--active': current === '/galleria' }]}
     >
       La Galleria
     </a>
     <a 
-      href={`${base}/critica`} 
+      href="/critica" 
       class:list={['site-header__link', { 'site-header__link--active': current === '/critica' }]}
     >
       La Critica
     </a>
     <a 
-      href={`${base}/artista`} 
+      href="/artista" 
       class:list={['site-header__link', { 'site-header__link--active': current === '/artista' }]}
     >
       L'Artista

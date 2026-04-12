@@ -11,10 +11,9 @@ interface Props {
 
 const { id, title, year, width_cm, height_cm, technique, tags } = Astro.props;
 
-const base = `${import.meta.env.BASE_URL}/images`;
-const thumbUrl = `${base}/thumbs/${id}.webp`;
-const placeholderUrl = `${base}/placeholders/${id}.webp`;
-const originalUrl = `${base}/originals/${id}.jpg`;
+const thumbUrl = `/images/thumbs/${id}.webp`;
+const placeholderUrl = `/images/placeholders/${id}.webp`;
+const originalUrl = `/images/originals/${id}.jpg`;
 const aspect = width_cm / height_cm;
 ---
 
