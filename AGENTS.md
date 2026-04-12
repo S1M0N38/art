@@ -10,7 +10,7 @@ Artwork-first, immersive experience with proportional sizing that reflects real 
 - **PhotoSwipe v5** — lightbox (pinch-to-zoom, swipe navigation)
 - **Vanilla CSS** — custom properties, dark theme, no frameworks
 - **Vanilla JS** — client-side filtering, Intersection Observer lazy loading
-- **BunnyCDN** — image storage + pre-generated WebP variants (`https://francescoluchino-art.b-cdn.net/`)
+- **Local images** — served from `public/images/`, generated from arthag edit/front via optimize.py
 - **GitHub Pages** — hosting via GitHub Actions
 
 ## Project Structure
@@ -49,26 +49,24 @@ art/
 ## Data Schema (paintings.yaml)
 
 ```yaml
-- id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
-  sort_id: 1                # Display order in gallery
-  title: "Tramonto su Fossano"
-  width_cm: 120             # Real painting width in cm
-  height_cm: 80             # Real painting height in cm
-  tags:
-    - paesaggio
+- id: "7b0411a2-351e-47bf-9e10-320be6dde816"
+  sort_id: 2000             # Display order in gallery (from custom_id; recomputed by sort_ids.py)
+  title: "Tetti Rossi"
+  year: 2007
+  width_cm: 50              # Real painting width in cm
+  height_cm: 35             # Real painting height in cm
+  technique: "olio su tavola"
+  tags: []                  # Empty until tags.py pipeline fills them
 ```
 
-**ID convention**: each painting uses a UUID v4 as its `id` and CDN filename.
+**Source of truth**: `artag/data/archive.csv` — the arthag project manages all painting metadata.
 
-CDN image variants (pre-generated, directory-based):
-- Original: `originals/{uuid}.jpg` (lightbox + download)
-- Thumbnail: `thumbs/{uuid}.webp` (masonry grid, 800px)
-- Placeholder: `placeholders/{uuid}.webp` (blur-up, 20px)
+Image variants (local, in `public/images/`, gitignored):
+- Original: `public/images/originals/{uuid}.jpg` (lightbox + download)
+- Thumbnail: `public/images/thumbs/{uuid}.webp` (masonry grid, 800px)
+- Placeholder: `public/images/placeholders/{uuid}.webp` (blur-up, 20px)
 
-Example for UUID `00cb4951-6117-4c35-8d61-691ac4930414`:
-- `https://francescoluchino-art.b-cdn.net/originals/00cb4951-6117-4c35-8d61-691ac4930414.jpg` (773 KB)
-- `https://francescoluchino-art.b-cdn.net/thumbs/00cb4951-6117-4c35-8d61-691ac4930414.webp` (72 KB)
-- `https://francescoluchino-art.b-cdn.net/placeholders/00cb4951-6117-4c35-8d61-691ac4930414.webp` (<1 KB)
+Images are served locally via Astro's `public/` directory. CDN migration planned for later.
 
 ## Key Design Decisions
 
@@ -88,21 +86,17 @@ npm run dev              # Astro dev server
 npm run build            # Production build
 npm run preview          # Preview production build
 
-# Image preprocessing
-uv run scripts/utils/preprocess.py                    # Crop all images in images/raw/
-uv run scripts/utils/preprocess.py path/to/image.jpg  # Crop single image
+# Data pipeline
+uv run scripts/generate/paintings.py                  # Regenerate paintings.yaml from archive.csv
+uv run scripts/generate/paintings.py --csv /path/to/archive.csv  # Custom CSV path
 
-# Image optimization
-uv run scripts/utils/optimize.py                      # Generate all variants
-uv run scripts/utils/optimize.py path/to/image.jpg    # Optimize single image
+# Image optimization (from arthag edit/front)
+uv run scripts/utils/optimize.py                      # Generate all variants for all paintings
 uv run scripts/utils/optimize.py --skip-existing      # Skip already optimized
 
-# CDN upload
-uv run scripts/utils/upload_cdn.py                    # Upload all variants
-uv run scripts/utils/upload_cdn.py --variant thumbs   # Upload only thumbnails
-uv run scripts/utils/upload_cdn.py --list             # List remote files
-uv run scripts/utils/upload_cdn.py --skip-existing    # Skip already-uploaded
-uv run scripts/utils/upload_cdn.py --dry-run          # Preview what would upload
+# ML pipelines (optional, generate JSON overrides)
+uv run scripts/generate/sort_ids.py                   # Compute visual similarity sort order
+uv run scripts/generate/tags.py                       # Generate category tags via VLM
 ```
 
 ## Performance Targets
