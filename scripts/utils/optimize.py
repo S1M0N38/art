@@ -8,33 +8,30 @@
 # ///
 
 """
-Generate optimized image variants for CDN upload.
+Generate optimized image variants for the gallery.
 
-Produces three variants per source image:
-  - originals/  (full-size JPG copy)
-  - thumbs/     (≤800px wide WebP, quality 80)
-  - placeholders/ (≤20px wide WebP, quality 10)
+Reads images from images/processed/ (named {uuid}.jpg) and generates:
+  - originals: full-res copy
+  - thumbs: ≤800px WebP
+  - placeholders: ≤20px WebP
 
-Images listed in images/processed/.imagededup.txt are automatically excluded.
-The file must exist; run the deduplication step first if it is missing.
+All output goes to images/optimized/{originals,thumbs,placeholders}/.
+public/images/ is a symlink to images/optimized/ for the website.
 
 Usage:
-    uv run scripts/utils/optimize.py                          # optimize all from images/processed/
-    uv run scripts/utils/optimize.py images/processed/abc.jpg # single file
-    uv run scripts/utils/optimize.py --skip-existing          # skip if all 3 variants exist
-    uv run scripts/utils/optimize.py --force                  # overwrite existing (default behavior)
+    uv run scripts/utils/optimize.py                     # all images in images/processed/
+    uv run scripts/utils/optimize.py --skip-existing     # skip if all 3 variants exist
 """
 
-import argparse
 import shutil
 import sys
+import argparse
 from pathlib import Path
 
 from PIL import Image, UnidentifiedImageError
 
 PROCESSED_DIR = Path("images/processed")
-OPTIMIZED_DIR = Path("images/optimized")
-DEDUP_FILE = PROCESSED_DIR / ".imagededup.txt"
+OUTPUT_DIR = Path("images/optimized")
 
 VARIANTS = {
     "originals": {"max_width": None, "quality": None, "ext": ".jpg"},
@@ -43,44 +40,42 @@ VARIANTS = {
 }
 
 
-def load_duplicates() -> set[str]:
-    """Load the set of duplicate filenames from .imagededup.txt.
-
-    Exits with an error if the file is not found.
-    """
-    if not DEDUP_FILE.exists():
-        print(
-            f"Error: {DEDUP_FILE} not found.\n"
-            "Run the deduplication step first before optimizing.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-    return {
-        line.strip()
-        for line in DEDUP_FILE.read_text().splitlines()
-        if line.strip()
-    }
-
-
-def variant_path(uuid: str, variant: str) -> Path:
+def variant_path(painting_id: str, variant: str) -> Path:
     """Return the output path for a given variant."""
     cfg = VARIANTS[variant]
-    return OPTIMIZED_DIR / variant / f"{uuid}{cfg['ext']}"
+    return OUTPUT_DIR / variant / f"{painting_id}{cfg['ext']}"
 
 
-def all_variants_exist(uuid: str) -> bool:
+def all_variants_exist(painting_id: str) -> bool:
     """Check whether all 3 output files already exist."""
-    return all(variant_path(uuid, v).exists() for v in VARIANTS)
+    return all(variant_path(painting_id, v).exists() for v in VARIANTS)
 
 
-def optimize_file(src: Path, skip_existing: bool) -> bool | None:
+def discover_processed() -> list[tuple[str, Path]]:
+    """Find all images in images/processed/.
+
+    Returns list of (painting_id, path) tuples sorted by painting_id.
+    """
+    if not PROCESSED_DIR.exists():
+        raise SystemExit(f"Error: {PROCESSED_DIR}/ not found")
+
+    images = []
+    for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
+        for p in PROCESSED_DIR.glob(ext):
+            images.append((p.stem, p))
+
+    images.sort(key=lambda x: x[0])
+    return images
+
+
+def optimize_file(
+    src: Path, painting_id: str, skip_existing: bool
+) -> bool | None:
     """Generate all variants for a single source image.
 
     Returns True if optimized, False if skipped, None if invalid.
     """
-    uuid = src.stem
-
-    if skip_existing and all_variants_exist(uuid):
+    if skip_existing and all_variants_exist(painting_id):
         return False
 
     try:
@@ -93,14 +88,14 @@ def optimize_file(src: Path, skip_existing: bool) -> bool | None:
     orig_size = f"{img.size[0]}x{img.size[1]}"
 
     # originals — straight copy, no re-encoding
-    dst_orig = variant_path(uuid, "originals")
+    dst_orig = variant_path(painting_id, "originals")
     shutil.copy2(src, dst_orig)
 
     # thumbs and placeholders — resize + WebP
     for variant in ("thumbs", "placeholders"):
         cfg = VARIANTS[variant]
         max_width = cfg["max_width"]
-        dst = variant_path(uuid, variant)
+        dst = variant_path(painting_id, variant)
 
         w, h = img.size
         if w > max_width:
@@ -113,62 +108,38 @@ def optimize_file(src: Path, skip_existing: bool) -> bool | None:
         resized.save(dst, format="webp", quality=cfg["quality"])
 
     print(
-        f"  {src.name}: {orig_size}"
-        f" → originals/{uuid}.jpg,"
-        f" thumbs/{uuid}.webp,"
-        f" placeholders/{uuid}.webp"
+        f"  {painting_id}: {orig_size}"
+        f" → originals/{painting_id}.jpg,"
+        f" thumbs/{painting_id}.webp,"
+        f" placeholders/{painting_id}.webp"
     )
     return True
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate optimized image variants for CDN upload"
-    )
-    parser.add_argument(
-        "files",
-        nargs="*",
-        help="Specific files to process (default: all in images/processed/)",
+        description="Generate optimized image variants from images/processed/"
     )
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Skip images where all 3 variants already exist",
-    )
-    parser.add_argument(
-        "--force",
-        action="store_true",
-        help="Overwrite existing outputs (default behavior, for explicitness)",
+        help="Skip paintings where all 3 variants already exist",
     )
     args = parser.parse_args()
 
     # Create output directories
     for variant in VARIANTS:
-        (OPTIMIZED_DIR / variant).mkdir(parents=True, exist_ok=True)
+        (OUTPUT_DIR / variant).mkdir(parents=True, exist_ok=True)
 
-    if args.files:
-        files = [Path(f) for f in args.files]
-    else:
-        files = sorted(PROCESSED_DIR.glob("*.jpg"))
-
-    # Exclude duplicates identified by the deduplication step
-    duplicates = load_duplicates()
-    before_count = len(files)
-    files = [f for f in files if f.name not in duplicates]
-    excluded = before_count - len(files)
-    if excluded:
-        print(f"Excluding {excluded} duplicate(s) from .imagededup.txt")
-
-    if not files:
-        print(f"No images found in {PROCESSED_DIR}/")
-        sys.exit(1)
-
-    print(f"Optimizing {len(files)} image(s)...")
+    # Discover images
+    processed = discover_processed()
+    print(f"Found {len(processed)} images in {PROCESSED_DIR}/")
 
     optimized = 0
     skipped = 0
-    for f in files:
-        result = optimize_file(f, skip_existing=args.skip_existing)
+
+    for painting_id, src in processed:
+        result = optimize_file(src, painting_id, skip_existing=args.skip_existing)
         if result is True:
             optimized += 1
         elif result is False:
