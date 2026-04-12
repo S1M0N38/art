@@ -2,17 +2,19 @@
 interface Props {
   id: string;
   title: string;
+  year: number | null;
   width_cm: number;
   height_cm: number;
+  technique: string;
   tags: string[];
 }
 
-const { id, title, width_cm, height_cm, tags } = Astro.props;
+const { id, title, year, width_cm, height_cm, technique, tags } = Astro.props;
 
-const cdnBase = 'https://francescoluchino-art.b-cdn.net';
-const thumbUrl = `${cdnBase}/thumbs/${id}.webp`;
-const placeholderUrl = `${cdnBase}/placeholders/${id}.webp`;
-const originalUrl = `${cdnBase}/originals/${id}.jpg`;
+const base = `${import.meta.env.BASE_URL}/images`;
+const thumbUrl = `${base}/thumbs/${id}.webp`;
+const placeholderUrl = `${base}/placeholders/${id}.webp`;
+const originalUrl = `${base}/originals/${id}.jpg`;
 const aspect = width_cm / height_cm;
 ---
 
@@ -20,8 +22,10 @@ const aspect = width_cm / height_cm;
   class="painting-card"
   data-id={id}
   data-title={title}
+  data-year={year ?? ''}
   data-width={width_cm}
   data-height={height_cm}
+  data-technique={technique}
   data-tags={tags.join(',')}
   data-thumb={thumbUrl}
   data-full={originalUrl}

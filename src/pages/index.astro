@@ -12,8 +12,10 @@ const paintings = parse(yamlContent) as Array<{
   id: string;
   sort_id: number;
   title: string;
+  year: number | null;
   width_cm: number;
   height_cm: number;
+  technique: string;
   tags: string[];
 }>;
 ---

@@ -365,6 +365,19 @@ button {
   color: var(--color-text-muted);
 }
 
+.pswp__caption-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.pswp__caption-year,
+.pswp__caption-technique {
+  letter-spacing: 0.02em;
+}
+
 /* Lightbox caption — mobile fallback */
 @media (max-width: 640px) {
   .pswp__caption-row {

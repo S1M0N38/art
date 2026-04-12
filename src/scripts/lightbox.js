@@ -37,8 +37,10 @@ function buildDataSource() {
       height: h,
       // Custom data for caption
       title: card.dataset.title,
+      year: card.dataset.year || null,
       widthCm: widthCm,
       heightCm: heightCm,
+      technique: card.dataset.technique || '',
       tags: card.dataset.tags ? card.dataset.tags.split(',') : [],
       element: card, // for thumbnail animation
     };
@@ -136,13 +138,19 @@ document.addEventListener('DOMContentLoaded', () => {
           const slide = lightbox.pswp.currSlide;
           const data = slide.data;
 
-          const tagsHtml = data.tags
-            .map((t) => `<span class="pswp__caption-tag">${t}</span>`)
-            .join('');
+          const tagsHtml = data.tags.length > 0
+            ? data.tags
+                .map((t) => `<span class="pswp__caption-tag">${t}</span>`)
+                .join('')
+            : '';
+
+          const yearStr = data.year ? `<span class="pswp__caption-year">${data.year}</span>` : '';
+          const techStr = data.technique ? `<span class="pswp__caption-technique">${data.technique}</span>` : '';
 
           el.innerHTML = `
             <div class="pswp__caption-row">
               <div class="pswp__caption-title">${data.title}</div>
+              <div class="pswp__caption-meta">${yearStr}${techStr}</div>
               <div class="pswp__caption-tags">${tagsHtml}</div>
               <div class="pswp__caption-dims">${data.widthCm} × ${data.heightCm} cm</div>
             </div>

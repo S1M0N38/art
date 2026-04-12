@@ -5,8 +5,10 @@ interface Painting {
   id: string;
   sort_id: number;
   title: string;
+  year: number | null;
   width_cm: number;
   height_cm: number;
+  technique: string;
   tags: string[];
 }
 
@@ -24,8 +26,10 @@ const sorted = [...paintings].sort((a, b) => a.sort_id - b.sort_id);
     <PaintingCard
       id={painting.id}
       title={painting.title}
+      year={painting.year}
       width_cm={painting.width_cm}
       height_cm={painting.height_cm}
+      technique={painting.technique}
       tags={painting.tags}
     />
   ))}
