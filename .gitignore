@@ -79,3 +79,5 @@ scripts/generate/paintings.yaml
 scripts/generate/sort_ids.json
 scripts/generate/embeddings.npz
 
+.playwright-mcp
+public/images
