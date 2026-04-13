@@ -5,9 +5,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - figura
   - paesaggio
+  back_photo: 081fbc98-e445-4a67-9257-d7d16d6b4c03.jpg
 - id: 2f12dbb3-abca-4e86-afc9-f4a10ee18738
   sort_id: 1
   title: Prati a Maggio
@@ -15,9 +17,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - figura
+  back_photo: 99321329-8730-4768-b401-cf2063e430b0.jpg
 - id: e47d1876-7f14-418e-a522-54e667c7cb23
   sort_id: 2
   title: Fiori di Campo
@@ -25,9 +29,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 1f2931f9-adc6-435b-b557-66939e80b656.jpg
 - id: 5f93e9cd-e9f9-4c66-be41-0a756fb520a7
   sort_id: 3
   title: Campi di Lavanda
@@ -35,9 +41,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - fiori
+  back_photo: 31a807c4-01c3-410f-b0bb-9fdfd0d76833.jpg
 - id: fb206b6e-75e2-4d94-8948-58759b7a453f
   sort_id: 4
   title: Fiori di Campo
@@ -45,9 +53,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 5356f7a5-f809-4ec6-982a-f87edfc4d0cd.jpg
 - id: f3af12e2-c3c5-4ef7-a722-d69e9b43b6e3
   sort_id: 5
   title: Campagna d'Estate
@@ -55,9 +65,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
+  back_photo: c85ee9de-d6c3-4db1-a249-9ca5dd9bd2d6.jpg
 - id: a3465252-4c94-4728-be20-266678202320
   sort_id: 6
   title: Case e Fiori Gialli
@@ -65,9 +77,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: e1b7f7ef-8d5d-4a65-bf6c-aeba6aac1f7b.jpg
 - id: 5c54c3c7-a3a2-42f6-b510-7e1e4c143108
   sort_id: 7
   title: Campagna d'Autunno
@@ -75,9 +89,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
+  back_photo: 68ff6600-f46d-4bbb-9e20-57df9dd28e68.jpg
 - id: be9cf8cd-f62e-4dc8-9877-eee7ea01c494
   sort_id: 8
   title: Pianura
@@ -85,9 +101,11 @@
   width_cm: 55
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 62aafa03-4b34-47fc-96c4-b6aa40a0a13e.jpg
 - id: cd49e1ca-f2f4-4048-bfcb-3fae03faa745
   sort_id: 9
   title: Verso La Primavera
@@ -95,9 +113,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 00bff514-f657-44c4-a692-7e8c3b0cb7b1.jpg
 - id: bc1b6ded-1ff5-4f84-b7cf-4453f430ce47
   sort_id: 10
   title: Case in Collina
@@ -105,9 +125,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: e49824f4-ec18-442c-bfd3-3e5a4c56466d.jpg
 - id: f3922a07-8039-47f2-9379-57ef1b347c08
   sort_id: 11
   title: Campo di Lavanda
@@ -115,9 +137,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: e49fba60-971f-4717-9721-5146825e2c29.jpg
 - id: bb929614-d7e6-4c2b-8721-e62b66cb35b7
   sort_id: 12
   title: L'Autunno nei Prati
@@ -125,9 +149,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 997e2ef3-7466-47f0-99e2-819ae76e2c22.jpg
 - id: 835f8142-fac2-471b-a36e-d1cf52d2f9f0
   sort_id: 13
   title: Case in Collina
@@ -135,9 +161,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tela
+  status: 2
   tags:
   - paesaggio
   - città
+  back_photo: beb329b3-ed92-498a-a02d-7f650b75e5b3.jpg
 - id: 6982f620-0fd9-419f-977c-97e528275e50
   sort_id: 14
   title: Prati in Fiore
@@ -145,9 +173,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 4623363b-2314-48ea-a911-f90b2a51273c.jpg
 - id: 9b239ca8-2498-4715-a6cf-c48a44ed1fba
   sort_id: 15
   title: Strada fra i Campi
@@ -155,10 +185,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
   - notturno
+  back_photo: 83eef9c7-6fd9-43b0-ad22-b1e4acbe72fd.jpg
 - id: 0419c3df-cc8b-46c5-9f78-22211427f2d2
   sort_id: 16
   title: Periferia d'Autunno
@@ -166,9 +198,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: b1a52c13-712e-4481-a7c8-e90320513455.jpg
 - id: 9e779a2c-64ac-43f1-be15-1ee437fa75fb
   sort_id: 17
   title: Baite Controluce
@@ -176,9 +210,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - notturno
+  back_photo: 860bcef2-7f3b-4710-a3d3-6413c21d5a5f.jpg
 - id: f48c8b96-40f3-40e3-8d75-077fce33e5c5
   sort_id: 18
   title: Alberi sotto il Monte
@@ -186,9 +222,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: e841c288-4ff8-4fe6-b649-0695c2ce5034.jpg
 - id: 13e6a1a7-c1b2-4f08-a07d-84079cc7190c
   sort_id: 19
   title: Autunno in Montagna
@@ -196,9 +234,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - notturno
+  back_photo: 6b700688-b6be-4a5e-bd45-15efd90ecefa.jpg
 - id: c3edf9b6-f593-42a3-8de3-d6432023cf32
   sort_id: 20
   title: La Montangna di Sera
@@ -206,9 +246,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: 519959d5-71b1-44c8-965e-9915189b7502.jpg
 - id: 5b517483-bb3d-4163-ae14-78fe665a98da
   sort_id: 21
   title: Fiori Rossi sotto il Ponte
@@ -216,9 +258,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: dad657de-b0de-4685-b7f7-836c670727a8.jpg
 - id: e36629df-fd3f-447a-bafd-3abdf3264774
   sort_id: 22
   title: Albero Rosso
@@ -226,9 +270,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: bf4297b1-ddc5-40c6-80a2-e7e490c86f41.jpg
 - id: 12e944c5-d7ca-4d34-916e-9e858ee649ff
   sort_id: 23
   title: Primavera
@@ -236,9 +282,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: 745f21fd-a951-4b57-bded-c591a339f263.jpg
 - id: b6e83015-18d0-4894-8802-50d3e78f64fc
   sort_id: 24
   title: Fine Inverno nei Prati
@@ -246,9 +294,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: 19497766-121f-4ba3-ab6d-9bfea4170c86.jpg
 - id: 6f6eeaca-fe69-4f8c-b0d6-0e7781961498
   sort_id: 25
   title: La Palude
@@ -256,9 +306,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tela
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: 556d6d8c-8c5f-411e-a9fe-7b1851232f90.jpg
 - id: 1790050b-6d68-4d53-816a-4d904f0848c7
   sort_id: 26
   title: La Palude Fiorita
@@ -266,10 +318,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - natura morta
   - fiori
+  back_photo: 6b0856fe-0f78-4f17-a76c-b156576d1c30.jpg
 - id: d20f6654-2c8e-4f10-885a-5d4271484e31
   sort_id: 27
   title: Vista dal Colle
@@ -277,9 +331,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: a2803aab-d813-4f2a-b9d9-3d5093ddbd06.jpg
 - id: 1319dcb2-8647-4da6-b727-53f7c10e0c2c
   sort_id: 28
   title: Sentiero in Collina
@@ -287,9 +343,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
+  back_photo: 8f4537d0-d002-459d-8bf4-f5fe2aafcdfb.jpg
 - id: 2631c3d8-2b5a-4480-a402-3a5e24fcc7c8
   sort_id: 29
   title: In Collina
@@ -297,9 +355,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 0ea4b348-ad61-4992-8ccb-25bb8b2cc676.jpg
 - id: 98c28aee-e564-4c97-b6ea-49d2c455af31
   sort_id: 30
   title: Vento in RIva al Lago
@@ -307,9 +367,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - natura morta
+  back_photo: 7ff25542-21e2-4fc0-9953-d08f2b90435b.jpg
 - id: 663311f7-8235-412e-ad49-3252c8168a8a
   sort_id: 31
   title: Inverno sotto i Monti
@@ -317,9 +379,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 62da5baa-5acc-41c0-ac4b-3c1303947d04.jpg
 - id: 79aa4f31-9815-4340-9609-ffb7fbaf2dc2
   sort_id: 32
   title: Strada di Montagna
@@ -327,9 +391,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: b25c6a33-2976-485c-b0a2-d72fc2fcd8b3.jpg
 - id: 1a323697-fc2f-409e-bf27-b73bf871c350
   sort_id: 33
   title: Case tra gli Alberi
@@ -337,9 +403,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
+  back_photo: 4c2a1a30-2606-4f93-8d90-a50145e2ddf6.jpg
 - id: 78c42a46-8640-46ba-ad4f-4992e7543e88
   sort_id: 34
   title: Sera Invernale sulle Baite
@@ -347,10 +415,12 @@
   width_cm: 60
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
   - città
+  back_photo: e405438a-6b1c-4899-a145-89defd04bde2.jpg
 - id: 68c6a9d4-2aa8-4110-8560-e95163647456
   sort_id: 35
   title: I Tetti del Paese
@@ -358,9 +428,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su cartone
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: a0a41c43-e6f3-438b-b5fa-d3bb39104a85.jpg
 - id: 9886f518-43ec-4c15-826d-8cf50ac64e1c
   sort_id: 36
   title: La Finestra sul Lago
@@ -368,9 +440,11 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 517deefe-16b6-4329-ac95-4df4e7830fcc.jpg
 - id: 5a6b8b83-42e9-4e61-b9a1-5eae565683bc
   sort_id: 37
   title: I Tetti del Villaggio
@@ -378,9 +452,11 @@
   width_cm: 38
   height_cm: 42
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
+  back_photo: 334842d0-5fa7-4676-8be6-eeba40da3e02.jpg
 - id: f6e3058f-f0fd-4d23-92a2-828f8dce0cb6
   sort_id: 38
   title: Il Vento della Sera
@@ -388,10 +464,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: 6a2defbc-97bb-4f05-b3b8-fa55c55aecd3.jpg
 - id: 24cf4f27-6186-4f43-9fb1-ae0ef2c63e82
   sort_id: 39
   title: Mattino sul Terrazzo
@@ -399,9 +477,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
+  back_photo: 5530b81c-66bd-4953-9d57-693a9da649f5.jpg
 - id: bb178884-e635-4423-a828-5fb2b7efb03f
   sort_id: 40
   title: Veduta Urbana
@@ -409,9 +489,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - paesaggio
+  back_photo: fa360ca3-7c10-42bd-878d-3c57bbe7843b.jpg
 - id: 9c54fdff-705b-4f54-9ff0-ac971573d274
   sort_id: 41
   title: Il Paese sul Fiume
@@ -419,9 +501,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 1dc6b1c6-c4b3-47d3-ac86-b060a1751b78.jpg
 - id: a28c8b7a-7a89-4a2b-86db-db11e8dcc42f
   sort_id: 42
   title: A Sera sul Lago
@@ -429,10 +513,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
   - notturno
+  back_photo: 3e3c3c11-7a72-4efc-bcc2-0e7bc87b1bd7.jpg
 - id: 61390475-415f-4289-ba50-758a112c35e8
   sort_id: 43
   title: Volo Mattutino sul Po
@@ -440,9 +526,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 5184d6ee-127d-40f8-824c-d1e42247aa66.jpg
 - id: c4f8d65a-053c-43bd-bf8e-6291c9f8d13b
   sort_id: 44
   title: Mattino sotto il Colle
@@ -450,9 +538,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 2c8238e0-96aa-42b0-811c-cc711bb93a6b.jpg
 - id: 51ec41ce-81e1-424a-b276-9fcc3e9f614b
   sort_id: 45
   title: Casolari sotto il Monte
@@ -460,9 +550,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
+  back_photo: 9c59ec19-bc3c-497c-85f5-9a3fb6fd2035.jpg
 - id: 1f40e6d4-12d1-427a-b7f7-1cfaf1b3875a
   sort_id: 46
   title: Riviera
@@ -470,9 +562,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - marina
+  back_photo: 06d62c8d-14d9-48a8-8b8b-282bdc0a5c61.jpg
 - id: 575d18da-5303-424a-97ae-22695a5c8aa8
   sort_id: 47
   title: Casolari sul Mare
@@ -480,10 +574,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su cartone
+  status: 2
   tags:
   - paesaggio
   - città
   - marina
+  back_photo: 44e067e5-ab44-4240-8fdf-b9e26fa07204.jpg
 - id: 93bc820d-0dc8-4d7c-b6c8-211d41fbb9c7
   sort_id: 48
   title: Case in Riva al Fiume
@@ -491,9 +587,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: ed9579d8-9dd5-42fc-b791-027047c07d76.jpg
 - id: 892d0a9f-2c20-4de4-83dc-ba7c003d92bf
   sort_id: 49
   title: Il Paese sul Mare
@@ -501,9 +599,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - marina
+  back_photo: ede408b7-89fc-4d8c-b406-f790e39698ec.jpg
 - id: 945380e0-24b5-4857-9910-44982d9ddead
   sort_id: 50
   title: I Dintorni del Paese
@@ -511,9 +611,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 4cbb2838-47b8-4da8-b115-137ff2ae1528.jpg
 - id: 74eac575-1da5-47e8-a1f0-ed122af3318a
   sort_id: 51
   title: Fiori sul Lago
@@ -521,9 +623,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
+  back_photo: 82c20e37-0793-4b30-b238-1d6b82afa4f5.jpg
 - id: 42186ae6-b79e-40e1-ae42-175783970e7e
   sort_id: 52
   title: Mattino sul Lago
@@ -531,9 +635,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - marina
+  back_photo: 7a4c5f6f-6c0e-4fc1-9e2d-9ddab0384c92.jpg
 - id: cf440443-99f0-46bb-9c7c-c52c1f90a430
   sort_id: 53
   title: Volo sul Lago
@@ -541,9 +647,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - marina
+  back_photo: a853138f-6d4c-42c8-936d-8407bd22f31e.jpg
 - id: c8b899ee-3c80-4e41-8565-ef913a086377
   sort_id: 54
   title: Riviera
@@ -551,10 +659,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - paesaggio
   - marina
+  back_photo: fbdb05d6-cf0f-467f-b60e-6a81da9c67de.jpg
 - id: af50aebb-9a33-4bc4-970a-5029dac80442
   sort_id: 55
   title: Prima Neve sul Lago
@@ -562,10 +672,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
   - marina
+  back_photo: f9ff03d0-2d5b-4964-9b15-18968db4d3b2.jpg
 - id: aeb5dd05-82c3-45ab-aa46-a56550871a33
   sort_id: 56
   title: Vele sul Lago
@@ -573,9 +685,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - marina
   - paesaggio
+  back_photo: ef8853a8-43bf-4d62-a046-13ad4df6c0fb.jpg
 - id: 7b102876-d501-4513-a033-f4a88f7c90d2
   sort_id: 57
   title: Riviera
@@ -583,10 +697,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - paesaggio
   - marina
+  back_photo: 8a9599c4-5bd4-48af-bba5-5fde7ad481ac.jpg
 - id: 5bd6155b-8678-484b-aefc-a4a36d23c63f
   sort_id: 58
   title: Borgata sul Lago
@@ -594,9 +710,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
+  back_photo: 78293e02-0a16-4c40-a2c2-9c3efcee75c4.jpg
 - id: c06c387c-f7c8-425a-aef1-2760234562b7
   sort_id: 59
   title: Autunno lungo il Fiume
@@ -604,9 +722,11 @@
   width_cm: 58
   height_cm: 48
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 43c38626-891f-4fda-a815-5675d6390b59.jpg
 - id: e36220fa-6a59-4cbb-a8e7-8feb2ed05a04
   sort_id: 60
   title: Fiori Rossi sullo Stagno
@@ -614,9 +734,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 77cd5a03-66cd-4349-9367-2ef37d359636.jpg
 - id: d05af6be-18d2-4a4b-a57f-ac1712e5a39a
   sort_id: 61
   title: Autunno sul Fiume
@@ -624,9 +746,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - notturno
+  back_photo: 0aa3c1a6-e4f9-43bd-a10f-cd3c6277ec2c.jpg
 - id: cf6c19d3-dd95-41d2-8809-ec94950fceda
   sort_id: 62
   title: Prima Luce in Riva al Lago
@@ -634,10 +758,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
   - notturno
+  back_photo: bba3697a-73d9-45b8-a3d8-78381cea046e.jpg
 - id: f6bbc60b-629a-4f9b-ae38-866b2fc326f2
   sort_id: 63
   title: Foglie Gialle sul Lago
@@ -645,9 +771,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: 252f80dd-f62f-4f29-8896-e9228beab00a.jpg
 - id: 683179a0-089e-40c5-868d-dd62da597542
   sort_id: 64
   title: Fronde al Vento
@@ -655,10 +783,12 @@
   width_cm: 52
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - paesaggio
   - fiori
+  back_photo: 58880279-119c-4537-b0fe-f6f4b97bd7eb.jpg
 - id: cc2acea7-793d-4268-b138-047b61de59f8
   sort_id: 65
   title: Ultime Luci in Riva al Lago
@@ -666,10 +796,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
   - marina
+  back_photo: 613066bc-9c74-4385-a57d-972e84a3409c.jpg
 - id: 83986819-3e98-4751-adbc-b2e979870dec
   sort_id: 66
   title: Strada Costiera
@@ -677,10 +809,12 @@
   width_cm: 52
   height_cm: 46
   technique: olio su tavola
+  status: 0
   tags:
   - città
   - paesaggio
   - fiori
+  back_photo: 2e8d2b7d-33df-48bd-a91d-71191d0cd72a.jpg
 - id: 02c0b328-7af2-4fff-9033-5981f78493bf
   sort_id: 67
   title: Primavera tra le Case
@@ -688,9 +822,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 1710de96-d25d-4d79-9c30-32d2bd4ea4ba.jpg
 - id: 4d64ac55-c669-4ff8-9e9a-148a17dbcd4b
   sort_id: 68
   title: Estate sul Lagetto
@@ -698,9 +834,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - natura morta
+  back_photo: b7188954-e77b-4668-87b8-ec520fc3772b.jpg
 - id: 45bed987-36d5-4888-bf64-be24596c94f3
   sort_id: 69
   title: Fiori Rossi in Riva al Lago
@@ -708,9 +846,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 5ae60143-3eb0-4a48-828b-ef63e4288908.jpg
 - id: 1b12cb6d-d6b6-4bde-ba51-6452ed776db8
   sort_id: 70
   title: Fiori Rossi sul Lago
@@ -718,10 +858,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - fiori
   - marina
+  back_photo: 16c918bc-41ca-4982-b5e3-67ee66ebcc28.jpg
 - id: b5f728b3-f929-4e10-b20e-efb7875647a4
   sort_id: 71
   title: Fiori di Palude
@@ -729,9 +871,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - fiori
   - paesaggio
+  back_photo: fed51122-acb0-4b47-99b1-3936426e9423.jpg
 - id: c0b64808-b291-48dc-bd36-cc0d266f4d9a
   sort_id: 72
   title: Fiori Rossi sullo Stagno
@@ -739,9 +883,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: 132c57b0-c496-43f7-a412-96d6dbdb29f0.jpg
 - id: 54e59159-5815-4cd6-9458-1b203b5b508a
   sort_id: 73
   title: In Riva al Lago
@@ -749,9 +895,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - fiori
+  back_photo: 35a1d259-50b3-4d30-800c-99ef776bb844.jpg
 - id: 400a0615-3b11-4773-9b50-f3eff09525b0
   sort_id: 74
   title: Primavera nel Parco
@@ -759,9 +907,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - paesaggio
+  back_photo: 992f9c97-991f-43dd-8160-e061723be99f.jpg
 - id: 0d7117f4-6109-40b2-bbe0-ce04f6313d77
   sort_id: 75
   title: Senza titolo
@@ -769,10 +919,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: c8b240d5-3195-4726-b1f2-b0302d8a9bfe.jpg
 - id: 3d363a58-70b6-469c-915e-1f6231fd8f24
   sort_id: 76
   title: Veduta Urbana
@@ -780,10 +932,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - paesaggio
   - fiori
+  back_photo: 8aa13f70-8c27-4d60-afff-0bbc2a7d7a10.jpg
 - id: e370f097-4683-4184-b003-8973f0b9a4b4
   sort_id: 77
   title: Il Balcone di Mattino
@@ -791,9 +945,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - paesaggio
+  back_photo: 373284a5-aa98-42bb-91fe-1064f8384e87.jpg
 - id: aeb1f04c-e8ed-4c4e-a30b-8907f84c7123
   sort_id: 78
   title: Il Balcone di Periferia
@@ -801,10 +957,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - fiori
+  back_photo: 6043c9e3-76e0-4e61-8764-e099bb5b44e4.jpg
 - id: f5d8c21c-f17b-46b8-a8f1-beafc947e55f
   sort_id: 79
   title: Fiori e Piante sul Balcone
@@ -812,9 +970,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: f2d265d9-cc66-4f2c-81a4-e9812d899bf6.jpg
 - id: 09d1840f-d5ba-4642-8019-c712babde11f
   sort_id: 80
   title: Fiori in Piazza
@@ -822,9 +982,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - fiori
+  back_photo: 39039b90-88de-415e-8227-00dd027fd507.jpg
 - id: ecd3e12a-b438-4130-a3ed-753f6bde410c
   sort_id: 81
   title: In Volo sui Tetti
@@ -832,9 +994,11 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 2ed55101-82de-4fe5-8adb-73b52d8efa0c.jpg
 - id: 762132d9-673a-4a6c-be2c-e2f77693f3f7
   sort_id: 82
   title: La Città dal Balcone
@@ -842,9 +1006,11 @@
   width_cm: 70
   height_cm: 50
   technique: olio su tavola
+  status: 0
   tags:
   - città
   - fiori
+  back_photo: 00a5db49-3a64-4704-9c10-08300faccd01.jpg
 - id: c1413fb0-a59a-48ba-a8d7-401662814807
   sort_id: 83
   title: In Balcone sulla Piazza
@@ -852,10 +1018,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: 2f87151f-0a01-42cb-ae49-e6bd774dabf1.jpg
 - id: 3041aaf9-d82c-4467-a976-bda317315912
   sort_id: 84
   title: Primavera in Cortile
@@ -863,9 +1031,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - paesaggio
+  back_photo: a97008f4-9ba8-4254-84c7-86e9537a8690.jpg
 - id: 2bcfa73f-f090-4129-aba4-ae4a4e447be3
   sort_id: 85
   title: L'Aiuola dei Portici
@@ -873,9 +1043,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - città
+  back_photo: 632c4c99-f5d5-4152-bd37-13c2c0dcc034.jpg
 - id: e92c0486-f7e9-46f2-980b-690db5716b98
   sort_id: 86
   title: Mattino di Maggio
@@ -883,9 +1055,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - natura morta
+  back_photo: 6007fa95-4006-4ad7-8cf2-7b765477958c.jpg
 - id: a42852e4-e1d5-45b1-9bfb-045b8292ff5d
   sort_id: 87
   title: Fiori nella Cancellata
@@ -893,9 +1067,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - paesaggio
+  back_photo: 7cb66761-5072-4415-8158-80af61a269ce.jpg
 - id: ef574549-e8df-455a-950a-1447e34669bd
   sort_id: 88
   title: Primavera nel Balcone
@@ -903,9 +1079,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - paesaggio
+  back_photo: cad64c3e-bcee-4347-8bd7-ddec9df98109.jpg
 - id: 36408050-0737-43df-9886-5ec5b3d3c9be
   sort_id: 89
   title: Sera d'Inverno
@@ -913,10 +1091,12 @@
   width_cm: 55
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
   - città
+  back_photo: e064060f-d53d-409e-86d3-db5a0bbb06de.jpg
 - id: dbdc8a52-b1fb-413c-80d4-c5067dfc8483
   sort_id: 90
   title: Vento di Primavera
@@ -924,9 +1104,11 @@
   width_cm: 52
   height_cm: 45
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
+  back_photo: 336dcec7-d037-4717-a6eb-cd9e64202469.jpg
 - id: a2f7a99d-d839-4a49-b424-22190266096d
   sort_id: 91
   title: Sera di Fine Inverno
@@ -934,9 +1116,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: af8b8827-28ab-4646-813b-c8b5e4ada066.jpg
 - id: 32ad5b6a-01ac-4c96-8e1a-a13673daae71
   sort_id: 92
   title: Fine Inverno sul Fiume
@@ -944,9 +1128,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: d04b44db-9ede-4d98-8683-434bcdb3add1.jpg
 - id: 4c4f8dfe-afe6-4e87-b3f6-92067903496a
   sort_id: 93
   title: La Città Lontana
@@ -954,10 +1140,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: 27083941-8b19-4479-8357-a8fa6faccde5.jpg
 - id: 56041b0b-f5a7-4c3f-bbed-0ab6a2f0d6bb
   sort_id: 94
   title: Spiaggia Solitaria
@@ -965,10 +1153,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - marina
   - notturno
+  back_photo: 3dfa06c9-1feb-43af-9813-e2486850e5b8.jpg
 - id: c8a2711b-c8d2-410e-837f-d09302a40aa4
   sort_id: 95
   title: Spunta il Giorno
@@ -976,9 +1166,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - paesaggio
+  back_photo: 0b54ff22-1225-4b9c-9f84-a6dfae88c237.jpg
 - id: ffea0b64-bf96-4683-9cd6-a2ca43e5fab9
   sort_id: 96
   title: Sera sugli Scogli
@@ -986,10 +1178,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
   - marina
+  back_photo: ad12377b-31a4-46f9-8dd5-d1349805a933.jpg
 - id: 026e2930-2eb5-427f-98ea-260c74324e4e
   sort_id: 97
   title: Sera sul Lago
@@ -997,9 +1191,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - notturno
+  back_photo: fa68f57e-a43a-47ac-98e0-929983c6b440.jpg
 - id: a971a3b2-c15d-47e6-b746-44aadd8c4b3f
   sort_id: 98
   title: Sera d'Estate
@@ -1007,9 +1203,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tela
+  status: 4
   tags:
   - paesaggio
   - notturno
+  back_photo: 615f2bf5-bcbe-40f2-8182-ec694da2da9e.jpg
 - id: d955d74c-805c-441b-8b7d-d2892fd320b1
   sort_id: 99
   title: Volo sulla Scogliera
@@ -1017,9 +1215,11 @@
   width_cm: 45
   height_cm: 52
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - marina
+  back_photo: 012f26d6-51c6-445d-a44d-fd03b26bbfca.jpg
 - id: 045428c0-78d9-419a-842d-01ff403042b5
   sort_id: 100
   title: Il Volo del Mattino
@@ -1027,10 +1227,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
   - fiori
+  back_photo: b008a5de-1caa-40ca-9e23-3a167fb275d0.jpg
 - id: eb1720e1-17d5-4b25-b198-185b520213fb
   sort_id: 101
   title: Volo di Primavera
@@ -1038,10 +1240,12 @@
   width_cm: 45
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
   - figura
+  back_photo: 808d78d6-05b0-4832-902b-b73c98ac66cf.jpg
 - id: 863144c2-763d-4e5b-b803-f729e70e17b1
   sort_id: 102
   title: Verso Sera
@@ -1049,9 +1253,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - paesaggio
+  back_photo: d605bd29-05a2-4da7-a962-c37abf694be0.jpg
 - id: 2093526e-4a8e-44a6-9640-bcdb9d60865f
   sort_id: 103
   title: Fiori nel Tramonto
@@ -1059,10 +1265,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - notturno
   - paesaggio
+  back_photo: 271429de-27cb-4767-abbb-e74b7a583206.jpg
 - id: ce9bea32-1ff0-4770-9e4f-1f9b6c1e56d6
   sort_id: 104
   title: Rose al Chiaro di Luna
@@ -1070,9 +1278,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - natura morta
+  back_photo: 903c8c8c-5dce-4ee6-948d-a339730bdf68.jpg
 - id: 9095dd37-cfc3-4192-94f9-687d3af85cdf
   sort_id: 105
   title: Prima Luce sul Balcone
@@ -1080,10 +1290,12 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - notturno
   - città
   - fiori
+  back_photo: 83eb2988-1595-4c37-8470-697af48f62bf.jpg
 - id: 41b83526-79a4-4723-9a23-30714b378872
   sort_id: 106
   title: Fiori in Riva al Mare
@@ -1091,9 +1303,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tela
+  status: 2
   tags:
   - paesaggio
   - fiori
+  back_photo: 1ea0be8c-396d-4b20-aed5-5ca333ac45b4.jpg
 - id: 1c098010-7635-48c4-84d8-9f5aad6a7633
   sort_id: 107
   title: Notturno sul Lungomare
@@ -1101,9 +1315,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
+  back_photo: 6d4208e4-3208-486e-aa6d-7a1df57be09a.jpg
 - id: 9691f691-cef2-4952-91c6-c951acf5973d
   sort_id: 108
   title: Primavera
@@ -1111,9 +1327,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
+  back_photo: 3f015ae4-6681-45ff-9465-ca12f81c94cc.jpg
 - id: 157d4465-facf-4b14-ab7f-1abe45d00020
   sort_id: 109
   title: La Città verso Sera
@@ -1121,10 +1339,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: e44b9c61-9f9d-4012-b8d1-1ad52c9c51ac.jpg
 - id: cdf60a6e-70e3-424b-99a6-fc8f618716ad
   sort_id: 110
   title: Ultimo Sole sul Balcone
@@ -1132,9 +1352,11 @@
   width_cm: 45
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
+  back_photo: 504a16fe-732b-4684-8c40-8ba45088ba58.jpg
 - id: 85657945-11e6-45d2-87ba-839529e7bb34
   sort_id: 111
   title: Notte d'Estate sul Terrazzo
@@ -1142,9 +1364,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - notturno
   - città
+  back_photo: 1d747b08-e375-4625-b68b-a5d1b32a73df.jpg
 - id: d1515e80-7db8-4393-848f-44fd2dbbcd88
   sort_id: 112
   title: Notte Surreale
@@ -1152,9 +1376,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: b69f651d-7af4-49f2-afe1-e7fb7730a92a.jpg
 - id: 0d9f83f5-dea1-4085-859a-a585ec896cd3
   sort_id: 113
   title: Fiori nell'Abitato
@@ -1162,9 +1388,11 @@
   width_cm: 40
   height_cm: 41
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - città
+  back_photo: 7cc2c6e5-4c2c-4358-a26d-f39bd5e523a1.jpg
 - id: 4cabbf40-62a7-40bd-bea1-58a2a187c567
   sort_id: 114
   title: Spunta il Giorno
@@ -1172,9 +1400,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - notturno
   - città
+  back_photo: b03ed039-06cf-4523-91e9-1199d4588142.jpg
 - id: 3421d811-6280-48e6-bfc7-b8da35add043
   sort_id: 115
   title: Volo nella Sera
@@ -1182,10 +1412,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - natura morta
   - fiori
+  back_photo: c657c832-0b5a-45da-b88a-20a29c9923c5.jpg
 - id: efa1fda3-73e6-4a65-a04e-a53b838ec536
   sort_id: 116
   title: Notte in Periferia
@@ -1193,10 +1425,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: 52040705-c484-4b80-95ff-538da964faf8.jpg
 - id: 35c323b0-3276-41f4-a099-dc49b010d6ed
   sort_id: 117
   title: Tramonto ai Casolari
@@ -1204,9 +1438,11 @@
   width_cm: 35
   height_cm: 25
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
+  back_photo: cf409c48-2aa6-468c-8503-803f97b7c014.jpg
 - id: 4ae2b92f-30e4-4f59-8b15-0bffbdbb51d6
   sort_id: 118
   title: Notturno in Giardino
@@ -1214,10 +1450,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - paesaggio
   - fiori
+  back_photo: 6ec1640a-5923-4a9f-a9d7-ed5469cf51c8.jpg
 - id: 4df2b6d5-7b81-4d52-967a-6b755b033760
   sort_id: 119
   title: Notturno sotto il Portico
@@ -1225,9 +1463,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: c835752b-e154-4b4b-8871-8944215d962d.jpg
 - id: d2c2df73-e84a-469b-8732-e9ffa801c428
   sort_id: 120
   title: In Volo nei Vicoli
@@ -1235,9 +1475,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 312b010f-1f5f-49cc-90b9-221310181e32.jpg
 - id: 3598f4bd-7278-474b-bdd5-c21c1d6e2616
   sort_id: 121
   title: La Luna sul Lago
@@ -1245,10 +1487,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - paesaggio
   - fiori
+  back_photo: 9ea7c1d4-4a94-4313-b3e2-53e0015b55b8.jpg
 - id: 735952d0-d3df-4d33-b0a7-afda398211cf
   sort_id: 122
   title: Cespugli al Tramonto
@@ -1256,9 +1500,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
+  back_photo: c4439684-1795-4c67-936f-d3569511fb3a.jpg
 - id: 8a5bd771-5db0-4803-82fc-0c45b6f76b3a
   sort_id: 123
   title: Scogliera al Tramonto
@@ -1266,10 +1512,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - marina
   - notturno
+  back_photo: 0ade1897-6cb1-47b8-a090-4712ac02edc8.jpg
 - id: eda7921f-c786-4a68-af1b-25ff2ee60e32
   sort_id: 124
   title: La Luna sul Giardino
@@ -1277,10 +1525,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - fiori
   - paesaggio
+  back_photo: 529e99ff-c3d1-4304-b88a-3243d70b451f.jpg
 - id: eb22c62a-f2fa-4d84-a5b9-c66c9523fe11
   sort_id: 125
   title: Fiori Rossi nella Notte
@@ -1288,9 +1538,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - notturno
+  back_photo: d8cfac76-3e04-4730-81e2-d6c705c3ce05.jpg
 - id: 9451e77e-bd8c-4f3c-9b97-0593212fcc06
   sort_id: 126
   title: Notte di Luna
@@ -1298,9 +1550,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
+  back_photo: 5c7ca7ae-a4c7-4214-9533-c6eb54986268.jpg
 - id: 7b4fadb5-01df-43c5-836a-1e0d64a13649
   sort_id: 127
   title: Notte d'Estate in Giardino
@@ -1308,9 +1562,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - fiori
+  back_photo: 73f7681f-e538-4a73-9075-6582de8f853c.jpg
 - id: a6ac5eb2-d7ad-4b95-a53f-150e0186b251
   sort_id: 128
   title: Notte sul Terrazzo
@@ -1318,9 +1574,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - interni
+  back_photo: ba6b7135-f068-4d1b-bfa3-69fe25a413af.jpg
 - id: d4e31b53-0aca-45c5-bc9d-121e6d5ec43a
   sort_id: 129
   title: Senza titolo
@@ -1328,10 +1586,12 @@
   width_cm: 45
   height_cm: 52
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - interni
   - figura
+  back_photo: 9bde0310-0c4d-43dc-85c9-1443e0c4ad22.jpg
 - id: ad5847b1-1752-4161-a543-f1be20ef675f
   sort_id: 130
   title: Notte di Luna sul Giardino
@@ -1339,9 +1599,11 @@
   width_cm: 45
   height_cm: 52
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: 4cbbe6d4-832d-41a2-856d-49eb45c50e9a.jpg
 - id: 8ed48b8f-7701-4f14-a0a5-5117bce56e58
   sort_id: 131
   title: Chiaro di Luna
@@ -1349,9 +1611,11 @@
   width_cm: 32
   height_cm: 43
   technique: olio su tavola
+  status: 4
   tags:
   - notturno
   - figura
+  back_photo: e003cf55-8ecf-46c1-8825-a115d5d79759.jpg
 - id: f2d27cc2-1faa-488d-bbbd-2f3e99311e46
   sort_id: 132
   title: Mezzanotte in Paese
@@ -1359,9 +1623,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: 94ab6178-20b6-4749-9a91-e79f61cd9423.jpg
 - id: c2828340-4b7a-4413-849a-8d7b93243b29
   sort_id: 133
   title: Notturno sotto la Luna
@@ -1369,9 +1635,11 @@
   width_cm: 35
   height_cm: 45
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: 360f48b4-5e90-48c1-8780-7a7c05a9d23d.jpg
 - id: 730d1423-e8c2-4233-b7f6-f7334c24a960
   sort_id: 134
   title: Notte in Città
@@ -1379,9 +1647,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - città
+  back_photo: bfe3065e-48c8-4d1e-9441-7e4b8e3eff59.jpg
 - id: e6eaa4de-291d-4819-b650-ed64f53434a1
   sort_id: 135
   title: Autunno sul Terrazzo
@@ -1389,9 +1659,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - fiori
+  back_photo: b2d42e47-dfaa-4bc5-8e04-3510ef3b9959.jpg
 - id: ce3c0186-eedc-4fd0-8f70-158b6b115fa4
   sort_id: 136
   title: Figura sul Balcone
@@ -1399,9 +1671,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: 5f18a50d-1fa8-4c50-8f8e-fa542d02c8aa.jpg
 - id: e3b8b42c-8560-40e4-8471-1c938918b61c
   sort_id: 137
   title: 'Interno: Notturno sotto la Luna'
@@ -1409,9 +1683,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
+  back_photo: 23d9bc0a-4355-4671-86f6-f5d04105aa6f.jpg
 - id: 087d4f5a-a0f2-45c2-813b-16aca20c6b65
   sort_id: 138
   title: Notturno d'Estate
@@ -1419,9 +1695,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - interni
+  back_photo: e1f61abc-1e4e-4349-b894-3186740973a0.jpg
 - id: a9bcdefa-3804-4e5b-9811-0cf06bf27c37
   sort_id: 139
   title: Vecchie Case
@@ -1429,9 +1707,11 @@
   width_cm: 44
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
+  back_photo: 6721dfed-f195-43af-ae32-40478dc34cce.jpg
 - id: b1837c7d-fa55-4572-b477-980555fd7208
   sort_id: 140
   title: Alla Finestra
@@ -1439,9 +1719,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - notturno
+  back_photo: c11a30ea-6893-4f61-bd81-c48ba64b1ba2.jpg
 - id: 292c3992-4861-4c95-b0ca-786315579280
   sort_id: 141
   title: Figura alla Finestra
@@ -1449,9 +1731,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 2fb43845-54ca-45f4-a8f3-82d56a00e750.jpg
 - id: b1e55d74-5d3e-4901-8ac2-4eb746b111e4
   sort_id: 142
   title: Vento d'Autunno
@@ -1459,9 +1743,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - fiori
+  back_photo: 0c0ed124-575e-435b-bf04-1b34905f40c7.jpg
 - id: bfef8c00-bf29-4f0b-8e1c-fae96a5af35e
   sort_id: 143
   title: Sul Balcone di Notte
@@ -1469,10 +1755,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - interni
   - figura
+  back_photo: 32d46bba-d9d6-4bf9-81a6-3a060009847e.jpg
 - id: ac530aa8-a33f-40bf-8ca0-5dc4d3912134
   sort_id: 144
   title: Dietro i Fiori
@@ -1480,9 +1768,11 @@
   width_cm: 46
   height_cm: 52
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - figura
+  back_photo: 7389084d-2815-4df8-9404-6dafd8933c8f.jpg
 - id: d36a6ab0-35e9-4fd0-9287-4301058249ac
   sort_id: 145
   title: Senza titolo
@@ -1490,9 +1780,11 @@
   width_cm: 52
   height_cm: 45
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - fiori
+  back_photo: 93b53749-0498-4d17-81a2-bb09d926127c.jpg
 - id: d02e0573-eb01-47c8-a275-239f58625583
   sort_id: 146
   title: Il Cortile Fiorito
@@ -1500,10 +1792,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - fiori
   - paesaggio
+  back_photo: cc03aef7-e35f-4ea3-9c24-0b34e054476e.jpg
 - id: 8615ea1f-bd41-416c-a59d-2f57b35e3660
   sort_id: 147
   title: La Veranda Rossa e Blù
@@ -1511,9 +1805,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - interni
+  back_photo: 13633d88-8ac2-4b68-8282-1b657fb7b139.jpg
 - id: 4a7261f0-c7e3-4b43-b9ae-eff577e34dff
   sort_id: 148
   title: Fiori Gialli e Viola
@@ -1521,9 +1817,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - natura morta
+  back_photo: b45c706f-3abc-4dac-b3c6-65af277148a3.jpg
 - id: 540be3b8-131a-4f85-b708-1cf268a99555
   sort_id: 149
   title: Tenda Rossa e Fiori Azzurri
@@ -1531,9 +1829,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - interni
+  back_photo: bcfc8a05-92e6-4e81-a81e-9e23df4e5968.jpg
 - id: 2f3fd9d0-e453-4463-a60d-79f233afaf13
   sort_id: 150
   title: La Luna e i Fiori
@@ -1541,9 +1841,11 @@
   width_cm: 35
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - interni
+  back_photo: 088aecbc-f104-49d7-9781-f63ea604c48a.jpg
 - id: 3d7c6a54-cc27-4caf-90cd-17f86cb410b3
   sort_id: 151
   title: Fiori Rossi alla Finestra
@@ -1551,9 +1853,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - fiori
   - interni
+  back_photo: 5e8febca-53f2-4a5e-b29d-f20391ed05c5.jpg
 - id: 6224bde3-7422-4030-be78-8dca51202d95
   sort_id: 152
   title: Il Balcone sul Corso
@@ -1561,9 +1865,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - interni
+  back_photo: 9752b231-ce29-4962-a534-3153b53eae09.jpg
 - id: 0b5b42ed-7b4d-4666-b1f8-c3cbec3c4145
   sort_id: 153
   title: Fiori alla Finestra
@@ -1571,9 +1877,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - fiori
   - interni
+  back_photo: d6fba8cb-04cb-4c4b-8963-d7c0f28c5e98.jpg
 - id: 92b841f6-8688-4d8a-a68b-9f90bdb94a67
   sort_id: 154
   title: Fiori Rossi alla Finestra
@@ -1581,9 +1889,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - interni
+  back_photo: e68f5c25-8cac-4ae0-8d6c-904d78e1565d.jpg
 - id: 447f7b5c-7f00-4c43-9f3a-47693142177a
   sort_id: 155
   title: Luna Rossa
@@ -1591,9 +1901,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - fiori
   - interni
+  back_photo: e24f0b2c-a9da-4ccf-a162-ea710c9d67f2.jpg
 - id: dfd0ec7e-ff97-4af6-938d-e1088b95adf5
   sort_id: 156
   title: Fiori Viola alla Finestra
@@ -1601,9 +1913,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - interni
+  back_photo: 0e625b3d-baa2-42b2-be00-128d576957ac.jpg
 - id: 83904f23-2b0a-4d5f-9173-91b0403363e3
   sort_id: 157
   title: 'Interno: Fiori in Penombra'
@@ -1611,10 +1925,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - fiori
   - natura morta
+  back_photo: a4aefb01-d819-4098-804e-c7c7a8ac10dc.jpg
 - id: 44103800-3aea-4037-acc6-669ec4a79c0f
   sort_id: 158
   title: Foglie e Fiori davanti alla Vetrata
@@ -1622,9 +1938,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - natura morta
+  back_photo: 1a439ca7-802a-431f-a757-04cd3b1a58d9.jpg
 - id: f8dc0a26-3d25-425b-ba52-09a800c955b2
   sort_id: 159
   title: Fiori in Penombra
@@ -1632,9 +1950,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - interni
+  back_photo: 458609ac-127c-4460-a91d-488a3415f1c7.jpg
 - id: fb49f405-a12c-4196-b1b0-51aa5d7ba0c7
   sort_id: 160
   title: 'Interno: Fiori Rossi'
@@ -1642,9 +1962,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - fiori
+  back_photo: 4f459d81-19a6-4f07-8fa7-4b94b61431e0.jpg
 - id: 43480029-8880-45ae-874a-699b38c84cd3
   sort_id: 161
   title: La Veranda sul Porto
@@ -1652,10 +1974,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - marina
+  back_photo: af0aae37-cf49-4e6b-8f59-750264c62c01.jpg
 - id: b54af5d5-0725-4f8b-a1d5-31a39435ada4
   sort_id: 162
   title: Fiori e Cemento
@@ -1663,10 +1987,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - fiori
   - interni
+  back_photo: 34dbc82e-f190-42d6-a438-d9cd23cbac79.jpg
 - id: 5acea6e8-eb1a-4150-897d-4b1e54a9b15f
   sort_id: 163
   title: 'Interno: Tavolo e Oggetti'
@@ -1674,9 +2000,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - natura morta
+  back_photo: 42ae9dc2-1f52-4f7c-af39-d21c6448dbc6.jpg
 - id: f69b370c-0696-495f-8dc2-0d9ea745ad4b
   sort_id: 164
   title: La Vetrata e Tavolo Blù
@@ -1684,9 +2012,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - natura morta
+  back_photo: c057afb2-a07c-4858-95b7-585d6077dc38.jpg
 - id: b1087f4a-d68c-4056-9d3a-2a89a2ea4f12
   sort_id: 165
   title: 'Interno: Tenda Verde e Fiori'
@@ -1694,10 +2024,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - fiori
   - natura morta
+  back_photo: c7378893-9088-40b1-b1ff-cf7b4e5ecbf0.jpg
 - id: 871434ae-caf1-40de-b4dd-a60f1c6b5791
   sort_id: 166
   title: Oggetti in Primavera
@@ -1705,9 +2037,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - natura morta
   - fiori
+  back_photo: 294779b5-10d7-4e41-a46c-3d431f205a99.jpg
 - id: 97ba709d-9969-4ad7-83ab-1f83345158d1
   sort_id: 167
   title: Interno con Fiori e Figura
@@ -1715,10 +2049,12 @@
   width_cm: 40
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - fiori
   - figura
+  back_photo: 8d501d44-9a7b-411f-9d23-82fbcd92c473.jpg
 - id: 1952a414-710b-4dfb-804c-159b6104934d
   sort_id: 168
   title: 'Interno: Tavoli Rossi e Tenda Blù'
@@ -1726,9 +2062,11 @@
   width_cm: 52
   height_cm: 45
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: 6d9fdbad-3c7a-44b6-9b81-d289efa73d1b.jpg
 - id: 2b8a2ebe-76d5-4a70-9894-28b6a3dba27a
   sort_id: 169
   title: Meriggio d'Estate
@@ -1736,10 +2074,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - natura morta
   - fiori
+  back_photo: 531291e1-c891-42c3-a723-035fade4b662.jpg
 - id: 730143ad-e110-4887-bb7f-567a01589617
   sort_id: 170
   title: 'Interno: Figura di Spalle'
@@ -1747,9 +2087,11 @@
   width_cm: 35
   height_cm: 30
   technique: olio su tavola
+  status: 0
   tags:
   - interni
   - fiori
+  back_photo: 6562dbc6-5d45-4114-9f38-06a2a196182a.jpg
 - id: 9e90e120-a46a-4019-a22c-ae0a30792127
   sort_id: 171
   title: Fiori Rossi sul Balcone
@@ -1757,9 +2099,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - fiori
   - interni
+  back_photo: 4369c237-b4a6-4d7b-b46f-6e4aeb72a136.jpg
 - id: 3cac9422-e8a4-4142-8dbf-024e95f24037
   sort_id: 172
   title: 'Notte: Fiori alla Finestra'
@@ -1767,10 +2111,12 @@
   width_cm: 35
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - fiori
   - interni
+  back_photo: 429bf069-bf1a-443d-9acd-1be162ed45ee.jpg
 - id: e9a671d3-73cb-4076-99c9-078efdeff513
   sort_id: 173
   title: La Luna alla Finestra
@@ -1778,9 +2124,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - interni
+  back_photo: 766e63e3-796d-4cab-94b2-2a0f611b94be.jpg
 - id: 3819c759-2200-4821-bcc9-3d95a1d0d1cc
   sort_id: 174
   title: Il Vaso sul Balcone
@@ -1788,10 +2136,12 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - natura morta
   - città
   - notturno
+  back_photo: 722361ea-3bb1-4183-a27b-6305fe27cdb2.jpg
 - id: d3cf3f39-c952-44ca-b28b-eaead76269ec
   sort_id: 175
   title: 'Interno: Tavolo Blù e Fiori'
@@ -1799,9 +2149,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - fiori
+  back_photo: aaf012f8-e611-49fd-880d-209fe87095a8.jpg
 - id: 16c4990b-2117-4d7a-b2f6-0d7bff6a8249
   sort_id: 176
   title: Senza titolo
@@ -1809,9 +2161,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - interni
+  back_photo: 48482977-4c88-44b1-8640-d6adc128f71e.jpg
 - id: 99e23c99-b6e3-4f57-ad9f-78005d56276b
   sort_id: 177
   title: Estate sul Tavolo
@@ -1819,9 +2173,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - natura morta
   - interni
+  back_photo: 69c067d8-60df-4a6c-b61d-75d698ac77d3.jpg
 - id: aba5af00-2c9f-4088-ad14-d470353851c5
   sort_id: 178
   title: Vasi e Fiori sotto la Luna
@@ -1829,10 +2185,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - natura morta
   - notturno
   - fiori
+  back_photo: 7194c441-b3ae-4072-b241-8a4dda446cdd.jpg
 - id: 64c11449-a481-4990-987f-cd738ecacfc7
   sort_id: 179
   title: Il Vaso Blù
@@ -1840,9 +2198,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - natura morta
   - interni
+  back_photo: 9d1dfb77-6c68-4842-8e8a-790198e6905b.jpg
 - id: ff8cac51-570f-45d2-a1d8-bec71f693508
   sort_id: 180
   title: 'Interno: Oggetti sul Tavolo'
@@ -1850,9 +2210,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: 8f4c80cf-c711-4b6d-99dc-608a225be33a.jpg
 - id: 49ee91d3-79a7-43cb-a9e4-7a8965981009
   sort_id: 181
   title: Bottiglie Controluce
@@ -1860,9 +2222,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - natura morta
   - interni
+  back_photo: a54b3b98-c239-49c8-b90d-eed0249913a9.jpg
 - id: 1adbde7f-a455-4f53-9316-7fc688610ad2
   sort_id: 182
   title: Oggetti alla Finestra
@@ -1870,9 +2234,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - natura morta
+  back_photo: 11c868ab-e61a-4abd-b75e-ea50b3a91434.jpg
 - id: 06490473-76a6-4322-a8df-f302c30afe9f
   sort_id: 183
   title: Controluce al Tramonto
@@ -1880,10 +2246,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - città
   - interni
+  back_photo: 7227bdd3-a240-469f-89c3-ee7696d39f4f.jpg
 - id: c1ae7585-6174-4481-b3f9-dbe83fff4e5a
   sort_id: 184
   title: Oggetti alla Finestra
@@ -1891,9 +2259,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: b0750b5c-95a2-4338-a78e-879be6a78d22.jpg
 - id: 9adbe639-5980-4074-9fd8-6469d0a33564
   sort_id: 185
   title: Oggetti sul Balcone
@@ -1901,9 +2271,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - natura morta
   - interni
+  back_photo: c8003c72-8319-4117-a21c-d6c908ef7b7a.jpg
 - id: 1438684c-268e-43d0-93e9-0474d2121308
   sort_id: 186
   title: 'Interno: Tavolo Rosso e Oggetti'
@@ -1911,9 +2283,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - natura morta
+  back_photo: 57481a91-7fe1-4b72-aaf6-66475ba83cae.jpg
 - id: 33b1109e-9da3-4c64-bc49-e1037b9ea15c
   sort_id: 187
   title: Tenda, Tavolo e Oggetti
@@ -1921,9 +2295,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - natura morta
   - città
+  back_photo: 20a0f9e0-572d-46ea-aad0-2ae52d84004c.jpg
 - id: e11553fd-2eac-43df-8d39-4519810bbca8
   sort_id: 188
   title: Tavolo sul Balcone
@@ -1931,10 +2307,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - natura morta
   - interni
   - città
+  back_photo: 8f131430-9ff4-412e-af6f-9ea619b825e5.jpg
 - id: 362c4434-42ef-4125-9ee3-a2cd8899290b
   sort_id: 189
   title: Senza titolo
@@ -1942,9 +2320,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: 3ce38899-21ad-4c99-bf0e-c62c4ea52789.jpg
 - id: 70763247-55a3-45d8-89a9-1e6089e0717f
   sort_id: 190
   title: Tavolo sotto la Pergola
@@ -1952,9 +2332,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - natura morta
   - interni
+  back_photo: 7f836b56-1985-4309-8211-5d59df503799.jpg
 - id: 5a5de26c-499f-46ad-871f-a5c5e57871c7
   sort_id: 191
   title: Tavolo e Oggetti alla Finestra
@@ -1962,9 +2344,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: 10d29d3c-227e-4338-9ac9-daf141382c51.jpg
 - id: 44768516-0eb9-4f52-b6fe-e35040118813
   sort_id: 192
   title: Senza titolo
@@ -1972,10 +2356,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - città
   - notturno
+  back_photo: fbc36326-c50a-4a78-889e-b8cf24ba6c45.jpg
 - id: bc42bb57-a072-412a-95ce-dedc358c7ee6
   sort_id: 193
   title: Il Vaso Blù
@@ -1983,9 +2369,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su cartone
+  status: 2
   tags:
   - interni
   - natura morta
+  back_photo: 7c05f5d5-f160-454c-bbf8-679b60da0d83.jpg
 - id: 571d42a3-1adf-448e-8fdd-1f31926be446
   sort_id: 194
   title: 'Interno: il Vaso Blù'
@@ -1993,10 +2381,12 @@
   width_cm: 45
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
   - fiori
+  back_photo: 7ff84852-cb4e-40ef-8161-afcac6f815ce.jpg
 - id: 28042b10-939f-45b6-8414-0c7ecbad0c8e
   sort_id: 195
   title: Oggetti sul Tavolo Rosso
@@ -2004,9 +2394,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - interni
+  back_photo: bb2ebaa8-678e-4571-a4ad-e967b10525d0.jpg
 - id: b1b741d2-cd25-4fe3-ab25-586da95374c7
   sort_id: 196
   title: 'Interno: Tavolo Verde e Vasi'
@@ -2014,9 +2406,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - natura morta
+  back_photo: 3d703237-54cb-4681-b339-9315e3914302.jpg
 - id: 229161ab-f6a2-4dac-9c0a-a2611e63f09d
   sort_id: 197
   title: 'Interno: tavoli rossi e vaso'
@@ -2024,9 +2418,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - natura morta
+  back_photo: afae4c7b-9253-426e-a117-198b4741dc41.jpg
 - id: b20e48f1-1819-459f-a4ea-a6c38e6614a7
   sort_id: 198
   title: 'Interno: Tavolo Blù'
@@ -2034,9 +2430,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - natura morta
+  back_photo: fca0df8b-4406-461e-912f-c7fcb7047b11.jpg
 - id: 05c4ffb3-85dc-49c8-98a9-ef9ae168a1b4
   sort_id: 199
   title: Interno Giallo e Tavolo Verde
@@ -2044,9 +2442,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - natura morta
+  back_photo: 168fdee0-d03a-4548-9eb0-8444ab4ce89e.jpg
 - id: e14a1d03-4cc4-45d8-8630-d12fb5cbcfc4
   sort_id: 200
   title: 'Interno: la Tenda Rossa e Blù'
@@ -2054,10 +2454,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - notturno
   - fiori
+  back_photo: 4240c0a9-465f-4523-891b-33f491c0e6f4.jpg
 - id: 46fb66aa-2f09-48e0-864c-4dc62be9e096
   sort_id: 201
   title: Tavolo Rosso in Giardino
@@ -2065,10 +2467,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - fiori
   - natura morta
+  back_photo: d22e82f6-6066-44ae-b003-712bf55e2117.jpg
 - id: 91a5e309-cb5a-4573-923e-7c3bbfe73af4
   sort_id: 202
   title: 'Interno: Tavolo Rosso e Oggetti'
@@ -2076,9 +2480,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - natura morta
+  back_photo: 85bcb516-04cd-4561-98f1-fe202a7487f7.jpg
 - id: 45ee0eae-9d35-422f-a0de-d291c4c2d946
   sort_id: 203
   title: Il Tavolo Rosso sul Balcone
@@ -2086,9 +2492,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
+  back_photo: 6fa38cf5-43bd-4ae0-81c3-9bd199baf719.jpg
 - id: 25f4fc2c-8417-4afb-a146-6c972b2400a9
   sort_id: 204
   title: In Veranda al Tramonto
@@ -2096,9 +2504,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - notturno
+  back_photo: 12540b6e-ea0e-44b3-83e0-c5141b44c709.jpg
 - id: d0a51250-9c95-4711-80db-6f9230c465c4
   sort_id: 205
   title: Interno al Tramonto
@@ -2106,9 +2516,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - notturno
+  back_photo: f40fd135-4513-465e-b26f-ca08b833fef1.jpg
 - id: e5840445-b940-4d6f-9108-066bc09ef35c
   sort_id: 206
   title: Interno Rosso e Blù
@@ -2116,10 +2528,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
   - figura
+  back_photo: da4a8642-2140-4cff-bc27-45002c4798ae.jpg
 - id: 38c5e417-d247-4d25-a535-a86b1469c2a3
   sort_id: 207
   title: 'Interno: la Scultura e la Figura'
@@ -2127,9 +2541,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
+  back_photo: 1ebc55c3-0159-4dc7-a40d-3bbe3677f4dc.jpg
 - id: 1c2a4086-d169-4de3-9b76-95689549be0c
   sort_id: 208
   title: Interno di Notte
@@ -2137,10 +2553,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - interni
   - figura
+  back_photo: 40fe8a2f-e932-49d3-ab39-a4b1948e0caa.jpg
 - id: 487d0b2a-6609-412d-a478-c0f5e817c2f8
   sort_id: 209
   title: Tavolo Rosso e Figura alla Finestra
@@ -2148,10 +2566,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
   - notturno
+  back_photo: 3cd343cd-8334-4533-a0cb-06e88c6ed986.jpg
 - id: def6aaed-91f0-471f-b6e3-eface7c1392e
   sort_id: 210
   title: Interno di Sera
@@ -2159,9 +2579,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
+  back_photo: a701b88e-edba-4668-a9a1-9be717bd704d.jpg
 - id: fce9e866-050e-4b58-9807-f71afbe361e7
   sort_id: 211
   title: 'Interno: Donna alla Finestra'
@@ -2169,9 +2591,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tela
+  status: 2
   tags:
   - interni
   - figura
+  back_photo: 49612cb0-a5d8-4fd2-953e-0f6f728d10f8.jpg
 - id: 9d53d319-7398-4621-9b89-ae18cb42bc56
   sort_id: 212
   title: 'Interno: Figura nel Balcone'
@@ -2179,10 +2603,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
   - notturno
+  back_photo: 6270d84f-6010-413b-9025-2ae842b7a2ea.jpg
 - id: 83c53c27-7920-423d-8a43-f0f319f9fafe
   sort_id: 213
   title: Scultura in Interno
@@ -2190,9 +2616,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
+  back_photo: 4c04b7cc-92e1-4b1b-b63f-a4978ac86442.jpg
 - id: b235453e-8a0e-494f-b1e4-8a8e153d05e6
   sort_id: 214
   title: I Vasi sul Balcone
@@ -2200,10 +2628,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - natura morta
   - fiori
   - città
+  back_photo: 269acb01-5215-4b81-80f2-589cd723be98.jpg
 - id: 92ab4b7d-9b12-42eb-88b1-4fecbc2eaa5a
   sort_id: 215
   title: Interno con Vaso e Figura
@@ -2211,10 +2641,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
   - natura morta
+  back_photo: dbdf8af6-044d-4e4e-ba35-e1c7c526ea1d.jpg
 - id: fd418c30-bcfa-49fe-a7ec-c4183af42654
   sort_id: 216
   title: Maggio sul Terrazzo
@@ -2222,10 +2654,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: 53f52eda-6316-4207-806c-40810c5ba282.jpg
 - id: d265fa28-baf7-4496-8bb2-e4e315181400
   sort_id: 217
   title: Dietro le Tende
@@ -2233,10 +2667,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - notturno
   - fiori
+  back_photo: 86ae1abf-ee6c-4e17-bffb-fe4ed689ab2a.jpg
 - id: 7f3ab8ec-903d-40c7-90f0-be513a1b8f51
   sort_id: 218
   title: Pianta su Tavolo Verde
@@ -2244,10 +2680,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - natura morta
   - fiori
+  back_photo: 4b243a15-b1b5-47ac-beb4-5fb1ddd60e3d.jpg
 - id: e7f0f449-035a-407f-ad0f-48614d12d09d
   sort_id: 219
   title: Guardando la Città
@@ -2255,10 +2693,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - interni
+  back_photo: a76441d7-2305-4ed0-a4be-6b9ee316488a.jpg
 - id: e985b122-88ce-4399-aea6-8e60982a132d
   sort_id: 220
   title: La Terrazza sulla Città
@@ -2266,10 +2706,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - paesaggio
   - fiori
+  back_photo: e4d21172-3099-4d99-b61c-15cad80a49a2.jpg
 - id: f779429c-aaad-4740-87ef-feaea1be3d6e
   sort_id: 221
   title: Tavolo Blù su Terrazzo
@@ -2277,10 +2719,12 @@
   width_cm: 55
   height_cm: 45
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - fiori
   - natura morta
+  back_photo: 431c023c-4798-4089-8064-2fc75c15156b.jpg
 - id: 3a27b80d-4b6e-4f6a-a226-3c09ad776add
   sort_id: 222
   title: Interno e Figura in Cortile
@@ -2288,9 +2732,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: c9e3d281-f1bf-4813-90f1-2d4f298795af.jpg
 - id: edf95fbc-a00b-4f5d-95ae-151201e25e65
   sort_id: 223
   title: Mattino alla Vetrata
@@ -2298,10 +2744,12 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - notturno
   - fiori
+  back_photo: c5b94f21-f1d2-4593-a209-a3e0078d6b27.jpg
 - id: 13191663-2aa2-40b3-89c5-57ec62ba4204
   sort_id: 224
   title: 'Interno: Tavoli Rossi e Gialli'
@@ -2309,9 +2757,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
+  back_photo: 6dd86eef-c71f-4c00-9354-784fe9f9c726.jpg
 - id: 6caa9513-6d68-479d-a024-2a4483819525
   sort_id: 225
   title: 'Interno: Tavolo Rosso e Figura'
@@ -2319,9 +2769,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: cfd5aee6-1d43-4b4e-8990-f1bd58536310.jpg
 - id: f3c1e8e2-857a-4ce2-bfaf-2d6bf8c09eba
   sort_id: 226
   title: Quiete Serale
@@ -2329,10 +2781,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - notturno
   - fiori
+  back_photo: 211c7d5c-ccaf-4229-ad4e-a7a5676e3398.jpg
 - id: 4b837276-9c35-4f18-bf08-2b55dd22cf8e
   sort_id: 227
   title: 'Interno: Figura e Vaso'
@@ -2340,10 +2794,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
   - notturno
+  back_photo: a27abcd4-cdde-489b-835f-b1a5705fc664.jpg
 - id: 2eb39343-ed25-4d11-9201-aa75b39f6aee
   sort_id: 228
   title: Estate in Terrazza
@@ -2351,10 +2807,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - paesaggio
   - fiori
+  back_photo: 8dc8a452-0586-4c99-802a-d831b062a349.jpg
 - id: 41f7e7e2-655d-4a4a-9721-479081a94dd8
   sort_id: 229
   title: 'Interno: Figura e Piante'
@@ -2362,10 +2820,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
   - fiori
+  back_photo: 8c4e8cbc-0080-4954-a7f0-01e1a515c473.jpg
 - id: 145aee65-7b66-44b7-9789-015815f0a7ff
   sort_id: 230
   title: Sul Divano verso Sera
@@ -2373,10 +2833,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - notturno
   - figura
+  back_photo: 45a68a01-e1e7-444c-8847-3b20224260f0.jpg
 - id: c6c0efb4-e6f8-4fad-abae-a5e864a62013
   sort_id: 231
   title: 'Interno: Tenda Verde e Poltrona'
@@ -2384,9 +2846,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
+  back_photo: 0326ba3b-80f1-4cbd-b01f-2d053bd85b9e.jpg
 - id: 2fea51a8-fa76-4aca-a0be-a815c2df0d62
   sort_id: 232
   title: Figura sotto la Pergola
@@ -2394,10 +2858,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - fiori
   - paesaggio
+  back_photo: 7a79128a-1778-4b7f-b849-8be0b09a11f2.jpg
 - id: 5f263ab6-e492-4e6d-b731-93fe7722ad31
   sort_id: 233
   title: Figure e Fiori in Penombra
@@ -2405,10 +2871,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - figura
   - fiori
   - interni
+  back_photo: 1fef2e8f-597b-4e22-b060-0ae43156bebb.jpg
 - id: 4bd97559-d12a-4e58-bf97-9d96533a77ef
   sort_id: 234
   title: Allo Specchio di Sera
@@ -2416,10 +2884,12 @@
   width_cm: 54
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - notturno
   - fiori
+  back_photo: 0136be0f-5526-475c-88ea-344d3de09107.jpg
 - id: 799368ed-29fd-49f9-b107-e5bb56742bf8
   sort_id: 235
   title: 'Interno: Tavoli Rossi'
@@ -2427,9 +2897,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
+  back_photo: fdeb916d-78b5-4313-aa16-953b85afdfc1.jpg
 - id: bb548823-dd34-49a6-83e8-9f26b61b5dbc
   sort_id: 236
   title: Panni al Sole
@@ -2437,9 +2909,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - figura
   - interni
+  back_photo: 1575167b-31e0-4340-9e42-d3f784179b32.jpg
 - id: 27700ccd-5d10-46ec-b30e-9d9d013cd0d1
   sort_id: 237
   title: Primavera sul Balcone
@@ -2447,10 +2921,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
   - fiori
+  back_photo: 2b8350e2-54ed-45ed-9d59-f9a7acf0874f.jpg
 - id: 38f80b4d-9d50-45c8-bc1e-54a64fb5ede6
   sort_id: 238
   title: Donna alla Finestra
@@ -2458,10 +2934,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
   - paesaggio
+  back_photo: 5b9fb128-9ba6-4d8a-88d1-9ea5e8838972.jpg
 - id: 2c8a4a35-616c-4fd9-af5f-57ebb7ac2395
   sort_id: 239
   title: L'Albero Fiorito
@@ -2469,10 +2947,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - fiori
   - figura
   - notturno
+  back_photo: c26ca274-c89e-48ed-94dd-2d09f8cb7df5.jpg
 - id: c71bab11-20e3-48e0-a40b-3f7a705b1e16
   sort_id: 240
   title: Notturno sul Balcone
@@ -2480,10 +2960,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - interni
   - figura
+  back_photo: 4d5553b2-0ae5-499b-b01c-dbb423cf9f94.jpg
 - id: a6d31f79-47c6-4135-87e2-04a00b09aafb
   sort_id: 241
   title: Sul Balcone a Primavera
@@ -2491,10 +2973,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - interni
   - notturno
+  back_photo: 7a3fe446-3c6d-435e-95b1-f0c036f5f4b1.jpg
 - id: 951b7af2-d3c9-40dd-9a9f-5bab89b7933f
   sort_id: 242
   title: Guardando i Pesci Rossi
@@ -2502,9 +2986,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - natura morta
+  back_photo: 3c85478c-0444-436b-85bc-125a8674306f.jpg
 - id: d0c8ce71-0991-4de0-9606-272c50149649
   sort_id: 243
   title: Dietro la Tenda Verde
@@ -2512,9 +2998,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 4
   tags:
   - figura
   - notturno
+  back_photo: a15896e7-3f88-4a85-8a31-ada7b274c9e4.jpg
 - id: f8cb60a3-e46e-49a7-9570-4f91ee3e84cf
   sort_id: 244
   title: Notturno alla Finestra
@@ -2522,9 +3010,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - interni
+  back_photo: 4198d4a4-3ae3-454a-bdd1-83c34c7fa3b8.jpg
 - id: 7a97f0d6-80ed-458e-9100-2af5a1b9e6fe
   sort_id: 245
   title: Mattutino
@@ -2532,10 +3022,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - paesaggio
   - notturno
+  back_photo: afc50399-e75a-44a1-8549-e3e5b9313a50.jpg
 - id: d089e7a0-7703-412d-a9a7-0e08aac3653b
   sort_id: 246
   title: Tavoli Rossi e Figura sul Balcone
@@ -2543,9 +3035,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
+  back_photo: edda7539-38ae-4bbb-9fbe-252ee6be4747.jpg
 - id: 91c31a81-b795-44fe-b07e-5e3a3a09f73c
   sort_id: 247
   title: 'Sul Balcone: Figura e Tavoli'
@@ -2553,9 +3047,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - natura morta
+  back_photo: 96590533-73e5-4721-92e4-6d6b76bd03f1.jpg
 - id: 7c770ed3-55a8-4fd0-8508-64bf16e06202
   sort_id: 248
   title: Paesaggio Urbano
@@ -2563,9 +3059,11 @@
   width_cm: 35
   height_cm: 43
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 31fbe185-afe5-4643-8436-66c74107a531.jpg
 - id: 0569cd34-06e8-4454-b825-25e66545f33b
   sort_id: 249
   title: Fiori di Sera
@@ -2573,9 +3071,11 @@
   width_cm: 45
   height_cm: 60
   technique: olio su tavola
+  status: 1
   tags:
   - fiori
   - interni
+  back_photo: 38250015-2153-4620-a9a4-bb53f4d73db2.jpg
 - id: dd4a6037-beed-4382-9bc6-3d8970a06eb4
   sort_id: 250
   title: Primavera in Periferia
@@ -2583,9 +3083,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 135546ef-b247-4f22-a6a3-2771faf97569.jpg
 - id: 677064d2-ed87-4d9f-ba99-d5b3d63a92bd
   sort_id: 251
   title: Ultimo Sole
@@ -2593,10 +3095,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tela
+  status: 4
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: a23b7627-c316-4cec-8a2e-4240727a7b0a.jpg
 - id: 9395cb00-c77b-4e8f-b61c-229d1c2eb532
   sort_id: 252
   title: Aspettando la Sera
@@ -2604,9 +3108,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 37a79d75-fc95-4125-81f4-da3f1ed0fae1.jpg
 - id: a98dac6a-cb65-4559-aac2-bf7968d4d7e1
   sort_id: 253
   title: Prime Luci del Mattino
@@ -2614,10 +3120,12 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - paesaggio
   - marina
+  back_photo: 5019d46c-8f5b-408f-96dc-9283da2bcbdc.jpg
 - id: b3208b3b-ca14-4705-9a31-8182542e989b
   sort_id: 254
   title: Estate in Giardino
@@ -2625,9 +3133,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - figura
+  back_photo: 11a1ff58-8b69-4540-baad-edf31b59f198.jpg
 - id: 4b64f034-9bd0-4c1e-b023-016425de38aa
   sort_id: 255
   title: Figura sul Terrazzo
@@ -2635,9 +3145,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - notturno
+  back_photo: 0fbafea7-ad13-4715-9ef8-f77de9e464c0.jpg
 - id: 11c6375d-9785-4373-a920-6e59aac0c7c9
   sort_id: 256
   title: Fiori Rossi in Riva al Mare
@@ -2645,10 +3157,12 @@
   width_cm: 53
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - marina
   - notturno
+  back_photo: 78b1a56b-5845-427c-9000-d0e63b675efb.jpg
 - id: 572b621f-c54f-4992-bc0a-abfdfcd270e4
   sort_id: 257
   title: Figura in Giardino
@@ -2656,10 +3170,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - paesaggio
   - fiori
+  back_photo: 06acddcb-a32c-49c1-9a5d-0a95a37f2dfb.jpg
 - id: 9004f6a2-822c-4b38-8ddd-416e872c9c02
   sort_id: 258
   title: Giardino dalla Finestra
@@ -2667,9 +3183,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - paesaggio
+  back_photo: ee88df44-3259-453d-8a71-520a9475dd1f.jpg
 - id: 0fa8ef03-de26-4fd9-b524-b3100819e7a3
   sort_id: 259
   title: Ritorno al Paese
@@ -2677,10 +3195,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
   - figura
+  back_photo: 7903d8d1-0d1b-4f68-9a28-0728c3d60ee5.jpg
 - id: 8d1ab047-dc68-4a49-8ae4-1b0a365ffb02
   sort_id: 260
   title: Figura nell'Orto
@@ -2688,9 +3208,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - figura
   - paesaggio
+  back_photo: d637df5d-12ed-4ce9-9257-4f8b218717f5.jpg
 - id: 3c1a38f4-23f1-4920-b7fc-5050743c60cc
   sort_id: 261
   title: Mattino sul Terrazzo
@@ -2698,9 +3220,11 @@
   width_cm: 45
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - paesaggio
+  back_photo: 65579d6f-d252-46c6-abfd-e615d8d5ab63.jpg
 - id: 19f7f870-6485-4b42-9b97-36243788da7d
   sort_id: 262
   title: Passeggiata ai Giardini
@@ -2708,9 +3232,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - fiori
+  back_photo: 9266f6b6-d303-427e-8be2-6a10c1cbd1da.jpg
 - id: 96760c03-758c-4ac1-bf3e-4d3ed5333fa8
   sort_id: 263
   title: Per Fiori in Giardino
@@ -2718,10 +3244,12 @@
   width_cm: 52
   height_cm: 45
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - paesaggio
   - figura
+  back_photo: 5c147052-e10e-4edb-a939-8b93aafad0a6.jpg
 - id: 97907e4f-6fcd-4bde-8695-2593ddfc64eb
   sort_id: 264
   title: In Vacanza al Mare
@@ -2729,9 +3257,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - marina
+  back_photo: f8815271-1509-4c2a-a4f0-d78a97ae51a4.jpg
 - id: 5ca17c17-6015-4d9e-b6ea-6bdc906d9ccf
   sort_id: 265
   title: Figura in Riva al Lago
@@ -2739,10 +3269,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: b95d0c7f-9105-408b-aaab-3d60d9b20ea3.jpg
 - id: 44397e58-01bb-4601-b7c7-10b403b7014d
   sort_id: 266
   title: Aspettando la Sera
@@ -2750,10 +3282,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - fiori
+  back_photo: 8a097b6b-7af1-41f1-b886-a3f105252f6c.jpg
 - id: 7e9d2d76-83c5-494c-8f6f-ae14276139bb
   sort_id: 267
   title: Mattina nel Giardino
@@ -2761,10 +3295,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - fiori
   - paesaggio
+  back_photo: 5c247f51-ec0c-476d-889b-54e884044dc4.jpg
 - id: 2e3a53de-68c5-49d1-a515-5a1fbb948c36
   sort_id: 268
   title: Fiori in Riva al Lago
@@ -2772,10 +3308,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: 6d835de1-a4ef-4f59-88ea-8733a834a539.jpg
 - id: b5275141-ffb4-4dc5-a66d-77f786f606a9
   sort_id: 269
   title: Grandi Fiori sul Terrazzo
@@ -2783,10 +3321,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - fiori
   - figura
+  back_photo: 529af670-d72b-4715-93c7-1aae7e334285.jpg
 - id: ceda1d9c-208f-42bf-974a-2db3c6578953
   sort_id: 270
   title: Estate nel Prato
@@ -2794,9 +3334,11 @@
   width_cm: 55
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - figura
+  back_photo: 4ceb52fb-8706-49e1-81bd-eab356d2f7da.jpg
 - id: 1de2a67d-2c65-4b65-b8b5-102ce31198cc
   sort_id: 271
   title: Lettura Pomeridiana
@@ -2804,11 +3346,13 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - notturno
   - città
   - figura
+  back_photo: 27990af6-940b-4bfe-9bc3-618c12cb4f63.jpg
 - id: 409016b3-6843-4765-ac7f-70dc1ded6d4d
   sort_id: 272
   title: In Lettura sul Terrazzo
@@ -2816,10 +3360,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - città
   - notturno
+  back_photo: c4e50c92-16d2-42cb-b395-37705c718e91.jpg
 - id: 8973c6cb-fba9-411b-866d-62e92955199f
   sort_id: 273
   title: Estate in Giardino
@@ -2827,11 +3373,13 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - figura
   - interni
   - fiori
+  back_photo: 3a097eeb-24c0-40df-873b-40e2a060fe27.jpg
 - id: ae63b9bc-d1ae-4a32-80f1-be4d00691359
   sort_id: 274
   title: Tavolo Rosso in Giardino
@@ -2839,10 +3387,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - natura morta
   - interni
   - fiori
+  back_photo: ae2f7dd2-746c-4d3f-8d28-25652b38a171.jpg
 - id: a0a8116d-99a2-4acb-94a3-ea7635fdaeaf
   sort_id: 275
   title: La Terrazza in Collina
@@ -2850,10 +3400,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: 799e71b8-7acb-4292-9bde-ff12fa5e71b6.jpg
 - id: 9f5f6567-c44f-4201-9353-60c52e21eadb
   sort_id: 276
   title: Sul Terrazzo
@@ -2861,10 +3413,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: a60fd762-a33a-4fa3-9e52-c3d06375e2d1.jpg
 - id: df5be2a6-149c-440c-a829-2f10823456f7
   sort_id: 277
   title: Figura in Poltrona
@@ -2872,10 +3426,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
   - figura
+  back_photo: fcd59f28-03fa-4737-acf4-ea180cea653e.jpg
 - id: 7f91f666-9651-4f23-9c0e-6ab79d2567db
   sort_id: 278
   title: Colazione sul Terrazzo
@@ -2883,10 +3439,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - paesaggio
   - figura
+  back_photo: 0b87b711-07e7-4315-a3d9-fb756c9674aa.jpg
 - id: 0c9c8832-cbc1-4a90-b9b1-7005421383e6
   sort_id: 279
   title: Sul Terrazzo in Collina
@@ -2894,9 +3452,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 5e4621fd-e879-4fe4-8e26-58e667ef6cbb.jpg
 - id: e5523628-2682-4fea-b4b8-891bce8abdda
   sort_id: 280
   title: 'Interno: Tavoli e Figura'
@@ -2904,9 +3464,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: c1d124e0-fa1d-4590-9226-9f423f3924d4.jpg
 - id: a51e205c-8081-4ea2-bea6-548e88969ab9
   sort_id: 281
   title: Interno con Tenda e Tavoli
@@ -2914,9 +3476,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - natura morta
+  back_photo: be645cdc-38b4-424a-ba7f-31b0d0680c40.jpg
 - id: 0926d250-c84b-45bb-bd1e-328a4e2da49b
   sort_id: 282
   title: Fine Estate nel Quartiere
@@ -2924,10 +3488,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
   - notturno
+  back_photo: ffc38aa2-2d2e-4d00-8666-8f0e14681df7.jpg
 - id: 26d229c0-94de-4fce-ab11-796733065ed2
   sort_id: 283
   title: 'Interno: Figure ai Tavoli'
@@ -2935,9 +3501,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
+  back_photo: 6b6eabea-8397-479c-a3ba-96016dcb00bb.jpg
 - id: 404913e4-8047-42e2-8437-fa4109353af2
   sort_id: 284
   title: Guardando la Sfera
@@ -2945,10 +3513,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - notturno
   - fiori
+  back_photo: 8ec4814f-b9b4-45da-942e-b420a3036491.jpg
 - id: b4ec93e1-0282-4dea-a822-666744e042dd
   sort_id: 285
   title: Figura a Tavola
@@ -2956,10 +3526,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
   - notturno
+  back_photo: b2316e6f-1e19-48cd-afcf-40ccc6dffbe9.jpg
 - id: 63d24294-2cc0-4c60-9d45-f58e5b637550
   sort_id: 286
   title: Figura in Interno
@@ -2967,9 +3539,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: d70af7b3-b0bd-4a57-bbdd-16b823127bac.jpg
 - id: 48c4d190-b800-4967-a881-8df0b441edea
   sort_id: 287
   title: Sera sul Terrazzo
@@ -2977,11 +3551,13 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - notturno
   - città
   - paesaggio
   - figura
+  back_photo: 9a0b03cc-e316-4b3d-aee2-00f66263c66a.jpg
 - id: c7ab74e7-e0c4-4621-95dc-4daefc38d231
   sort_id: 288
   title: 'Interno: Figura dietro la Vetrata'
@@ -2989,9 +3565,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
+  back_photo: 002f3951-4b53-463e-8278-76389d1c150a.jpg
 - id: 88c5b1cb-3185-4503-a8e0-b7728297825e
   sort_id: 289
   title: La Terrazza Rossa e Blù
@@ -2999,9 +3577,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
+  back_photo: 3408533f-ed06-4e2c-a180-0b269c77c039.jpg
 - id: 95e5e70d-72b6-4153-83c8-f10901a478bb
   sort_id: 290
   title: Agosto in Periferia
@@ -3009,11 +3589,13 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - interni
   - figura
+  back_photo: 414824e6-e7fd-48bf-8229-7fd171e52138.jpg
 - id: 9591b146-0d9c-47b8-bb7b-381d61a0c06e
   sort_id: 291
   title: Interno con Figure
@@ -3021,9 +3603,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: da8ab248-f8aa-49e9-8fd7-6d9b549c2877.jpg
 - id: 73818dc6-740d-490d-93aa-e720e450f53e
   sort_id: 292
   title: Mattino al Bar
@@ -3031,10 +3615,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - città
   - notturno
+  back_photo: 60805ee6-02fd-4749-86bb-e1fcb493a570.jpg
 - id: 5c7c52d0-4f07-4a34-88f7-2f734e755ced
   sort_id: 293
   title: 'Interno: Figure al Tavolo'
@@ -3042,9 +3628,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 2985fc71-6ce0-4554-9467-07e63aa88add.jpg
 - id: e8eb3383-7fcd-4324-917d-68dc58b0ab34
   sort_id: 294
   title: In Strada
@@ -3052,11 +3640,13 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: bd6613c0-2a47-4042-a414-8b93d66e4137.jpg
 - id: c3537304-b795-4662-9c9d-aeb7ba3e6ae2
   sort_id: 295
   title: Nel Bar
@@ -3064,9 +3654,11 @@
   width_cm: 40
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
+  back_photo: 3f6d7286-594b-420e-8f13-428722d0a1c0.jpg
 - id: 61586977-9c80-4bae-b631-937de7a42219
   sort_id: 296
   title: Pomeriggio sotto la Pergola
@@ -3074,11 +3666,13 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: 1aceb52a-f758-4e47-9d74-37273fa3db3b.jpg
 - id: bbbb9190-848b-4d9b-80c2-cf906048dcf6
   sort_id: 297
   title: Giocatori di Carte
@@ -3086,10 +3680,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
   - notturno
+  back_photo: fc2e9179-e9c5-45b5-9b6a-eeda0dcc923b.jpg
 - id: 90e35de0-115e-4d38-bedc-864c97b66ac0
   sort_id: 298
   title: Nel Bar
@@ -3097,10 +3693,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - città
   - figura
+  back_photo: 2a7cce5e-88af-46ea-83f6-2da9517c2f35.jpg
 - id: ffd6cb32-6703-4813-bfcc-6c740b524f8e
   sort_id: 299
   title: 'Interno: Tavolo Verde e Figure'
@@ -3108,9 +3706,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: bd6dc844-c1e2-45ee-967b-1906989315a2.jpg
 - id: 77a2c58a-c778-4b84-a914-e5614f1a26a0
   sort_id: 300
   title: 'Interno: Figure e Tavoli'
@@ -3118,9 +3718,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 76cd69f4-99bb-425a-a177-a6fdb697fce2.jpg
 - id: 04024c20-3b7a-443b-93f0-555d60701f04
   sort_id: 301
   title: Sera all'Osteria
@@ -3128,11 +3730,13 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: c9cbc456-e567-45d3-acac-31c0182e6207.jpg
 - id: 87a5adb1-f954-4c93-ab33-cc57137a7e1d
   sort_id: 302
   title: Si fa Sera
@@ -3140,10 +3744,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - notturno
   - figura
+  back_photo: f0ecbebc-5344-4f5e-a425-e9d8fea94307.jpg
 - id: 1d5043fc-c53b-4b64-814d-862c247659b4
   sort_id: 303
   title: Senza titolo
@@ -3151,9 +3757,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - figura
+  back_photo: a778623f-5954-47f8-b0a2-dc8fb34e3dcd.jpg
 - id: 30332b88-196d-4fb4-8366-80fcf40f862c
   sort_id: 304
   title: Figura in Penombra
@@ -3161,10 +3769,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - notturno
   - interni
+  back_photo: d86a669f-b90d-4e7e-badf-5f3c4d9b8794.jpg
 - id: 9ca65399-c5e0-4de7-b0d7-7c386dbdba50
   sort_id: 305
   title: 'Interno: Fiori e Oggetti'
@@ -3172,9 +3782,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - fiori
+  back_photo: 9923ba94-7474-4aee-bf2d-cf0f9ea4228f.jpg
 - id: 1f5471b6-38d9-4401-a450-2d2b1d3913ad
   sort_id: 306
   title: La Chiesetta del Paese
@@ -3182,10 +3794,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
   - figura
+  back_photo: 695ddc9c-dccf-4386-80f0-d5e16c4a2c3d.jpg
 - id: fa307270-ac89-4dee-aea2-7e22f0a0ae79
   sort_id: 307
   title: La Piazza sotta la Luna
@@ -3193,10 +3807,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
   - interni
+  back_photo: 0f2d0b6a-293d-4465-8e5d-ac0891926f3b.jpg
 - id: 947e6710-4b23-4e35-8dc2-174af6cdf4d3
   sort_id: 308
   title: Solitudine
@@ -3204,9 +3820,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - figura
   - notturno
+  back_photo: 56d3210f-19a3-4040-b58d-5142be6ad539.jpg
 - id: 7f0e571e-c6e7-41c6-8359-18eb9d8f5cca
   sort_id: 309
   title: Ultime luci sulla Scogliera
@@ -3214,11 +3832,13 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - notturno
   - marina
   - figura
+  back_photo: 42c712f7-b33d-47ef-bacc-c3e1c0bbf041.jpg
 - id: 75e663af-a167-4f20-bc89-837fff9aefb0
   sort_id: 310
   title: Figure sul Terrazzo
@@ -3226,10 +3846,12 @@
   width_cm: 50
   height_cm: 45
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - città
   - paesaggio
+  back_photo: 3a376c8b-f60e-448f-a0a4-e62623af972b.jpg
 - id: 3a97ee40-86c5-4f13-a23c-9aef90452022
   sort_id: 311
   title: Sera in Riva al Mare
@@ -3237,10 +3859,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
   - figura
+  back_photo: aa503897-8270-4509-aa56-62fe336ff95b.jpg
 - id: e77df6c1-3c26-41bf-a09a-956bfafe3a2a
   sort_id: 312
   title: Ultima Luce sul Lungomare
@@ -3248,10 +3872,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - notturno
   - marina
+  back_photo: ad896019-d8ee-4379-bd0b-f5f7467aa149.jpg
 - id: 3dc61d3d-7449-4074-8ede-9a209a7377e5
   sort_id: 313
   title: Verso Sera ai Giardini
@@ -3259,10 +3885,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: 1880049d-bc95-4122-9eee-fa10d524b412.jpg
 - id: 94b99b17-f33f-40d0-8f14-2d06a46128d8
   sort_id: 314
   title: Il Ponte sul Po a San Mauro
@@ -3270,9 +3898,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: ba608089-dcdf-4b87-8d94-2110950560b3.jpg
 - id: 49332a69-2254-4a85-b342-e5ad966b8073
   sort_id: 315
   title: Il Balcone sul Lago
@@ -3280,10 +3910,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - paesaggio
   - fiori
+  back_photo: e8aed3fe-42f9-4cfc-a667-62895f778784.jpg
 - id: 88b2b12e-14ee-47ed-a1e0-3d4bc5cd0ed3
   sort_id: 316
   title: Il Vecchio Cortile
@@ -3291,9 +3923,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - notturno
+  back_photo: 305971fd-211c-420b-9f79-d12be4ee5b59.jpg
 - id: e10edf5a-1c72-4b28-8f3a-a9f38bf0aa1b
   sort_id: 317
   title: Figure in Riva al Lago
@@ -3301,9 +3935,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - paesaggio
+  back_photo: 81a69fe4-1096-4889-947b-b9ebd03edd22.jpg
 - id: e3163e63-2853-418d-be75-260dc62906af
   sort_id: 318
   title: Paese sul Mare
@@ -3311,10 +3947,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - marina
   - paesaggio
+  back_photo: e504df10-c804-486f-a5d0-c5cad6025305.jpg
 - id: eb3b3a5a-d5da-43b6-a1a4-dd6831adcfc4
   sort_id: 319
   title: Panni al Sole e Figura
@@ -3322,10 +3960,12 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - notturno
+  back_photo: 10df1a2c-8701-4687-aa01-30420d616e46.jpg
 - id: a94a8904-3877-4ecd-9346-b12cc5531755
   sort_id: 320
   title: Tetti di Periferia
@@ -3333,9 +3973,11 @@
   width_cm: 55
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: b507eea3-3a8c-4ae7-b00a-2877fa010e1c.jpg
 - id: e369502e-1327-4c0d-a572-78ed8c1030dc
   sort_id: 321
   title: La Piazza delle Bancarelle
@@ -3343,9 +3985,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - paesaggio
+  back_photo: eafd065c-4170-4278-a480-f2d893741f26.jpg
 - id: 74c43869-d709-43c1-b6e8-2866c6702957
   sort_id: 322
   title: La Casa Rossa
@@ -3353,10 +3997,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - interni
+  back_photo: 88da63a6-549a-40a2-a0c2-f581a3da1f8c.jpg
 - id: 7b0411a2-351e-47bf-9e10-320be6dde816
   sort_id: 323
   title: Tetti Rossi
@@ -3364,10 +4010,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - paesaggio
   - notturno
+  back_photo: 2c031cc9-2626-445f-83e6-d0cf0af91b0c.jpg
 - id: d571cc98-d5a8-475d-bdf5-13039639becc
   sort_id: 324
   title: Città al Mattino
@@ -3375,10 +4023,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - paesaggio
   - figura
+  back_photo: b5e5ca26-5608-4b48-a215-1fe0f11e30f8.jpg
 - id: 08c7e069-c72d-4c17-b286-23dfac3c98e1
   sort_id: 325
   title: Figura e Fiori sul Balcone
@@ -3386,9 +4036,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - paesaggio
+  back_photo: 4c1b8e13-0a8c-4553-86b4-0d474c34e940.jpg
 - id: 7b676f16-7fa6-4b77-ad9b-082b0866dcd9
   sort_id: 326
   title: Periferia
@@ -3396,9 +4048,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - paesaggio
+  back_photo: d1ec5d9b-171c-437c-b05d-e77a3a5a2665.jpg
 - id: c98de795-7884-4064-9034-c4028b2def6b
   sort_id: 327
   title: 'Periferia: Figura sul Balcone'
@@ -3406,10 +4060,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
   - fiori
+  back_photo: 4f3192b3-26b6-4f69-ba5f-e78f92df0b04.jpg
 - id: b5e9c81a-d0b9-45a8-8b08-bb46373c0b62
   sort_id: 328
   title: Tetti in Periferia
@@ -3417,9 +4073,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - paesaggio
+  back_photo: aa9ad299-0118-43f9-8ee6-2ac04ef77347.jpg
 - id: c7e5f07b-d1e7-446e-8e24-86fb08e90fb0
   sort_id: 329
   title: Panni sul Balcone
@@ -3427,10 +4085,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
   - figura
+  back_photo: 01caafa6-d161-455c-8e2a-66228a28c9a7.jpg
 - id: f2f557e1-694c-4a19-898f-87d80f255529
   sort_id: 330
   title: Autunno sul Lago
@@ -3438,10 +4098,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
   - notturno
+  back_photo: d9c5f970-89df-4ba3-bc03-b7b911f33b35.jpg
 - id: b0d954c7-3d36-4d9f-ae7f-d357e8dc1b03
   sort_id: 331
   title: In Piazza Domenica Mattina
@@ -3449,10 +4111,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
   - fiori
+  back_photo: 63274ac6-ed1c-4b80-894b-80de8ba45678.jpg
 - id: 78e1b715-7f03-4d81-8586-edc683bd8b49
   sort_id: 332
   title: Laghetto nel Parco
@@ -3460,9 +4124,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
+  back_photo: bb6cd422-025c-4677-88b1-d78947fb3466.jpg
 - id: 632b07ad-3b9c-4c01-acd9-7a7a69be13df
   sort_id: 333
   title: Davanti alla Vetrina
@@ -3470,10 +4136,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
   - fiori
+  back_photo: b50a1110-3ee3-494e-89e8-1f1b7436d980.jpg
 - id: 7afdce50-a951-42c3-80fb-613516aeb731
   sort_id: 334
   title: Fiori in Periferia
@@ -3481,10 +4149,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - città
   - fiori
+  back_photo: d27ec0a3-f627-495c-8cb2-55afc26e1c0c.jpg
 - id: 4940298d-9a01-4c51-823b-2e504532634b
   sort_id: 335
   title: Passanti in Riva al Lago
@@ -3492,10 +4162,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - fiori
   - figura
+  back_photo: e4eb0147-7ca1-400c-a1dd-c8d855792b84.jpg
 - id: e4925cc1-155e-46fb-9bb8-95db609f39e6
   sort_id: 336
   title: Per Strada
@@ -3503,9 +4175,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - paesaggio
+  back_photo: 1c62a7a8-9992-41f2-881f-c88570c0d1e0.jpg
 - id: f450955a-efcf-4867-87a7-7e0ee5fd041d
   sort_id: 337
   title: I Fiori sul Balcone
@@ -3513,9 +4187,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - fiori
   - città
+  back_photo: bf78cdb9-ac47-4c95-94de-dc338ef06e44.jpg
 - id: 33ec9905-6d65-428a-84e6-a62ebacf8e34
   sort_id: 338
   title: Fiori sulla Piazza
@@ -3523,10 +4199,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - fiori
+  back_photo: 849ccdc3-22cc-42c4-a478-9bd37b76d7ce.jpg
 - id: dfa920ef-8456-485a-911f-d825509e8535
   sort_id: 339
   title: Passeggiata nei Giardini
@@ -3534,9 +4212,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - paesaggio
   - città
+  back_photo: a4e292a4-ecd3-4a7d-bfba-3826fb4f3077.jpg
 - id: f7e33f98-13da-4f12-a02f-170f2379119e
   sort_id: 340
   title: Cortile di casa
@@ -3544,10 +4224,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
   - figura
+  back_photo: 3984ced7-7bec-4072-b5a7-d05b43ccf7e5.jpg
 - id: 30fa5cd5-cfba-4094-8e6a-2351352f6f9f
   sort_id: 341
   title: Per Strada col Cappello Rosso
@@ -3555,9 +4237,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - figura
+  back_photo: 46b26e02-8725-4075-8772-42c9f8f0910a.jpg
 - id: db1fb587-12b1-41b6-8753-d66fa043ff84
   sort_id: 342
   title: Ultime Figure sul Corso
@@ -3565,9 +4249,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
+  back_photo: c42bb3b2-fd85-4f0a-825c-8e0e823140c3.jpg
 - id: 56b1d5c0-3bbe-4a91-8442-a1382f412820
   sort_id: 343
   title: Ottobre ai Giardini
@@ -3575,9 +4261,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
+  back_photo: bcd36027-f5fa-49e3-a21b-815b9da4cd29.jpg
 - id: 67374c14-604c-417f-bd6e-5851aaf9075c
   sort_id: 344
   title: Passanti nella Piazza
@@ -3585,10 +4273,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 7d3ffc2b-602c-49bd-8566-43263bfade59.jpg
 - id: d73129c3-b13f-45ce-ac13-30b30a18d097
   sort_id: 345
   title: Veduta Urbana
@@ -3596,10 +4286,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - fiori
+  back_photo: 6f1f543f-2da8-4696-8fe3-acd854f9243c.jpg
 - id: 1f9e034f-84db-4737-b79f-f0ad9834dfaa
   sort_id: 346
   title: L'Aiuola Rossa
@@ -3607,10 +4299,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - fiori
+  back_photo: a7413a61-5649-46d2-96fc-d62d637c6098.jpg
 - id: 8c0ab595-e6c3-40ab-bac2-defc09ee82cf
   sort_id: 347
   title: Periferia alla Domenica
@@ -3618,9 +4312,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
+  back_photo: b51d7a5c-5a7f-47ba-b951-c3e1b7a4d458.jpg
 - id: 0a32bc95-a4c5-42e7-97f9-7b1c0c822d79
   sort_id: 348
   title: Primavera sulla Piazza
@@ -3628,10 +4324,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - fiori
+  back_photo: e4658785-d3b4-400a-86bd-0e6d9176e8d6.jpg
 - id: 622cafed-70b3-4fcc-bd96-c1145ae1c0f9
   sort_id: 349
   title: Visione Urbana
@@ -3639,9 +4337,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 267e616c-d267-4cb0-8bc6-46a73ed851e4.jpg
 - id: 56c91132-c57f-471e-985f-3e89c83d281c
   sort_id: 350
   title: La Domenica Mattina
@@ -3649,10 +4349,12 @@
   width_cm: 52
   height_cm: 46
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - fiori
+  back_photo: 20c0fd2e-f90f-48eb-afdf-692c9f79b622.jpg
 - id: 6f8ae7ed-65e9-4bcb-951e-8b4e4c6309d6
   sort_id: 351
   title: Fiori in Periferia
@@ -3660,10 +4362,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - fiori
   - notturno
+  back_photo: 50f718af-87f2-428c-a96b-9701b3300fa7.jpg
 - id: cd21cba8-b68f-408a-8099-98154bca1a5f
   sort_id: 352
   title: Autunno sul Corso
@@ -3671,9 +4375,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - paesaggio
+  back_photo: f05d2103-39ff-4302-98f9-e5c030901fc0.jpg
 - id: 4a8c59b1-5832-4829-868b-4292c731780e
   sort_id: 353
   title: L'Aiuola del Corso
@@ -3681,10 +4387,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - paesaggio
   - fiori
+  back_photo: 7fd882e3-7de6-4277-8717-c30cb95a5f66.jpg
 - id: 50902828-4e26-4a2f-b23f-b4429f762391
   sort_id: 354
   title: Case nel Verde
@@ -3692,9 +4400,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - paesaggio
   - città
+  back_photo: db7fe462-cecb-4331-b64f-ecec36fba428.jpg
 - id: 1c6cef80-7775-4067-b8e6-ca7366b442ae
   sort_id: 355
   title: Ultimo Sole ai Giardini
@@ -3702,9 +4412,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - paesaggio
   - città
+  back_photo: 865fc56c-8371-4fdf-abd5-b22051395ea5.jpg
 - id: 50bb49b3-36ee-48c9-9598-434e6008bfa7
   sort_id: 356
   title: Angolo Urbano
@@ -3712,10 +4424,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 730a13fe-9937-4cbb-825c-8e86ab85897e.jpg
 - id: 6ab7971e-7085-44e7-bb73-71ca64ad33ec
   sort_id: 357
   title: Senza titolo
@@ -3723,9 +4437,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
+  back_photo: 5b0facd4-d9a2-4ea7-b896-44621f55ec7a.jpg
 - id: f1281074-53b9-4d00-99d2-9530a6224d4f
   sort_id: 358
   title: Veduta Urbana
@@ -3733,9 +4449,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: e1fde5bc-b93a-4660-bcda-7a7167d9aa4e.jpg
 - id: b016c476-81a0-4fa2-92ad-436fed12a6cf
   sort_id: 359
   title: Visione Urbana
@@ -3743,10 +4461,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 21f7e132-cf29-4a20-acea-53a63ded9102.jpg
 - id: 2ef8c109-464f-46a8-bad0-152b6e40b72c
   sort_id: 360
   title: La Tempesta
@@ -3754,9 +4474,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - marina
   - notturno
+  back_photo: f9f17635-54cc-40f1-ad2e-d0696e7493bb.jpg
 - id: 1b2da3fd-7a30-43f2-a308-1e03eff877b1
   sort_id: 361
   title: La Tempesta
@@ -3764,9 +4486,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - paesaggio
   - notturno
+  back_photo: 6b88cc9b-3467-492b-9a10-c47bdc10553b.jpg
 - id: 0f80a6f0-890b-4b4d-bdfd-7c3860925f32
   sort_id: 362
   title: DIetro la Tenda
@@ -3774,9 +4498,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - figura
   - notturno
+  back_photo: 76664444-15eb-4b1d-acde-0611064c523b.jpg
 - id: 0d131d9e-14e1-4720-a5ae-f7635891da1c
   sort_id: 363
   title: Dietro la cancellata
@@ -3784,9 +4510,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - natura morta
   - fiori
+  back_photo: 14b37843-c8aa-47cb-b7f2-bafdbceb7184.jpg
 - id: 96f9fd98-8800-4879-9f08-9aa86689e5c2
   sort_id: 364
   title: Dietro la Tenda
@@ -3794,9 +4522,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - notturno
+  back_photo: 7fe6493e-a3cc-493a-9d1f-ef43cdac48cd.jpg
 - id: ac0daecd-1ef6-46cd-840d-f8a6ccbf89d8
   sort_id: 365
   title: La Sfera di Cristallo
@@ -3804,9 +4534,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - notturno
+  back_photo: 89cffd62-7b29-4800-acdc-242d5f820328.jpg
 - id: d128ac39-63c4-41ee-9e74-cf445d2617ec
   sort_id: 366
   title: Alla Finestra di Notte
@@ -3814,9 +4546,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - interni
+  back_photo: 5b310b22-1e73-4e9b-814c-dd6450cadbcc.jpg
 - id: c91646ea-45f2-49ce-9061-2ecae6e2e632
   sort_id: 367
   title: Figura alla Finestra
@@ -3824,9 +4558,11 @@
   width_cm: 34
   height_cm: 42
   technique: olio su tavola
+  status: 3
   tags:
   - figura
   - interni
+  back_photo: 246d395e-8b7d-4938-9985-b9d5760ba438.jpg
 - id: 1dcb0d7a-5b49-4388-b55c-4a48bb81fdff
   sort_id: 368
   title: Senza titolo
@@ -3834,9 +4570,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tela
+  status: 0
   tags:
   - figura
   - interni
+  back_photo: f1c274b2-5b2d-4e11-a1fe-d300d0da6003.jpg
 - id: be9d1bef-8b46-474b-b424-2c4c4c082569
   sort_id: 369
   title: Figura tra le Fronde
@@ -3844,9 +4582,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - notturno
+  back_photo: 48d73816-fcd6-4d18-b694-01ecb6c3a51d.jpg
 - id: 43a5e6bf-9b22-4be1-92cc-520e9356026e
   sort_id: 370
   title: Interno Urbano
@@ -3854,10 +4594,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - interni
+  back_photo: 22c22db1-6a64-400b-b516-e4bf942e48b6.jpg
 - id: 8df5e89a-15dd-4ae3-b318-f9a742212869
   sort_id: 371
   title: Per Strada di Notte
@@ -3865,9 +4607,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
+  back_photo: 6ffeda99-484c-487b-ba3e-b1b09711d49c.jpg
 - id: d9200d47-1718-4661-8218-9549d30325ea
   sort_id: 372
   title: Figura in Interno
@@ -3875,10 +4619,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - figura
   - città
+  back_photo: fe078769-3dc6-45e7-a5ea-e570aaf1eb6b.jpg
 - id: dbc85b48-b8c1-4fc0-8b33-4a77f45e3945
   sort_id: 373
   title: Per Strada col Cappello Rosso
@@ -3886,9 +4632,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - figura
   - notturno
+  back_photo: 875bdac5-6d79-4e0f-81a1-c78041f92ecf.jpg
 - id: d075fa78-966e-4f86-84ca-14bbfefc58d4
   sort_id: 374
   title: Folla Urbana
@@ -3896,9 +4644,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - figura
   - notturno
+  back_photo: b040c313-ba3c-404c-9c91-aa3102732bf9.jpg
 - id: f1cc9205-dfe7-4abc-b21d-6298cc224a77
   sort_id: 375
   title: 'Interno: l''Esposizione'
@@ -3906,9 +4656,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: d3e7d572-4360-473b-a9ad-54d681e4bd12.jpg
 - id: 39ae5ecb-0396-4072-b430-1af0a27ada6b
   sort_id: 376
   title: 'Interno: Scultura e Figure'
@@ -3916,9 +4668,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 3a5f1769-40c9-4bd7-b2f5-9919ca686ce0.jpg
 - id: ef3dee48-fba5-4bee-8a64-562408c5e6a9
   sort_id: 377
   title: Interno, 2 Figure e Scultura
@@ -3926,9 +4680,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - figura
+  back_photo: d0ea9500-024b-4b45-9c32-a5de567b695e.jpg
 - id: 6621a320-bd78-4094-8a5d-5560d70d2124
   sort_id: 378
   title: 'Interno: Figura che Osserva'
@@ -3936,9 +4692,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 2479ae32-306a-4e66-9b90-3dcaf374d5a3.jpg
 - id: 01df4ccb-2e2a-420b-9832-374e3d82c1cf
   sort_id: 379
   title: Il Mercato del Paese
@@ -3946,9 +4704,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
+  back_photo: a82530f0-15e3-4ec1-8264-eb733fa22004.jpg
 - id: c9c602b4-76bf-448e-8dca-cec609d88cac
   sort_id: 380
   title: L'Esposizione
@@ -3956,9 +4716,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: 6d516268-306f-444c-a581-f74262407108.jpg
 - id: d6478d63-660a-4bf2-8ae2-6c28f0fa4400
   sort_id: 381
   title: In Città di Notte
@@ -3966,9 +4728,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tela
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: f62952ae-9dea-4862-bdef-3a9eb0c17cb1.jpg
 - id: 00564b7e-f02e-4db8-89ae-cadd215652dd
   sort_id: 382
   title: Notte in Piazza
@@ -3976,9 +4740,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 043673be-b12f-4681-9e3c-840e44d5ba1b.jpg
 - id: 872366fd-577a-42de-a4b3-4d949e8c78e3
   sort_id: 383
   title: Via Vai Urbano
@@ -3986,9 +4752,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 1b72d855-e886-4cee-bfd5-25a18d25dc0d.jpg
 - id: 9a949490-28ac-4986-ba7f-a6cb679d6a62
   sort_id: 384
   title: Visione Urbana
@@ -3996,10 +4764,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tela
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: d5d714f4-4f49-4c98-bafc-ceea76b26b13.jpg
 - id: 26fe03f3-1d2e-44d7-9144-ec352aa744ff
   sort_id: 385
   title: Carnevale
@@ -4007,10 +4777,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - interni
+  back_photo: 38487f8c-9377-4a10-8e04-32403d771b1e.jpg
 - id: 91609897-70eb-4412-8388-fe34abb3fb30
   sort_id: 386
   title: Periferia di Notte
@@ -4018,9 +4790,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 5c0890c7-22f2-4cfe-834b-490437d403a9.jpg
 - id: 7d873389-569f-48b4-9592-a9aef7c422b2
   sort_id: 387
   title: Di Notte sotto i Portici
@@ -4028,10 +4802,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: efb5ba5c-1c3b-4479-9ba2-2ab2cf818b67.jpg
 - id: 3faffeb4-d07b-410c-9925-52ac628bdefc
   sort_id: 388
   title: Carnevale
@@ -4039,10 +4815,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 902ca4d6-6e99-4a56-8747-89e6687787d9.jpg
 - id: 91b4c52f-663f-400f-ae34-8ff42c0b5989
   sort_id: 389
   title: 'Periferia: la Scultura e i Passanti'
@@ -4050,9 +4828,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
+  back_photo: 941da703-ff9d-4409-85bc-7ab5cc3fc8bb.jpg
 - id: 8c655bfb-bd1a-45f0-8596-2e743cab46ee
   sort_id: 390
   title: Primo Mattino in Piazza
@@ -4060,10 +4840,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 363775fd-ad78-4b9b-bd27-d1fcf6f91b71.jpg
 - id: 6d85d537-31d5-46b1-adae-ea6228b1e291
   sort_id: 391
   title: La Strada
@@ -4071,9 +4853,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: 5100d46b-beb0-4bfd-a569-fbbb6093443a.jpg
 - id: 255a82b5-e7d0-4095-8e1d-4d73ed3d5d8c
   sort_id: 392
   title: 'Interno: Figure alla Mostra'
@@ -4081,9 +4865,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 92e3c577-763a-4b4f-9e6b-e55c4606c2eb.jpg
 - id: d3d7d8ea-2a46-472d-a52d-9d34ba7eea75
   sort_id: 393
   title: Periferia
@@ -4091,10 +4877,12 @@
   width_cm: 45
   height_cm: 31
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 26a6a35a-35f1-4c89-af8e-0f4dac461597.jpg
 - id: 962e9118-9143-4369-a989-f42e3fc00b17
   sort_id: 394
   title: Agosto in Paese
@@ -4102,10 +4890,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 333e3ef4-acaf-4a35-8fce-fb44689a3bfd.jpg
 - id: 07d162b8-348e-46df-816e-4d221c0f5511
   sort_id: 395
   title: Ricordi
@@ -4113,10 +4903,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 1ee01685-8df0-409d-af2d-3530418cf6af.jpg
 - id: 68857831-2d67-4d0c-98dc-9fdaafe7a366
   sort_id: 396
   title: Luci nella Notte
@@ -4124,9 +4916,11 @@
   width_cm: 35
   height_cm: 45
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 1ca22bd8-4e49-4740-859e-4046999ee512.jpg
 - id: 03180a92-4257-45d0-a339-c928c5324bc3
   sort_id: 397
   title: Periferia verso Sera
@@ -4134,9 +4928,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 45fe748a-4d25-49dd-9645-81b28dc58c68.jpg
 - id: 25e74f46-63ab-412f-90b1-eb273d386ef9
   sort_id: 398
   title: Paese di Sera
@@ -4144,9 +4940,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: d23b58b8-2bda-4294-a527-a7755b6dc134.jpg
 - id: f7488e3f-de0f-4515-b5cd-7e0694bd66f2
   sort_id: 399
   title: Passanti nella Notte
@@ -4154,10 +4952,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 4e0f8c5f-0a94-4a87-b290-96c8daa220d0.jpg
 - id: 91e2457c-c3f1-4c4a-a35f-7e64983910d8
   sort_id: 400
   title: I Portici del Paese
@@ -4165,9 +4965,11 @@
   width_cm: 35
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 8972e3c5-5e4e-4fc9-a577-f00f8fb35b72.jpg
 - id: cfbc1d86-52e6-448b-b2f6-3903aed2f101
   sort_id: 401
   title: Figure nella sera
@@ -4175,10 +4977,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 48701f08-d09a-4c55-9fe3-a73bb98ac545.jpg
 - id: af79b854-7bcf-435f-953c-3ba403c2ed30
   sort_id: 402
   title: Senza titolo
@@ -4186,10 +4990,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: ada42f8a-92a1-4302-8707-a4623107a282.jpg
 - id: fb0e4b3a-32d5-46d9-991b-6483dd163ea4
   sort_id: 403
   title: Primo Sole sulla Piazza
@@ -4197,10 +5003,12 @@
   width_cm: 66
   height_cm: 45
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 52705871-11d5-417c-b985-d9dc52d163fc.jpg
 - id: 9be7f824-3fd9-4c29-9bad-14d5eb67ca80
   sort_id: 404
   title: Notturno Urbano
@@ -4208,9 +5016,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 62362c21-0e69-4c9b-8943-9fceba7ab7e5.jpg
 - id: 11b2ac90-ec07-4ae0-8e5f-1c51fadd7dd8
   sort_id: 405
   title: Senza titolo
@@ -4218,9 +5028,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
+  back_photo: 6fcd7ab2-4470-4536-a1fd-94a3418fbff3.jpg
 - id: 66ddf81e-dd24-43f5-9e27-a20e0ba0dbb2
   sort_id: 406
   title: Luci Notturne ai Giardini
@@ -4228,10 +5040,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - città
   - paesaggio
+  back_photo: 6880d3ac-b771-44da-abcc-98ba9f9295dc.jpg
 - id: 9e253cc8-0976-428c-a4f1-641e36261912
   sort_id: 407
   title: Tarda Notte in Periferia
@@ -4239,9 +5053,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: 83c88de6-eee9-4680-953d-39f0deb1ac88.jpg
 - id: 117247aa-75bb-4549-bd30-368fd999d032
   sort_id: 408
   title: Sera Autunnale
@@ -4249,10 +5065,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - notturno
   - paesaggio
   - città
+  back_photo: 6a404a32-f8cc-4693-a4e1-bc235e858b89.jpg
 - id: f622cce3-a8f1-49ad-96d9-bd9219b21d3c
   sort_id: 409
   title: Ritorno alla Sera
@@ -4260,10 +5078,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - notturno
   - città
   - figura
+  back_photo: 436a0554-8686-4ed7-89a1-fd20cdcf31dc.jpg
 - id: 1d7ecf40-f75b-4d6a-8706-86ac42f01a85
   sort_id: 410
   title: Passeggiata Notturna
@@ -4271,9 +5091,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 0d0a07a0-e09e-46cd-8ea2-8cf3e70b0061.jpg
 - id: 1bd56ce4-f85a-4195-8912-b2e9b6c04622
   sort_id: 411
   title: Visione Urbana dal Balcone
@@ -4281,9 +5103,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: 65f70ebc-3690-48ed-8484-450ec690a750.jpg
 - id: 7eb518dd-7c86-43a4-a769-a9bbd38dc843
   sort_id: 412
   title: Notte nei Vicoli
@@ -4291,10 +5115,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 0d16facd-e7db-4f2c-8c83-9e1074cea696.jpg
 - id: 3e386cb7-0416-4c04-8ed3-d6bef90d72ae
   sort_id: 413
   title: Notturno sul Balcone
@@ -4302,9 +5128,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: e8163ef4-7873-466c-a111-4ca84c13f270.jpg
 - id: acd16638-f0ba-497f-8816-78f12eeb1369
   sort_id: 414
   title: Ultime Figure sulla Piazza
@@ -4312,10 +5140,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 7681526d-7701-4a3b-b13a-fb82a0c03eed.jpg
 - id: 8d248b07-480b-4a56-8d60-fc4b811b5378
   sort_id: 415
   title: Notturno Urbano
@@ -4323,9 +5153,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: b57fa2d4-da9a-4f6c-8a15-8ba3e736218d.jpg
 - id: 0e55ec2b-36a0-4b74-9c1f-33ea835c11ab
   sort_id: 416
   title: Angolo di Notte
@@ -4333,9 +5165,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 739c7215-cda7-465c-82d2-369596422a8c.jpg
 - id: 2fd20196-3556-4dbd-aae8-6ac6f15c97f5
   sort_id: 417
   title: Notte in Centro
@@ -4343,9 +5177,11 @@
   width_cm: 57
   height_cm: 40
   technique: olio su tela
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: c5ad0e47-8e1c-4388-a7f3-a95bfe81614f.jpg
 - id: 465f3772-bee0-4d3b-a4aa-6769822e5317
   sort_id: 418
   title: Tarda Notte in Città
@@ -4353,9 +5189,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 3c2b6596-c426-4230-83ca-498df3a98490.jpg
 - id: d9a01340-2540-4a23-b9b3-919c169852ae
   sort_id: 419
   title: Prime Luci in Centro
@@ -4363,9 +5201,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 32b681c6-427d-438a-a94d-e80e78479a42.jpg
 - id: 5606fb91-7291-4603-8c3d-8be05e53dee5
   sort_id: 420
   title: Ultime Luci in Città
@@ -4373,9 +5213,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 8fb0b1e9-ac3b-47d7-9d5b-5eed14f4dbd6.jpg
 - id: 3c18e8fd-2a3a-4c3c-b7bb-c7523fa67f59
   sort_id: 421
   title: La Strada verso Sera
@@ -4383,10 +5225,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: 7cb89933-ef7e-4726-8b79-a148910c1f62.jpg
 - id: e661d5f5-6ce8-4eb0-a3f3-3d7581ddeedd
   sort_id: 422
   title: Periferia all'Alba
@@ -4394,10 +5238,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - paesaggio
+  back_photo: 4c84d47e-af73-4c92-b8d2-a7cd95e59df7.jpg
 - id: 8e5ff712-7c6d-42d7-a447-df72f5ad2362
   sort_id: 423
   title: Figura in Periferia
@@ -4405,9 +5251,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
+  back_photo: fae50285-7176-47e3-88c8-6fffd325af67.jpg
 - id: 0b3fc755-a1c9-48fe-92d6-325509c57306
   sort_id: 424
   title: Periferia di Sera
@@ -4415,10 +5263,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 95c20b9c-7726-4b68-a123-3055aba88905.jpg
 - id: 0b03c3f9-25a9-40a7-a629-2ef11c14aa3f
   sort_id: 425
   title: Si Fa Sera in Centro
@@ -4426,9 +5276,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: e91cd289-c454-4b6a-87f4-881915b46fc0.jpg
 - id: 238526fa-1c70-4e0d-9e3e-2f3d0a472cd3
   sort_id: 426
   title: Sottopasso in Periferia
@@ -4436,10 +5288,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - interni
+  back_photo: 456f5e39-307b-42a5-8b89-04673652ce83.jpg
 - id: 2048a19c-2e03-4e6d-b9a5-a5eef676b27d
   sort_id: 427
   title: Notte in Centro
@@ -4447,9 +5301,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 344f6723-a97c-4b30-86f9-c5e0d6281eca.jpg
 - id: 41294a81-0e4d-486f-9494-83b71712fc7c
   sort_id: 428
   title: L'ultimo Tram in Periferia
@@ -4457,9 +5313,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 70beb463-5da0-4354-a474-563218af4522.jpg
 - id: a178716c-6703-40b5-ae73-953b1829f648
   sort_id: 429
   title: Ultime Luci sul Corso
@@ -4467,9 +5325,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: b1dfb821-cf0a-4877-b01b-cd3d58ad027f.jpg
 - id: 4522e965-ff61-4068-83db-664f874fa4d5
   sort_id: 430
   title: Ultimi Passanti in Periferia
@@ -4477,10 +5337,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: d2f2e07a-cead-4df8-8115-0fc70b951167.jpg
 - id: 214cb9aa-50c8-4ebb-85d7-6c32114f45f5
   sort_id: 431
   title: Ombre Notturne in Periferia
@@ -4488,9 +5350,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: cf3eefab-0bbf-4380-8cd3-ed6eebfc668c.jpg
 - id: ed29eb51-6cef-4ded-bbef-381682cef646
   sort_id: 432
   title: Mattino sotto i Portici
@@ -4498,9 +5362,11 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - interni
+  back_photo: 82cb2205-47ab-4522-8a3c-ed2556d5b2b9.jpg
 - id: 5c006fe1-60d2-49aa-be07-10483e30ed5b
   sort_id: 433
   title: La Vetrina del Centro
@@ -4508,11 +5374,13 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: 822bb83e-c17f-438e-8a90-92a48380ea28.jpg
 - id: 0c169882-82b6-4501-a119-50ef78846cdd
   sort_id: 434
   title: Senza titolo
@@ -4520,10 +5388,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
   - notturno
+  back_photo: 527a505c-e04b-4fe7-85ef-275c37f5dd20.jpg
 - id: 883d6845-fc73-4793-9fd7-64a1ac708a98
   sort_id: 435
   title: Tarda Notte per la Città
@@ -4531,9 +5401,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: df3728e9-b2be-40b3-a881-7d8da6a454cb.jpg
 - id: 498a9447-427b-4ee7-8c12-b311977c43ed
   sort_id: 436
   title: Il Bar di Periferia
@@ -4541,9 +5413,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: f5d18903-6d40-4b01-92a4-144c1dbead4a.jpg
 - id: 5a327ab8-8444-4598-9fd2-dedead9e5aca
   sort_id: 437
   title: La Piazzetta di Periferia
@@ -4551,9 +5425,11 @@
   width_cm: 52
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 7111a96f-e9f7-491b-832c-b28f99f537da.jpg
 - id: baa92503-fa8b-4cc2-9cb1-774cbe58c6a9
   sort_id: 438
   title: Senza titolo
@@ -4561,9 +5437,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 5fda1b34-b046-468c-ba70-d01d4246a656.jpg
 - id: fd83fe1f-c096-45f5-acf5-adb067a26f40
   sort_id: 439
   title: Di Sera in Periferia
@@ -4571,10 +5449,12 @@
   width_cm: 55
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: ada7ff78-ca82-4220-b64a-3bda9a7dd36e.jpg
 - id: 10bfd816-6b4a-44ff-9579-42ded03820d2
   sort_id: 440
   title: Figure nella Notte
@@ -4582,10 +5462,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 4a75c1eb-49a8-4103-933c-23ae865326a6.jpg
 - id: 4aa3f977-c70f-4671-b92f-8541a5b8f790
   sort_id: 441
   title: Periferia
@@ -4593,9 +5475,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
+  back_photo: faa9fc03-dc79-408d-9db3-18ee21e0096d.jpg
 - id: b7c34999-4d96-40c6-9fad-a0f04df5cc3a
   sort_id: 442
   title: Notturno in Piazza
@@ -4603,9 +5487,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
+  back_photo: bcba0475-ee36-4781-998f-bb6d5cdbe6d3.jpg
 - id: e249ee42-b39a-4cc8-a2ed-0475ef672069
   sort_id: 443
   title: Uno Sguardo in Piazza
@@ -4613,10 +5499,12 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 5ecda14c-f30b-461c-8907-6e6a6fb47c9d.jpg
 - id: ad01df41-c655-4a40-8f8f-6a827a35f964
   sort_id: 444
   title: Notte sul Corso
@@ -4624,9 +5512,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 379843f1-5456-40fd-b208-5fa27e76054c.jpg
 - id: b19ceb51-3f03-4e93-bc60-426041e47a99
   sort_id: 445
   title: Cala la Sera in Periferia
@@ -4634,10 +5524,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 905b542c-de67-4981-be17-10a1ac360941.jpg
 - id: 0d50231a-ff96-402c-83d7-9b0c71f6274e
   sort_id: 446
   title: Notte Estiva in Città
@@ -4645,10 +5537,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: f83e794f-ba7f-45a3-839e-b93fca429655.jpg
 - id: 78a87212-0cae-4007-a849-60ecc818e0bc
   sort_id: 447
   title: Mattino in Strada
@@ -4656,10 +5550,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 5fccf053-99fa-4f59-acf6-23a4df9934b8.jpg
 - id: 40198e23-7c9d-421c-8583-658332020cd4
   sort_id: 448
   title: È Notte in Periferia
@@ -4667,10 +5563,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 9176b745-1cc7-4d6a-bdc1-400cba86e0a1.jpg
 - id: 630fc8b9-dc81-4bf6-881b-90799d7c64ac
   sort_id: 449
   title: Via Vai Urbano
@@ -4678,9 +5576,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
+  back_photo: 497253ec-4922-4b99-81e0-f2ce04db1a06.jpg
 - id: 0b224033-1991-4e4b-80d7-d81d8934d972
   sort_id: 450
   title: Mattino sul Cavalcavia
@@ -4688,9 +5588,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
+  back_photo: 32258055-ae66-4e85-b6e4-1bb4c6f32771.jpg
 - id: b6f80f27-df3c-4d2c-98be-efd9d72d9b1f
   sort_id: 451
   title: Figure per Strada
@@ -4698,10 +5600,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
   - notturno
+  back_photo: 7cb46680-e819-43b3-af81-3f325cca2eae.jpg
 - id: 9e7dfce7-64a0-434b-9e46-0267be6f4a14
   sort_id: 452
   title: Visione Urbana
@@ -4709,9 +5613,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
+  back_photo: 2333a835-94f4-4226-b8e7-1e0b0949d6b4.jpg
 - id: 33879b70-5977-420a-ba8f-aebda220bc2b
   sort_id: 453
   title: L'Edicola di Periferia
@@ -4719,9 +5625,11 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - figura
+  back_photo: 764068cf-ec20-47bf-8de7-dc063afa5634.jpg
 - id: 0f3f764e-597b-4eef-af7a-64be13012604
   sort_id: 454
   title: A Spasso sotto i Portici
@@ -4729,10 +5637,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: ed0c0eb5-5fc5-4882-bf1c-6b181ac0dee5.jpg
 - id: ae094659-e784-4d5b-9847-df11f0c039c8
   sort_id: 455
   title: Figure in Strada
@@ -4740,10 +5650,12 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: dcf9073b-4094-40ca-86fd-8c394e8a43fb.jpg
 - id: ad06da46-7e46-4f37-a27b-cf8357fc1e41
   sort_id: 456
   title: Passanti Notturni
@@ -4751,10 +5663,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 1668bcc7-1245-4c67-b329-d20007f54cb2.jpg
 - id: 2c5eb46d-2dd5-41fc-b053-e5df9036e8ed
   sort_id: 457
   title: I Portici del Paese
@@ -4762,10 +5676,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 0e09524c-29b5-4f3f-8da6-563fe157a270.jpg
 - id: 9a472ccd-2907-407f-bc43-f17ba87b76aa
   sort_id: 458
   title: Passanti Urbani
@@ -4773,10 +5689,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 70c0c997-5072-4c04-8fc2-fa415f442875.jpg
 - id: 52b5e34b-bad7-45a4-9b6a-b708b25b298c
   sort_id: 459
   title: I Portici di Periferia
@@ -4784,10 +5702,12 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - notturno
+  back_photo: a623ec75-49eb-4f5a-ae83-1d33b23610f8.jpg
 - id: 4ab45c4e-364c-4545-b0a6-519797c2dc7b
   sort_id: 460
   title: Per Strada col Cappello Blù
@@ -4795,10 +5715,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: ad273a14-e9c4-48f0-9529-3ba915f6c5fb.jpg
 - id: c6269541-3546-4ac0-a825-3f92ce9f152f
   sort_id: 461
   title: Angolo Urbano
@@ -4806,10 +5728,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 7ac95d86-a1ce-4a53-b8c3-ef6e882bf408.jpg
 - id: 120b7205-32cc-4ebc-8640-dcbee2c96d77
   sort_id: 462
   title: Controluce sotto i Portici
@@ -4817,10 +5741,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: eec4fad3-917b-42a5-87ea-c20823fa4eb5.jpg
 - id: c49c0244-1aaa-4d98-ac55-cd239a4ddf21
   sort_id: 463
   title: Passanti nella Notte
@@ -4828,10 +5754,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: c7aad1b5-758d-427b-8f27-210554c23386.jpg
 - id: 5b0d6267-8492-4aee-a356-a84ea46c390d
   sort_id: 464
   title: La Piazzatta del Paese
@@ -4839,10 +5767,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 2fe218a6-a5c6-4672-a673-4ad27e562e2e.jpg
 - id: ca2c60e9-324f-4b64-b6d3-1d76a3fa74dd
   sort_id: 465
   title: Via Vai sotto i Portici
@@ -4850,9 +5780,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
+  back_photo: 931954b4-c1ec-4812-a349-5c154aa68d96.jpg
 - id: 2b519098-e5d8-4381-abea-ea35ba865e51
   sort_id: 466
   title: Figure sotto i Portici
@@ -4860,9 +5792,11 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
+  back_photo: 02bbdcb2-4700-4402-9c2d-881c585df8f8.jpg
 - id: 7899b7f2-afdc-45ef-8e4c-c6c5aca77836
   sort_id: 467
   title: Ombre Notturne
@@ -4870,10 +5804,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 5bde5e58-3036-4993-97cd-6d52ce15c50b.jpg
 - id: 6c268391-ca7f-451c-825f-24979e1fe1bc
   sort_id: 468
   title: Senza titolo
@@ -4881,10 +5817,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - figura
   - notturno
+  back_photo: d9a4c04f-c411-4e06-870c-6188d5591fbc.jpg
 - id: 4fe88cc2-6632-40e2-a8af-ba65b78fff9e
   sort_id: 469
   title: Senza titolo
@@ -4892,10 +5830,12 @@
   width_cm: 70
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 418edf6c-f241-42a8-a6c7-fe7a94d7bd20.jpg
 - id: e855c42f-e535-4813-90f3-678f65b6f45a
   sort_id: 470
   title: Vetrine e Passanti
@@ -4903,10 +5843,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 4331aba0-532b-4a0c-a7f3-5b7f3f6b18f7.jpg
 - id: 16167800-670c-4b7e-a036-a7af2f7e9e89
   sort_id: 471
   title: Notturno in Centro
@@ -4914,9 +5856,11 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tela
+  status: 1
   tags:
   - città
   - notturno
+  back_photo: 367da30e-0ade-4e82-beb0-32591d5a9fcb.jpg
 - id: 9632d8d6-207b-48d0-827e-3e9b489d5f1e
   sort_id: 472
   title: Vestrina e Passanti
@@ -4924,10 +5868,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 280b464a-7311-40a7-afb8-f53fc8409e91.jpg
 - id: dc92583d-1ca3-4f24-a763-0d501e5f0dd0
   sort_id: 473
   title: 'Centro Città: Colori nella Notte'
@@ -4935,10 +5881,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: abfb078c-11ff-4272-bd2d-b5628c10df64.jpg
 - id: d691d08c-d15b-4ddf-9355-b964b77ccae8
   sort_id: 474
   title: Senza titolo
@@ -4946,10 +5894,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - figura
   - notturno
+  back_photo: 1fdaa147-f40e-45cb-8078-99936bcac404.jpg
 - id: 82d939db-1bbb-4eba-b24d-30c11d2f198d
   sort_id: 475
   title: Per la Città di Notte
@@ -4957,10 +5907,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 28418cae-9e7e-4fbc-b7da-8db239893a26.jpg
 - id: d7a1e638-6d21-4221-a4ce-f5abd4cec406
   sort_id: 476
   title: Figure dietro la Finestra
@@ -4968,9 +5920,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: ed671bc9-34d9-49e9-8d54-fff1f3b23303.jpg
 - id: 431bec39-24f5-43a3-84a9-ffe55357ab4c
   sort_id: 477
   title: Gente in Strada
@@ -4978,10 +5932,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 3aae3463-3732-4bf3-b63d-9f7e345989f6.jpg
 - id: ff601192-e2b8-4971-b028-09dea94dccd9
   sort_id: 478
   title: Figure sotto i Portici
@@ -4989,10 +5945,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: a83c0927-6f9d-403f-ad0b-85a64fcea0a7.jpg
 - id: e8748f4b-c7c2-4971-9f6b-b31779f0d82d
   sort_id: 479
   title: 'Interno: Figure e Vetrine'
@@ -5000,10 +5958,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
   - figura
+  back_photo: 19118638-e566-4b24-8e5c-9e6e7d0b7784.jpg
 - id: 4a18c038-0f89-4182-9981-1ed3f552cff9
   sort_id: 480
   title: A Spasso di Notte
@@ -5011,10 +5971,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 5246a556-2cdf-446b-b7e7-d9b41aef0b03.jpg
 - id: 55f926ed-68df-4a4c-afd9-f90127eedad4
   sort_id: 481
   title: Alla Sera in Centro
@@ -5022,10 +5984,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: f0fdc95d-2c58-4a36-9d3b-942fe970149d.jpg
 - id: a786c86c-e6a6-4285-9c0a-3c6d2c7bdf69
   sort_id: 482
   title: Stazione verso Sera
@@ -5033,9 +5997,11 @@
   width_cm: 40
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: e897906d-b6ce-45ba-a9af-f416fae131eb.jpg
 - id: 6332a121-6111-4001-9e41-84346036dfb8
   sort_id: 483
   title: Per Strada
@@ -5043,10 +6009,12 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: f65f76d4-185d-4f00-832a-ea9ac85aeec0.jpg
 - id: 90788b4c-d7e4-49a9-9f53-f21f2c337452
   sort_id: 484
   title: La Piazza Affollata
@@ -5054,9 +6022,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: a8466aa4-3eef-4006-8dcf-14ebfbb9680f.jpg
 - id: 454cfd38-49fd-4fec-99bb-3245c97a1749
   sort_id: 485
   title: Al Centro Commericiale
@@ -5064,9 +6034,11 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
+  back_photo: af649605-c0c1-40b3-894d-538ce8c52c35.jpg
 - id: 17a07140-2406-4da9-99b8-f48f513e179b
   sort_id: 486
   title: La Vetrina nell'Angolo
@@ -5074,9 +6046,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - città
+  back_photo: f48e2288-f11f-4a29-a175-453c4c1dfb47.jpg
 - id: 0a5f5a7e-78d1-4ebf-83c5-cbbd55e6c3ba
   sort_id: 487
   title: Via Vai Cittadino
@@ -5084,10 +6058,12 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
   - notturno
+  back_photo: 995b1c9a-de95-4527-b908-deed6bc7bf2f.jpg
 - id: fb902be1-6ce7-4557-bf52-5298102d640c
   sort_id: 488
   title: Insigne e Passante
@@ -5095,9 +6071,11 @@
   width_cm: 50
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
+  back_photo: 66bc985d-d651-4e1f-9abf-9d867d837ac8.jpg
 - id: ba924e25-0280-46f8-95f1-1fd58ecc6914
   sort_id: 489
   title: Insegne Rosse e Verdi
@@ -5105,10 +6083,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 90518584-1640-43fe-8994-171597a43103.jpg
 - id: 102a8bcb-1f14-4317-9bda-4be8086fe912
   sort_id: 490
   title: Per Strada di Notte
@@ -5116,10 +6096,12 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: f185e4af-79cd-4693-8d95-a558908218ed.jpg
 - id: 4781445a-ed23-4e80-bc9a-ce31020e8c7a
   sort_id: 491
   title: Via Vai Notturno
@@ -5127,11 +6109,13 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - interni
   - figura
+  back_photo: d5e8d7aa-96dd-4f5f-af99-2f9d4f83a039.jpg
 - id: 9fc21d40-9835-4697-9288-f8ab213eced9
   sort_id: 492
   title: Via Vai davanti alla Vetrina
@@ -5139,10 +6123,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: bc2dbc53-f1a8-4169-831f-b76a4061e6bc.jpg
 - id: c7fabca1-67b5-48bd-bc01-cd40990b9945
   sort_id: 493
   title: Vertina e Figure nella Notte
@@ -5150,10 +6136,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: b30141b0-cf07-4923-b66c-6790c38e2bc1.jpg
 - id: 673e4e4e-bd7f-4835-8139-af986f8da527
   sort_id: 494
   title: Guardando la Vetrina
@@ -5161,11 +6149,13 @@
   width_cm: 50
   height_cm: 40
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - interni
   - figura
+  back_photo: 9bce3254-d0e4-4ce3-9008-d02bac36aae9.jpg
 - id: 6ec87eb2-5d69-46b9-9599-43b0ccd42409
   sort_id: 495
   title: Per Strada di notte
@@ -5173,10 +6163,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tela
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: 02256c00-0770-4f08-9b30-abac58e7e85f.jpg
 - id: 76be8c08-e805-4887-9ffc-ca94d213da2f
   sort_id: 496
   title: Via Vai al Bar
@@ -5184,10 +6176,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - interni
   - città
   - figura
+  back_photo: c876aae9-adad-4dac-8624-e084ac2aa65e.jpg
 - id: 8aff93cd-80e8-4611-85fa-936300e5713f
   sort_id: 497
   title: 'Interno: Figure e Vetrine'
@@ -5195,10 +6189,12 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 1
   tags:
   - interni
   - città
   - figura
+  back_photo: 5377673a-d844-46c3-89dd-afbf027781c1.jpg
 - id: e5d650b4-9769-4ae3-af65-5024588c0feb
   sort_id: 498
   title: Figure in Interno
@@ -5206,9 +6202,11 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - interni
   - figura
+  back_photo: 709e7457-efac-4d12-a6b2-2ada8bfc6c27.jpg
 - id: d90f0cc2-0a6c-4159-a83e-5af501e11828
   sort_id: 499
   title: Figure e Vetrine
@@ -5216,9 +6214,11 @@
   width_cm: 30
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - figura
+  back_photo: 63e86fde-5362-4e26-82d4-3e6863820957.jpg
 - id: 7251c7d8-cf4e-43ca-acc4-e17dff42eb6e
   sort_id: 500
   title: La Grande Vetrina
@@ -5226,9 +6226,11 @@
   width_cm: 55
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - interni
+  back_photo: 86cf34f8-5d10-4467-aa1a-d879a9ae1a08.jpg
 - id: 92408cd0-0938-42c8-a073-b395c9a69277
   sort_id: 501
   title: Figure in Interno
@@ -5236,10 +6238,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - interni
   - città
   - figura
+  back_photo: c4f07c50-31cf-4abf-b593-6bc4fde51672.jpg
 - id: c0c2771e-eeca-40b6-9d88-56841693ade0
   sort_id: 502
   title: Di Notte per Strada
@@ -5247,10 +6251,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
   - figura
+  back_photo: a5f990c1-be5c-40ca-84e9-e2346d193bed.jpg
 - id: 45755c09-9f76-4e3f-ad6e-dfdcbf3f7dac
   sort_id: 503
   title: Davanti alla Vetrina
@@ -5258,11 +6264,13 @@
   width_cm: 40
   height_cm: 50
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: 63af21ea-e8d8-4242-8f7e-fa1967ff232f.jpg
 - id: fec88bf5-0d9e-420c-ba13-f0d86c6fec3d
   sort_id: 504
   title: La Vetrina e i Passanti
@@ -5270,11 +6278,13 @@
   width_cm: 50
   height_cm: 60
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
   - notturno
   - figura
+  back_photo: 51ac3474-bcd7-4861-8cdf-5f434431d687.jpg
 - id: c0c77a3b-a915-4a70-8270-14bdd4d1a35e
   sort_id: 505
   title: Davanti alla Vetrina
@@ -5282,10 +6292,12 @@
   width_cm: 45
   height_cm: 30
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - interni
   - natura morta
+  back_photo: bccc4ef4-68df-450a-a2e7-f5303f823db8.jpg
 - id: b8d86602-c01e-4a09-b08e-9a1eb98df233
   sort_id: 506
   title: Arrivo Notturno
@@ -5293,10 +6305,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 78b6d2ce-c36d-4be1-bd9f-8c7ec8247fbb.jpg
 - id: 69067ebc-df65-4dd7-869b-1f9080cf0bea
   sort_id: 507
   title: Sotto il Cavalcavia
@@ -5304,10 +6318,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 25c525ed-48bd-4de1-ad7f-1d82c323d920.jpg
 - id: 1a3ff74d-ef82-4566-b16d-0ce385e8533b
   sort_id: 508
   title: 'Interno: Figure in Attesa'
@@ -5315,10 +6331,12 @@
   width_cm: 50
   height_cm: 35
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - interni
   - figura
+  back_photo: 8e9cd033-c4aa-4632-a9cf-2386a941181c.jpg
 - id: 24d26a40-9c2e-44b8-ab17-a60f2d36ae62
   sort_id: 509
   title: Ricordo di una Notte
@@ -5326,9 +6344,11 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 3
   tags:
   - città
   - notturno
+  back_photo: 719c52a0-3362-47a2-ad37-b8c9dc891a56.jpg
 - id: 79ec47c6-6a06-4ce1-a16a-d15d26fbcca7
   sort_id: 510
   title: Attesa nella Notte
@@ -5336,10 +6356,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: fcb380f0-ab98-4cb5-a82e-4b8ab30296ff.jpg
 - id: 3777a028-3257-4344-8c6a-51501484b56a
   sort_id: 511
   title: Ultime Figure alla Stazione
@@ -5347,10 +6369,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: 4dfce465-f9e6-4ad0-9f03-e7b9b5119ffb.jpg
 - id: dfa4c929-b3a6-4837-a444-9080f870e441
   sort_id: 512
   title: La Stazione di Periferia
@@ -5358,10 +6382,12 @@
   width_cm: 60
   height_cm: 35
   technique: olio su tavola
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 9a8fed21-ced2-437a-86ad-53678a25bbce.jpg
 - id: e7991685-f336-43af-b13f-4d53f33acb63
   sort_id: 513
   title: In Attesa
@@ -5369,10 +6395,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 15a1572f-8755-4533-ae19-49920c74aa48.jpg
 - id: 9361372f-a60e-40df-8a38-3adfb50d7261
   sort_id: 514
   title: Figure in Attesa
@@ -5380,10 +6408,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 3f9ab8db-f8ca-4191-bcff-ec72e075682e.jpg
 - id: 9e6f20d2-17e9-4f0e-9192-0d1acf27740a
   sort_id: 515
   title: Ricordo di Una Notte
@@ -5391,10 +6421,12 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tavola
+  status: 2
   tags:
   - città
   - notturno
   - figura
+  back_photo: fb2aeeac-0d43-4f64-bdd4-b46e20cd3936.jpg
 - id: ace4b831-361c-489d-a90e-6ae5bb781d33
   sort_id: 516
   title: La Sera alla Stazione
@@ -5402,10 +6434,12 @@
   width_cm: 60
   height_cm: 40
   technique: olio su tavola
+  status: 1
   tags:
   - città
   - notturno
   - figura
+  back_photo: 4b6fcde0-f0bb-4319-b944-24a0406e0993.jpg
 - id: c0b802f9-1145-48ce-8122-fa81ab381ea2
   sort_id: 517
   title: Attesa
@@ -5413,7 +6447,9 @@
   width_cm: 60
   height_cm: 50
   technique: olio su tela
+  status: 4
   tags:
   - città
   - notturno
   - figura
+  back_photo: 9772db0d-2c48-426e-b18b-bcfde821b881.jpg

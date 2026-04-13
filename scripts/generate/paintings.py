@@ -23,7 +23,7 @@ from pathlib import Path
 import yaml
 
 SCRIPT_DIR = Path(__file__).parent
-CSV_DEFAULT = Path.home() / "Downloads" / "artag" / "data" / "archive.csv"
+CSV_DEFAULT = Path(__file__).resolve().parents[2] / "data" / "archive.csv"
 OUTPUT_YAML = Path("src/content/paintings.yaml")
 
 
@@ -76,6 +76,15 @@ def main() -> None:
         year_str = row["year"].strip()
         title = row["title"].strip() or "Senza titolo"
 
+        # Parse status — handle corrupted values (e.g. "landscape" from column shift)
+        raw_status = row["status"].strip()
+        try:
+            status = int(raw_status)
+        except ValueError:
+            status = 0  # unknown for corrupted entries
+
+        back_photo = row["back_photo"].strip()
+
         entry = {
             "id": uid,
             "sort_id": int(row["custom_id"]),
@@ -84,7 +93,9 @@ def main() -> None:
             "width_cm": int(row["width"]),
             "height_cm": int(row["height"]),
             "technique": row["technique"].strip(),
+            "status": status,
             "tags": [],
+            "back_photo": back_photo or None,
         }
 
         # Override with pipeline outputs when available
