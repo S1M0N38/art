@@ -9,6 +9,7 @@ interface Painting {
   width_cm: number;
   height_cm: number;
   technique: string;
+  status: number;
   tags: string[];
 }
 
@@ -30,7 +31,9 @@ const sorted = [...paintings].sort((a, b) => a.sort_id - b.sort_id);
       width_cm={painting.width_cm}
       height_cm={painting.height_cm}
       technique={painting.technique}
+      status={painting.status}
       tags={painting.tags}
+      back_photo={painting.back_photo}
     />
   ))}
 </div>

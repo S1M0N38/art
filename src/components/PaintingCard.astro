@@ -6,14 +6,21 @@ interface Props {
   width_cm: number;
   height_cm: number;
   technique: string;
+  status: number;
   tags: string[];
+  back_photo: string | null;
 }
 
-const { id, title, year, width_cm, height_cm, technique, tags } = Astro.props;
+const { id, title, year, width_cm, height_cm, technique, status, tags, back_photo } = Astro.props;
 
-const thumbUrl = `/images/thumbs/${id}.webp`;
-const placeholderUrl = `/images/placeholders/${id}.webp`;
-const originalUrl = `/images/originals/${id}.jpg`;
+const hasBack = !!back_photo;
+
+const thumbUrl = `/images/front/thumbs/${id}.webp`;
+const placeholderUrl = `/images/front/placeholders/${id}.webp`;
+const originalUrl = `/images/front/original/${id}.jpg`;
+const backThumbUrl = hasBack ? `/images/back/thumbs/${id}.webp` : '';
+const backPlaceholderUrl = hasBack ? `/images/back/placeholders/${id}.webp` : '';
+const backOriginalUrl = hasBack ? `/images/back/original/${id}.jpg` : '';
 const aspect = width_cm / height_cm;
 ---
 
@@ -25,9 +32,13 @@ const aspect = width_cm / height_cm;
   data-width={width_cm}
   data-height={height_cm}
   data-technique={technique}
+  data-status={status}
   data-tags={tags.join(',')}
   data-thumb={thumbUrl}
   data-full={originalUrl}
+  data-has-back={hasBack ? 'true' : 'false'}
+  data-back-thumb={backThumbUrl}
+  data-back-full={backOriginalUrl}
   style={`--aspect: ${aspect.toFixed(4)};`}
 >
   <div class="painting-card__wrap">
