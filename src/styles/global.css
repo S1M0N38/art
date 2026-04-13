@@ -124,6 +124,12 @@ button {
   text-decoration: none;
   position: relative;
   transition: color 0.3s var(--ease-out);
+  display: flex;
+  align-items: center;
+}
+
+.site-header__link-icon {
+  display: none;
 }
 
 .site-header__link::after {
@@ -158,11 +164,6 @@ button {
 .gallery {
   padding: calc(var(--header-height) + var(--masonry-gap)) var(--masonry-gap) var(--masonry-gap);
   position: relative;
-}
-
-@media (max-width: 480px) {
-  .painting-card__title { font-size: 1.1rem; }
-  .painting-card__dims  { font-size: 0.75rem; }
 }
 
 /* --- Painting Card --- */
@@ -233,8 +234,11 @@ button {
   gap: 8px;
 }
 
-.painting-card:hover .painting-card__overlay {
-  opacity: 1;
+/* Show overlay on hover (desktop only) */
+@media (hover: hover) {
+  .painting-card:hover .painting-card__overlay {
+    opacity: 1;
+  }
 }
 
 .painting-card__title {
@@ -395,20 +399,124 @@ button {
 
 /* --- Flip (front/back) button --- */
 
-/* Lightbox caption — mobile fallback */
+/* --- Mobile (≤ 640px) --- */
+
+/* Header: icons only */
 @media (max-width: 640px) {
+  :root {
+    --header-height: 64px;
+    --masonry-gap: 8px;
+  }
+
+  .site-header {
+    padding: 0 12px;
+  }
+
+  .site-header__title {
+    font-size: 1.2rem;
+    letter-spacing: 0.03em;
+  }
+
+  .site-header__nav {
+    gap: 6px;
+  }
+
+  .site-header__link {
+    padding: 6px;
+  }
+
+  .site-header__link-text {
+    display: none;
+  }
+
+  .site-header__link-icon {
+    display: block;
+  }
+
+  .site-header__link::after {
+    display: none;
+  }
+
+  .site-header__link--active .site-header__link-icon {
+    color: var(--color-text);
+  }
+
+  /* Gallery: single column, tighter padding */
+  .gallery {
+    padding: calc(var(--header-height) + var(--masonry-gap)) var(--masonry-gap) var(--masonry-gap);
+  }
+
+  /* Painting card: fits within gallery padding, no hover */
+  .painting-card {
+    width: calc(100% - 2 * var(--masonry-gap));
+    margin-bottom: var(--masonry-gap);
+  }
+
+  .painting-card:hover {
+    transform: none;
+    filter: none;
+  }
+
+  /* Hide overlay on mobile — info only in lightbox */
+  .painting-card__overlay {
+    display: none;
+  }
+
+  /* Lightbox: larger tap targets */
+  .pswp__top-bar {
+    top: auto;
+    bottom: 0;
+    padding: 0 8px 8px;
+  }
+
+  .pswp__button {
+    width: 52px;
+    height: 52px;
+  }
+
+  .pswp__button--arrow--prev,
+  .pswp__button--arrow--next {
+    width: 56px;
+    height: 56px;
+    margin-top: -28px;
+  }
+
+  .pswp__counter {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  /* Lightbox caption: simplified */
+  .pswp__custom-caption {
+    padding: 16px 16px 20px;
+  }
+
   .pswp__caption-row {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
   }
+
   .pswp__caption-title {
     width: 100%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
+
+  .pswp__caption-tags {
+    display: none;
+  }
+
+  .pswp__caption-status {
+    display: none;
+  }
+
   .pswp__caption-dims {
     font-size: 0.9rem;
+  }
+
+  .pswp__caption-meta {
+    justify-content: center;
   }
 }
 

@@ -4,6 +4,9 @@
  * Uses Desandro's masonry-layout for positioning and imagesloaded
  * to re-layout as images load. Lazy loading with blur-up is handled
  * via Intersection Observer.
+ *
+ * Mobile (≤640px): single full-width column.
+ * Desktop (>640px): multi-column with 340px column width.
  */
 
 import Masonry from 'masonry-layout';
@@ -12,18 +15,37 @@ import imagesLoaded from 'imagesloaded';
 (function () {
   'use strict';
 
-  const COLUMN_WIDTH = 340;
+  const DESKTOP_COLUMN_WIDTH = 340;
   const GUTTER = 16; // matches --masonry-gap
   const ROOTMARGIN = '200px 0px';
+  const MOBILE_BREAKPOINT = 640;
 
   const gallery = document.querySelector('.gallery');
   if (!gallery) return;
 
+  function isMobile() {
+    return window.innerWidth <= MOBILE_BREAKPOINT;
+  }
+
+  function getColumnWidth() {
+    if (isMobile()) {
+      // Account for gallery left+right padding so card fits within bounds
+      const style = getComputedStyle(gallery);
+      const paddingH = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight);
+      return gallery.offsetWidth - paddingH;
+    }
+    return DESKTOP_COLUMN_WIDTH;
+  }
+
+  function getGutter() {
+    return isMobile() ? 8 : GUTTER;
+  }
+
   // --- Initialize Masonry ---
-  const msnry = new Masonry(gallery, {
+  let msnry = new Masonry(gallery, {
     itemSelector: '.painting-card',
-    columnWidth: COLUMN_WIDTH,
-    gutter: GUTTER,
+    columnWidth: getColumnWidth(),
+    gutter: getGutter(),
     transitionDuration: '0.3s',
     initLayout: true,
   });
@@ -66,6 +88,31 @@ import imagesLoaded from 'imagesloaded';
   } else {
     document.querySelectorAll('.painting-card__img[data-src]').forEach(loadImage);
   }
+
+  // --- Responsive: rebuild masonry on breakpoint change ---
+  let lastWasMobile = isMobile();
+
+  function handleResize() {
+    const nowMobile = isMobile();
+    if (nowMobile !== lastWasMobile) {
+      lastWasMobile = nowMobile;
+      msnry.destroy();
+      msnry = new Masonry(gallery, {
+        itemSelector: '.painting-card',
+        columnWidth: getColumnWidth(),
+        gutter: getGutter(),
+        transitionDuration: '0.3s',
+        initLayout: true,
+      });
+    }
+  }
+
+  // Debounced resize listener
+  let resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(handleResize, 200);
+  });
 
   // Expose instance for filter integration later
   window.__msnry = msnry;

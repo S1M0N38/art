@@ -82,13 +82,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Thumbnail animation: link to the card's img element
     showHideAnimationType: 'zoom',
     
-    // Padding around the image
-    paddingFn: () => ({
-      top: 40,
-      bottom: 100,
-      left: 40,
-      right: 40,
-    }),
+    // Padding around the image (responsive)
+    paddingFn: () => {
+      const isMobile = window.innerWidth <= 640;
+      return isMobile
+        ? { top: 12, bottom: 80, left: 12, right: 12 }
+        : { top: 40, bottom: 100, left: 40, right: 40 };
+    },
 
     // Zoom levels
     initialZoomLevel: (zoomLevelObject) => zoomLevelObject.fit * 0.85,
