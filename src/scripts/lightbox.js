@@ -76,6 +76,9 @@ document.addEventListener('DOMContentLoaded', () => {
     dataSource: dataSource,
     pswpModule: () => import('photoswipe'),
 
+    // Apply custom class for light theme overrides
+    mainClass: 'pswp--light-bg',
+
     // Thumbnail animation: link to the card's img element
     showHideAnimationType: 'zoom',
     
@@ -95,8 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close on vertical drag
     closeOnVerticalDrag: true,
 
-    // Background opacity
-    bgOpacity: 0.95,
+    // Background opacity (white bg)
+    bgOpacity: 1,
   });
 
   // --- Thumbnail element for zoom animation ---

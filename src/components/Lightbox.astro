@@ -4,3 +4,44 @@
 ---
 
 <script src="../scripts/lightbox.js"></script>
+
+<style is:global>
+  /* White background + dark icons — overrides photoswipe/style.css */
+  .pswp {
+    --pswp-bg: #fff;
+    --pswp-icon-color: #1a1a1a;
+    --pswp-icon-color-secondary: #888;
+    --pswp-placeholder-bg: #f5f3ef;
+  }
+
+  .pswp.pswp--light-bg {
+    --pswp-bg: #fff;
+    --pswp-icon-color: #1a1a1a;
+    --pswp-icon-color-secondary: #888;
+    --pswp-placeholder-bg: #f5f3ef;
+  }
+
+  /* Direct bg element override for reliability */
+  .pswp--light-bg .pswp__bg {
+    background: #fff;
+  }
+
+  /* Remove icon outline shadow (designed for dark bg, not needed on white) */
+  .pswp__icn-shadow {
+    display: none;
+  }
+
+  /* Counter text */
+  .pswp__counter {
+    color: #1a1a1a;
+  }
+
+  /* Flip button active state */
+  .pswp__button--flip-active {
+    color: var(--color-accent);
+  }
+  .pswp__button--flip-active .pswp__icn {
+    color: var(--color-accent);
+    stroke: var(--color-accent);
+  }
+</style>
