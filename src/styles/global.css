@@ -163,6 +163,7 @@ button {
 /* --- Gallery (masonry) --- */
 .gallery {
   padding: calc(var(--header-height) + var(--masonry-gap)) var(--masonry-gap) var(--masonry-gap);
+  margin: 0 auto;
   position: relative;
 }
 

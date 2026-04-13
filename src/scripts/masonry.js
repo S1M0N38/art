@@ -46,6 +46,7 @@ import imagesLoaded from 'imagesloaded';
     itemSelector: '.painting-card',
     columnWidth: getColumnWidth(),
     gutter: getGutter(),
+    fitWidth: true,
     transitionDuration: '0.3s',
     initLayout: true,
   });
@@ -101,6 +102,7 @@ import imagesLoaded from 'imagesloaded';
         itemSelector: '.painting-card',
         columnWidth: getColumnWidth(),
         gutter: getGutter(),
+        fitWidth: true,
         transitionDuration: '0.3s',
         initLayout: true,
       });
