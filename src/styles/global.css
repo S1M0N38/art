@@ -1,6 +1,6 @@
 /* ============================================================
    Francesco Luchino — Art Portfolio
-   Dark-room gallery aesthetic: paintings glow on black.
+   Light gallery aesthetic: paintings float on warm white.
    ============================================================ */
 
 /* --- Reset --- */
@@ -14,11 +14,11 @@
 
 /* --- Custom Properties --- */
 :root {
-  --color-bg: #080808;
-  --color-surface: #121212;
-  --color-text: #e2e0dc;
-  --color-text-muted: #706f6b;
-  --color-accent: #c9a84c;
+  --color-bg: #faf9f7;
+  --color-surface: #faf9f7;
+  --color-text: #1a1a1a;
+  --color-text-muted: #888;
+  --color-accent: #b86e4e;
 
   --font-display: 'Cormorant Garamond', 'Georgia', serif;
   --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
@@ -86,27 +86,9 @@ button {
   justify-content: space-between;
   padding: 0 clamp(16px, 3vw, 32px);
   pointer-events: none;
-}
-
-/* Extended fade overlay — single gradient that reaches well below the header bar */
-.site-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 320px;
-  background: linear-gradient(
-    to bottom,
-    rgba(8, 8, 8, 0.97) 0%,
-    rgba(8, 8, 8, 0.88) 22%,
-    rgba(8, 8, 8, 0.55) 45%,
-    rgba(8, 8, 8, 0.25) 65%,
-    rgba(8, 8, 8, 0.08) 82%,
-    transparent 100%
-  );
-  pointer-events: none;
-  z-index: -1;
+  background: rgba(250, 249, 247, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .site-header > * {
@@ -277,19 +259,10 @@ button {
   flex-shrink: 0;
 }
 
-/* --- Edge vignette ---
-   Inset shadow fades painting edges to black, blending
-   seamlessly with the dark masonry gaps. */
-.painting-card::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.6);
-  pointer-events: none;
-  z-index: 1;
-}
+/* Edge vignette removed for light theme —
+   paintings float cleanly on the warm white background. */
 
-/* --- Lightbox (PhotoSwipe overrides) --- */
+/* --- Lightbox (PhotoSwipe overrides) --- moved to Lightbox.astro --- */
 
 /* Crossfade: original fades in over the placeholder thumb */
 .pswp__img {
@@ -303,7 +276,7 @@ button {
   left: 0;
   right: 0;
   padding: 20px clamp(16px, 4vw, 48px) 24px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.92) 0%, transparent 100%);
   font-family: var(--font-body);
   color: var(--color-text);
   z-index: 10;
@@ -348,7 +321,7 @@ button {
 .pswp__caption-tag {
   display: inline-block;
   padding: 3px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   font-size: 0.85rem;
   letter-spacing: 0.04em;
@@ -525,7 +498,7 @@ button {
 
 .critic-card__separator {
   border: none;
-  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  border-top: 1px solid rgba(184, 110, 78, 0.2);
   margin: 24px 0;
 }
 
@@ -585,28 +558,12 @@ button {
   }
 }
 
-/* --- Scrollbar --- */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--color-bg);
-}
-
-::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+/* --- Scrollbar: use browser defaults --- */
 
 /* --- Selection --- */
 ::selection {
   background: var(--color-accent);
-  color: var(--color-bg);
+  color: #fff;
 }
 
 /* --- Artista Page --- */
