@@ -34,14 +34,16 @@ art/
 │   │   └── filters.js               # Client-side filtering logic
 │   └── styles/global.css            # Dark theme, variables, typography
 ├── src/content/paintings.yaml       # All painting metadata
-├── images/raw/                      # Raw originals (gitignored)
-├── images/processed/                # Cropped images ready for optimization (gitignored)
-├── images/optimized/                # CDN-ready variants (gitignored)
-│   ├── originals/                   # Full-res JPGs
-│   ├── thumbs/                      # 800px WebP thumbnails
-│   └── placeholders/                # 20px WebP placeholders
-├── scripts/utils/preprocess.py      # Auto-crop white borders (uv run)
-├── scripts/utils/optimize.py        # Generate image variants (uv run)
+├── images/                           # All image variants (gitignored)
+│   ├── front/
+│   │   ├── original/                # Full-res JPGs (copied from arthag)
+│   │   ├── thumbs/                  # 800px WebP thumbnails (generated)
+│   │   └── placeholders/            # 20px WebP placeholders (generated)
+│   └── back/
+│       ├── original/                # Full-res JPGs (copied from arthag)
+│       ├── thumbs/                  # 800px WebP thumbnails (generated)
+│       └── placeholders/            # 20px WebP placeholders (generated)
+├── scripts/utils/optimize.py        # Generate thumbs + placeholders (uv run)
 ├── scripts/utils/upload_cdn.py      # Upload images to BunnyCDN (uv run)
 └── spec/PRD.md                      # Full product requirements
 ```
@@ -57,16 +59,20 @@ art/
   height_cm: 35             # Real painting height in cm
   technique: "olio su tavola"
   tags: []                  # Empty until tags.py pipeline fills them
+  back_photo: "2c031cc9-....jpg"  # Source back photo filename from archive.csv (or null)
 ```
 
 **Source of truth**: `artag/data/archive.csv` — the arthag project manages all painting metadata.
 
-Image variants (local, in `public/images/`, gitignored):
-- Original: `public/images/originals/{uuid}.jpg` (lightbox + download)
-- Thumbnail: `public/images/thumbs/{uuid}.webp` (masonry grid, 800px)
-- Placeholder: `public/images/placeholders/{uuid}.webp` (blur-up, 20px)
+Image variants (local, in `public/images/` → symlink to `images/`, gitignored):
+- Front original: `public/images/front/original/{uuid}.jpg` (lightbox + download)
+- Front thumbnail: `public/images/front/thumbs/{uuid}.webp` (masonry grid, 800px)
+- Front placeholder: `public/images/front/placeholders/{uuid}.webp` (blur-up, 20px)
+- Back original: `public/images/back/original/{uuid}.jpg` (lightbox toggle + download)
+- Back thumbnail: `public/images/back/thumbs/{uuid}.webp` (lightbox toggle, 800px)
+- Back placeholder: `public/images/back/placeholders/{uuid}.webp` (blur-up, 20px)
 
-Images are served locally via Astro's `public/` directory. CDN migration planned for later.
+`public/images` is a symlink to `../images/`. Images are served locally via Astro's `public/` directory. CDN migration planned for later.
 
 ## Key Design Decisions
 
@@ -90,8 +96,10 @@ npm run preview          # Preview production build
 uv run scripts/generate/paintings.py                  # Regenerate paintings.yaml from archive.csv
 uv run scripts/generate/paintings.py --csv /path/to/archive.csv  # Custom CSV path
 
-# Image optimization (from arthag edit/front)
-uv run scripts/utils/optimize.py                      # Generate all variants for all paintings
+# Image optimization — front + back (from images/{front,back}/original/)
+uv run scripts/utils/optimize.py                      # Generate all variants (front + back)
+uv run scripts/utils/optimize.py --front              # Front only
+uv run scripts/utils/optimize.py --back               # Back only
 uv run scripts/utils/optimize.py --skip-existing      # Skip already optimized
 
 # ML pipelines (optional, generate JSON overrides)

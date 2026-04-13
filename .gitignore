@@ -68,6 +68,7 @@ __pycache__/
 
 old-images/
 images/
+data/
 public/images/
 spec/example-images
 
