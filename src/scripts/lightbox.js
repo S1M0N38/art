@@ -4,6 +4,8 @@
  * Opens a full-screen lightbox when any .painting-card is clicked.
  * Shows the original high-res image with a custom caption bar
  * (title, dimensions, tags, download button).
+ *
+ * Supports toggling between front and back of painting.
  */
 
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
@@ -30,9 +32,14 @@ function buildDataSource() {
       w = Math.round(maxDim * aspect);
     }
 
+    const frontSrc = card.dataset.full;
+    const frontMsrc = card.dataset.thumb;
+    const hasBack = card.dataset.hasBack === 'true';
+
     return {
-      src: card.dataset.full,          // original JPG (loaded in background)
-      msrc: card.dataset.thumb,        // 800px thumb (shown immediately as placeholder)
+      // These are the "live" src/msrc that PhotoSwipe reads
+      src: frontSrc,
+      msrc: frontMsrc,
       width: w,
       height: h,
       // Custom data for caption
@@ -41,8 +48,16 @@ function buildDataSource() {
       widthCm: widthCm,
       heightCm: heightCm,
       technique: card.dataset.technique || '',
+      status: card.dataset.status || '0',
       tags: card.dataset.tags ? card.dataset.tags.split(',') : [],
-      element: card, // for thumbnail animation
+      element: card,
+      // Front/back state
+      hasBack,
+      frontSrc,
+      frontMsrc,
+      backSrc: hasBack ? card.dataset.backFull : '',
+      backMsrc: hasBack ? card.dataset.backThumb : '',
+      currentSide: 'front',
     };
   });
 }
@@ -93,20 +108,17 @@ document.addEventListener('DOMContentLoaded', () => {
     return _thumbEl;
   });
 
-  // --- Placeholder: always use the 800px thumb for instant display ---
+  // --- Placeholder: always use the msrc for instant display ---
   lightbox.addFilter('placeholderSrc', (_src, slide) => {
     return slide.data.msrc || _src;
   });
 
-  // --- Crossfade: hide original until fully loaded, then fade in ---
-  // Without this the browser progressively renders the original JPG
-  // top-to-bottom on top of the placeholder, causing visible flicker.
+  // --- Crossfade: hide image until fully loaded, then fade in ---
   lightbox.on('contentLoadImage', ({ content }) => {
     const img = content.element;
     if (img && img.tagName === 'IMG') {
-      // If the image is already cached the browser fires `complete`
-      // synchronously — skip hiding so there's no flash.
       if (!img.complete) {
+        img.style.transition = 'opacity 0.25s ease';
         img.style.opacity = '0';
       }
     }
@@ -115,8 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
   lightbox.on('loadComplete', ({ content }) => {
     const img = content.element;
     if (img && img.tagName === 'IMG') {
-      // Use rAF so the browser composites the placeholder first,
-      // then transitions the original in on the next frame.
       requestAnimationFrame(() => {
         img.style.opacity = '1';
       });
@@ -147,11 +157,22 @@ document.addEventListener('DOMContentLoaded', () => {
           const yearStr = data.year ? `<span class="pswp__caption-year">${data.year}</span>` : '';
           const techStr = data.technique ? `<span class="pswp__caption-technique">${data.technique}</span>` : '';
 
+          // Status badge
+          const statusMap = {
+            '0': { label: 'Sconosciuto', cls: 'status-unknown' },
+            '1': { label: 'Critico', cls: 'status-critical' },
+            '2': { label: 'Scarso', cls: 'status-poor' },
+            '3': { label: 'Buono', cls: 'status-good' },
+            '4': { label: 'Ottimo', cls: 'status-excellent' },
+          };
+          const statusInfo = statusMap[data.status] || statusMap['0'];
+          const statusHtml = `<span class="pswp__caption-status ${statusInfo.cls}">${statusInfo.label}</span>`;
+
           el.innerHTML = `
             <div class="pswp__caption-row">
               <div class="pswp__caption-title">${data.title}</div>
               <div class="pswp__caption-meta">${yearStr}${techStr}</div>
-              <div class="pswp__caption-tags">${tagsHtml}</div>
+              <div class="pswp__caption-tags">${statusHtml}${tagsHtml}</div>
               <div class="pswp__caption-dims">${data.widthCm} × ${data.heightCm} cm</div>
             </div>
           `;
@@ -178,8 +199,117 @@ document.addEventListener('DOMContentLoaded', () => {
         el.setAttribute('title', 'Scarica originale');
 
         pswp.on('change', () => {
-          el.href = pswp.currSlide.data.src;
+          const data = pswp.currSlide.data;
+          el.href = data.currentSide === 'back' ? data.backSrc : data.frontSrc;
         });
+      },
+    });
+
+    // --- Front/Back toggle button ---
+    lightbox.pswp.ui.registerElement({
+      name: 'flip-button',
+      order: 7,
+      isButton: true,
+      tagName: 'button',
+      html: {
+        isCustomSVG: true,
+        inner:
+          '<path d="m4.4 12.8 3.6-3.6 3.6 3.6" id="pswp__icn-flip" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>' +
+          '<path d="M17.6 23.6H10.4a2.4 2.4 0 0 1-2.4-2.4V9.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>' +
+          '<path d="m28.4 20-3.6 3.6-3.6-3.6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>' +
+          '<path d="M15.2 9.2h7.2a2.4 2.4 0 0 1 2.4 2.4v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+        outlineID: 'pswp__icn-flip',
+      },
+      onInit: (el, pswp) => {
+        el.classList.add('pswp__button--flip');
+        el.setAttribute('title', 'Vedi retro');
+
+        // Flag to prevent change handler from resetting during a flip
+        let isFlipping = false;
+
+        function updateButton(data) {
+          if (!data.hasBack) {
+            el.style.display = 'none';
+          } else {
+            el.style.display = '';
+            if (data.currentSide === 'back') {
+              el.classList.add('pswp__button--flip-active');
+              el.setAttribute('title', 'Vedi fronte');
+            } else {
+              el.classList.remove('pswp__button--flip-active');
+              el.setAttribute('title', 'Vedi retro');
+            }
+          }
+        }
+
+        el.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const slide = pswp.currSlide;
+          if (!slide || !slide.data.hasBack) return;
+
+          const data = slide.data;
+
+          // Toggle side
+          data.currentSide = data.currentSide === 'front' ? 'back' : 'front';
+
+          const newSrc = data.currentSide === 'back' ? data.backSrc : data.frontSrc;
+          const newMsrc = data.currentSide === 'back' ? data.backMsrc : data.frontMsrc;
+
+          // Replace the entire dataSource item with updated src/msrc.
+          // PhotoSwipe's refreshSlideContent re-initializes data from dataSource,
+          // so we must replace the full object (keeping all custom properties).
+          if (pswp.options && pswp.options.dataSource) {
+            pswp.options.dataSource[slide.index] = {
+              ...data,
+              src: newSrc,
+              msrc: newMsrc,
+            };
+          }
+
+          // Use PhotoSwipe's built-in method to reload the slide content.
+          // This properly destroys old content, creates new content,
+          // rebinds zoom/pan gestures, and triggers the loading lifecycle.
+          // Note: refreshSlideContent dispatches 'change' internally,
+          // so we set isFlipping to prevent the change handler from resetting.
+          isFlipping = true;
+          pswp.refreshSlideContent(slide.index);
+          isFlipping = false;
+
+          // Update download button href
+          const downloadBtn = el.parentElement?.querySelector('a[download]');
+          if (downloadBtn) {
+            downloadBtn.href = newSrc;
+          }
+
+          // Read fresh data (refreshSlideContent creates a new data object)
+          const freshData = pswp.currSlide?.data;
+          if (freshData) updateButton(freshData);
+        });
+
+        // Reset to front and update button on slide change
+        // (only for actual navigation, not during a flip)
+        pswp.on('change', () => {
+          const data = pswp.currSlide.data;
+          if (!isFlipping && data.currentSide === 'back') {
+            if (pswp.options && pswp.options.dataSource) {
+              pswp.options.dataSource[pswp.currSlide.index] = {
+                ...data,
+                currentSide: 'front',
+                src: data.frontSrc,
+                msrc: data.frontMsrc,
+              };
+            }
+            pswp.refreshSlideContent(pswp.currSlide.index);
+          }
+          const freshData = pswp.currSlide?.data || data;
+          updateButton(freshData);
+        });
+
+        // Initial state for first slide
+        if (pswp.currSlide) {
+          updateButton(pswp.currSlide.data);
+        }
       },
     });
   });
