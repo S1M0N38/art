@@ -3,74 +3,70 @@
 Utility scripts for image processing and metadata generation.
 All scripts use `uv run` with inline dependencies — no virtualenv needed.
 
+## Image Directory Structure
+
+```
+images/
+├── front/
+│   ├── original/        # Full-res JPGs (copied from arthag)
+│   ├── thumbs/          # 800px WebP (generated)
+│   └── placeholders/    # 20px WebP (generated)
+└── back/
+    ├── original/        # Full-res JPGs (copied from arthag)
+    ├── thumbs/          # 800px WebP (generated)
+    └── placeholders/    # 20px WebP (generated)
+```
+
+`public/images` is a symlink to `../images/` so Astro serves them.
+
 ## Image Processing Pipeline
 
-Raw photos go through three steps: crop, optimize, upload.
-
 ```
-images/raw/  →  preprocess  →  images/processed/
+arthag edit/front/  ──copy──►  images/front/original/
                                     ↓
-                                optimize
+                                optimize.py
                                     ↓
-                              images/optimized/
-                              ├── originals/       (full-res JPG)
-                              ├── thumbs/          (800px WebP)
-                              └── placeholders/    (20px WebP)
+                              images/front/thumbs/       (800px WebP)
+                              images/front/placeholders/  (20px WebP)
+
+arthag edit/back/   ──copy──►  images/back/original/
                                     ↓
-                                upload_cdn  →  BunnyCDN
+                                optimize.py
+                                    ↓
+                              images/back/thumbs/        (800px WebP)
+                              images/back/placeholders/   (20px WebP)
 ```
 
-### 1. Preprocess — crop white borders
+### 1. Optimize — generate gallery variants
 
-Detects and removes white borders from raw photos using grayscale threshold analysis.
+Creates thumbs and placeholders from the original images. Handles both front and back
+in a single script.
 
 ```bash
-uv run scripts/utils/preprocess.py                          # all images in images/raw/
-uv run scripts/utils/preprocess.py images/raw/photo.jpg     # single image
-uv run scripts/utils/preprocess.py --threshold 230          # custom brightness threshold (default: 240)
+uv run scripts/utils/optimize.py                     # front + back
+uv run scripts/utils/optimize.py --front             # front only
+uv run scripts/utils/optimize.py --back              # back only
+uv run scripts/utils/optimize.py --skip-existing     # skip if variants exist
 ```
 
-**Input:** `images/raw/` (JPG, JPEG, PNG)
-**Output:** `images/processed/` (same filenames, quality 95)
+**Input:** `images/{front,back}/original/`
+**Output:** `images/{front,back}/thumbs/` + `images/{front,back}/placeholders/`
 
-### 2. Deduplicate — remove duplicate images
+| Variant          | Format | Max width | Quality | Use case          |
+| ---------------- | ------ | --------- | ------- | ----------------- |
+| `original/`      | JPG    | original  | —       | Lightbox, download |
+| `thumbs/`        | WebP   | 800px     | 80      | Masonry grid       |
+| `placeholders/`  | WebP   | 20px      | 10      | Blur-up effect     |
 
-Removes duplicate images using the `imagededup-ui` web app.
+### 2. Upload — push to BunnyCDN
 
-```bash
-uvx imagededup-ui images/processed/
-```
-
-This process create a the file `images/processed/.imagededup.txt` where each line is a duplicated image.
-
-### 3. Optimize — generate CDN variants
-
-Creates three size variants per image, using the filename (UUID) as the output name.
-
-```bash
-uv run scripts/utils/optimize.py                            # all from images/processed/
-uv run scripts/utils/optimize.py images/processed/abc.jpg   # single image
-uv run scripts/utils/optimize.py --skip-existing            # skip already optimized
-```
-
-**Input:** `images/processed/`
-**Output:** `images/optimized/`
-
-| Variant        | Format | Max width | Quality | Use case          |
-| -------------- | ------ | --------- | ------- | ----------------- |
-| `originals/`   | JPG    | original  | —       | Lightbox, download |
-| `thumbs/`      | WebP   | 800px     | 80      | Masonry grid       |
-| `placeholders/` | WebP  | 20px      | 10      | Blur-up effect     |
-
-### 4. Upload — push to BunnyCDN
-
-Uploads optimized variants to BunnyCDN storage, preserving the directory structure.
+Uploads variants to BunnyCDN storage, preserving the directory structure.
 
 Requires `.env` with `BUNNY_STORAGE_ZONE`, `BUNNY_STORAGE_PASSWORD`, `BUNNY_STORAGE_ENDPOINT`.
 
 ```bash
 uv run scripts/utils/upload_cdn.py                          # upload all variants
-uv run scripts/utils/upload_cdn.py --variant thumbs         # upload only thumbnails
+uv run scripts/utils/upload_cdn.py --variant front/thumbs   # upload only front thumbnails
 uv run scripts/utils/upload_cdn.py --skip-existing          # skip already uploaded
 uv run scripts/utils/upload_cdn.py --dry-run                # preview without uploading
 uv run scripts/utils/upload_cdn.py --list                   # list remote files
@@ -85,16 +81,16 @@ and an aspect-ratio algorithm. Each generator outputs a JSON file; the final ste
 them into YAML.
 
 ```
-images/optimized/originals/  →  dimensions.py  →  dimensions.json ─┐
-images/optimized/thumbs/     →  tags.py        →  tags.json ───────┤
-images/optimized/thumbs/     →  titles.py      →  titles.json ─────┤
-images/optimized/thumbs/     →  sort_ids.py    →  sort_ids.json ───┤
-                                                                    ↓
-                                                              paintings.py
-                                                                    ↓
-                                                        scripts/generate/paintings.yaml
-                                                                    ↓
-                                                          (manual copy to src/content/)
+images/front/original/  →  dimensions.py  →  dimensions.json ─┐
+images/front/thumbs/    →  tags.py        →  tags.json ───────┤
+images/front/thumbs/    →  titles.py      →  titles.json ─────┤
+images/front/thumbs/    →  sort_ids.py    →  sort_ids.json ───┤
+                                                                ↓
+                                                          paintings.py
+                                                                ↓
+                                                    scripts/generate/paintings.yaml
+                                                                ↓
+                                                      (manual copy to src/content/)
 ```
 
 VLM scripts require `.env` with `VLM_BASE_API` and `VLM_MODEL` (OpenAI-compatible endpoint).
@@ -107,9 +103,9 @@ picks one deterministically using a hash of the UUID — so repeated runs produc
 result while creating a realistic size distribution.
 
 ```bash
-uv run scripts/generate/dimensions.py                                           # all originals
-uv run scripts/generate/dimensions.py images/optimized/originals/abc.jpg        # single image
-uv run scripts/generate/dimensions.py --skip-existing                           # resume
+uv run scripts/generate/dimensions.py                                        # all originals
+uv run scripts/generate/dimensions.py images/front/original/abc.jpg          # single image
+uv run scripts/generate/dimensions.py --skip-existing                        # resume
 ```
 
 **Output:** `scripts/generate/dimensions.json` — `{uuid: {width_cm, height_cm}}`
@@ -122,9 +118,9 @@ per painting using structured JSON output.
 Valid tags: `paesaggio`, `città`, `interni`, `astratto`, `ritratto`, `natura morta`, `notturno`, `fiori`.
 
 ```bash
-uv run scripts/generate/tags.py                                                 # all thumbnails
-uv run scripts/generate/tags.py images/optimized/thumbs/abc.webp                # single image
-uv run scripts/generate/tags.py --skip-existing                                 # resume
+uv run scripts/generate/tags.py                                              # all thumbnails
+uv run scripts/generate/tags.py images/front/thumbs/abc.webp                 # single image
+uv run scripts/generate/tags.py --skip-existing                              # resume
 ```
 
 **Output:** `scripts/generate/tags.json` — `{uuid: [tag1, tag2, ...]}`
@@ -135,9 +131,9 @@ Sends each thumbnail to a VLM with an Italian art curator prompt. Returns a shor
 gallery-style title in Italian.
 
 ```bash
-uv run scripts/generate/titles.py                                               # all thumbnails
-uv run scripts/generate/titles.py images/optimized/thumbs/abc.webp              # single image
-uv run scripts/generate/titles.py --skip-existing                               # resume
+uv run scripts/generate/titles.py                                            # all thumbnails
+uv run scripts/generate/titles.py images/front/thumbs/abc.webp               # single image
+uv run scripts/generate/titles.py --skip-existing                            # resume
 ```
 
 **Output:** `scripts/generate/titles.json` — `{uuid: "Titolo del Dipinto"}`
@@ -149,8 +145,8 @@ to 1D with t-SNE, and assigning sequential `sort_id` values so similar paintings
 each other in the gallery.
 
 ```bash
-uv run scripts/generate/sort_ids.py                                             # all thumbnails
-uv run scripts/generate/sort_ids.py --skip-existing                             # resume
+uv run scripts/generate/sort_ids.py                                          # all thumbnails
+uv run scripts/generate/sort_ids.py --skip-existing                          # resume
 ```
 
 **Output:** `scripts/generate/sort_ids.json` — `{uuid: sort_id}`

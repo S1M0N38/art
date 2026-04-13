@@ -20,7 +20,7 @@ Required env vars: VLM_BASE_API, VLM_MODEL.
 
 Usage:
     uv run scripts/generate/titles.py                                        # all thumbs
-    uv run scripts/generate/titles.py images/optimized/thumbs/00cb4951.webp  # single file
+    uv run scripts/generate/titles.py images/front/thumbs/00cb4951.webp  # single file
     uv run scripts/generate/titles.py --skip-existing                        # resume interrupted run
 """
 
@@ -36,7 +36,7 @@ import httpx
 from dotenv import load_dotenv
 from tqdm.asyncio import tqdm
 
-THUMBS_DIR = Path("images/optimized/thumbs")
+THUMBS_DIR = Path("images/front/thumbs")
 OUTPUT_FILE = Path("scripts/generate/titles.json")
 ENV_FILE = Path(".env")
 

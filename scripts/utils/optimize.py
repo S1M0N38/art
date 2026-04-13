@@ -4,78 +4,60 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #   "Pillow",
+#   "pyyaml",
 # ]
 # ///
 
 """
-Generate optimized image variants for the gallery.
+Generate optimized image variants for the gallery (front + back).
 
-Reads images from images/processed/ (named {uuid}.jpg) and generates:
-  - originals: full-res copy
-  - thumbs: ≤800px WebP
-  - placeholders: ≤20px WebP
+Front: reads originals from images/front/original/, generates thumbs + placeholders
+       into images/front/thumbs/ and images/front/placeholders/.
 
-All output goes to images/optimized/{originals,thumbs,placeholders}/.
-public/images/ is a symlink to images/optimized/ for the website.
+Back:  reads the painting_id → back_photo mapping from paintings.yaml, finds source
+       images in images/back/original/ (already renamed to painting_id), and generates
+       thumbs + placeholders into images/back/thumbs/ and images/back/placeholders/.
 
 Usage:
-    uv run scripts/utils/optimize.py                     # all images in images/processed/
-    uv run scripts/utils/optimize.py --skip-existing     # skip if all 3 variants exist
+    uv run scripts/utils/optimize.py                     # front + back
+    uv run scripts/utils/optimize.py --front             # front only
+    uv run scripts/utils/optimize.py --back              # back only
+    uv run scripts/utils/optimize.py --skip-existing     # skip if variants exist
 """
 
+import argparse
 import shutil
 import sys
-import argparse
 from pathlib import Path
 
+import yaml
 from PIL import Image, UnidentifiedImageError
 
-PROCESSED_DIR = Path("images/processed")
-OUTPUT_DIR = Path("images/optimized")
+IMAGES_DIR = Path("images")
 
 VARIANTS = {
-    "originals": {"max_width": None, "quality": None, "ext": ".jpg"},
     "thumbs": {"max_width": 800, "quality": 80, "ext": ".webp"},
     "placeholders": {"max_width": 20, "quality": 10, "ext": ".webp"},
 }
 
 
-def variant_path(painting_id: str, variant: str) -> Path:
-    """Return the output path for a given variant."""
+def variant_path(side: str, painting_id: str, variant: str) -> Path:
+    """Return the output path for a given side/variant."""
     cfg = VARIANTS[variant]
-    return OUTPUT_DIR / variant / f"{painting_id}{cfg['ext']}"
+    return IMAGES_DIR / side / variant / f"{painting_id}{cfg['ext']}"
 
 
-def all_variants_exist(painting_id: str) -> bool:
-    """Check whether all 3 output files already exist."""
-    return all(variant_path(painting_id, v).exists() for v in VARIANTS)
+def all_variants_exist(side: str, painting_id: str) -> bool:
+    """Check whether all output variants already exist for a painting."""
+    return all(variant_path(side, painting_id, v).exists() for v in VARIANTS)
 
 
-def discover_processed() -> list[tuple[str, Path]]:
-    """Find all images in images/processed/.
-
-    Returns list of (painting_id, path) tuples sorted by painting_id.
-    """
-    if not PROCESSED_DIR.exists():
-        raise SystemExit(f"Error: {PROCESSED_DIR}/ not found")
-
-    images = []
-    for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
-        for p in PROCESSED_DIR.glob(ext):
-            images.append((p.stem, p))
-
-    images.sort(key=lambda x: x[0])
-    return images
-
-
-def optimize_file(
-    src: Path, painting_id: str, skip_existing: bool
-) -> bool | None:
-    """Generate all variants for a single source image.
+def optimize_file(src: Path, painting_id: str, side: str, skip_existing: bool) -> bool | None:
+    """Generate thumbs + placeholders for a single source image.
 
     Returns True if optimized, False if skipped, None if invalid.
     """
-    if skip_existing and all_variants_exist(painting_id):
+    if skip_existing and all_variants_exist(side, painting_id):
         return False
 
     try:
@@ -87,15 +69,9 @@ def optimize_file(
 
     orig_size = f"{img.size[0]}x{img.size[1]}"
 
-    # originals — straight copy, no re-encoding
-    dst_orig = variant_path(painting_id, "originals")
-    shutil.copy2(src, dst_orig)
-
-    # thumbs and placeholders — resize + WebP
-    for variant in ("thumbs", "placeholders"):
-        cfg = VARIANTS[variant]
+    for variant, cfg in VARIANTS.items():
         max_width = cfg["max_width"]
-        dst = variant_path(painting_id, variant)
+        dst = variant_path(side, painting_id, variant)
 
         w, h = img.size
         if w > max_width:
@@ -109,43 +85,125 @@ def optimize_file(
 
     print(
         f"  {painting_id}: {orig_size}"
-        f" → originals/{painting_id}.jpg,"
-        f" thumbs/{painting_id}.webp,"
-        f" placeholders/{painting_id}.webp"
+        f" → {side}/thumbs/{painting_id}.webp,"
+        f" {side}/placeholders/{painting_id}.webp"
     )
     return True
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Generate optimized image variants from images/processed/"
-    )
-    parser.add_argument(
-        "--skip-existing",
-        action="store_true",
-        help="Skip paintings where all 3 variants already exist",
-    )
-    args = parser.parse_args()
+def optimize_front(skip_existing: bool) -> tuple[int, int]:
+    """Optimize all front images. Returns (optimized, skipped)."""
+    original_dir = IMAGES_DIR / "front" / "original"
+    if not original_dir.exists():
+        raise SystemExit(f"Error: {original_dir}/ not found")
 
-    # Create output directories
-    for variant in VARIANTS:
-        (OUTPUT_DIR / variant).mkdir(parents=True, exist_ok=True)
+    images = []
+    for ext in ("*.jpg", "*.jpeg", "*.png", "*.webp"):
+        images.extend(original_dir.glob(ext))
+    images.sort(key=lambda p: p.stem)
 
-    # Discover images
-    processed = discover_processed()
-    print(f"Found {len(processed)} images in {PROCESSED_DIR}/")
+    print(f"\n[front] Found {len(images)} originals in {original_dir}/")
 
-    optimized = 0
-    skipped = 0
-
-    for painting_id, src in processed:
-        result = optimize_file(src, painting_id, skip_existing=args.skip_existing)
+    optimized, skipped = 0, 0
+    for src in images:
+        result = optimize_file(src, src.stem, "front", skip_existing)
         if result is True:
             optimized += 1
         elif result is False:
             skipped += 1
 
-    print(f"Done. {optimized} optimized, {skipped} skipped.")
+    print(f"[front] {optimized} optimized, {skipped} skipped.")
+    return optimized, skipped
+
+
+def optimize_back(skip_existing: bool) -> tuple[int, int, int]:
+    """Optimize all back images. Returns (optimized, skipped, missing)."""
+    original_dir = IMAGES_DIR / "back" / "original"
+    if not original_dir.exists():
+        raise SystemExit(f"Error: {original_dir}/ not found")
+
+    # Load paintings.yaml to know which paintings have back photos
+    paintings_yaml = Path("src/content/paintings.yaml")
+    if not paintings_yaml.exists():
+        raise SystemExit(f"Error: {paintings_yaml} not found. Run paintings.py first.")
+
+    paintings = yaml.safe_load(paintings_yaml.read_text(encoding="utf-8"))
+
+    # Collect painting IDs that have a back photo and a source file exists
+    painting_ids = [p["id"] for p in paintings if p.get("back_photo")]
+
+    print(f"\n[back] Found {len(painting_ids)} paintings with back photos in YAML")
+    print(f"[back] Source directory: {original_dir}/")
+
+    optimized, skipped, missing = 0, 0, 0
+    for painting_id in painting_ids:
+        # Source is already named by painting_id in back/original/
+        src = original_dir / f"{painting_id}.jpg"
+        if not src.exists():
+            # Try other extensions
+            for ext in (".jpeg", ".png", ".webp"):
+                alt = original_dir / f"{painting_id}{ext}"
+                if alt.exists():
+                    src = alt
+                    break
+            else:
+                missing += 1
+                continue
+
+        result = optimize_file(src, painting_id, "back", skip_existing)
+        if result is True:
+            optimized += 1
+        elif result is False:
+            skipped += 1
+
+    print(f"[back] {optimized} optimized, {skipped} skipped, {missing} missing source files.")
+    return optimized, skipped, missing
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Generate optimized image variants (front + back)"
+    )
+    parser.add_argument(
+        "--front",
+        action="store_true",
+        help="Optimize front images only",
+    )
+    parser.add_argument(
+        "--back",
+        action="store_true",
+        help="Optimize back images only",
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip paintings where all variants already exist",
+    )
+    args = parser.parse_args()
+
+    # Default: both front and back
+    do_front = not args.back or args.front
+    do_back = not args.front or args.back
+
+    # Create output directories
+    for side in ("front", "back"):
+        for variant in VARIANTS:
+            (IMAGES_DIR / side / variant).mkdir(parents=True, exist_ok=True)
+
+    total_optimized = 0
+    total_skipped = 0
+
+    if do_front:
+        opt, skip = optimize_front(skip_existing=args.skip_existing)
+        total_optimized += opt
+        total_skipped += skip
+
+    if do_back:
+        opt, skip, _ = optimize_back(skip_existing=args.skip_existing)
+        total_optimized += opt
+        total_skipped += skip
+
+    print(f"\nDone. {total_optimized} optimized, {total_skipped} skipped.")
 
 
 if __name__ == "__main__":

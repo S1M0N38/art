@@ -11,7 +11,7 @@
 """
 Upload optimized painting images to BunnyCDN Storage Zone.
 
-Uploads pre-generated image variants from images/optimized/ to the CDN,
+Uploads pre-generated image variants from images/ to the CDN,
 preserving the directory structure (originals/, thumbs/, placeholders/).
 
 Reads credentials from environment variables or a .env file in the project root.
@@ -34,8 +34,8 @@ from pathlib import Path
 import httpx
 from dotenv import load_dotenv
 
-OPTIMIZED_DIR = Path("images/optimized")
-VARIANT_DIRS = ["originals", "thumbs", "placeholders"]
+OPTIMIZED_DIR = Path("images")
+VARIANT_DIRS = ["front/original", "front/thumbs", "front/placeholders", "back/original", "back/thumbs", "back/placeholders"]
 ENV_FILE = Path(".env")
 
 
@@ -117,7 +117,7 @@ def main() -> None:
     parser.add_argument(
         "files",
         nargs="*",
-        help="Specific files to upload (default: all in images/optimized/)",
+        help="Specific files to upload (default: all in images/)",
     )
     parser.add_argument(
         "--variant",

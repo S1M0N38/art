@@ -40,11 +40,11 @@ import httpx
 from dotenv import load_dotenv
 from tqdm.asyncio import tqdm
 
-THUMBS_DIR = Path("images/optimized/thumbs")
+THUMBS_DIR = Path("images/front/thumbs")
 OUTPUT_FILE = Path("scripts/generate/tags.json")
 ENV_FILE = Path(".env")
 DEFAULT_CSV = Path(os.environ.get(
-    "ARTAG_CSV", str(Path.home() / "Downloads/artag/data/archive.csv"),
+    "ARTAG_CSV", str(Path(__file__).resolve().parents[2] / "data" / "archive.csv"),
 ))
 
 VALID_TAGS = [

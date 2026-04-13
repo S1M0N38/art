@@ -474,7 +474,7 @@ class Qwen3VLEmbedder:
 # ---------------------------------------------------------------------------
 
 # Script configuration
-THUMBS_DIR = Path("images/optimized/thumbs")
+THUMBS_DIR = Path("images/front/thumbs")
 OUTPUT_FILE = Path("scripts/generate/sort_ids.json")
 EMBEDDINGS_FILE = Path("scripts/generate/embeddings.npz")
 MODEL_ID = "Qwen/Qwen3-VL-Embedding-2B"

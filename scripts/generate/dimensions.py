@@ -7,7 +7,7 @@
 """
 Generate plausible cm dimensions for paintings based on pixel aspect ratios.
 
-Reads each image from images/optimized/originals/, computes the aspect ratio,
+Reads each image from images/front/original/, computes the aspect ratio,
 and maps it to the closest standard Italian canvas size (20–80 cm range,
 rounded to nearest 5 cm). Results are deterministic — a hash of the painting
 UUID selects among same-ratio size variants so small/large sizes are evenly
@@ -15,7 +15,7 @@ distributed across the collection.
 
 Usage:
     uv run scripts/generate/dimensions.py                                         # all images
-    uv run scripts/generate/dimensions.py images/optimized/originals/00cb4951.jpg # single file
+    uv run scripts/generate/dimensions.py images/front/original/00cb4951.jpg # single file
     uv run scripts/generate/dimensions.py --skip-existing                         # resume
 """
 
@@ -29,7 +29,7 @@ from pathlib import Path
 from PIL import Image
 
 
-ORIGINALS_DIR = Path("images/optimized/originals")
+ORIGINALS_DIR = Path("images/front/original")
 OUTPUT_FILE = Path("scripts/generate/dimensions.json")
 
 # Standard Italian canvas sizes (width_cm, height_cm).
