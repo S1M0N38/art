@@ -160,22 +160,11 @@ document.addEventListener('DOMContentLoaded', () => {
           const yearStr = data.year ? `<span class="pswp__caption-year">${data.year}</span>` : '';
           const techStr = data.technique ? `<span class="pswp__caption-technique">${data.technique}</span>` : '';
 
-          // Status badge
-          const statusMap = {
-            '0': { label: 'Sconosciuto', cls: 'status-unknown' },
-            '1': { label: 'Critico', cls: 'status-critical' },
-            '2': { label: 'Scarso', cls: 'status-poor' },
-            '3': { label: 'Buono', cls: 'status-good' },
-            '4': { label: 'Ottimo', cls: 'status-excellent' },
-          };
-          const statusInfo = statusMap[data.status] || statusMap['0'];
-          const statusHtml = `<span class="pswp__caption-status ${statusInfo.cls}">${statusInfo.label}</span>`;
-
           el.innerHTML = `
             <div class="pswp__caption-row">
               <div class="pswp__caption-title">${data.title}</div>
               <div class="pswp__caption-meta">${yearStr}${techStr}</div>
-              <div class="pswp__caption-tags">${statusHtml}${tagsHtml}</div>
+              <div class="pswp__caption-tags">${tagsHtml}</div>
               <div class="pswp__caption-dims">${data.widthCm} × ${data.heightCm} cm</div>
             </div>
           `;
