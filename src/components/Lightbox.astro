@@ -31,9 +31,21 @@
     display: none;
   }
 
-  /* Counter text */
-  .pswp__counter {
+  /* Counter text — clean, no shadow */
+  .pswp .pswp__counter {
     color: #1a1a1a;
+    text-shadow: none !important;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+  }
+
+  /* Flip button — inherit black icon color like other buttons */
+  .pswp__button--flip {
+    color: var(--pswp-icon-color);
+  }
+  .pswp__button--flip .pswp__icn {
+    color: var(--pswp-icon-color);
   }
 
   /* Flip button active state */

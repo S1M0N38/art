@@ -84,9 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Padding around the image (responsive)
     paddingFn: () => {
-      const isMobile = window.innerWidth <= 640;
-      return isMobile
-        ? { top: 12, bottom: 80, left: 12, right: 12 }
+      const isNarrow = window.innerWidth <= 1024;
+      return isNarrow
+        ? { top: 8, bottom: 110, left: 8, right: 8 }
         : { top: 40, bottom: 100, left: 40, right: 40 };
     },
 
