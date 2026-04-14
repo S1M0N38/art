@@ -724,20 +724,39 @@ button {
   transform: translateY(0);
 }
 
-.artista__text p {
+.artista__bio p {
   font-family: var(--font-body);
-  font-size: clamp(1.1rem, 2.5vw, 1.3rem);
-  line-height: 1.95;
-  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--color-text);
+  letter-spacing: 0.01em;
+}
+
+.artista__bio p + p {
+  margin-top: 1em;
+}
+
+.artista__quote-divider {
+  border: none;
+  border-top: 1px solid rgba(184, 110, 78, 0.2);
+  margin: 32px 0;
+}
+
+.artista__quote p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--color-text);
+  font-style: italic;
   letter-spacing: 0.01em;
 }
 
 .artista__attribution {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-accent);
-  margin-top: 24px;
+  margin-top: 20px;
   text-align: right;
   letter-spacing: 0.02em;
   opacity: 0.8;
