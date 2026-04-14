@@ -35,7 +35,11 @@ import httpx
 from dotenv import load_dotenv
 
 OPTIMIZED_DIR = Path("images")
-VARIANT_DIRS = ["front/original", "front/thumbs", "front/placeholders", "back/original", "back/thumbs", "back/placeholders"]
+# Remote dirs include "images/" prefix so CDN URLs match local paths:
+# CDN: https://zone.b-cdn.net/images/front/thumbs/{id}.webp
+# Local: /images/front/thumbs/{id}.webp
+REMOTE_VARIANT_DIRS = ["images/front/original", "images/front/thumbs", "images/front/placeholders", "images/back/original", "images/back/thumbs", "images/back/placeholders"]
+LOCAL_VARIANT_DIRS = ["front/original", "front/thumbs", "front/placeholders", "back/original", "back/thumbs", "back/placeholders"]
 ENV_FILE = Path(".env")
 
 
@@ -145,20 +149,22 @@ def main() -> None:
 
     config = get_config()
 
-    # Determine which variant dirs to operate on
-    variants = VARIANT_DIRS if args.variant == "all" else [args.variant]
+    # Determine which local variant dirs to scan
+    local_variants = LOCAL_VARIANT_DIRS if args.variant == "all" else [args.variant]
+    # Map local variant → remote variant (adds images/ prefix)
+    local_to_remote = dict(zip(LOCAL_VARIANT_DIRS, REMOTE_VARIANT_DIRS))
 
     # -- List mode --
     if args.list_files:
         print(f"Files in storage zone '{config['zone']}':")
         total = 0
-        for variant in VARIANT_DIRS:
-            remote = list_remote_files(config, subdir=variant)
+        for remote_variant in REMOTE_VARIANT_DIRS:
+            remote = list_remote_files(config, subdir=remote_variant)
             files = [f for f in remote if not f.get("IsDirectory")]
             for f in sorted(files, key=lambda x: x["ObjectName"]):
                 size_kb = f["Length"] / 1024
-                display = f"{variant}/{f['ObjectName']}"
-                print(f"  {display:<50} {size_kb:>8.0f} KB")
+                display = f"{remote_variant}/{f['ObjectName']}"
+                print(f"  {display:<60} {size_kb:>8.0f} KB")
             total += len(files)
         if not total:
             print("  (empty)")
@@ -173,19 +179,25 @@ def main() -> None:
         # Positional files: infer remote_dir from parent dir name
         for f in args.files:
             p = Path(f)
-            parent = p.parent.name
-            remote_dir = parent if parent in VARIANT_DIRS else ""
+            # Use parent dir relative to images/ as local variant key
+            try:
+                rel = p.relative_to(OPTIMIZED_DIR)
+                local_variant = str(Path(rel).parent)
+            except ValueError:
+                local_variant = p.parent.name
+            remote_dir = local_to_remote.get(local_variant, f"images/{local_variant}")
             upload_list.append((p, remote_dir))
     else:
         # Auto-collect from optimized variant dirs
-        for variant in variants:
-            variant_path = OPTIMIZED_DIR / variant
+        for local_variant in local_variants:
+            variant_path = OPTIMIZED_DIR / local_variant
             if not variant_path.is_dir():
                 continue
             found = sorted(variant_path.glob("*.jpg")) + sorted(
                 variant_path.glob("*.webp")
             )
-            upload_list.extend((f, variant) for f in found)
+            remote_dir = local_to_remote[local_variant]
+            upload_list.extend((f, remote_dir) for f in found)
 
     if not upload_list:
         print(f"No images found in {OPTIMIZED_DIR}/")

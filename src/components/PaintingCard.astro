@@ -13,14 +13,16 @@ interface Props {
 
 const { id, title, year, width_cm, height_cm, technique, status, tags, back_photo } = Astro.props;
 
+import { imageUrl } from "../utils/images";
+
 const hasBack = !!back_photo;
 
-const thumbUrl = `/images/front/thumbs/${id}.webp`;
-const placeholderUrl = `/images/front/placeholders/${id}.webp`;
-const originalUrl = `/images/front/original/${id}.jpg`;
-const backThumbUrl = hasBack ? `/images/back/thumbs/${id}.webp` : '';
-const backPlaceholderUrl = hasBack ? `/images/back/placeholders/${id}.webp` : '';
-const backOriginalUrl = hasBack ? `/images/back/original/${id}.jpg` : '';
+const thumbUrl = imageUrl("front/thumbs", `${id}.webp`);
+const placeholderUrl = imageUrl("front/placeholders", `${id}.webp`);
+const originalUrl = imageUrl("front/original", `${id}.jpg`);
+const backThumbUrl = hasBack ? imageUrl("back/thumbs", `${id}.webp`) : '';
+const backPlaceholderUrl = hasBack ? imageUrl("back/placeholders", `${id}.webp`) : '';
+const backOriginalUrl = hasBack ? imageUrl("back/original", `${id}.jpg`) : '';
 const aspect = width_cm / height_cm;
 ---
 
