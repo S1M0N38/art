@@ -2,8 +2,8 @@
  * lightbox.js — PhotoSwipe v5 integration.
  *
  * Opens a full-screen lightbox when any .painting-card is clicked.
- * Shows the original high-res image with a custom caption bar
- * (title, dimensions, tags, download button).
+ * Shows the low-res thumbnail immediately, then upgrades to the
+ * original high-res image once it finishes loading in the background.
  *
  * Supports toggling between front and back of painting.
  */
@@ -37,9 +37,11 @@ function buildDataSource() {
     const hasBack = card.dataset.hasBack === 'true';
 
     return {
-      // These are the "live" src/msrc that PhotoSwipe reads
-      src: frontSrc,
+      // PhotoSwipe src = thumbnail for immediate display.
+      // Original (fullSrc) is loaded in background and swapped in when ready.
+      src: frontMsrc,
       msrc: frontMsrc,
+      fullSrc: frontSrc,
       width: w,
       height: h,
       // Custom data for caption
@@ -58,6 +60,7 @@ function buildDataSource() {
       backSrc: hasBack ? card.dataset.backFull : '',
       backMsrc: hasBack ? card.dataset.backThumb : '',
       currentSide: 'front',
+      _upgraded: false,
     };
   });
 }
@@ -116,24 +119,27 @@ document.addEventListener('DOMContentLoaded', () => {
     return slide.data.msrc || _src;
   });
 
-  // --- Crossfade: hide image until fully loaded, then fade in ---
-  lightbox.on('contentLoadImage', ({ content }) => {
-    const img = content.element;
-    if (img && img.tagName === 'IMG') {
-      if (!img.complete) {
-        img.style.transition = 'opacity 0.25s ease';
-        img.style.opacity = '0';
-      }
-    }
-  });
+  // --- Progressive loading: display thumbnail, then upgrade to original ---
+  lightbox.on('loadComplete', ({ content, slide }) => {
+    const data = slide.data;
+    const fullSrc = data.fullSrc;
 
-  lightbox.on('loadComplete', ({ content }) => {
-    const img = content.element;
-    if (img && img.tagName === 'IMG') {
-      requestAnimationFrame(() => {
-        img.style.opacity = '1';
-      });
-    }
+    // Only upgrade if we have a full-res version and haven't upgraded yet
+    if (!fullSrc || data._upgraded) return;
+
+    // Preload the original in the background
+    const preloader = new Image();
+    preloader.onload = () => {
+      // Mark as upgraded so we don't re-trigger
+      data._upgraded = true;
+
+      const img = content.element;
+      if (img && img.tagName === 'IMG') {
+        // Image is already cached by the preloader — swap is instant
+        img.src = fullSrc;
+      }
+    };
+    preloader.src = fullSrc;
   });
 
   // --- Custom caption UI element ---
@@ -245,8 +251,9 @@ document.addEventListener('DOMContentLoaded', () => {
           // Toggle side
           data.currentSide = data.currentSide === 'front' ? 'back' : 'front';
 
-          const newSrc = data.currentSide === 'back' ? data.backSrc : data.frontSrc;
-          const newMsrc = data.currentSide === 'back' ? data.backMsrc : data.frontMsrc;
+          const newSrc = data.currentSide === 'back' ? data.backMsrc : data.frontMsrc;
+          const newMsrc = newSrc;
+          const newFullSrc = data.currentSide === 'back' ? data.backSrc : data.frontSrc;
 
           // Replace the entire dataSource item with updated src/msrc.
           // PhotoSwipe's refreshSlideContent re-initializes data from dataSource,
@@ -256,6 +263,8 @@ document.addEventListener('DOMContentLoaded', () => {
               ...data,
               src: newSrc,
               msrc: newMsrc,
+              fullSrc: newFullSrc,
+              _upgraded: false,
             };
           }
 
@@ -271,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // Update download button href
           const downloadBtn = el.parentElement?.querySelector('a[download]');
           if (downloadBtn) {
-            downloadBtn.href = newSrc;
+            downloadBtn.href = newFullSrc;
           }
 
           // Read fresh data (refreshSlideContent creates a new data object)
@@ -288,8 +297,10 @@ document.addEventListener('DOMContentLoaded', () => {
               pswp.options.dataSource[pswp.currSlide.index] = {
                 ...data,
                 currentSide: 'front',
-                src: data.frontSrc,
+                src: data.frontMsrc,
                 msrc: data.frontMsrc,
+                fullSrc: data.frontSrc,
+                _upgraded: false,
               };
             }
             pswp.refreshSlideContent(pswp.currSlide.index);
