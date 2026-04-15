@@ -52,6 +52,7 @@ art/
 
 ```yaml
 - id: "7b0411a2-351e-47bf-9e10-320be6dde816"
+  custom_id: 2000           # Manual archive ID (from archive.csv)
   sort_id: 2000             # Display order in gallery (from custom_id; recomputed by sort_ids.py)
   title: "Tetti Rossi"
   year: 2007
@@ -60,6 +61,7 @@ art/
   technique: "olio su tavola"
   tags: []                  # Empty until tags.py pipeline fills them
   back_photo: "2c031cc9-....jpg"  # Source back photo filename from archive.csv (or null)
+  published: true           # Whether to show in the gallery (hardcoded set in paintings.py)
 ```
 
 **Source of truth**: `artag/data/archive.csv` — the arthag project manages all painting metadata.

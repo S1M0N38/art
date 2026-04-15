@@ -3,6 +3,7 @@ import PaintingCard from './PaintingCard.astro';
 
 interface Painting {
   id: string;
+  custom_id: number;
   sort_id: number;
   title: string;
   year: number | null;
@@ -11,6 +12,7 @@ interface Painting {
   technique: string;
   status: number;
   tags: string[];
+  published: boolean;
 }
 
 interface Props {

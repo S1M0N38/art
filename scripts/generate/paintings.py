@@ -20,6 +20,14 @@ import json
 import argparse
 from pathlib import Path
 
+# Hardcoded set of custom_ids to exclude from the published website.
+# These paintings still exist in the archive but are not shown publicly.
+UNPUBLISHED_CUSTOM_IDS = frozenset({
+    2091, 2439, 2198, 2117, 2118, 2123, 2002, 2089,
+    2201, 2124, 2197, 2332, 2243, 2090, 2352, 2199,
+    2126, 2200, 2354, 2336, 3004,
+})
+
 import yaml
 
 SCRIPT_DIR = Path(__file__).parent
@@ -85,8 +93,11 @@ def main() -> None:
 
         back_photo = row["back_photo"].strip()
 
+        custom_id = int(row["custom_id"])
+
         entry = {
             "id": uid,
+            "custom_id": custom_id,
             "sort_id": int(row["custom_id"]),
             "title": title,
             "year": int(year_str) if year_str else None,
@@ -96,6 +107,7 @@ def main() -> None:
             "status": status,
             "tags": [],
             "back_photo": back_photo or None,
+            "published": custom_id not in UNPUBLISHED_CUSTOM_IDS,
         }
 
         # Override with pipeline outputs when available
